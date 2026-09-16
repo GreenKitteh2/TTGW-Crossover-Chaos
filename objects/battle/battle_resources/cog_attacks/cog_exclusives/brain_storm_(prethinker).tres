@@ -1,0 +1,15 @@
+[gd_resource type="Resource" format=3 uid="uid://dk4g2r7ff3uek"]
+
+[ext_resource type="PackedScene" uid="uid://d03k2e6a74tko" path="res://objects/battle/effects/cloud_attacks/brain_storm.tscn" id="1_8cquk"]
+[ext_resource type="Script" uid="uid://d58510p3fqlj" path="res://objects/battle/battle_resources/cog_attacks/brain_storm_(super).gd" id="2_tdfxg"]
+[ext_resource type="AudioStream" uid="uid://dbmpl58jist24" path="res://audio/sfx/battle/cogs/attacks/SA_brainstorm.ogg" id="3_njs2s"]
+
+[resource]
+script = ExtResource("2_tdfxg")
+particles = ExtResource("1_8cquk")
+sfx = ExtResource("3_njs2s")
+animation = 1
+damage = 4
+summary = "The Toon's Gags loses points!"
+attack_lines = Array[String](["This is sure to puzzle you.", "I can think of a thousand ways to beat you!", "Maybe THIS concept will resonate with you.", "The brilliance of my brain is unmatched by your simplicity.", "My mind is too great for us to think alike."])
+action_name = "Brain Storm"

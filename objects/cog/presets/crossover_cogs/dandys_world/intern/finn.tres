@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dbrnodrhsvpj8"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_4uuic"]
+[ext_resource type="Resource" uid="uid://erbbarg5bxm8" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex.tres" id="2_rdixk"]
+[ext_resource type="Resource" uid="uid://cltphjfp4x2rk" path="res://objects/battle/battle_resources/cog_attacks/resources/half_windsor.tres" id="3_s8i0n"]
+[ext_resource type="Resource" uid="uid://b4kaq7rjifwfc" path="res://objects/battle/battle_resources/cog_attacks/resources/liquidate.tres" id="4_mt6y3"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="5_ednxw"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_n5n4d"]
+
+[resource]
+script = ExtResource("6_n5n4d")
+department = 4
+suit = 1
+cog_name = "Finn"
+head = "res://models/crossover_cogs/dandys_world/Finn.glb"
+scale = 3
+hand_color = Color(0.7764706, 0.90588236, 1, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_4uuic")]([ExtResource("2_rdixk"), ExtResource("3_s8i0n"), ExtResource("4_mt6y3"), ExtResource("5_ednxw")])
+level_low = 2
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["Something is fishy about you.", "Hooked into a battle!", "Which would you perfer? Right hook or left hook?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

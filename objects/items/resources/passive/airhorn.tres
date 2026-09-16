@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://gvxyi8l5c2f8"]
+
+[ext_resource type="Texture2D" uid="uid://db16j61phtsu6" path="res://objects/items/custom/airhorn/airhorn.png" id="1_81qxk"]
+[ext_resource type="PackedScene" uid="uid://bq0rktmpaehub" path="res://objects/items/custom/airhorn/airhorn.glb" id="2_81qxk"]
+[ext_resource type="Script" uid="uid://bul616s5fqwpw" path="res://objects/items/custom/airhorn/item_airhorn.gd" id="2_fxwup"]
+[ext_resource type="Script" uid="uid://combwqypom1ru" path="res://objects/items/classes/item.gd" id="3_fxwup"]
+[ext_resource type="AudioStream" uid="uid://bjh1ipsgvs2x4" path="res://audio/sfx/items/airhorn.ogg" id="4_3vwt1"]
+
+[resource]
+script = ExtResource("3_fxwup")
+qualitoon = 4
+rarity = 5
+item_name = "Airhorn"
+item_description = "Ringing sensation!"
+big_description = "Sound now inflicts resonance."
+model = ExtResource("2_81qxk")
+pickup_sfx = ExtResource("4_3vwt1")
+item_script = ExtResource("2_fxwup")
+icon = ExtResource("1_81qxk")
+shop_category_title = "Special Item"
+shop_category_color = Color(0.6, 0.2, 1, 1)
+force_show_shop_category = true

@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dh4eho36skaqr"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_ktf22"]
+[ext_resource type="Resource" uid="uid://dunqnjlafu5n0" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag_(super).tres" id="2_x4ftd"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="3_ktf22"]
+[ext_resource type="Resource" uid="uid://d15mam6m8bjh1" path="res://objects/battle/battle_resources/cog_attacks/resources/hang_up_(super).tres" id="4_ijx37"]
+[ext_resource type="Resource" uid="uid://ds65kbrqrekdn" path="res://objects/battle/battle_resources/cog_signature_attack/resources/encourage.tres" id="5_soem5"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_h0f4w"]
+[ext_resource type="Resource" uid="uid://b3tkvlsedrm2l" path="res://objects/battle/battle_resources/cog_signature_attack/resources/back_talk.tres" id="6_uruft"]
+
+[resource]
+script = ExtResource("6_h0f4w")
+department = 4
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/eggson_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/eggson_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/eggson_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Eggson"
+name_prefix = "Egg"
+name_suffix = "son"
+head = "res://models/crossover_cogs/dandys_world/Eggson.glb"
+scale = 3.5
+hand_color = Color(0.7529412, 0.5803922, 0.40784314, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_ktf22")]([ExtResource("2_x4ftd"), ExtResource("3_ktf22"), ExtResource("4_ijx37"), ExtResource("5_soem5"), ExtResource("6_uruft")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["Back in my day, we settle it with a discussion.", "When was the last time you been outside?", "I'm just an old honest man."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

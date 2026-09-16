@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=6 format=3 uid="uid://dqnk6mfy88csy"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_7dgey"]
+[ext_resource type="Resource" uid="uid://c31yj6hc78hh3" path="res://objects/battle/battle_resources/cog_attacks/resources/eviction_notice.tres" id="2_7dgey"]
+[ext_resource type="Resource" uid="uid://b4kaq7rjifwfc" path="res://objects/battle/battle_resources/cog_attacks/resources/liquidate.tres" id="3_4etiu"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="4_vugam"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_2abyj"]
+
+[resource]
+script = ExtResource("5_2abyj")
+department = 6
+suit = 2
+cog_name = "Shutter Bug"
+name_plural = "Shutter Bugs"
+name_prefix = "Shutter "
+name_suffix = " Bug"
+head = "res://models/cogs/heads/shutterbug.glb"
+scale = 2.0
+head_textures = PackedStringArray("res://models/cogs/heads/shutterbug_shutterbug.png")
+hand_color = Color(0.3137255, 0.33333334, 0.39607844, 1)
+attacks = Array[ExtResource("1_7dgey")]([ExtResource("2_7dgey"), ExtResource("3_4etiu"), ExtResource("4_vugam")])
+level_low = 2
+level_high = 9
+battle_phrases = Array[String](["Shall I document this moment of sadness, Toon?", "It'll all flash before your eyes very quickly.", "You'll be sad faster than the flash of my camera.", "It looks like a bad hair day for you, Toon.", "I'll make you shutter in fear.", "Your defeat will make for a great photo opportunity.", "The cogs will love a photo of you going sad.", "Photographers usually don't interfere, but this opportunity is MUCH too easy!", "Say 'Sadness!'", "Stop slouching. You'll get to slouch plenty once we're finished."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

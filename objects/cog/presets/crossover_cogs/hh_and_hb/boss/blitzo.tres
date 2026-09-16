@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://baw4csa1tk77f"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_o48oy"]
+[ext_resource type="Resource" uid="uid://upir6hjcnwa5" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex_(super).tres" id="2_fsl46"]
+[ext_resource type="Resource" uid="uid://dlwpx5lx83vsb" path="res://objects/battle/battle_resources/cog_attacks/resources/power_tie_(super).tres" id="3_s1tm6"]
+[ext_resource type="Resource" uid="uid://dunqnjlafu5n0" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag_(super).tres" id="4_de078"]
+[ext_resource type="Resource" uid="uid://m27fmwkp3qdf" path="res://objects/battle/battle_resources/cog_signature_attack/resources/marked.tres" id="5_ww8qp"]
+[ext_resource type="Resource" uid="uid://b35m7xym3lkwl" path="res://objects/battle/battle_resources/cog_signature_attack/resources/snipe.tres" id="6_oxdyi"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_82xqb"]
+[ext_resource type="Resource" uid="uid://duq7fidd28rw5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack.tres" id="7_fsl46"]
+
+[resource]
+script = ExtResource("7_82xqb")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/hh_and_hb/blitzo_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/hh_and_hb/blitzo_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/hh_and_hb/blitzo_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/helluva_boss.png"
+cog_name = "Blitzo"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/blitzo.glb"
+scale = 6.0
+hand_color = Color(0.827451, 0.2784314, 0.3019608, 1)
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_o48oy")]([ExtResource("2_fsl46"), ExtResource("3_s1tm6"), ExtResource("4_de078"), ExtResource("5_ww8qp"), ExtResource("6_oxdyi"), ExtResource("7_fsl46")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["I'm a professional, trust me.", "About time, someone hired us to take care of you."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

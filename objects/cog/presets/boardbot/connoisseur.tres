@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cr1fekgvo8qju"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_cyff2"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_qp2qe"]
+[ext_resource type="Resource" uid="uid://cltphjfp4x2rk" path="res://objects/battle/battle_resources/cog_attacks/resources/half_windsor.tres" id="3_cyff2"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="4_espfd"]
+[ext_resource type="Resource" uid="uid://6hjcsu17tt4g" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm.tres" id="5_qp2qe"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_u3to1"]
+
+[resource]
+script = ExtResource("6_u3to1")
+department = 4
+suit = 1
+cog_name = "Connoisseur"
+name_plural = "Connoisseurs"
+name_prefix = "Conno"
+name_suffix = "isseur"
+head = "res://models/cogs/heads/connoisseur.glb"
+scale = 3.75
+head_textures = PackedStringArray("res://models/cogs/heads/connoisseur_ttcc_ene_connoisseur.png")
+hand_color = Color(0.690196, 0.592157, 0.584314, 1)
+attacks = Array[ExtResource("1_cyff2")]([ExtResource("2_qp2qe"), ExtResource("3_cyff2"), ExtResource("4_espfd"), ExtResource("5_qp2qe")])
+level_low = 2
+level_high = 9
+battle_phrases = Array[String](["I say, a good ol' rowdy play is in order!", "You seem to be in a spot of bother, don't yer know!", "Would ye like a glass of defeat?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

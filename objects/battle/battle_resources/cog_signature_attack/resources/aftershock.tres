@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://bcarr363tqn2l"]
+
+[ext_resource type="Script" uid="uid://8gr0wf4okevi" path="res://objects/battle/battle_resources/cog_signature_attack/aftershock.gd" id="1_6th2i"]
+
+[resource]
+script = ExtResource("1_6th2i")
+damage = 0
+summary = "The Toon feels a harsh shockwave."
+attack_lines = Array[String](["What's wrong? You look worse than a cat n' a room full a' rockers.", "Looks like the lands on fits and starts!", "Hope this ain't too shockin' for ya!", "Best plant yerself on that ground you stand on.", "Shake a can, pardner.", "Yippee-ki-yah-yippee-ki-yo!", "See a ghost? Ya look shakin' up.", "Shake a spur.", "Don't even try, I see yer hand a' shakin'.", "Watch for th' afterclaps!"])
+action_name = "Aftershock"

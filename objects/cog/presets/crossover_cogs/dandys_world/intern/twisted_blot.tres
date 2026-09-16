@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dj3lfmkg8n37w"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_ixbor"]
+[ext_resource type="Resource" uid="uid://n5sep0bh4vsc" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/finger_wag_(blot).tres" id="2_ixbor"]
+[ext_resource type="Resource" uid="uid://7lqjy3sp6byq" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/guilt_trip_(blot).tres" id="3_ixbor"]
+[ext_resource type="Resource" uid="uid://btfk7kllrk35w" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/pink_slip_(blot).tres" id="4_ixbor"]
+[ext_resource type="Resource" uid="uid://dt63o5d6gtfpy" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/pick_pocket_(blot).tres" id="5_ixbor"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_rko3a"]
+
+[resource]
+script = ExtResource("7_rko3a")
+department = 2
+suit = 1
+cog_name = "Twisted Blot"
+name_prefix = "Twisted "
+name_suffix = " Blot"
+head = "res://models/crossover_cogs/dandys_world/Twisted Blot.glb"
+scale = 4.5
+hand_color = Color(0, 0, 0, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_ixbor")]([ExtResource("2_ixbor"), ExtResource("3_ixbor"), ExtResource("4_ixbor"), ExtResource("5_ixbor")])
+level_low = 7
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["!deppart m'I", "!tuo teg ot tnaw I", "!EM PLEH"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

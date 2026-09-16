@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cintxeo7wk6a3"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_x15mp"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="2_x15mp"]
+[ext_resource type="Resource" uid="uid://305avsq3iu30" path="res://objects/battle/battle_resources/cog_attacks/resources/power_tie.tres" id="4_gfc5i"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="5_cdc6g"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="5_fnxic"]
+[ext_resource type="Resource" uid="uid://slywi7r3q78s" path="res://objects/battle/battle_resources/cog_signature_attack/resources/bulk_up.tres" id="6_2nx31"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_iim3i"]
+[ext_resource type="Resource" uid="uid://b5helauv7f4y5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/pinpoint.tres" id="7_j8wqs"]
+
+[resource]
+script = ExtResource("7_iim3i")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/slender/blazer.png"
+custom_arm_tex = "res://models/cogs/textures/slender/sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/slender/leg.png"
+cog_name = "Velvette"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/velvette.glb"
+scale = 5.3
+hand_color = Color(0.42745098, 0.29803923, 0.35686275, 1)
+custom_nametag_suffix = "Omnipotent"
+attacks = Array[ExtResource("1_x15mp")]([ExtResource("2_x15mp"), ExtResource("5_fnxic"), ExtResource("4_gfc5i"), ExtResource("5_cdc6g"), ExtResource("6_2nx31"), ExtResource("7_j8wqs")])
+level_low = 10
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_omnipotent_tier.tres")
+is_crossover_cog = true
+is_female_cog = true
+health_mod = 3.0
+battle_phrases = Array[String](["I work for Vox...and...these guys.", "Do I even have to wear this suit?", "How bad could you be unlike the others with me."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

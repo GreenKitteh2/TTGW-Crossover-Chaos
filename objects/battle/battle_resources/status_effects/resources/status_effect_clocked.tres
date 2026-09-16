@@ -1,0 +1,13 @@
+[gd_resource type="Resource" format=3 uid="uid://qgucafu7kmom"]
+
+[ext_resource type="Texture2D" uid="uid://csr34ua7hb7jj" path="res://ui_assets/battle/statuses/clock.png" id="1_ly070"]
+[ext_resource type="Script" uid="uid://cx76ciyukk30i" path="res://objects/battle/battle_resources/status_effects/status_effect_clocked.gd" id="2_886s4"]
+
+[resource]
+script = ExtResource("2_886s4")
+quality = 1
+icon = ExtResource("1_ly070")
+description = "You're in a timer, better do something quick!"
+status_name = "Clocked"
+id = 73
+metadata/_custom_type_script = "uid://df7irk63ikx4k"

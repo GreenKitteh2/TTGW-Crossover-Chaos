@@ -1,0 +1,41 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://b4b7xvxfmcxp4"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_ctyn0"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_ctyn0"]
+[ext_resource type="Resource" uid="uid://u8ja4vfq2adm" path="res://objects/battle/battle_resources/cog_attacks/resources/quake_(super).tres" id="3_rwjcc"]
+[ext_resource type="Resource" uid="uid://upir6hjcnwa5" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex_(super).tres" id="4_ckjg3"]
+[ext_resource type="Resource" uid="uid://dlwpx5lx83vsb" path="res://objects/battle/battle_resources/cog_attacks/resources/power_tie_(super).tres" id="5_v1ngg"]
+[ext_resource type="Resource" uid="uid://dbyeiu73x1b8o" path="res://objects/battle/battle_resources/cog_signature_attack/resources/red_tape.tres" id="6_c0uvw"]
+[ext_resource type="Resource" uid="uid://cfeq7j1q6bl50" path="res://objects/battle/battle_resources/cog_signature_attack/resources/gag_protection.tres" id="7_4pnvb"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_qyto2"]
+[ext_resource type="Resource" uid="uid://slywi7r3q78s" path="res://objects/battle/battle_resources/cog_signature_attack/resources/bulk_up.tres" id="8_rwjcc"]
+
+[resource]
+script = ExtResource("7_qyto2")
+department = 3
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_ribecca_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_ribecca_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_ribecca_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Twisted Ribecca"
+name_prefix = "Twisted "
+name_suffix = " Ribecca"
+head = "res://models/crossover_cogs/dandys_world/Twisted Ribecca.glb"
+scale = 3.5
+hand_color = Color(0, 0, 0, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_ctyn0")]([ExtResource("2_ctyn0"), ExtResource("3_rwjcc"), ExtResource("4_ckjg3"), ExtResource("5_v1ngg"), ExtResource("6_c0uvw"), ExtResource("7_4pnvb"), ExtResource("8_rwjcc")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_female_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["I'll put you in my rib-cage.", "You're un-dead to me.", "You let this get to your skull."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

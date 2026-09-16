@@ -1,0 +1,37 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cal7n6h6idtgt"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_nlf34"]
+[ext_resource type="Resource" uid="uid://b8evcct5837aq" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket_money.tres" id="2_nlf34"]
+[ext_resource type="Resource" uid="uid://dunqnjlafu5n0" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag_(super).tres" id="3_j8c8g"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="4_pay2t"]
+[ext_resource type="Resource" uid="uid://3ymw0o36tlbg" path="res://objects/battle/battle_resources/cog_signature_attack/resources/spin.tres" id="5_ttwjg"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_7d3b0"]
+[ext_resource type="Resource" uid="uid://b8gp1patb8r4e" path="res://objects/battle/battle_resources/cog_signature_attack/resources/inject.tres" id="6_j8c8g"]
+[ext_resource type="Resource" uid="uid://cncrrqbyd1o0y" path="res://objects/battle/battle_resources/cog_signature_attack/resources/enlighten.tres" id="7_nc2kr"]
+
+[resource]
+script = ExtResource("6_7d3b0")
+department = 4
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/dandy_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/dandy_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/dandy_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Dandy"
+head = "res://models/crossover_cogs/dandys_world/Dandy.glb"
+scale = 3.5
+hand_color = Color(0.95686275, 0.94509804, 0.80784315, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_nlf34")]([ExtResource("2_nlf34"), ExtResource("3_j8c8g"), ExtResource("4_pay2t"), ExtResource("5_ttwjg"), ExtResource("6_j8c8g"), ExtResource("7_nc2kr")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["Jellybeans? Don't you at least have any tapes?", "Are you a toon? I'm a toon too!", "Hello! You must be new here."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

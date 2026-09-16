@@ -1,0 +1,12 @@
+[gd_resource type="Resource" format=3 uid="uid://btfk7kllrk35w"]
+
+[ext_resource type="PackedScene" uid="uid://cxj4gdkxgwknm" path="res://models/props/cog_props/pink_slip/pink_slip.glb" id="1_ibfsn"]
+[ext_resource type="Script" uid="uid://itkxki65d0v7" path="res://objects/battle/battle_resources/cog_attacks/throw_paper.gd" id="2_hwpf5"]
+
+[resource]
+script = ExtResource("2_hwpf5")
+prop = ExtResource("1_ibfsn")
+custom_method = "pink_slip"
+damage = 3
+attack_lines = Array[String]([" .pu pils ot ton yrT", " !knip denrut ev'uoY ?denethgirf uoy erA", " .pu uoy pils ylerus lliw eno sihT", " ?huh ,ereht deppils uoy sseug I ,spoO", " !pils ot tnaw t'ndluow ,flesruoy hctaW", " .tew nehw yreppils s'eno sihT", " .ni eno siht pils tsuj ll'I", " ?uoy od ,yb pils uoy fi dnim t'noD", " .roloc ruoy yllaer t'nsi kniP", " !ereh attuo er'uoy ,pils knip ruoy s'ereH"])
+action_name = "pilS kniP"

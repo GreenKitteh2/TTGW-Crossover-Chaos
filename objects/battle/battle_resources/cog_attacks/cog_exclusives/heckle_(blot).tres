@@ -1,0 +1,20 @@
+[gd_resource type="Resource" format=3 uid="uid://bqdviud5jc3mw"]
+
+[ext_resource type="Script" uid="uid://2rt6lrj4fpim" path="res://objects/battle/battle_resources/cog_attacks/heckle.gd" id="1_g7s10"]
+[ext_resource type="Script" uid="uid://csl6saufv84ri" path="res://objects/battle/battle_resources/status_effects/stat_boost.gd" id="2_uyyj3"]
+
+[sub_resource type="Resource" id="Resource_g5qp3"]
+script = ExtResource("2_uyyj3")
+boost = 0.8
+quality = 1
+rounds = -1
+id = 2
+
+[resource]
+script = ExtResource("1_g7s10")
+status_effect = SubResource("Resource_g5qp3")
+accuracy = 60
+damage = 0
+summary = "!nwoD esnefeD"
+attack_lines = Array[String]([" .ydemoc eurt t'nsi romuh worb-wol ruoY", " .erutcurts skcal lairetam ruoY", " ?tib ecaf-eht-ni-eip taht fo derit teg reve uoy t'noD", " .uoy ta ylno ,uoy htiw shgual eno oN", " .weiver rats-eno a wohs ruoy evig d'I"])
+action_name = "elkceH"

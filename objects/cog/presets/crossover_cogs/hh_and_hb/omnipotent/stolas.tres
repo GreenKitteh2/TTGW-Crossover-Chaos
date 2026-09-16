@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bcvbo1yf48mlk"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_1r1vk"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="2_1r1vk"]
+[ext_resource type="Resource" uid="uid://c27ek2anjbx88" path="res://objects/battle/battle_resources/cog_attacks/resources/pound_key.tres" id="3_egygs"]
+[ext_resource type="Resource" uid="uid://c3gg5tsci6aye" path="res://objects/battle/battle_resources/cog_attacks/resources/hang_up.tres" id="4_qtwe4"]
+[ext_resource type="Resource" uid="uid://305avsq3iu30" path="res://objects/battle/battle_resources/cog_attacks/resources/power_tie.tres" id="5_yghsp"]
+[ext_resource type="Resource" uid="uid://bxlgjda1mpx2a" path="res://objects/battle/battle_resources/cog_signature_attack/resources/protect.tres" id="6_5oowy"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_kvkso"]
+[ext_resource type="Resource" uid="uid://du05l8r6sxyrq" path="res://objects/battle/battle_resources/cog_signature_attack/resources/ignite.tres" id="7_on2ce"]
+
+[resource]
+script = ExtResource("7_kvkso")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/slender/blazer.png"
+custom_arm_tex = "res://models/cogs/textures/slender/sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/slender/leg.png"
+cog_name = "Stolas"
+name_plural = "Stolases"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/stolas.glb"
+scale = 6.8
+hand_color = Color(0.3137255, 0.35686275, 0.42745098, 1)
+custom_nametag_suffix = "Omnipotent"
+attacks = Array[ExtResource("1_1r1vk")]([ExtResource("2_1r1vk"), ExtResource("3_egygs"), ExtResource("4_qtwe4"), ExtResource("5_yghsp"), ExtResource("6_5oowy"), ExtResource("7_on2ce")])
+level_low = 10
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_omnipotent_tier.tres")
+is_crossover_cog = true
+health_mod = 3.0
+battle_phrases = Array[String](["\"Owl\" be expecting a victory here.", "Blitz will be surprised to see me defeat someone like you."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

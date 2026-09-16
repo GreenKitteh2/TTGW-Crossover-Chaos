@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cb0mdecdnb2n"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_ftap6"]
+[ext_resource type="Resource" uid="uid://c27ek2anjbx88" path="res://objects/battle/battle_resources/cog_attacks/resources/pound_key.tres" id="2_ftap6"]
+[ext_resource type="Resource" uid="uid://bruosr4c0bash" path="res://objects/battle/battle_resources/cog_attacks/resources/clip_on_tie.tres" id="3_kb57u"]
+[ext_resource type="Resource" uid="uid://c3gg5tsci6aye" path="res://objects/battle/battle_resources/cog_attacks/resources/hang_up.tres" id="4_41r0n"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_8a2rm"]
+
+[resource]
+script = ExtResource("6_8a2rm")
+department = 4
+suit = 1
+cog_name = "Dyle"
+head = "res://models/crossover_cogs/dandys_world/Dyle.glb"
+scale = 3
+hand_color = Color(0.7294118, 0.60784316, 0.41568628, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_ftap6")]([ExtResource("2_ftap6"), ExtResource("3_kb57u"), ExtResource("4_41r0n")])
+level_low = 4
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["Hurry it up, I don't have much time.", "Not on my watch.", "I have a train to run."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

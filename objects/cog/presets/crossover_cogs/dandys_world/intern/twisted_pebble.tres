@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://6gb2gcg7y0in"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_xi6b7"]
+[ext_resource type="Resource" uid="uid://ct62ayh62qdhy" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/workout_(coal_and_pebble).tres" id="2_xi6b7"]
+[ext_resource type="Resource" uid="uid://dny86yaimne2t" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/tremor_(coal_and_pebble).tres" id="3_xi6b7"]
+[ext_resource type="Resource" uid="uid://bve8chxemoovj" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/quake_(coal_and_pebble).tres" id="4_2flhr"]
+[ext_resource type="Resource" uid="uid://hke784le1ads" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/shake_(coal_and_pebble).tres" id="5_qiw0l"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_bphkl"]
+
+[resource]
+script = ExtResource("7_bphkl")
+department = 3
+suit = 1
+cog_name = "Twisted Pebble"
+name_prefix = "Twisted "
+name_suffix = " Pebble"
+head = "res://models/crossover_cogs/dandys_world/Twisted Pebble.glb"
+scale = 5.5
+hand_color = Color(0.4745098, 0.4745098, 0.4745098, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_xi6b7")]([ExtResource("2_xi6b7"), ExtResource("3_xi6b7"), ExtResource("4_2flhr"), ExtResource("5_qiw0l")])
+level_low = 8
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["Bark! Bark!", "Grrrrrrrrrrr!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

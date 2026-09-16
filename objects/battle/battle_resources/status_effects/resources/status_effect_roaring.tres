@@ -1,0 +1,13 @@
+[gd_resource type="Resource" format=3 uid="uid://l18yvbak05x4"]
+
+[ext_resource type="Texture2D" uid="uid://caypbqepsxoy5" path="res://ui_assets/battle/statuses/roaring.png" id="1_nfhlh"]
+[ext_resource type="Script" uid="uid://dth5upnqxbggh" path="res://objects/battle/battle_resources/status_effects/status_effect_roaring.gd" id="2_lwihx"]
+
+[resource]
+script = ExtResource("2_lwihx")
+quality = 0
+rounds = -1
+icon = ExtResource("1_nfhlh")
+description = "With the power of the Roaring, this cog has inherted +25% Damage and +25% Defense"
+status_name = "Roaring"
+id = 56

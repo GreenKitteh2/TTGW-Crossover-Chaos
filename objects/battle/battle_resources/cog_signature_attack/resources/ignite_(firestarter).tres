@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://c12j1k0ra36go"]
+
+[ext_resource type="Script" uid="uid://bulmva33hirjm" path="res://objects/battle/battle_resources/cog_signature_attack/ignite.gd" id="1_26dku"]
+
+[resource]
+script = ExtResource("1_26dku")
+damage = 4
+summary = "Burns the Toon!"
+attack_lines = Array[String](["I like to think I have a bit of a flare about me.", "You should probably stop, drop, and roll.", "I hope you brought some marshmallows, heh heh.", "Can you say ouch...?", "I do hope you wore sunscreen.", "Heh... I just sparkle, don't I?", "I hope you're um... cold blooded.", "Oh look, a crispy critter...!", "It's going to get rather... warm around here.", "Hot, hot and hotter...!", "You're outta here, I think.", "This should take the chill out of the air...!"])
+action_name = "Ignite"

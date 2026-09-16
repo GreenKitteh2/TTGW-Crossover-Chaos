@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://ed4lh32663ca"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_cx2qa"]
+[ext_resource type="Resource" uid="uid://6hjcsu17tt4g" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm.tres" id="2_7en8m"]
+[ext_resource type="Resource" uid="uid://55lp6noha8te" path="res://objects/battle/battle_resources/cog_attacks/resources/shake.tres" id="2_cx2qa"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="3_7en8m"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="5_1mmvg"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_etmti"]
+
+[resource]
+script = ExtResource("7_etmti")
+department = 5
+suit = 1
+cog_name = "N"
+head = "res://models/crossover_cogs/murder_drones/n.glb"
+scale = 6.9
+hand_color = Color(0.78431374, 0.8, 0.78431374, 1)
+custom_nametag_height = 10.9
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_cx2qa")]([ExtResource("2_cx2qa"), ExtResource("3_7en8m"), ExtResource("5_1mmvg"), ExtResource("2_7en8m")])
+level_low = 6
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["Wait, You're a Toon, Yea I definately remember that!", "Wait! Can we be friends with this thing? No? Alright..."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

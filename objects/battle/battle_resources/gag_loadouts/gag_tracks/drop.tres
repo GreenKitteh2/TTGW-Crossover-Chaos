@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="Track" format=3 uid="uid://lf7h5xkbt2op"]
+
+[ext_resource type="Script" uid="uid://cwnjrxjvy5kc3" path="res://objects/battle/battle_resources/toon_attacks/toon_attack.gd" id="1_tudwb"]
+[ext_resource type="Resource" uid="uid://c3cy1e5fvbds6" path="res://objects/battle/battle_resources/gag_loadouts/gags/drop/flower_pot.tres" id="2_g5jok"]
+[ext_resource type="Resource" uid="uid://b36jh0mm8fske" path="res://objects/battle/battle_resources/gag_loadouts/gags/drop/sandbag.tres" id="3_dfe2c"]
+[ext_resource type="Resource" uid="uid://bsbidil8mdrcx" path="res://objects/battle/battle_resources/gag_loadouts/gags/drop/anvil.tres" id="4_lwyrl"]
+[ext_resource type="Resource" uid="uid://bjrby3dvsnsqx" path="res://objects/battle/battle_resources/gag_loadouts/gags/drop/big_weight.tres" id="5_anp2t"]
+[ext_resource type="Resource" uid="uid://doe7eiwy4sm5y" path="res://objects/battle/battle_resources/gag_loadouts/gags/drop/safe.tres" id="6_vt0l2"]
+[ext_resource type="Resource" uid="uid://c67xcvusaysdi" path="res://objects/battle/battle_resources/gag_loadouts/gags/drop/piano.tres" id="7_u5f0h"]
+[ext_resource type="Resource" uid="uid://cavn2ph00cuks" path="res://objects/battle/battle_resources/gag_loadouts/gags/drop/statue.tres" id="8_qlh2s"]
+[ext_resource type="Resource" uid="uid://bmx80pp17bbl6" path="res://objects/battle/battle_resources/gag_loadouts/gags/drop/bricks.tres" id="9_dfe2c"]
+[ext_resource type="Script" uid="uid://b6b6pfoqyolr" path="res://objects/battle/battle_resources/gag_loadouts/track.gd" id="28_0rg6a"]
+
+[resource]
+script = ExtResource("28_0rg6a")
+track_name = "Drop"
+track_color = Color(0.207843, 0.956863, 1, 1)
+gags = Array[ExtResource("1_tudwb")]([ExtResource("2_g5jok"), ExtResource("3_dfe2c"), ExtResource("4_lwyrl"), ExtResource("5_anp2t"), ExtResource("6_vt0l2"), ExtResource("7_u5f0h"), ExtResource("8_qlh2s")])
+mod_gags = Dictionary[ExtResource("1_tudwb"), int]({
+ExtResource("2_g5jok"): 0,
+ExtResource("3_dfe2c"): 1,
+ExtResource("4_lwyrl"): 2,
+ExtResource("5_anp2t"): 3,
+ExtResource("6_vt0l2"): 4,
+ExtResource("7_u5f0h"): 5,
+ExtResource("8_qlh2s"): 6,
+ExtResource("9_dfe2c"): 1
+})

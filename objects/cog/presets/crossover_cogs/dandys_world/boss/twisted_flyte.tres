@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://0dh54iru5jjp"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_wofpu"]
+[ext_resource type="Resource" uid="uid://dcth1mrm7s8bo" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip_(super).tres" id="2_iwfc8"]
+[ext_resource type="Resource" uid="uid://b3mqc80kln1or" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket_(super).tres" id="3_4qwaq"]
+[ext_resource type="Resource" uid="uid://b3tlged7kqx0t" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip_(super).tres" id="4_bj8ld"]
+[ext_resource type="Resource" uid="uid://dunqnjlafu5n0" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag_(super).tres" id="5_44fip"]
+[ext_resource type="Resource" uid="uid://3ymw0o36tlbg" path="res://objects/battle/battle_resources/cog_signature_attack/resources/spin.tres" id="6_52as7"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_cxh83"]
+[ext_resource type="Resource" uid="uid://c82q6b10di5a1" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time.tres" id="7_bht51"]
+[ext_resource type="Resource" uid="uid://duq7fidd28rw5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack.tres" id="8_iwfc8"]
+
+[resource]
+script = ExtResource("6_cxh83")
+department = 3
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_flyte_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_flyte_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_flyte_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Twisted Flyte"
+name_prefix = "Twisted "
+name_suffix = " Flyte"
+head = "res://models/crossover_cogs/dandys_world/Twisted Flyte.glb"
+scale = 3.5
+hand_color = Color(0.17254902, 0.17254902, 0.17254902, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_wofpu")]([ExtResource("2_iwfc8"), ExtResource("3_4qwaq"), ExtResource("4_bj8ld"), ExtResource("5_44fip"), ExtResource("6_52as7"), ExtResource("7_bht51"), ExtResource("8_iwfc8")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["You don't have enough energy to spare.", "It's only amount of time until you break.", "I'll exhaust you in the wind."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

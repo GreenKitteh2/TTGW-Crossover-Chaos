@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://ykui4hqdqlbi"]
+
+[ext_resource type="Script" uid="uid://c62hxf5g4ykhn" path="res://objects/items/custom/item_chara_setup.gd" id="1_c6u5f"]
+[ext_resource type="Script" uid="uid://combwqypom1ru" path="res://objects/items/classes/item.gd" id="2_j4dww"]
+
+[resource]
+script = ExtResource("2_j4dww")
+item_script = ExtResource("1_c6u5f")
+shop_category_color = Color(0.196078, 0.580392, 0.917647, 1)
+metadata/_custom_type_script = "uid://combwqypom1ru"

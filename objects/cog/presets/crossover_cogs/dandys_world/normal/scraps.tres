@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dkel2675g5tdo"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_iris0"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="2_cn4ed"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="3_iris0"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="4_bc2bl"]
+[ext_resource type="Resource" uid="uid://duq7fidd28rw5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack.tres" id="5_cn4ed"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_f83li"]
+
+[resource]
+script = ExtResource("6_f83li")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/misc/blazer_1.png"
+custom_arm_tex = "res://models/cogs/textures/misc/sleeve_2.png"
+custom_leg_tex = "res://models/cogs/textures/misc/leg_4.png"
+custom_wrist_tex = "res://models/cogs/textures/misc/arm_1.png"
+cog_name = "Scraps"
+name_plural = "Scrapses"
+head = "res://models/crossover_cogs/dandys_world/Scraps.glb"
+scale = 3.5
+hand_color = Color(1, 0.80784315, 0.47058824, 1)
+custom_nametag_height = 13.0
+attacks = Array[ExtResource("1_iris0")]([ExtResource("2_cn4ed"), ExtResource("3_iris0"), ExtResource("4_bc2bl"), ExtResource("5_cn4ed")])
+level_low = 3
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["Goob would be proud after this.", "Ready to see my crafty work?", "My skills are my art."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

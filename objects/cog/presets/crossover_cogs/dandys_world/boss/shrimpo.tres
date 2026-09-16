@@ -1,0 +1,37 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://ti6h1kn1nrn4"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_x1ib3"]
+[ext_resource type="Resource" uid="uid://bfdrmqhmaldxy" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/finger_wag_(shrimpo)_(super).tres" id="2_mwcwj"]
+[ext_resource type="Resource" uid="uid://cjhqnlqmfqvbp" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/heckle_(shrimpo).tres" id="3_tymvn"]
+[ext_resource type="Resource" uid="uid://chbi22ed1501k" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/pick_pocket_(shrimpo)_(super).tres" id="4_s0t2m"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_fydjl"]
+[ext_resource type="Resource" uid="uid://ypu2vubn01tl" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/workout_(shrimpo).tres" id="5_k6aht"]
+[ext_resource type="Resource" uid="uid://bpp34ll3vd2w0" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack_(shrimpo).tres" id="6_fhqp3"]
+[ext_resource type="Resource" uid="uid://dmffm0gnm41vo" path="res://objects/battle/battle_resources/cog_signature_attack/resources/stagger_(shrimpo).tres" id="7_ilg5t"]
+[ext_resource type="Resource" uid="uid://cr4i6g8obkhf5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time_(shrimpo).tres" id="8_mwcwj"]
+
+[resource]
+script = ExtResource("5_fydjl")
+department = 3
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/shrimpo_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/shrimpo_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/shrimpo_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Shrimpo"
+head = "res://models/crossover_cogs/dandys_world/Shrimpo.glb"
+scale = 3.5
+hand_color = Color(0.90588236, 0.46666667, 0.09411765, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_x1ib3")]([ExtResource("2_mwcwj"), ExtResource("3_tymvn"), ExtResource("4_s0t2m"), ExtResource("5_k6aht"), ExtResource("6_fhqp3"), ExtResource("7_ilg5t"), ExtResource("8_mwcwj")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["I HATE TOONTOWN!!!!", "I HATE PIES!!!", "I HATE FIGHTS!!!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

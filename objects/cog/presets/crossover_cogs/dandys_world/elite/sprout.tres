@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bkvsn114me271"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_kikdf"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="2_4ul6u"]
+[ext_resource type="Resource" uid="uid://c27ek2anjbx88" path="res://objects/battle/battle_resources/cog_attacks/resources/pound_key.tres" id="2_kikdf"]
+[ext_resource type="Resource" uid="uid://bruosr4c0bash" path="res://objects/battle/battle_resources/cog_attacks/resources/clip_on_tie.tres" id="3_4ul6u"]
+[ext_resource type="Resource" uid="uid://cwo1w818pihtu" path="res://objects/battle/battle_resources/cog_signature_attack/resources/heal.tres" id="5_jo2xs"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_nf10m"]
+
+[resource]
+script = ExtResource("6_nf10m")
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/waiter/waiter_m_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/waiter/waiter_m_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/waiter/waiter_m_leg.png"
+cog_name = "Sprout"
+head = "res://models/crossover_cogs/dandys_world/Sprout.glb"
+scale = 3
+hand_color = Color(0.6862745, 0.8862745, 0.70980394, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Elite"
+attacks = Array[ExtResource("1_kikdf")]([ExtResource("2_kikdf"), ExtResource("3_4ul6u"), ExtResource("2_4ul6u"), ExtResource("5_jo2xs")])
+level_low = 4
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_elite_tier.tres")
+is_crossover_cog = true
+health_mod = 2.0
+battle_phrases = Array[String](["A battle straight out of the oven.", "I wanted to have a snack break.", "Baking is not ment for throwing."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

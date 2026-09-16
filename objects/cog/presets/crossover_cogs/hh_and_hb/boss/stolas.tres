@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://wgv1kis4j5cu"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_1r1vk"]
+[ext_resource type="Resource" uid="uid://dunqnjlafu5n0" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag_(super).tres" id="2_jweye"]
+[ext_resource type="Resource" uid="uid://csa16be805low" path="res://objects/battle/battle_resources/cog_attacks/resources/pound_key_(super).tres" id="3_tqmso"]
+[ext_resource type="Resource" uid="uid://d15mam6m8bjh1" path="res://objects/battle/battle_resources/cog_attacks/resources/hang_up_(super).tres" id="4_ae0ys"]
+[ext_resource type="Resource" uid="uid://dlwpx5lx83vsb" path="res://objects/battle/battle_resources/cog_attacks/resources/power_tie_(super).tres" id="5_jm6c1"]
+[ext_resource type="Resource" uid="uid://bxlgjda1mpx2a" path="res://objects/battle/battle_resources/cog_signature_attack/resources/protect.tres" id="6_5oowy"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_kvkso"]
+[ext_resource type="Resource" uid="uid://du05l8r6sxyrq" path="res://objects/battle/battle_resources/cog_signature_attack/resources/ignite.tres" id="7_on2ce"]
+[ext_resource type="Resource" uid="uid://3ymw0o36tlbg" path="res://objects/battle/battle_resources/cog_signature_attack/resources/spin.tres" id="8_jweye"]
+
+[resource]
+script = ExtResource("7_kvkso")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/hh_and_hb/stolas_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/hh_and_hb/stolas_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/hh_and_hb/stolas_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/helluva_boss.png"
+cog_name = "Stolas"
+name_plural = "Stolases"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/stolas.glb"
+scale = 6.8
+hand_color = Color(0.3137255, 0.35686275, 0.42745098, 1)
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_1r1vk")]([ExtResource("2_jweye"), ExtResource("3_tqmso"), ExtResource("4_ae0ys"), ExtResource("5_jm6c1"), ExtResource("6_5oowy"), ExtResource("7_on2ce"), ExtResource("8_jweye")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["\"Owl\" be expecting a victory here.", "Blitz will be surprised to see me defeat someone like you."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

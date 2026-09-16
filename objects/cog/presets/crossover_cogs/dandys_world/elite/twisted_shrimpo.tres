@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dw3ape7oidax7"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_17ekg"]
+[ext_resource type="Resource" uid="uid://dotln3iguah4x" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/finger_wag_(shrimpo).tres" id="2_17ekg"]
+[ext_resource type="Resource" uid="uid://ypu2vubn01tl" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/workout_(shrimpo).tres" id="3_a5yqb"]
+[ext_resource type="Resource" uid="uid://wqy3px0232ml" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/pick_pocket_(shrimpo).tres" id="4_haf5v"]
+[ext_resource type="Resource" uid="uid://dfmt36qk5rg1r" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/power_trip_(shrimpo).tres" id="5_jyx4r"]
+[ext_resource type="Resource" uid="uid://cr4i6g8obkhf5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time_(shrimpo).tres" id="6_17ekg"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_pwh8m"]
+
+[resource]
+script = ExtResource("7_pwh8m")
+department = 3
+custom_blazer_tex = "res://models/cogs/textures/waiter/waiter_m_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/waiter/waiter_m_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/waiter/waiter_m_leg.png"
+cog_name = "Twisted Shrimpo"
+name_prefix = "Twisted "
+name_suffix = " Shrimpo"
+head = "res://models/crossover_cogs/dandys_world/Twisted Shrimpo.glb"
+scale = 3.5
+hand_color = Color(0, 0, 0, 1)
+custom_nametag_height = 12.0
+custom_nametag_suffix = "Elite"
+attacks = Array[ExtResource("1_17ekg")]([ExtResource("2_17ekg"), ExtResource("3_a5yqb"), ExtResource("4_haf5v"), ExtResource("5_jyx4r"), ExtResource("6_17ekg")])
+level_low = 5
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_elite_tier.tres")
+is_crossover_cog = true
+health_mod = 2.0
+battle_phrases = Array[String](["I HATE YOU!!!", "I HATE THIS!!!", "I HATE EVERYONE!!!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

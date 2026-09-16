@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://cinyfw5clb8cg"]
+
+[ext_resource type="Script" uid="uid://oyrsf4ugbgow" path="res://objects/battle/battle_resources/cog_attacks/rubber_stamp_(super).gd" id="1_us5n4"]
+
+[resource]
+script = ExtResource("1_us5n4")
+damage = 2
+summary = "The Toon will be easy to target on the next turn!"
+attack_lines = Array[String](["I always make a good impression.", "It's important to apply firm and even pressure.", "A perfect imprint every time.", "I want to stamp you out.", "You must be RETURNED TO SENDER.", "You've been CANCELLED.", "You have a PRIORITY delivery.", "I'll make sure you RECEIVED my message.", "You're not going anywhere - you have POSTAGE DUE.", "I'll need a response ASAP."])
+action_name = "Rubber Stamp"

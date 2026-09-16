@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=6 format=3 uid="uid://5fma8870hxnf"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_kgos3"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_23fca"]
+[ext_resource type="Resource" uid="uid://cfwymrymjx7s5" path="res://objects/battle/battle_resources/cog_attacks/resources/write_off.tres" id="3_vjcic"]
+[ext_resource type="Resource" uid="uid://erbbarg5bxm8" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex.tres" id="4_kgos3"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_heh3d"]
+
+[resource]
+script = ExtResource("5_heh3d")
+department = 4
+suit = 1
+cog_name = "Paper Hands"
+name_plural = "Paper Handes"
+name_prefix = "Paper "
+name_suffix = " Hands"
+head = "res://models/cogs/heads/paper hands.glb"
+scale = 3.7
+head_textures = PackedStringArray("res://models/cogs/heads/paper hands_cc_t_ene_paperhands.png")
+hand_color = Color(0.882353, 0.905882, 0.933333, 1)
+attacks = Array[ExtResource("1_kgos3")]([ExtResource("2_23fca"), ExtResource("3_vjcic"), ExtResource("4_kgos3")])
+level_low = 2
+level_high = 9
+battle_phrases = Array[String](["You'll crumple under the pressure.", "Hot off the presses: this Toon is done for.", "I'm worth the paper I'm printed on.", "I'm no mere paperweight in battle.", "My victory will be one for the papers.", "I'll make sure you fold first.", "I've got all the necessary papers to take you down.", "I'll put a wrinkle in your plans.", "Your margins are looking paper-thin.", "The writing's on the wall, Toon."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" format=3 uid="uid://ch87kq153056b"]
+
+[ext_resource type="Script" uid="uid://b7rb5g3d4rqyv" path="res://objects/battle/battle_resources/status_effects/status_effect_overhire_cog2.gd" id="1_7arjm"]
+
+[resource]
+script = ExtResource("1_7arjm")
+quality = 0
+id = 94
+metadata/_custom_type_script = "uid://df7irk63ikx4k"

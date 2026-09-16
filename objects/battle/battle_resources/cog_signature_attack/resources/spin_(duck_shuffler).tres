@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://cgxddicg2bmp8"]
+
+[ext_resource type="Script" uid="uid://dirwsv8jlvv3f" path="res://objects/battle/battle_resources/cog_signature_attack/spin.gd" id="1_bopvs"]
+
+[resource]
+script = ExtResource("1_bopvs")
+accuracy = 100
+damage = 0
+summary = "Makes the Toon dizzy"
+attack_lines = Array[String](["Whaddaya thay we go for a little THPIN??", "What a thpin you're in!!", "How do ya like to \"THPIN\" your time? GET IT??", "I'll make your head THPIN!", "Ya uthe the THPIN thycle?? HAHAHA!", "Here'th MY thpin on thingth!", "Time to take a thpin!! HAHA!", "You're thpinnin' out of control!!", "THITH oughta really make your head thpin!", "TRY NOT TO THCREAM!", "I'LL take ya for a thpin!"])
+action_name = "Spin"

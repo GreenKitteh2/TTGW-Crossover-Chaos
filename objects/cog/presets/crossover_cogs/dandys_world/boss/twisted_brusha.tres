@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://blon0uwb83qud"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_h7t1e"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_h7t1e"]
+[ext_resource type="Resource" uid="uid://b3mqc80kln1or" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket_(super).tres" id="3_adb2v"]
+[ext_resource type="Resource" uid="uid://upir6hjcnwa5" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex_(super).tres" id="4_ry08d"]
+[ext_resource type="Resource" uid="uid://dbyeiu73x1b8o" path="res://objects/battle/battle_resources/cog_signature_attack/resources/red_tape.tres" id="5_caeld"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_3kt5r"]
+[ext_resource type="Resource" uid="uid://b5helauv7f4y5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/pinpoint.tres" id="6_qbgd7"]
+[ext_resource type="Resource" uid="uid://duq7fidd28rw5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack.tres" id="7_adb2v"]
+
+[resource]
+script = ExtResource("6_3kt5r")
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_brusha_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_brusha_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_brusha_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Twisted Brusha"
+name_prefix = "Twisted "
+name_suffix = " Brusha"
+head = "res://models/crossover_cogs/dandys_world/Twisted Brusha.glb"
+scale = 3.5
+hand_color = Color(0.6313726, 0.58431375, 0.5686275, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_h7t1e")]([ExtResource("2_h7t1e"), ExtResource("3_adb2v"), ExtResource("4_ry08d"), ExtResource("5_caeld"), ExtResource("6_qbgd7"), ExtResource("7_adb2v")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_female_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["You never encourage art.", "You're nothing but a mistake.", "You are nothing but a stain of a masterpiece."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

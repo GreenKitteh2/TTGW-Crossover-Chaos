@@ -1,0 +1,80 @@
+[gd_scene format=3 uid="uid://bhwawnl1a8xy0"]
+
+[ext_resource type="Script" uid="uid://cpt2uoqbnoxlr" path="res://objects/battle/effects/cloud_attacks/brain_storm.gd" id="1_tgo3o"]
+[ext_resource type="Texture2D" uid="uid://mbohpwtr2f3d" path="res://objects/battle/effects/adware/Vee_ad_1.png" id="2_qnkv7"]
+[ext_resource type="Texture2D" uid="uid://ceb3gi81g7jo0" path="res://objects/battle/effects/adware/Vee_ad_2.png" id="3_wpoyg"]
+[ext_resource type="Texture2D" uid="uid://bks831eif1dfq" path="res://objects/battle/effects/adware/Vee_ad_3.png" id="4_woe12"]
+[ext_resource type="Texture2D" uid="uid://cp56ip6xs603h" path="res://objects/battle/effects/adware/Vee_ad_4.png" id="5_1bmy0"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_esag1"]
+emission_shape = 1
+emission_sphere_radius = 0.5
+gravity = Vector3(0, 0, 8)
+scale_max = 3.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_laqu0"]
+transparency = 1
+cull_mode = 2
+albedo_texture = ExtResource("2_qnkv7")
+billboard_mode = 1
+billboard_keep_scale = true
+
+[sub_resource type="QuadMesh" id="QuadMesh_obyjd"]
+material = SubResource("StandardMaterial3D_laqu0")
+size = Vector2(0.5, 0.35)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b8623"]
+transparency = 1
+cull_mode = 2
+albedo_texture = ExtResource("3_wpoyg")
+billboard_mode = 1
+billboard_keep_scale = true
+
+[sub_resource type="QuadMesh" id="QuadMesh_e67of"]
+material = SubResource("StandardMaterial3D_b8623")
+size = Vector2(0.5, 0.35)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hxjk4"]
+transparency = 1
+cull_mode = 2
+albedo_texture = ExtResource("4_woe12")
+billboard_mode = 1
+billboard_keep_scale = true
+
+[sub_resource type="QuadMesh" id="QuadMesh_fnnsn"]
+material = SubResource("StandardMaterial3D_hxjk4")
+size = Vector2(0.5, 0.35)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ew6t1"]
+transparency = 1
+cull_mode = 2
+albedo_texture = ExtResource("5_1bmy0")
+billboard_mode = 1
+billboard_keep_scale = true
+
+[sub_resource type="QuadMesh" id="QuadMesh_wxrb0"]
+material = SubResource("StandardMaterial3D_ew6t1")
+size = Vector2(0.5, 0.35)
+
+[node name="Adware" type="Node3D" unique_id=62478389]
+script = ExtResource("1_tgo3o")
+
+[node name="Ad_1" type="GPUParticles3D" parent="." unique_id=1304793896]
+amount = 4
+process_material = SubResource("ParticleProcessMaterial_esag1")
+draw_pass_1 = SubResource("QuadMesh_obyjd")
+
+[node name="Ad_2" type="GPUParticles3D" parent="." unique_id=1560436732]
+amount = 4
+process_material = SubResource("ParticleProcessMaterial_esag1")
+draw_pass_1 = SubResource("QuadMesh_e67of")
+
+[node name="Ad_3" type="GPUParticles3D" parent="." unique_id=36956704]
+amount = 4
+process_material = SubResource("ParticleProcessMaterial_esag1")
+draw_pass_1 = SubResource("QuadMesh_fnnsn")
+
+[node name="Ad_4" type="GPUParticles3D" parent="." unique_id=545075140]
+amount = 4
+process_material = SubResource("ParticleProcessMaterial_esag1")
+draw_pass_1 = SubResource("QuadMesh_wxrb0")

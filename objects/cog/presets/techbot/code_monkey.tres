@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=6 format=3 uid="uid://bahlbdvarognr"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_iarbc"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="2_iarbc"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="4_ipefv"]
+[ext_resource type="Resource" uid="uid://doowiij7lpxy1" path="res://objects/battle/battle_resources/cog_attacks/resources/rubber_stamp.tres" id="4_k1pfo"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_idkt3"]
+
+[resource]
+script = ExtResource("5_idkt3")
+department = 5
+suit = 2
+cog_name = "Code Monkey"
+name_plural = "Code Monkeys"
+name_prefix = "Code "
+name_suffix = " Monkey"
+head = "res://models/cogs/heads/code-monkey_head.glb"
+scale = 4.4
+head_textures = PackedStringArray("res://models/cogs/heads/code-monkey_head_techbot_heads_palette.png")
+hand_color = Color(0.84705883, 0.7019608, 0.85882354, 1)
+attacks = Array[ExtResource("1_iarbc")]([ExtResource("2_iarbc"), ExtResource("4_k1pfo"), ExtResource("4_ipefv")])
+level_low = 3
+level_high = 10
+battle_phrases = Array[String](["No one can keep up with my algorithm.", "I’ll be making this a quick one.", "My code tends to drive Toons bananas.", "I have heard my code is intimidating.", "I'm going to perform a routine task.", "I’ll show you who the top banana is.", "I’m gonna go ape on you!", "I’ll throw a monkey wrench into things.", "No more monkey business.", "I’m gonna make a monkey out of you"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

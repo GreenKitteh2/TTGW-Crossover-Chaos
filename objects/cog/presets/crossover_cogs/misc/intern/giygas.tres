@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://b7ptofx1reqna"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_x0xpq"]
+[ext_resource type="Resource" uid="uid://cy7g6nqfjqij0" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/evil_eye_(giygas).tres" id="2_x0xpq"]
+[ext_resource type="Resource" uid="uid://cy2mb4acq1l4j" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/workout_(giygas).tres" id="3_b5tkx"]
+[ext_resource type="Resource" uid="uid://xvjxdsno1usk" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/power_trip_(giygas).tres" id="4_1uet6"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_r37xe"]
+
+[resource]
+script = ExtResource("6_r37xe")
+department = 4
+cog_name = "Giygas"
+head = "res://models/cogs/heads/yesman.glb"
+scale = 8.0
+head_textures = PackedStringArray("res://models/crossover_cogs/misc/Giygas.png")
+hand_color = Color(0.63529414, 0, 0.07058824, 1)
+custom_nametag_height = 9.4
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_x0xpq")]([ExtResource("2_x0xpq"), ExtResource("3_b5tkx"), ExtResource("4_1uet6")])
+level_low = 8
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["Toon, Toon, Toon, Toon, Toon, Toon, Toon, Toon, Toon, Toon, Toon, Toon, Toon, Toon, Toon, Toon.....", "…I’m h…a…p…p…y…", "…It hurts, …it hurts…", "It hurts, Toon…", "I feel… g… o… o… d…", "It’s not right… not right… not right...", "Please just... Toon.", "Toon!", "…I’m so sad... …..Toon.", "…friends…", "…go… b… a… c…k…", "Ah, Grrr, Ohhh…", "Argh… Yaaagh!…"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

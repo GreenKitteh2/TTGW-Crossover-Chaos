@@ -1,0 +1,12 @@
+[gd_resource type="Resource" format=3 uid="uid://d87pvusiqp6o"]
+
+[ext_resource type="Script" uid="uid://ws0ue7o1duv2" path="res://objects/battle/battle_resources/cog_signature_attack/wager_management.gd" id="1_t1sa2"]
+
+[resource]
+script = ExtResource("1_t1sa2")
+accuracy = 100
+damage = 0
+summary = "Rolls a random proxy effect."
+attack_lines = Array[String](["Thpin, thpin, thpin, thpin, thpin...", "Don't you juth love the THRILL of it?!", "I'VE got the houthe edge!", "Woohoo!! Thith part'th my FAVORITE!!", "What'th it gonna be fellath?? What'th it gonna BE?"])
+target_type = 4
+action_name = "Wager Management"

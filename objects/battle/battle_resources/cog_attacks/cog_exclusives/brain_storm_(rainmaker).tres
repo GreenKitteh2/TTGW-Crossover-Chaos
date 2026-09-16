@@ -1,0 +1,15 @@
+[gd_resource type="Resource" format=3 uid="uid://jwee4pdvfxrb"]
+
+[ext_resource type="PackedScene" uid="uid://d03k2e6a74tko" path="res://objects/battle/effects/cloud_attacks/brain_storm.tscn" id="1_bu8wm"]
+[ext_resource type="Script" uid="uid://d58510p3fqlj" path="res://objects/battle/battle_resources/cog_attacks/brain_storm_(super).gd" id="2_vaiun"]
+[ext_resource type="AudioStream" uid="uid://dbmpl58jist24" path="res://audio/sfx/battle/cogs/attacks/SA_brainstorm.ogg" id="3_bbfqt"]
+
+[resource]
+script = ExtResource("2_vaiun")
+particles = ExtResource("1_bu8wm")
+sfx = ExtResource("3_bbfqt")
+animation = 1
+damage = 4
+summary = "The Toon's Gags loses points!"
+attack_lines = Array[String](["I'm smart to how you've treated me... and him!", "Rain, rain, go away!", "You've caught me in a stormy mood, Toon.", "Why can't we just get along?", "I try to keep a sunny mindset, but you make it impossible!"])
+action_name = "Brain Storm"

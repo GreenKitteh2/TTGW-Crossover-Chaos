@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://c143glx2udlah"]
+
+[ext_resource type="Script" uid="uid://7pyx8oui74g3" path="res://objects/items/seed_hard_mode.gd" id="1_8okai"]
+[ext_resource type="Script" uid="uid://combwqypom1ru" path="res://objects/items/classes/item.gd" id="2_jp17g"]
+
+[resource]
+script = ExtResource("2_jp17g")
+item_script = ExtResource("1_8okai")
+metadata/_custom_type_script = "uid://combwqypom1ru"

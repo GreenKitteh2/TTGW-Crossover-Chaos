@@ -1,0 +1,77 @@
+[gd_scene format=3 uid="uid://46wqbwk3d4br"]
+
+[ext_resource type="Texture2D" uid="uid://oucw2cy2sogl" path="res://objects/battle/effects/fire/undertale_fire.png" id="1_h6udm"]
+
+[sub_resource type="Curve" id="Curve_la61g"]
+_data = [Vector2(0.019544, 0), 0.0, 12.28, 0, 1, Vector2(0.100977, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), -1.11232, 0.0, 1, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_ylf2q"]
+curve = SubResource("Curve_la61g")
+
+[sub_resource type="Gradient" id="Gradient_gqr6n"]
+offsets = PackedFloat32Array(0, 0.523132, 1)
+colors = PackedColorArray(1, 0.359967, 0.082571, 1, 0.958446, 0.813967, 0.681801, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_q57wg"]
+gradient = SubResource("Gradient_gqr6n")
+
+[sub_resource type="Gradient" id="Gradient_6ht82"]
+offsets = PackedFloat32Array(0.427046, 0.850534)
+colors = PackedColorArray(1, 1, 1, 1, 1, 0.407843, 0, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_ltqur"]
+gradient = SubResource("Gradient_6ht82")
+
+[sub_resource type="Curve" id="Curve_wveu0"]
+_data = [Vector2(0, 0), 0.0, 3.7814, 0, 0, Vector2(0.283388, 0.982895), 0.0, 0.0, 0, 0, Vector2(0.710098, 0.923026), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 4
+
+[sub_resource type="Curve" id="Curve_ylf2q"]
+_data = [Vector2(0, 0), 0.0, 9.17297, 0, 0, Vector2(0.322476, 0.769079), -0.896565, -0.896565, 0, 0, Vector2(0.703583, 0.914474), -0.375094, -0.375094, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 4
+
+[sub_resource type="Curve" id="Curve_gqr6n"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveXYZTexture" id="CurveXYZTexture_q57wg"]
+curve_x = SubResource("Curve_wveu0")
+curve_y = SubResource("Curve_ylf2q")
+curve_z = SubResource("Curve_gqr6n")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_rueg6"]
+emission_shape_scale = Vector3(2, 0.1, 0.1)
+emission_shape = 3
+emission_box_extents = Vector3(1, 1, 1)
+initial_velocity_min = -5.0
+initial_velocity_max = 5.0
+gravity = Vector3(0, 2, 0)
+radial_accel_min = -2.23517e-06
+radial_accel_max = 0.449998
+scale_min = 0.02
+scale_max = 0.1
+scale_curve = SubResource("CurveXYZTexture_q57wg")
+color_ramp = SubResource("GradientTexture1D_ltqur")
+color_initial_ramp = SubResource("GradientTexture1D_q57wg")
+alpha_curve = SubResource("CurveTexture_ylf2q")
+hue_variation_min = -2.23517e-08
+hue_variation_max = 0.13
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ihct8"]
+render_priority = 1
+transparency = 1
+albedo_texture = ExtResource("1_h6udm")
+uv1_offset = Vector3(0, 0.01, 0)
+billboard_mode = 1
+billboard_keep_scale = true
+
+[sub_resource type="QuadMesh" id="QuadMesh_jhfcb"]
+material = SubResource("StandardMaterial3D_ihct8")
+size = Vector2(4, 4)
+
+[node name="FireBarEffect" type="GPUParticles3D"]
+amount = 40
+local_coords = true
+process_material = SubResource("ParticleProcessMaterial_rueg6")
+draw_pass_1 = SubResource("QuadMesh_jhfcb")

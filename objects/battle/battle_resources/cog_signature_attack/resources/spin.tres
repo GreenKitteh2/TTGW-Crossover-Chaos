@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://3ymw0o36tlbg"]
+
+[ext_resource type="Script" uid="uid://dirwsv8jlvv3f" path="res://objects/battle/battle_resources/cog_signature_attack/spin.gd" id="1_1n1rw"]
+
+[resource]
+script = ExtResource("1_1n1rw")
+accuracy = 100
+damage = 0
+summary = "Makes the Toon dizzy"
+attack_lines = Array[String](["Do you use the spin cycle?", "Here's my spin on things.", "I'll take you for a spin.", "My attacks will make your head spin.", "Oh, what a spin you’re in!", "This’ll really make your head spin!", "Watch it, Wouldn't want to spin out of control!", "What do you say we go for a little spin?"])
+action_name = "Spin"

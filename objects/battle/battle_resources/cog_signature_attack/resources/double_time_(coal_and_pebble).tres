@@ -1,0 +1,12 @@
+[gd_resource type="Resource" format=3 uid="uid://nap7t5b478yq"]
+
+[ext_resource type="Script" uid="uid://bddxnfdkgo6x5" path="res://objects/battle/battle_resources/cog_signature_attack/double_time.gd" id="1_wf50y"]
+
+[resource]
+script = ExtResource("1_wf50y")
+accuracy = 100
+damage = 0
+summary = "Attack twice in the next round."
+attack_lines = Array[String](["Grrrrrrrrrr!", "Bwoof! Bwoof!", "Bark! Bark!"])
+target_type = 4
+action_name = "Double Time"

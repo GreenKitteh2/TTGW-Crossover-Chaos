@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://ch5ry38bly10g"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_re5v7"]
+[ext_resource type="Resource" uid="uid://55lp6noha8te" path="res://objects/battle/battle_resources/cog_attacks/resources/shake.tres" id="2_yreq3"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="3_6a2ku"]
+[ext_resource type="Resource" uid="uid://cfwymrymjx7s5" path="res://objects/battle/battle_resources/cog_attacks/resources/write_off.tres" id="4_6a2ku"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="4_7ksta"]
+
+[resource]
+script = ExtResource("4_7ksta")
+department = 3
+suit = 1
+cog_name = "White Knight"
+name_plural = "White Knights"
+name_prefix = "White "
+name_suffix = " Knight"
+head = "res://models/cogs/heads/white horse.glb"
+scale = 6.75
+head_textures = PackedStringArray("res://models/cogs/heads/white horse_whiteknight.png")
+hand_color = Color(0.80784315, 0.7921569, 0.7529412, 1)
+custom_nametag_height = 9.2
+attacks = Array[ExtResource("1_re5v7")]([ExtResource("2_yreq3"), ExtResource("3_6a2ku"), ExtResource("4_6a2ku")])
+level_low = 7
+level_high = 14
+battle_phrases = Array[String](["I am about to give you the worst knight of your life.", "Whether you like it or not, your knight is about to be turned around.", "Today, YOU will be working the knight shift.", "I hope you are prepared -- I can go at it for a fortknight.", "Ready or not, your knightmares have arrived.", "My friend, this will be a knight to remember.", "I wish you a 'good' knight.", "Careful, I am a part of the knight-wing.", "I just acquired 'Saturday Knight Live'. The next joke will be - YOU!", "You are not getting the knight off under my watch!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

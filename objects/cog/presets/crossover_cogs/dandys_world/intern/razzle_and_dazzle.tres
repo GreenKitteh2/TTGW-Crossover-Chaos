@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://b7ojkuhekpn4t"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_8ilqd"]
+[ext_resource type="Resource" uid="uid://bfickm737ayv7" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/clip_on_tie_(razzle_and_dazzle).tres" id="2_8ilqd"]
+[ext_resource type="Resource" uid="uid://ri0sbduh61x1" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/heckle_(razzle_and_dazzle).tres" id="3_untej"]
+[ext_resource type="Resource" uid="uid://c8ukrk7bp24bd" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/finger_wag_(razzle_and_dazzle).tres" id="4_qp5wu"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_akj3i"]
+
+[resource]
+script = ExtResource("6_akj3i")
+department = 1
+suit = 1
+cog_name = "Razzle & Dazzle"
+name_prefix = "Razzle & "
+name_suffix = " & Dazzle"
+head = "res://models/crossover_cogs/dandys_world/Razzledazzle.glb"
+scale = 3
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_8ilqd")]([ExtResource("2_8ilqd"), ExtResource("3_untej"), ExtResource("4_qp5wu")])
+level_low = 2
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["I'm ready for you! (No we're not...)", "We can do it! (They don't like us...)", "There you are! (You're still here...)"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

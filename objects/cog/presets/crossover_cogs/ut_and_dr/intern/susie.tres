@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bhu7gro1ojd10"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_3lv6x"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="2_gu10d"]
+[ext_resource type="Resource" uid="uid://dwkmwkdn3ws4k" path="res://objects/battle/battle_resources/cog_attacks/resources/evil_eye.tres" id="3_3lv6x"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="4_ounu2"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_ul1xa"]
+
+[resource]
+script = ExtResource("7_ul1xa")
+department = 3
+cog_name = "Susie"
+name_plural = "Susies"
+head = "res://models/crossover_cogs/undertale_and_deltarune/susie.glb"
+scale = 5.05
+hand_color = Color(0.8901961, 0.52156866, 0.8156863, 1)
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_3lv6x")]([ExtResource("2_gu10d"), ExtResource("3_3lv6x"), ExtResource("4_ounu2")])
+level_low = 3
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["Can't weasel out of this one little punk!", "You seem to like interfering with the bad guys."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

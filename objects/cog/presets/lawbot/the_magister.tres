@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://y7mxw7yc3mam"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_4mnpn"]
+[ext_resource type="Resource" uid="uid://dwkmwkdn3ws4k" path="res://objects/battle/battle_resources/cog_attacks/resources/evil_eye.tres" id="2_4ivb6"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="3_55a0y"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="4_4ivb6"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="4_xe8wk"]
+
+[resource]
+script = ExtResource("4_xe8wk")
+department = 2
+cog_name = "The Magister"
+name_plural = "The Magisters"
+name_prefix = "The "
+name_suffix = " Magister"
+head = "res://models/cogs/heads/magister.glb"
+scale = 7.0
+head_textures = PackedStringArray("res://models/cogs/heads/magister_magister.png")
+hand_color = Color(0.6392157, 0.6392157, 0.7294118, 1)
+attacks = Array[ExtResource("1_4mnpn")]([ExtResource("2_4ivb6"), ExtResource("3_55a0y"), ExtResource("4_4ivb6")])
+level_low = 7
+level_high = 14
+battle_phrases = Array[String](["In this next magic trick, you'll be the ONE disappearing.", "According to my knowledge, you qualify for the death penalty.", "Careful, I don't fall for your tricks.", "You should know, I pocus on all the details.", "I am going to get you warlocked away.", "In a matter of no time, you'll be reappearing in the playground.", "I can help anyone disappear.", "Would you like my card?", "Remember, knowledge is power.", "Ta-da! I have appeared."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

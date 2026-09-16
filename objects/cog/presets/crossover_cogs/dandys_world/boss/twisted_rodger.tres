@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dr6kt7jaeriev"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_hqquu"]
+[ext_resource type="Resource" uid="uid://upir6hjcnwa5" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex_(super).tres" id="2_f1p3t"]
+[ext_resource type="Resource" uid="uid://dcth1mrm7s8bo" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip_(super).tres" id="3_sim80"]
+[ext_resource type="Resource" uid="uid://b3mqc80kln1or" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket_(super).tres" id="4_o2wpu"]
+[ext_resource type="Resource" uid="uid://csa16be805low" path="res://objects/battle/battle_resources/cog_attacks/resources/pound_key_(super).tres" id="5_mfc0w"]
+[ext_resource type="Resource" uid="uid://slywi7r3q78s" path="res://objects/battle/battle_resources/cog_signature_attack/resources/bulk_up.tres" id="6_hdbyf"]
+[ext_resource type="Resource" uid="uid://dbyeiu73x1b8o" path="res://objects/battle/battle_resources/cog_signature_attack/resources/red_tape.tres" id="7_ujh1k"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_yhet8"]
+[ext_resource type="Resource" uid="uid://dwcurvq1jwvxu" path="res://objects/battle/battle_resources/cog_signature_attack/resources/disrupt.tres" id="8_f1p3t"]
+
+[resource]
+script = ExtResource("7_yhet8")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_rodger_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_rodger_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_rodger_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Twisted Rodger"
+name_prefix = "Twisted "
+name_suffix = " Rodger"
+head = "res://models/crossover_cogs/dandys_world/Twisted Rodger.glb"
+scale = 3.5
+hand_color = Color(0.41568628, 0.3764706, 0.34117648, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_hqquu")]([ExtResource("2_f1p3t"), ExtResource("3_sim80"), ExtResource("4_o2wpu"), ExtResource("5_mfc0w"), ExtResource("6_hdbyf"), ExtResource("7_ujh1k"), ExtResource("8_f1p3t")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["I have your evidence.", "I know things you don't.", "Your life will be a cold case."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bvcbxkqerm84m"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_dxwh1"]
+[ext_resource type="Resource" uid="uid://6hjcsu17tt4g" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm.tres" id="2_dxwh1"]
+[ext_resource type="Resource" uid="uid://bpupdhbap1rq" path="res://objects/battle/battle_resources/cog_attacks/resources/freeze_assets.tres" id="3_8o0wu"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="3_oge8r"]
+[ext_resource type="Resource" uid="uid://b4kaq7rjifwfc" path="res://objects/battle/battle_resources/cog_attacks/resources/liquidate.tres" id="4_oge8r"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_5rrvt"]
+
+[resource]
+script = ExtResource("6_5rrvt")
+department = 6
+suit = 1
+cog_name = "Elnina"
+name_plural = "Elninas"
+head = "res://models/crossover_cogs/undertale_and_deltarune/elnina.glb"
+scale = 4.7
+hand_color = Color(0.5803922, 0.78431374, 1, 1)
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_dxwh1")]([ExtResource("2_dxwh1"), ExtResource("3_8o0wu"), ExtResource("4_oge8r"), ExtResource("3_oge8r")])
+level_low = 5
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["Rainy day for you sadly.", "This battle will freeze over.", "The weather sticks together with...these guys."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

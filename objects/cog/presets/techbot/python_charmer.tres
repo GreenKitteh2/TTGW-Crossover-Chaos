@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=6 format=3 uid="uid://b6uqr7vycffqk"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_41f5p"]
+[ext_resource type="Resource" uid="uid://c24yy1wqmg24o" path="res://objects/battle/battle_resources/cog_attacks/resources/razzle_dazzle.tres" id="2_41f5p"]
+[ext_resource type="Resource" uid="uid://erbbarg5bxm8" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex.tres" id="3_qbyxa"]
+[ext_resource type="Resource" uid="uid://bxeasogxfcdk2" path="res://objects/battle/battle_resources/cog_attacks/resources/tabulate.tres" id="4_2kb3e"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_iqh8h"]
+
+[resource]
+script = ExtResource("5_iqh8h")
+department = 5
+cog_name = "Python Charmer"
+name_plural = "Python Charmers"
+name_prefix = "Python "
+name_suffix = " Charmer"
+head = "res://models/cogs/heads/python-charmer_head.glb"
+scale = 5.25
+head_textures = PackedStringArray("res://models/cogs/heads/python-charmer_head_Image_0.png")
+hand_color = Color(0.41960785, 0.2784314, 0.4509804, 1)
+custom_nametag_height = 10.0
+attacks = Array[ExtResource("1_41f5p")]([ExtResource("2_41f5p"), ExtResource("3_qbyxa"), ExtResource("4_2kb3e")])
+level_low = 6
+level_high = 13
+battle_phrases = Array[String](["You are looking particularly lovely today!", "Software is my nature.", "Let me find a solution to this problem.", "Don't snake off on me, Toon!", "What happens next will charm you.", "Sss! Be quiet, Toon!", "Toons are no trouble against my software.", "My software will withdraw your attacks."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

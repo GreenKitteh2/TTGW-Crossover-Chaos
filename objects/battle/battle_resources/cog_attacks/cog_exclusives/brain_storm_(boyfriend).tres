@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3 uid="uid://di5slqyo4l3wt"]
+
+[ext_resource type="PackedScene" uid="uid://d03k2e6a74tko" path="res://objects/battle/effects/cloud_attacks/brain_storm.tscn" id="1_okee2"]
+[ext_resource type="Script" uid="uid://cvbmppwfs711e" path="res://objects/battle/battle_resources/cog_attacks/liquidate.gd" id="2_y8bma"]
+[ext_resource type="AudioStream" uid="uid://dbmpl58jist24" path="res://audio/sfx/battle/cogs/attacks/SA_brainstorm.ogg" id="3_y0t06"]
+
+[resource]
+script = ExtResource("2_y8bma")
+particles = ExtResource("1_okee2")
+sfx = ExtResource("3_y0t06")
+animation = 1
+damage = 4
+attack_lines = Array[String](["Beep."])
+action_name = "Brain Storm"

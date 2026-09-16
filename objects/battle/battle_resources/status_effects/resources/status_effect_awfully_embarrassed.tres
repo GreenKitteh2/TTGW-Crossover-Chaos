@@ -1,0 +1,15 @@
+[gd_resource type="Resource" format=3 uid="uid://ctbinwxwpldi4"]
+
+[ext_resource type="Texture2D" uid="uid://gl5ckbbyw70y" path="res://ui_assets/battle/statuses/awfully_embarrassed.png" id="1_sc50o"]
+[ext_resource type="Script" uid="uid://d1tf0sdawse65" path="res://objects/battle/battle_resources/status_effects/status_effect_embarrassed.gd" id="2_o7csb"]
+
+[resource]
+script = ExtResource("2_o7csb")
+boost = 0.25
+quality = 1
+rounds = 3
+icon = ExtResource("1_sc50o")
+description = "-25% Damage
+-25% Defense"
+status_name = "Awfully Embarrassed"
+id = 79

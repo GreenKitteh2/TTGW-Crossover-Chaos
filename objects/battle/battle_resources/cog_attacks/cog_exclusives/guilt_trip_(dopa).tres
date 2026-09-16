@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://bvp8pgbkgrumt"]
+
+[ext_resource type="Script" uid="uid://cqjao7ra7sudp" path="res://objects/battle/battle_resources/cog_attacks/guilt_trip_(super).gd" id="1_icbay"]
+
+[resource]
+script = ExtResource("1_icbay")
+damage = 5
+summary = "The Cog is about to get their revenge"
+attack_lines = Array[String](["Here's some feedback for you.", "I'm sensing some distortion between us.", "This will teach you to meddle in my affairs.", "Weekly listenership has dropped because of Toons like you!", "You wouldn't force me on the beach, would you?"])
+action_name = "Guilt Trip"
+metadata/_custom_type_script = "uid://bb27him60xtnk"

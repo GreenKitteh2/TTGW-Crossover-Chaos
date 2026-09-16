@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cakvfyujdhk3b"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_r0cyh"]
+[ext_resource type="Resource" uid="uid://bricdppu8jdou" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/power_tie_(multislacker).tres" id="2_d0uey"]
+[ext_resource type="Resource" uid="uid://cebv8cy0rx027" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/clip_on_tie_(multislacker).tres" id="3_cem4o"]
+[ext_resource type="Resource" uid="uid://ca7luhih403lb" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/half_windsor_(multislacker).tres" id="4_b5kcl"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="4_xhynq"]
+[ext_resource type="Resource" uid="uid://dvt316ckxwkco" path="res://objects/battle/battle_resources/cog_signature_attack/resources/zero_task.tres" id="5_xhynq"]
+[ext_resource type="Resource" uid="uid://ck860ibd0joys" path="res://objects/battle/battle_resources/cog_signature_attack/resources/hyper_task.tres" id="6_b5kcl"]
+
+[resource]
+script = ExtResource("4_xhynq")
+suit = 2
+custom_blazer_tex = "res://models/cogs/textures/managers/multislacker_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/managers/multislacker_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/managers/multislacker_leg.png"
+cog_name = "Multislacker"
+name_prefix = "Multi"
+name_suffix = "slacker"
+head = "res://models/cogs/heads/multislacker_head.glb"
+scale = 4.45
+hand_color = Color(0.40392157, 0.4117647, 0.40784314, 1)
+attacks = Array[ExtResource("1_r0cyh")]([ExtResource("2_d0uey"), ExtResource("3_cem4o"), ExtResource("4_b5kcl"), ExtResource("5_xhynq"), ExtResource("6_b5kcl")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_manager = true
+health_mod = 2.5
+battle_phrases = Array[String](["My dad says that the union forces us to take breaks.", "My show is on in a few minutes.", "You're just trying to mooch off of my cable package.", "I'm assuming you've met my dad."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

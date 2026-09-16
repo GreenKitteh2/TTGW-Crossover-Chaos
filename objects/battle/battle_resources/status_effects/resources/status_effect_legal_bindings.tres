@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="StatEffectBurning" format=3 uid="uid://wyougiwwjlw"]
+
+[ext_resource type="Texture2D" uid="uid://bvt1xorwwimqw" path="res://ui_assets/battle/statuses/binding.png" id="1_7n0oo"]
+[ext_resource type="Script" uid="uid://cs5f22s4a75r3" path="res://objects/battle/battle_resources/status_effects/status_effect_legal_bindings.gd" id="2_7n0oo"]
+
+[resource]
+script = ExtResource("2_7n0oo")
+instant_effect = false
+quality = 1
+rounds = 3
+icon = ExtResource("1_7n0oo")
+description = ""
+status_name = "Legal Bindings"
+id = 97

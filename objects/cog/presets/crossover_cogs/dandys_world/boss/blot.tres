@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://c2pgsewq8n7e6"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_26rv6"]
+[ext_resource type="Resource" uid="uid://ct6rnwalc4j5g" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/finger_wag_(blot)_(super).tres" id="2_3ujpl"]
+[ext_resource type="Resource" uid="uid://bqdviud5jc3mw" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/heckle_(blot).tres" id="3_26rv6"]
+[ext_resource type="Resource" uid="uid://cfogbc63nicvt" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack_(blot).tres" id="4_rr1rh"]
+[ext_resource type="Resource" uid="uid://2sbo3dial7i7" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time_(blot).tres" id="5_8iyji"]
+[ext_resource type="Resource" uid="uid://cwc52g2pa57h4" path="res://objects/battle/battle_resources/cog_signature_attack/resources/red_tape_(blot).tres" id="6_3ujpl"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_7rrwp"]
+
+[resource]
+script = ExtResource("6_7rrwp")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/blot_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/blot_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/blot_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Blot"
+head = "res://models/crossover_cogs/dandys_world/Blot.glb"
+scale = 3.5
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_26rv6")]([ExtResource("2_3ujpl"), ExtResource("3_26rv6"), ExtResource("4_rr1rh"), ExtResource("5_8iyji"), ExtResource("6_3ujpl")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String]([" .yllanosrep ti ekat t'noD", " .elttil a truh thgim sihT", " .attaY dna yeooL rof siht gniod ylno m'I"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

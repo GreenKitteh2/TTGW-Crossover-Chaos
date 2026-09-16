@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="FloorVariant" format=3 uid="uid://3uv7dgpp62kt"]
+
+[ext_resource type="Resource" uid="uid://cg4it8gi1n1yt" path="res://scenes/game_floor/floor_variants/alt_floors/paranormal_patents.tres" id="1_cg7f6"]
+[ext_resource type="Resource" uid="uid://b7svvigolg3sq" path="res://objects/cog/presets/pools/lawbot.tres" id="2_gwlmp"]
+[ext_resource type="Texture2D" uid="uid://c6j5qbu8txr6h" path="res://models/cogs/misc/hp_light/lawhard.png" id="3_cg7f6"]
+[ext_resource type="Resource" uid="uid://c63mt2tql3aov" path="res://scenes/game_floor/department_floors/rooms_hard_law.tres" id="4_gwlmp"]
+[ext_resource type="Script" uid="uid://dn0giox727wj" path="res://scenes/game_floor/floor_modifiers/scripts/misc/floor_mod_office_hard.gd" id="5_gwlmp"]
+[ext_resource type="Script" uid="uid://cxvrtrods5hgg" path="res://scenes/game_floor/floor_variants/floor_variant.gd" id="5_iwflm"]
+
+[resource]
+script = ExtResource("5_iwflm")
+floor_type = ExtResource("4_gwlmp")
+floor_name = "Senior Wing"
+cog_pool = ExtResource("2_gwlmp")
+modifiers = Array[Script]([ExtResource("5_gwlmp")])
+alt_floor = ExtResource("1_cg7f6")
+floor_icons = Array[Texture2D]([ExtResource("3_cg7f6")])
+room_count = 17

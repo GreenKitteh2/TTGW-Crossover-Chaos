@@ -1,0 +1,12 @@
+[gd_resource type="Resource" format=3 uid="uid://bbf86ifmohxx8"]
+
+[ext_resource type="Script" uid="uid://ct7yt0jiygyfl" path="res://objects/battle/battle_resources/cog_signature_attack/auto_repair_(redd).gd" id="1_om0rs"]
+
+[resource]
+script = ExtResource("1_om0rs")
+accuracy = 100
+damage = 2
+attack_lines = Array[String]([])
+target_type = 1
+action_name = ""
+crit_chance_mod = 0.0

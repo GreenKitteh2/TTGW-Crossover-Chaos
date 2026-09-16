@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dawxdii5ryoae"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_d5kj4"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="2_d5kj4"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="3_o16sc"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="4_32ky8"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_ww3cy"]
+
+[resource]
+script = ExtResource("6_ww3cy")
+department = 5
+suit = 1
+cog_name = "Queen"
+name_plural = "Queens"
+head = "res://models/crossover_cogs/undertale_and_deltarune/queen.glb"
+scale = 5.7
+custom_nametag_height = 10.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_d5kj4")]([ExtResource("2_d5kj4"), ExtResource("3_o16sc"), ExtResource("4_32ky8")])
+level_low = 6
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["These cogs should try out battery acid.", "Did you get the banana?", "If i'm already an evil villain, oh well."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

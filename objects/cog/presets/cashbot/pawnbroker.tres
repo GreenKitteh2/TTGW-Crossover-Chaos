@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bmwacexvnkt8j"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_l55wt"]
+[ext_resource type="Resource" uid="uid://bik8l6ycrnufq" path="res://objects/battle/battle_resources/cog_attacks/resources/calculate.tres" id="3_x7r1t"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="5_yc6xf"]
+[ext_resource type="Resource" uid="uid://b8evcct5837aq" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket_money.tres" id="6_4rskx"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_kc456"]
+
+[resource]
+script = ExtResource("7_kc456")
+department = 1
+cog_name = "Pawnbroker"
+name_plural = "Pawnbrokers"
+name_prefix = "Pawn"
+name_suffix = "broker"
+head = "res://models/cogs/heads/pawnbroker.glb"
+scale = 4.3
+head_textures = PackedStringArray("res://models/cogs/heads/pawnbroker_pawnbroker.png")
+hand_color = Color(0.78039217, 0.84705883, 0.81960785, 1)
+attacks = Array[ExtResource("1_l55wt")]([ExtResource("3_x7r1t"), ExtResource("5_yc6xf"), ExtResource("6_4rskx")])
+level_low = 3
+level_high = 10
+battle_phrases = Array[String](["I'm Pawnbroker, and this is my pawn shop.", "Cogbucks? Best I can do is none.", "You're going to make me a lot of profit.", "I'm pawndering your defeat.", "My expert says you are worth a lot.", "Are you real? Let's find out.", "You can call me Rick.", "I am quite the star at pawning.", "Beware, my pawning is quite hardcore.", "I'm going to make this a pawn.", "There's no going back now."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

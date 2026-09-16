@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cuart8yuucj0m"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_7wbe6"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="3_7wbe6"]
+[ext_resource type="Resource" uid="uid://305avsq3iu30" path="res://objects/battle/battle_resources/cog_attacks/resources/power_tie.tres" id="4_btpro"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="4_dh62g"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_ap785"]
+
+[resource]
+script = ExtResource("6_ap785")
+department = 3
+suit = 2
+cog_name = "Lancer"
+name_plural = "Lancers"
+head = "res://models/crossover_cogs/undertale_and_deltarune/lancer.glb"
+scale = 3.45
+hand_color = Color(0.39215687, 0.6117647, 0.85490197, 1)
+custom_nametag_height = 9.7
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_7wbe6")]([ExtResource("4_dh62g"), ExtResource("3_7wbe6"), ExtResource("4_btpro")])
+level_low = 2
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["I'm the bad guy!", "My dad is going to make me son of the month!", "Prepare to be thrashed!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

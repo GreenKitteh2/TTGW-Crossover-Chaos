@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://ifn0y2oiqsif"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_maxgr"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_e0usg"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="2_maxgr"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="4_e0usg"]
+[ext_resource type="Resource" uid="uid://ds65kbrqrekdn" path="res://objects/battle/battle_resources/cog_signature_attack/resources/encourage.tres" id="5_ydk0b"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_mniaj"]
+
+[resource]
+script = ExtResource("6_mniaj")
+department = 3
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/misc/blazer_1.png"
+custom_arm_tex = "res://models/cogs/textures/misc/sleeve_2.png"
+custom_leg_tex = "res://models/cogs/textures/misc/leg_4.png"
+custom_wrist_tex = "res://models/cogs/textures/misc/arm_1.png"
+cog_name = "Rudie"
+head = "res://models/crossover_cogs/dandys_world/Rudie.glb"
+scale = 3.5
+hand_color = Color(0.4509804, 0.32156864, 0.22352941, 1)
+custom_nametag_height = 13.0
+attacks = Array[ExtResource("1_maxgr")]([ExtResource("2_maxgr"), ExtResource("2_e0usg"), ExtResource("4_e0usg"), ExtResource("5_ydk0b")])
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["Ready for some fun buddy?", "Everyday is Christmas!", "I have no clue about you from the tip of my red nose."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://dre7mevaowru2"]
+
+[ext_resource type="Script" uid="uid://t3krrtv6qkfu" path="res://objects/battle/battle_resources/cog_attacks/evil_eye_(super).gd" id="1_ob0qq"]
+
+[resource]
+script = ExtResource("1_ob0qq")
+damage = 5
+summary = "The Toon's attack weakens 
+under the cog's glare!"
+attack_lines = Array[String](["Grrrrrrrr!", "Bark Bark!", "Bark!"])
+action_name = "Evil Eye"

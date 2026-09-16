@@ -1,0 +1,15 @@
+[gd_resource type="Resource" format=3 uid="uid://cg13h1w0e333w"]
+
+[ext_resource type="Texture2D" uid="uid://dslx6riiqwpej" path="res://ui_assets/battle/statuses/manager.png" id="1_cy2fc"]
+[ext_resource type="Script" uid="uid://dhr2jekgdtr32" path="res://objects/battle/battle_resources/status_effects/status_effect_manager.gd" id="2_cy2fc"]
+
+[resource]
+script = ExtResource("2_cy2fc")
+quality = 0
+rounds = -1
+icon = ExtResource("1_cy2fc")
+visible = false
+description = "This cog has a powerful authority, they're attentive and unable to be fired, if fighting alone, they'll summon cogs to come to their aid."
+status_name = "Manager"
+id = 87
+metadata/_custom_type_script = "uid://df7irk63ikx4k"

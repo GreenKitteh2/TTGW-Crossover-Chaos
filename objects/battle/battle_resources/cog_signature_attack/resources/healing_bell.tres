@@ -1,0 +1,12 @@
+[gd_resource type="Resource" format=3 uid="uid://d1iypoe3h0mst"]
+
+[ext_resource type="Script" uid="uid://mytjbwkkh4qb" path="res://objects/battle/battle_resources/cog_signature_attack/healing_bell.gd" id="1_ffofu"]
+
+[resource]
+script = ExtResource("1_ffofu")
+accuracy = 100
+damage = 2
+attack_lines = Array[String]([])
+target_type = 3
+action_name = ""
+crit_chance_mod = 0.0

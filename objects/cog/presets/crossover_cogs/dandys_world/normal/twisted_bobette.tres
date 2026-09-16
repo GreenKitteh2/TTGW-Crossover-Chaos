@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cujunf2q1b6fq"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_ryel3"]
+[ext_resource type="Resource" uid="uid://c24yy1wqmg24o" path="res://objects/battle/battle_resources/cog_attacks/resources/razzle_dazzle.tres" id="2_ryel3"]
+[ext_resource type="Resource" uid="uid://dimhdaxn1tyey" path="res://objects/battle/battle_resources/cog_attacks/resources/tee_off.tres" id="3_oblul"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="4_q8ajq"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="5_8p4yf"]
+[ext_resource type="Resource" uid="uid://m27fmwkp3qdf" path="res://objects/battle/battle_resources/cog_signature_attack/resources/marked.tres" id="6_88ofs"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_jmyfc"]
+
+[resource]
+script = ExtResource("7_jmyfc")
+custom_blazer_tex = "res://models/cogs/textures/misc/blazer_1.png"
+custom_arm_tex = "res://models/cogs/textures/misc/sleeve_2.png"
+custom_leg_tex = "res://models/cogs/textures/misc/leg_4.png"
+custom_wrist_tex = "res://models/cogs/textures/misc/arm_1.png"
+cog_name = "Twisted Bobette"
+name_prefix = "Twisted "
+name_suffix = " Bobette"
+head = "res://models/crossover_cogs/dandys_world/Twisted Bobette.glb"
+scale = 6.0
+hand_color = Color(0, 0, 0, 1)
+custom_nametag_height = 13.0
+attacks = Array[ExtResource("1_ryel3")]([ExtResource("2_ryel3"), ExtResource("3_oblul"), ExtResource("4_q8ajq"), ExtResource("5_8p4yf"), ExtResource("6_88ofs")])
+level_low = 8
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["Everything must be perfect!", "You'll fall like everyone else.", "I don't be kind to greedy people."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

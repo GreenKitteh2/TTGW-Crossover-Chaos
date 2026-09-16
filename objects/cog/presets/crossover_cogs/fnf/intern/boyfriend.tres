@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dq1ijbeddafkb"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_pq27r"]
+[ext_resource type="Resource" uid="uid://bv0kpqbq7nh44" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/heckle_(boyfriend).tres" id="2_1kidp"]
+[ext_resource type="Resource" uid="uid://xd12imgbi2tm" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/workout_(boyfriend).tres" id="3_we5fv"]
+[ext_resource type="Resource" uid="uid://di5slqyo4l3wt" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/brain_storm_(boyfriend).tres" id="4_3ytey"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_ivj4s"]
+
+[resource]
+script = ExtResource("6_ivj4s")
+department = 6
+suit = 1
+cog_name = "Boyfriend"
+name_prefix = "Boy"
+name_suffix = "friend"
+head = "res://models/crossover_cogs/fnf/boyfriend.glb"
+scale = 4.3
+hand_color = Color(0.9607843, 0.8627451, 0.72156864, 1)
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_pq27r")]([ExtResource("2_1kidp"), ExtResource("3_we5fv"), ExtResource("4_3ytey")])
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["Beep.", "Bop."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

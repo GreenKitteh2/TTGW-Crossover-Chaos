@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://bwuv0mvtc0vyb"]
+
+[ext_resource type="Texture2D" uid="uid://b71soiqqsnano" path="res://ui_assets/battle/statuses/interference.png" id="1_bvdjo"]
+[ext_resource type="Script" uid="uid://bhinno7mlrego" path="res://objects/battle/battle_resources/status_effects/status_effect_dizzy.gd" id="2_bvdjo"]
+
+[resource]
+script = ExtResource("2_bvdjo")
+quality = 1
+rounds = 3
+icon = ExtResource("1_bvdjo")
+description = "Your gags have a chance to hit a random cog"
+status_name = "Dizzy"
+id = 65

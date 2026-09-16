@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://5126saqyqfr"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_uh5g0"]
+[ext_resource type="Resource" uid="uid://b8y1rejnjf1em" path="res://objects/battle/battle_resources/cog_signature_attack/resources/bayou_bellow.tres" id="6_aswuk"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_1m3m6"]
+
+[resource]
+script = ExtResource("7_1m3m6")
+department = 2
+custom_blazer_tex = "res://models/cogs/textures/law/blazer_exe.png"
+custom_arm_tex = "res://models/cogs/textures/law/sleeve_exe.png"
+custom_leg_tex = "res://models/cogs/textures/law/leg_exe.png"
+cog_name = "Litigator"
+name_prefix = "Liti"
+name_suffix = "gator"
+head = "res://models/cogs/heads/litigator_head.glb"
+scale = 7.1
+hand_color = Color(0.3137255, 0.36078432, 0.5372549, 1)
+attacks = Array[ExtResource("1_uh5g0")]([ExtResource("6_aswuk")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_manager = true
+health_mod = 2.0
+battle_phrases = Array[String](["Your strategies will go up in smoke, Toon.", "I like to see the big picture."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

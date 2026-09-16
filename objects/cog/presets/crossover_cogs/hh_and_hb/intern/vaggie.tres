@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bnk6ffou8plif"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_2mjwn"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_65o23"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="3_ornkt"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="4_2mjwn"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="4_gandt"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_4eass"]
+
+[resource]
+script = ExtResource("7_4eass")
+department = 2
+suit = 1
+cog_name = "Vaggie"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/vaggie.glb"
+scale = 5.0
+hand_color = Color(0.827451, 0.7411765, 0.7529412, 1)
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_2mjwn")]([ExtResource("4_gandt"), ExtResource("2_65o23"), ExtResource("4_2mjwn"), ExtResource("3_ornkt")])
+level_low = 3
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["I may not be an Exorcist but those skills can work.", "You better not do anything to Charlie.", "I'm down for a fight since you wanted to."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

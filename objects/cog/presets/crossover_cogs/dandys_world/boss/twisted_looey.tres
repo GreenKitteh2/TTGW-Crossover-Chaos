@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://b0cttfnc5gfwe"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_fdesr"]
+[ext_resource type="Resource" uid="uid://dunqnjlafu5n0" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag_(super).tres" id="2_5n4np"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="3_alldw"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="4_jg25l"]
+[ext_resource type="Resource" uid="uid://dcth1mrm7s8bo" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip_(super).tres" id="5_lsclc"]
+[ext_resource type="Resource" uid="uid://b3tkvlsedrm2l" path="res://objects/battle/battle_resources/cog_signature_attack/resources/back_talk.tres" id="6_o7ua1"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_cvfno"]
+[ext_resource type="Resource" uid="uid://cfeq7j1q6bl50" path="res://objects/battle/battle_resources/cog_signature_attack/resources/gag_protection.tres" id="7_tmlq1"]
+[ext_resource type="Resource" uid="uid://duq7fidd28rw5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack.tres" id="8_5n4np"]
+
+[resource]
+script = ExtResource("7_cvfno")
+department = 6
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_looey_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_looey_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_looey_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Twisted Looey"
+name_prefix = "Twisted "
+name_suffix = " Looey"
+head = "res://models/crossover_cogs/dandys_world/Twisted Looey.glb"
+scale = 3.5
+hand_color = Color(0, 0, 0, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_fdesr")]([ExtResource("2_5n4np"), ExtResource("3_alldw"), ExtResource("4_jg25l"), ExtResource("5_lsclc"), ExtResource("6_o7ua1"), ExtResource("7_tmlq1"), ExtResource("8_5n4np")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["Nobody would notice.", "All I do is old tricks.", "I never get the best."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

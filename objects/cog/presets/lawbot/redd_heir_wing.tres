@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bdhabd7snfi37"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_g216q"]
+[ext_resource type="Resource" uid="uid://b3tlged7kqx0t" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip_(super).tres" id="2_g216q"]
+[ext_resource type="Resource" uid="uid://q0fa05imy2ax" path="res://objects/battle/battle_resources/cog_attacks/resources/write_off_(super).tres" id="3_g216q"]
+[ext_resource type="Resource" uid="uid://cn30emocsuk56" path="res://objects/battle/battle_resources/cog_attacks/resources/liquidate_(super).tres" id="4_bfio8"]
+[ext_resource type="Resource" uid="uid://bbf86ifmohxx8" path="res://objects/battle/battle_resources/cog_signature_attack/resources/auto_repair_(redd).tres" id="5_bfio8"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_hdc4o"]
+
+[resource]
+script = ExtResource("5_hdc4o")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/law/blazer_exe.png"
+custom_arm_tex = "res://models/cogs/textures/law/sleeve_exe.png"
+custom_leg_tex = "res://models/cogs/textures/law/leg_exe.png"
+cog_name = "Redd Heir Wing"
+name_prefix = "Redd Heir"
+name_suffix = " Wing"
+head = "res://models/cogs/heads/redd-heir-wing_head.glb"
+scale = 4.5
+attacks = Array[ExtResource("1_g216q")]([ExtResource("2_g216q"), ExtResource("3_g216q"), ExtResource("4_bfio8"), ExtResource("5_bfio8")])
+level_low = 10
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_manager = true
+health_mod = 2.0
+battle_phrases = Array[String](["Prepare to face the heir!", "En garde Toon!", "EN GARDE!", "My motivation runs stronger than your puerility.", "Who were you expecting? That lazy bag of bolts?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

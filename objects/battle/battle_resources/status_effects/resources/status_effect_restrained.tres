@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3 uid="uid://lm31ut3gdbq4"]
+
+[ext_resource type="Texture2D" uid="uid://s82h70jwerb" path="res://ui_assets/battle/statuses/restrained.png" id="1_thfqb"]
+[ext_resource type="Script" uid="uid://dc121lamm6nk7" path="res://objects/battle/battle_resources/status_effects/status_effect_restrained.gd" id="2_ydodu"]
+
+[resource]
+script = ExtResource("2_ydodu")
+quality = 1
+rounds = 3
+icon = ExtResource("1_thfqb")
+description = "-1 Turn"
+status_name = "Restrained"
+id = 96
+metadata/_custom_type_script = "uid://df7irk63ikx4k"

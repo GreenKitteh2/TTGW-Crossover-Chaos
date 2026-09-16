@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://da80woql1txyp"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_trkfw"]
+[ext_resource type="Resource" uid="uid://c24yy1wqmg24o" path="res://objects/battle/battle_resources/cog_attacks/resources/razzle_dazzle.tres" id="2_3fffq"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="3_ym65i"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="4_5c8mh"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="4_q1qpm"]
+
+[resource]
+script = ExtResource("4_q1qpm")
+department = 2
+cog_name = "Double Crosser"
+name_plural = "Double Crossers"
+name_prefix = "Double "
+name_suffix = " Crosser"
+head = "res://models/cogs/heads/doublecross.glb"
+scale = 4.4
+head_textures = PackedStringArray("res://models/cogs/heads/doublecross_doublecross.png")
+hand_color = Color(0.8980392, 0.8980392, 0.92941177, 1)
+attacks = Array[ExtResource("1_trkfw")]([ExtResource("2_3fffq"), ExtResource("3_ym65i"), ExtResource("4_5c8mh")])
+level_low = 3
+level_high = 10
+battle_phrases = Array[String](["You've crossed the line.", "You better keep your fingers crossed.", "Crossing you will be quite easy.", "Warning, you're subject to cross-examination.", "I think you look quite cross.", "I always come back for doubles.", "You know, I'd rather go for a Double Cheeseburger.", "Would you like it double wrapped?", "I deliver quite the double WHAMMY.", "Let's double-check our plans."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

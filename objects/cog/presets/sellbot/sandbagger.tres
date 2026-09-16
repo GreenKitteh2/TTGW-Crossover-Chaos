@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://ch7jyxihs2k3o"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_6njn5"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="2_6njn5"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="3_7vy1p"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="4_2cxr0"]
+
+[resource]
+script = ExtResource("4_2cxr0")
+suit = 2
+cog_name = "Sandbagger"
+name_plural = "Sandbaggers"
+name_prefix = "Sand"
+name_suffix = "bagger"
+head = "res://models/cogs/heads/sandbagger.glb"
+scale = 4.0
+head_textures = PackedStringArray("res://models/cogs/heads/sandbagger_sandbagger.png")
+hand_color = Color(0.68235296, 0.6313726, 0.5882353, 1)
+attacks = Array[ExtResource("1_6njn5")]([ExtResource("2_6njn5"), ExtResource("3_7vy1p")])
+level_high = 8
+battle_phrases = Array[String](["I take you with a grain of sand.", "I plan on going out of the ordinary.", "Don't worry, I'm new at this.", "You won't expect much out of me.", "You should know, I always achieve expectations.", "You know, I bake a mean BAGuette.", "My sands are very soft.", "I sell a great peanut butter & jelly sandwich.", "You're quite the punching bag.", "Family or party size?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

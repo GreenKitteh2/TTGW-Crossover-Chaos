@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://d0qrjbh71vy0y"]
+
+[ext_resource type="Script" uid="uid://crgaccnpwnqky" path="res://objects/battle/battle_resources/cog_attacks/power_trip_(super).gd" id="1_s1cxf"]
+
+[resource]
+script = ExtResource("1_s1cxf")
+damage = 6
+summary = "The Cog feels the power!"
+attack_lines = Array[String](["You look a little tripped up...", "Oh, uh, sorry to trip you up there...!", "How was your trip...?", "Pack your bags, we're um... taking a little trip.", "Heh, who's got the power now?", "Now you see who's in power, I think!", "I am pretty sure I am much more powerful than you.", "Power corrupts... especially in my hands...", "You can't fight the power.", "Did you have a nice trip...?"])
+action_name = "Power Trip"
+metadata/_custom_type_script = "uid://bb27him60xtnk"

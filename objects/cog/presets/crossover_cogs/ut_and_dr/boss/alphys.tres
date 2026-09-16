@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://ccb1x4k8bdhu0"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_s338g"]
+[ext_resource type="Resource" uid="uid://d164evvd4rxxi" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm_(super).tres" id="2_eot62"]
+[ext_resource type="Resource" uid="uid://dunqnjlafu5n0" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag_(super).tres" id="3_kfb6v"]
+[ext_resource type="Resource" uid="uid://d15mam6m8bjh1" path="res://objects/battle/battle_resources/cog_attacks/resources/hang_up_(super).tres" id="4_b8cuf"]
+[ext_resource type="Resource" uid="uid://duq7fidd28rw5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack.tres" id="5_eot62"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_rd1qo"]
+[ext_resource type="Resource" uid="uid://cfeq7j1q6bl50" path="res://objects/battle/battle_resources/cog_signature_attack/resources/gag_protection.tres" id="6_kfb6v"]
+[ext_resource type="Resource" uid="uid://b8gp1patb8r4e" path="res://objects/battle/battle_resources/cog_signature_attack/resources/inject.tres" id="7_eot62"]
+
+[resource]
+script = ExtResource("5_rd1qo")
+department = 5
+suit = 2
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/ut_and_dr/alphys_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/ut_and_dr/alphys_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/ut_and_dr/alphys_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/undertale.png"
+cog_name = "Alphys"
+name_plural = "Alphyses"
+head = "res://models/crossover_cogs/undertale_and_deltarune/alphys.glb"
+scale = 4.9
+hand_color = Color(0.8, 0.70980394, 0.27058825, 1)
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_s338g")]([ExtResource("2_eot62"), ExtResource("3_kfb6v"), ExtResource("4_b8cuf"), ExtResource("5_eot62"), ExtResource("6_kfb6v"), ExtResource("7_eot62")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_female_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["Oh! I..It's you", "Ack! A Toon! I never fight before...I think?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

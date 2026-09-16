@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://qoki711sbmnv"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_ryel3"]
+[ext_resource type="Resource" uid="uid://b8d005ps7d223" path="res://objects/battle/battle_resources/cog_attacks/resources/razzle_dazzle_(super).tres" id="2_h684u"]
+[ext_resource type="Resource" uid="uid://3dxin5galt7i" path="res://objects/battle/battle_resources/cog_attacks/resources/tee_off_(super).tres" id="3_gd4jq"]
+[ext_resource type="Resource" uid="uid://dcth1mrm7s8bo" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip_(super).tres" id="4_vmy70"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="5_8p4yf"]
+[ext_resource type="Resource" uid="uid://m27fmwkp3qdf" path="res://objects/battle/battle_resources/cog_signature_attack/resources/marked.tres" id="6_88ofs"]
+[ext_resource type="Resource" uid="uid://bhw354a566nax" path="res://objects/battle/battle_resources/cog_signature_attack/resources/deep_freeze.tres" id="7_e2fw0"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_jmyfc"]
+[ext_resource type="Resource" uid="uid://b8gp1patb8r4e" path="res://objects/battle/battle_resources/cog_signature_attack/resources/inject.tres" id="8_h684u"]
+
+[resource]
+script = ExtResource("7_jmyfc")
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_bobette_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_bobette_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_bobette_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Twisted Bobette"
+name_prefix = "Twisted "
+name_suffix = " Bobette"
+head = "res://models/crossover_cogs/dandys_world/Twisted Bobette.glb"
+scale = 6.0
+hand_color = Color(0, 0, 0, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_ryel3")]([ExtResource("2_h684u"), ExtResource("3_gd4jq"), ExtResource("4_vmy70"), ExtResource("5_8p4yf"), ExtResource("6_88ofs"), ExtResource("7_e2fw0"), ExtResource("8_h684u")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_female_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["Everything must be perfect!", "You'll fall like everyone else.", "I don't be kind to greedy people."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

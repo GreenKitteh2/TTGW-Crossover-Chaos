@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://d2lquay644bqp"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_h3dye"]
+[ext_resource type="Resource" uid="uid://d164evvd4rxxi" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm_(super).tres" id="2_fa06x"]
+[ext_resource type="Resource" uid="uid://cn30emocsuk56" path="res://objects/battle/battle_resources/cog_attacks/resources/liquidate_(super).tres" id="3_woban"]
+[ext_resource type="Resource" uid="uid://c82q6b10di5a1" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time.tres" id="4_fa06x"]
+[ext_resource type="Resource" uid="uid://cncrrqbyd1o0y" path="res://objects/battle/battle_resources/cog_signature_attack/resources/enlighten.tres" id="5_jm7u7"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_5h8hp"]
+[ext_resource type="Resource" uid="uid://duq7fidd28rw5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack.tres" id="6_woban"]
+
+[resource]
+script = ExtResource("6_5h8hp")
+department = 1
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/astro_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/astro_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/astro_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Astro"
+head = "res://models/crossover_cogs/dandys_world/Astro.glb"
+scale = 3.5
+hand_color = Color(0.6666667, 1, 0.9882353, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_h3dye")]([ExtResource("2_fa06x"), ExtResource("3_woban"), ExtResource("4_fa06x"), ExtResource("5_jm7u7"), ExtResource("6_woban")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["Isn't it late for you?", "It's time to put you to sleep.", "It's just a dream."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

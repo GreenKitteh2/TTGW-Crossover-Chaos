@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bng3lqy0lh1pb"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_627xh"]
+[ext_resource type="Resource" uid="uid://c3ed4nf6rvgyp" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/brain_storm_(prr).tres" id="2_627xh"]
+[ext_resource type="Resource" uid="uid://6be1gsakufw0" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/guilt_trip_(prr).tres" id="3_nmhyy"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="4_oqt8l"]
+
+[resource]
+script = ExtResource("4_oqt8l")
+suit = 2
+custom_blazer_tex = "res://models/cogs/textures/sell/blazer_exe.png"
+custom_arm_tex = "res://models/cogs/textures/sell/sleeve_exe.png"
+custom_leg_tex = "res://models/cogs/textures/sell/leg_exe.png"
+cog_name = "Public Relations Representative"
+name_prefix = "Public Relations "
+name_suffix = " Representative"
+head = "res://models/cogs/heads/prr.glb"
+scale = 6.25
+hand_color = Color(0.6627451, 0.37254903, 1, 1)
+attacks = Array[ExtResource("1_627xh")]([ExtResource("2_627xh"), ExtResource("3_nmhyy")])
+level_low = 10
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_ambush_marketing.tres", "res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_manager = true
+health_mod = 2.0
+battle_phrases = Array[String](["Wasn't that- wasn't that- wasn't that fun- funny?", "You looking- looking at me- at me?", "Why- why don't I introduce you- you to my bosses?", "Fun-fun-funny Toon- Toon!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

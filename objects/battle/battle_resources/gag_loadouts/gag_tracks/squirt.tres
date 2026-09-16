@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="Track" format=3 uid="uid://dvxiqtapdvmj4"]
+
+[ext_resource type="Script" uid="uid://cwnjrxjvy5kc3" path="res://objects/battle/battle_resources/toon_attacks/toon_attack.gd" id="1_51n6n"]
+[ext_resource type="Resource" uid="uid://6d2lnauj885s" path="res://objects/battle/battle_resources/gag_loadouts/gags/squirt/squirt_flower.tres" id="2_g8epq"]
+[ext_resource type="Resource" uid="uid://ogf18kx0knl5" path="res://objects/battle/battle_resources/gag_loadouts/gags/squirt/water_glass.tres" id="3_2gomu"]
+[ext_resource type="Resource" uid="uid://d1725jt347v4e" path="res://objects/battle/battle_resources/gag_loadouts/gags/squirt/squirt_gun.tres" id="4_2y2va"]
+[ext_resource type="Resource" uid="uid://l45knio5jpal" path="res://objects/battle/battle_resources/gag_loadouts/gags/squirt/seltzer_bottle.tres" id="5_vjd65"]
+[ext_resource type="Resource" uid="uid://cgu3xv44h8pmc" path="res://objects/battle/battle_resources/gag_loadouts/gags/squirt/fire_hose.tres" id="6_07xhk"]
+[ext_resource type="Resource" uid="uid://cug4jv7oh22w3" path="res://objects/battle/battle_resources/gag_loadouts/gags/squirt/storm_cloud.tres" id="7_vfs08"]
+[ext_resource type="Resource" uid="uid://c0ch4wycmdgui" path="res://objects/battle/battle_resources/gag_loadouts/gags/squirt/geyser.tres" id="8_0tnwq"]
+[ext_resource type="Script" uid="uid://b6b6pfoqyolr" path="res://objects/battle/battle_resources/gag_loadouts/track.gd" id="14_mkclo"]
+
+[resource]
+script = ExtResource("14_mkclo")
+track_type = 1
+track_name = "Squirt"
+track_color = Color(0.968627, 0.2, 0.721569, 1)
+gags = Array[ExtResource("1_51n6n")]([ExtResource("2_g8epq"), ExtResource("3_2gomu"), ExtResource("4_2y2va"), ExtResource("5_vjd65"), ExtResource("6_07xhk"), ExtResource("7_vfs08"), ExtResource("8_0tnwq")])
+mod_gags = Dictionary[ExtResource("1_51n6n"), int]({
+ExtResource("2_g8epq"): 0,
+ExtResource("3_2gomu"): 1,
+ExtResource("4_2y2va"): 2,
+ExtResource("5_vjd65"): 3,
+ExtResource("6_07xhk"): 4,
+ExtResource("7_vfs08"): 5,
+ExtResource("8_0tnwq"): 6
+})

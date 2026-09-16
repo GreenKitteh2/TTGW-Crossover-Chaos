@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cqwhbkxeabla4"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_iw7ly"]
+[ext_resource type="Resource" uid="uid://ct62ayh62qdhy" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/workout_(coal_and_pebble).tres" id="2_iw7ly"]
+[ext_resource type="Resource" uid="uid://dumpx6tbjo3xo" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/evil_eye_(coal_and_pebble).tres" id="3_05wjd"]
+[ext_resource type="Resource" uid="uid://4c5jo2spdvsi" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/heckle_(coal_and_pebble).tres" id="4_858bn"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_1p6bk"]
+
+[resource]
+script = ExtResource("6_1p6bk")
+department = 3
+suit = 2
+cog_name = "Coal"
+head = "res://models/crossover_cogs/dandys_world/Coal.glb"
+scale = 3
+hand_color = Color(0.2901961, 0.30588236, 0.29803923, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_iw7ly")]([ExtResource("2_iw7ly"), ExtResource("3_05wjd"), ExtResource("4_858bn")])
+level_low = 3
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["Bworf!", "Grrrrr!", "Bork!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

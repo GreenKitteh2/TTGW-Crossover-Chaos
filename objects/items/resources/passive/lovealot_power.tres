@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://b6hm206k24bvi"]
+
+[ext_resource type="Script" uid="uid://dd58hhbv6xy2" path="res://objects/items/custom/item_lovealot_power.gd" id="1_2hfrx"]
+[ext_resource type="Script" uid="uid://combwqypom1ru" path="res://objects/items/classes/item.gd" id="2_8t8xm"]
+
+[resource]
+script = ExtResource("2_8t8xm")
+qualitoon = 4
+item_name = "Lovealot Power"
+big_description = "Unique to Lovealot."
+item_script = ExtResource("1_2hfrx")
+shop_category_color = Color(0.196078, 0.580392, 0.917647, 1)

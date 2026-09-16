@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="CogPool" format=3 uid="uid://5figgdujd77l"]
+
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="1_h7u8j"]
+[ext_resource type="Resource" uid="uid://cucj2udn1av8o" path="res://objects/cog/presets/boardbot/con_artist.tres" id="2_f54t6"]
+[ext_resource type="Resource" uid="uid://b1wjn6g7o15yv" path="res://objects/cog/presets/boardbot/bagholder.tres" id="3_mtblb"]
+[ext_resource type="Resource" uid="uid://cr1fekgvo8qju" path="res://objects/cog/presets/boardbot/connoisseur.tres" id="4_2eap5"]
+[ext_resource type="Resource" uid="uid://5fma8870hxnf" path="res://objects/cog/presets/boardbot/paper_hands.tres" id="5_3o1qj"]
+[ext_resource type="Resource" uid="uid://cl1a2yfwb8dlh" path="res://objects/cog/presets/boardbot/swindler.tres" id="6_6kysr"]
+[ext_resource type="Resource" uid="uid://dqk2cj23r8xli" path="res://objects/cog/presets/boardbot/insider.tres" id="7_7skcs"]
+[ext_resource type="Resource" uid="uid://xbr4nrwtcj2o" path="res://objects/cog/presets/boardbot/middleman.tres" id="8_np1my"]
+[ext_resource type="Resource" uid="uid://eup7r57bi8ro" path="res://objects/cog/presets/boardbot/circuit_breaker.tres" id="9_xh7mw"]
+[ext_resource type="Resource" uid="uid://ceh4ktid455jd" path="res://objects/cog/presets/boardbot/toxic_manager.tres" id="10_4ysdl"]
+[ext_resource type="Script" uid="uid://buc4y0vtgydo" path="res://objects/cog/cog_pool.gd" id="10_mtblb"]
+[ext_resource type="Resource" uid="uid://nxlylhs1s4v4" path="res://objects/cog/presets/boardbot/deadlock.tres" id="11_2e6vf"]
+[ext_resource type="Resource" uid="uid://c8jse4s0g3oae" path="res://objects/cog/presets/boardbot/magnate.tres" id="12_bjn8v"]
+[ext_resource type="Resource" uid="uid://dt105x28ofctn" path="res://objects/cog/presets/boardbot/shark_watcher.tres" id="13_sqmt4"]
+[ext_resource type="Resource" uid="uid://c14x0vy2a2bs2" path="res://objects/cog/presets/boardbot/sr_magnate.tres" id="14_6uthl"]
+[ext_resource type="Resource" uid="uid://cdxmio3sltbg2" path="res://objects/cog/presets/boardbot/big_fish.tres" id="15_j1b7i"]
+[ext_resource type="Resource" uid="uid://yq4j7jr04nik" path="res://objects/cog/presets/boardbot/head_honcho.tres" id="16_qb5vs"]
+[ext_resource type="Resource" uid="uid://cbme3bp63vatj" path="res://objects/cog/presets/boardbot/hat_honcho.tres" id="17_lbvfm"]
+
+[resource]
+script = ExtResource("10_mtblb")
+cogs = Array[ExtResource("1_h7u8j")]([ExtResource("2_f54t6"), ExtResource("3_mtblb"), ExtResource("4_2eap5"), ExtResource("5_3o1qj"), ExtResource("6_6kysr"), ExtResource("7_7skcs"), ExtResource("8_np1my"), ExtResource("9_xh7mw"), ExtResource("10_4ysdl"), ExtResource("11_2e6vf"), ExtResource("12_bjn8v"), ExtResource("13_sqmt4"), ExtResource("14_6uthl"), ExtResource("15_j1b7i"), ExtResource("16_qb5vs"), ExtResource("17_lbvfm")])

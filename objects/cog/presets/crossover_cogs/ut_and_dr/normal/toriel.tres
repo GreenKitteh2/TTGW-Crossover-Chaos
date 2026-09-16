@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bqmam0ugitnhj"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_jilx6"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="2_8447b"]
+[ext_resource type="Resource" uid="uid://c27ek2anjbx88" path="res://objects/battle/battle_resources/cog_attacks/resources/pound_key.tres" id="3_jilx6"]
+[ext_resource type="Resource" uid="uid://qk4f4h40o5u1" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip.tres" id="4_fxmue"]
+[ext_resource type="Resource" uid="uid://cwo1w818pihtu" path="res://objects/battle/battle_resources/cog_signature_attack/resources/heal.tres" id="5_ceea8"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_bstb8"]
+
+[resource]
+script = ExtResource("7_bstb8")
+department = 3
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/misc/blazer_1.png"
+custom_arm_tex = "res://models/cogs/textures/misc/sleeve_2.png"
+custom_leg_tex = "res://models/cogs/textures/misc/leg_4.png"
+custom_wrist_tex = "res://models/cogs/textures/misc/arm_1.png"
+cog_name = "Toriel"
+name_plural = "Toriels"
+head = "res://models/crossover_cogs/undertale_and_deltarune/toriel.glb"
+scale = 6.45
+hand_color = Color(0.972549, 0.9882353, 0.972549, 1)
+attacks = Array[ExtResource("1_jilx6")]([ExtResource("2_8447b"), ExtResource("3_jilx6"), ExtResource("4_fxmue"), ExtResource("5_ceea8")])
+level_low = 8
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["I'm sorry my child, you can't go further...", "This place is far too dangerous for you..."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

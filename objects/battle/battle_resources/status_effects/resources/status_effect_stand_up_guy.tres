@@ -1,0 +1,12 @@
+[gd_resource type="Resource" format=3 uid="uid://dv3sgsuun7umb"]
+
+[ext_resource type="Texture2D" uid="uid://c8lfkyx50noxx" path="res://ui_assets/battle/statuses/stand_up_guy.png" id="1_c0r1q"]
+[ext_resource type="Script" uid="uid://bpxhc3jhq1p50" path="res://objects/battle/battle_resources/status_effects/status_effect_stand_up_guy.gd" id="2_c0r1q"]
+
+[resource]
+script = ExtResource("2_c0r1q")
+quality = 0
+icon = ExtResource("1_c0r1q")
+description = "This Cog will have damage redirected to them!"
+status_name = "Stand Up Guy"
+id = 90

@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=6 format=3 uid="uid://cucj2udn1av8o"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_ptb05"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_py6ne"]
+[ext_resource type="Resource" uid="uid://c27ek2anjbx88" path="res://objects/battle/battle_resources/cog_attacks/resources/pound_key.tres" id="3_p5kk1"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="4_8cmnv"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_sl4nr"]
+
+[resource]
+script = ExtResource("5_sl4nr")
+department = 4
+suit = 2
+cog_name = "Con Artist"
+name_plural = "Con Artists"
+name_prefix = "Con "
+name_suffix = " Artist"
+head = "res://models/cogs/heads/conartist.glb"
+scale = 4.0
+head_textures = PackedStringArray("res://models/cogs/heads/conartist_ttcc_ene_conartist.png")
+hand_color = Color(0.462745, 0.462745, 0.462745, 1)
+attacks = Array[ExtResource("1_ptb05")]([ExtResource("2_py6ne"), ExtResource("3_p5kk1"), ExtResource("4_8cmnv")])
+level_high = 8
+battle_phrases = Array[String](["'Zere are many cons to fighting me, but 'zey only affect you.", "As un tru' artist said, \"To be, or not to be.\" In zis case, you are not to be.", "You are ruining zis masterpiece, no?", "Your concept of 'fun' is a mistakenly wrong!", "Un brush and un beret, tis all necessary to draw your end.", "Le Concept of Zis is for you to go sad."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

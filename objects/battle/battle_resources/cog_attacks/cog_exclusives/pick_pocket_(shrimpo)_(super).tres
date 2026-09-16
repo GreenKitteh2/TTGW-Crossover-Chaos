@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://chbi22ed1501k"]
+
+[ext_resource type="Script" uid="uid://cb2q0uiqkvk38" path="res://objects/battle/battle_resources/cog_attacks/pickpocket_(super).gd" id="1_v6ap8"]
+
+[resource]
+script = ExtResource("1_v6ap8")
+damage = 2
+summary = "The Cog steals a Gag from the Toon!"
+attack_lines = Array[String](["GIVE ME!", "I HATE YOUR STUFF!", "IT'S MINE!", "GIVE ME YOUR STUFF!"])
+action_name = "Pick Pocket"

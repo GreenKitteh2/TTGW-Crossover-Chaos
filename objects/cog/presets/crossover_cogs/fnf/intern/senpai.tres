@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cnhh640gbf3lm"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_f88ec"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="3_3hgnt"]
+[ext_resource type="Resource" uid="uid://55lp6noha8te" path="res://objects/battle/battle_resources/cog_attacks/resources/shake.tres" id="3_mwfrd"]
+[ext_resource type="Resource" uid="uid://305avsq3iu30" path="res://objects/battle/battle_resources/cog_attacks/resources/power_tie.tres" id="4_mwfrd"]
+[ext_resource type="Resource" uid="uid://erbbarg5bxm8" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex.tres" id="5_sy84b"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_w0i3w"]
+
+[resource]
+script = ExtResource("6_w0i3w")
+department = 5
+suit = 1
+cog_name = "Senpai"
+head = "res://models/crossover_cogs/fnf/senpai.glb"
+scale = 5.6
+hand_color = Color(0.972549, 0.90588236, 0.827451, 1)
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_f88ec")]([ExtResource("3_mwfrd"), ExtResource("3_3hgnt"), ExtResource("4_mwfrd"), ExtResource("5_sy84b")])
+level_low = 4
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["Escaped a game only to be here...great.", "You don't want to see me lose it, trust me buddy."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://b6c4r8oct6mse"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_0c6yf"]
+[ext_resource type="Resource" uid="uid://bruosr4c0bash" path="res://objects/battle/battle_resources/cog_attacks/resources/clip_on_tie.tres" id="2_u8n6t"]
+[ext_resource type="Resource" uid="uid://cltphjfp4x2rk" path="res://objects/battle/battle_resources/cog_attacks/resources/half_windsor.tres" id="3_utbsh"]
+[ext_resource type="Resource" uid="uid://305avsq3iu30" path="res://objects/battle/battle_resources/cog_attacks/resources/power_tie.tres" id="4_jtra0"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_pov2c"]
+
+[resource]
+script = ExtResource("5_pov2c")
+suit = 1
+cog_name = "Bobette"
+name_prefix = "Bob"
+name_suffix = "ette"
+head = "res://models/crossover_cogs/dandys_world/bobette.glb"
+scale = 3
+hand_color = Color(1, 0.29803923, 0.3647059, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_0c6yf")]([ExtResource("2_u8n6t"), ExtResource("3_utbsh"), ExtResource("4_jtra0")])
+level_low = 4
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["Is there anything you want?", "Don't get too cold with me.", "I have a gift for you but you won't like it."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

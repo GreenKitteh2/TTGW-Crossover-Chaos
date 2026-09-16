@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="Track" format=3 uid="uid://0528viy6hdsv"]
+
+[ext_resource type="Script" uid="uid://cwnjrxjvy5kc3" path="res://objects/battle/battle_resources/toon_attacks/toon_attack.gd" id="1_rtmtp"]
+[ext_resource type="Resource" uid="uid://c2h15gk437pf4" path="res://objects/battle/battle_resources/gag_loadouts/gags/throw/cupcake.tres" id="2_gn6nt"]
+[ext_resource type="Resource" uid="uid://kyglym15d4jh" path="res://objects/battle/battle_resources/gag_loadouts/gags/throw/fruit_pie_slice.tres" id="3_st2xv"]
+[ext_resource type="Resource" uid="uid://bjvx6ycaurqql" path="res://objects/battle/battle_resources/gag_loadouts/gags/throw/cream_pie_slice.tres" id="4_ja1ia"]
+[ext_resource type="Resource" uid="uid://yr56ehgsd3fc" path="res://objects/battle/battle_resources/gag_loadouts/gags/throw/whole_fruit_pie.tres" id="5_fs2by"]
+[ext_resource type="Resource" uid="uid://j4n5n6omljxv" path="res://objects/battle/battle_resources/gag_loadouts/gags/throw/whole_cream_pie.tres" id="6_8ib0w"]
+[ext_resource type="Resource" uid="uid://itjq3hljgdry" path="res://objects/battle/battle_resources/gag_loadouts/gags/throw/birthday_cake.tres" id="7_s8xnx"]
+[ext_resource type="Resource" uid="uid://g1mi6jf6c2a3" path="res://objects/battle/battle_resources/gag_loadouts/gags/throw/wedding_cake.tres" id="8_s8o63"]
+[ext_resource type="Resource" uid="uid://bnjfmm1edw015" path="res://objects/battle/battle_resources/gag_loadouts/gags/throw/ice_cream_cone.tres" id="9_fs2by"]
+[ext_resource type="Script" uid="uid://b6b6pfoqyolr" path="res://objects/battle/battle_resources/gag_loadouts/track.gd" id="14_8sa22"]
+
+[resource]
+script = ExtResource("14_8sa22")
+track_name = "Throw"
+track_color = Color(0.929412, 0.541176, 0.258824, 1)
+gags = Array[ExtResource("1_rtmtp")]([ExtResource("2_gn6nt"), ExtResource("3_st2xv"), ExtResource("4_ja1ia"), ExtResource("5_fs2by"), ExtResource("6_8ib0w"), ExtResource("7_s8xnx"), ExtResource("8_s8o63")])
+mod_gags = Dictionary[ExtResource("1_rtmtp"), int]({
+ExtResource("2_gn6nt"): 0,
+ExtResource("3_st2xv"): 1,
+ExtResource("4_ja1ia"): 2,
+ExtResource("5_fs2by"): 3,
+ExtResource("6_8ib0w"): 4,
+ExtResource("7_s8xnx"): 5,
+ExtResource("8_s8o63"): 6,
+ExtResource("9_fs2by"): 0
+})

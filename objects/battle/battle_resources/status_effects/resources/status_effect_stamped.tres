@@ -1,0 +1,13 @@
+[gd_resource type="Resource" format=3 uid="uid://bg8fppfwwd5qu"]
+
+[ext_resource type="Texture2D" uid="uid://c4ff2iw1c05gd" path="res://ui_assets/battle/statuses/stamped.png" id="1_0paed"]
+[ext_resource type="Script" uid="uid://dodt4r1vw0vbs" path="res://objects/battle/battle_resources/status_effects/status_effect_stamped.gd" id="2_0paed"]
+
+[resource]
+script = ExtResource("2_0paed")
+quality = 1
+rounds = 3
+icon = ExtResource("1_0paed")
+description = "-25% Evasiveness"
+status_name = "Stamped"
+id = 76

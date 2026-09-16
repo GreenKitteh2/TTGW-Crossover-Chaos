@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cmfdd7ix6q8fy"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_tj8ab"]
+[ext_resource type="Resource" uid="uid://6hjcsu17tt4g" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm.tres" id="2_fasxp"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="2_kpq0y"]
+[ext_resource type="Resource" uid="uid://doowiij7lpxy1" path="res://objects/battle/battle_resources/cog_attacks/resources/rubber_stamp.tres" id="3_82av0"]
+[ext_resource type="Resource" uid="uid://bruosr4c0bash" path="res://objects/battle/battle_resources/cog_attacks/resources/clip_on_tie.tres" id="3_d2aju"]
+[ext_resource type="Resource" uid="uid://dwkmwkdn3ws4k" path="res://objects/battle/battle_resources/cog_attacks/resources/evil_eye.tres" id="4_pn117"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="5_q5qus"]
+[ext_resource type="Resource" uid="uid://bpupdhbap1rq" path="res://objects/battle/battle_resources/cog_attacks/resources/freeze_assets.tres" id="6_8pe1n"]
+[ext_resource type="Resource" uid="uid://qk4f4h40o5u1" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip.tres" id="7_s70ok"]
+[ext_resource type="Resource" uid="uid://cltphjfp4x2rk" path="res://objects/battle/battle_resources/cog_attacks/resources/half_windsor.tres" id="8_78mi2"]
+[ext_resource type="Resource" uid="uid://c3gg5tsci6aye" path="res://objects/battle/battle_resources/cog_attacks/resources/hang_up.tres" id="9_j3wa6"]
+[ext_resource type="Resource" uid="uid://b4kaq7rjifwfc" path="res://objects/battle/battle_resources/cog_attacks/resources/liquidate.tres" id="10_tl5vv"]
+[ext_resource type="Resource" uid="uid://c27ek2anjbx88" path="res://objects/battle/battle_resources/cog_attacks/resources/pound_key.tres" id="12_g7h3d"]
+[ext_resource type="Resource" uid="uid://305avsq3iu30" path="res://objects/battle/battle_resources/cog_attacks/resources/power_tie.tres" id="13_4un2y"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="14_vnycp"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="16_xv4xl"]
+
+[resource]
+script = ExtResource("16_xv4xl")
+department = 7
+suit = 2
+custom_blazer_tex = "res://models/cogs/suita/suita_c_blazer.png"
+custom_arm_tex = "res://models/cogs/suitc/suitc_m_blazer.png"
+custom_leg_tex = "res://models/cogs/suitc/suitc_l_leg.png"
+cog_name = "SuitC"
+head = "res://models/cogs/heads/SuitC.glb"
+scale = 4.0
+head_textures = PackedStringArray("res://models/cogs/heads/SuitC_Image_0.png", "res://models/cogs/heads/SuitC_Image_0_1.png", "res://models/cogs/heads/SuitC_Image_0_2.png", "res://models/cogs/heads/SuitC_Image_0_3.png", "res://models/cogs/heads/SuitC_Image_0_4.png", "res://models/cogs/heads/SuitC_Image_0_5.png", "res://models/cogs/heads/SuitC_Image_0_6.png")
+attacks = Array[ExtResource("1_tj8ab")]([ExtResource("2_fasxp"), ExtResource("3_d2aju"), ExtResource("4_pn117"), ExtResource("5_q5qus"), ExtResource("6_8pe1n"), ExtResource("7_s70ok"), ExtResource("8_78mi2"), ExtResource("9_j3wa6"), ExtResource("10_tl5vv"), ExtResource("2_kpq0y"), ExtResource("12_g7h3d"), ExtResource("13_4un2y"), ExtResource("14_vnycp"), ExtResource("3_82av0")])
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/attentive.tres", "res://objects/battle/battle_resources/status_effects/resources/boss_logic_suit.tres")
+health_mod = 1.3
+battle_phrases = Array[String](["Boo!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

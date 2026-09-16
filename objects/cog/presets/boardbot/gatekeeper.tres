@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bvbu80xnxfpoi"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_qtxrs"]
+[ext_resource type="Resource" uid="uid://c0imu5876dcug" path="res://objects/battle/battle_resources/cog_signature_attack/resources/red_tape_(gatekeeper).tres" id="2_qtxrs"]
+[ext_resource type="Resource" uid="uid://lgfoeii6quui" path="res://objects/battle/battle_resources/cog_signature_attack/resources/ignite_(gatekeeper).tres" id="3_0e12a"]
+[ext_resource type="Resource" uid="uid://cvlqq1uvjxlfa" path="res://objects/battle/battle_resources/cog_signature_attack/resources/payeth_attention.tres" id="4_0705q"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_cl01b"]
+
+[resource]
+script = ExtResource("5_cl01b")
+department = 4
+custom_blazer_tex = "res://models/cogs/textures/managers/gatekeeper_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/managers/gatekeeper_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/managers/gatekeeper_leg.png"
+cog_name = "Gatekeeper"
+name_prefix = "Gate"
+name_suffix = "keeper"
+head = "res://models/cogs/heads/gatekeeper_head.glb"
+scale = 4.6
+hand_color = Color(0.29803923, 0.29803923, 0.29803923, 1)
+attacks = Array[ExtResource("1_qtxrs")]([ExtResource("2_qtxrs"), ExtResource("3_0e12a"), ExtResource("4_0705q")])
+level_low = 10
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_female_cog = true
+is_manager = true
+health_mod = 2.0
+battle_phrases = Array[String](["I shall putteth this area on lockethdown.", "What art thee doing here? Nay Toons did allow.", "Halt! Keepeth hence from me!", "I'm obligated to removeth thee, per industry standards."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

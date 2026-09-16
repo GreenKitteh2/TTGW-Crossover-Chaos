@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bnjd2remylp6i"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_m3bxd"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="2_61y0e"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="4_jm5r0"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_b86ga"]
+
+[resource]
+script = ExtResource("5_b86ga")
+department = 2
+suit = 2
+cog_name = "Advocate"
+name_plural = "Advocates"
+name_prefix = "Advo"
+name_suffix = "cate"
+head = "res://models/cogs/heads/advocate.glb"
+scale = 4.85
+head_textures = PackedStringArray("res://models/cogs/heads/advocate_ttcc_ene_advocate.png")
+hand_color = Color(0.09803922, 0.11372549, 0.1764706, 1)
+attacks = Array[ExtResource("1_m3bxd")]([ExtResource("2_61y0e"), ExtResource("4_jm5r0")])
+level_low = 5
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/mod_cog_operations_analyst.tres")
+health_mod = 1.5
+battle_phrases = Array[String](["I'm quite versed in paw and order.", "I'm not afraid of mew.", "When I'm through with you, you'll be hiss-tory.", "You'll be all out of paw-sitivity when I'm through with you.", "It's time fur you to leave.", "I'm feline quite good about this encounter.", "You shouldn't have strayed from the playground.", "It's nothing purr-sonal.", "You're awfully catty.", "You'll find I'm quite a fur-midable opponent.", "Don't worry Toon, I have a purr-fect record.", "It's im-paw-sible for you to win this battle.", "Quit kitten around, Toon. You know you can't beat me."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

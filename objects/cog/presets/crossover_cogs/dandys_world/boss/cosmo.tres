@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://vjd0467wswx3"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_cwt0y"]
+[ext_resource type="Resource" uid="uid://upir6hjcnwa5" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex_(super).tres" id="2_4omix"]
+[ext_resource type="Resource" uid="uid://dunqnjlafu5n0" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag_(super).tres" id="3_egyb3"]
+[ext_resource type="Resource" uid="uid://d164evvd4rxxi" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm_(super).tres" id="4_8pjon"]
+[ext_resource type="Resource" uid="uid://cwo1w818pihtu" path="res://objects/battle/battle_resources/cog_signature_attack/resources/heal.tres" id="5_lpj2f"]
+[ext_resource type="Resource" uid="uid://bxlgjda1mpx2a" path="res://objects/battle/battle_resources/cog_signature_attack/resources/protect.tres" id="6_o7fkp"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_xo3ae"]
+
+[resource]
+script = ExtResource("6_xo3ae")
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/cosmo_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/cosmo_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/cosmo_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Cosmo"
+head = "res://models/crossover_cogs/dandys_world/Cosmo.glb"
+scale = 3.5
+hand_color = Color(0.6, 0.33333334, 0.2901961, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_cwt0y")]([ExtResource("2_4omix"), ExtResource("3_egyb3"), ExtResource("4_8pjon"), ExtResource("5_lpj2f"), ExtResource("6_o7fkp")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["I'm a good cook but not a good fighter.", "You throw pies?!", "This might be sour for you."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

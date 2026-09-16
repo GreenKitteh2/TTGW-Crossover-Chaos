@@ -1,0 +1,21 @@
+[gd_resource type="Resource" format=3 uid="uid://bricdppu8jdou"]
+
+[ext_resource type="PackedScene" uid="uid://dw6n51u6rf4av" path="res://models/props/cog_props/power_tie/power_tie.fbx" id="1_gc8ni"]
+[ext_resource type="Script" uid="uid://iwx7rcw6bhqy" path="res://objects/battle/battle_resources/cog_attacks/power_tie_(super).gd" id="2_n82ah"]
+[ext_resource type="AudioStream" uid="uid://bt3ay0e6yi0wo" path="res://audio/sfx/battle/cogs/attacks/SA_powertie_impact.ogg" id="3_lvtbi"]
+[ext_resource type="AudioStream" uid="uid://c13tykgnbuaqv" path="res://audio/sfx/battle/cogs/attacks/SA_powertie_throw.ogg" id="4_oharc"]
+
+[resource]
+script = ExtResource("2_n82ah")
+model = ExtResource("1_gc8ni")
+model_rotation = Vector3(0.377732, 0.18314, 0.0439979)
+model_scale = Vector3(4, 4, 4)
+model_position = Vector3(-0.857762, -0.365314, -0.704837)
+sfx_throw = ExtResource("4_oharc")
+sfx_impact = ExtResource("3_lvtbi")
+damage = 4
+summary = "The Toon feels awfully embarrassed 
+by the apparel!"
+attack_lines = Array[String](["My dad says I look nice in this tie.", "Huh, this one's from Janet. Guess this was a build-day gift?", "My dad makes me wear this when we go out to dinner. It's pretty fancy...", "Time to, uh... power off.", "My dad's a powerful tie, so I... Oops."])
+action_name = "Power Tie"
+metadata/_custom_type_script = "uid://bb27him60xtnk"

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3 uid="uid://7nytbjjwe744"]
+
+[ext_resource type="Texture2D" uid="uid://de0g8fw1mtrt7" path="res://ui_assets/battle/statuses/forward_thinking.png" id="1_btixb"]
+[ext_resource type="Script" uid="uid://bebdpxpp6b6km" path="res://objects/battle/battle_resources/status_effects/status_effect_forward_thinking.gd" id="2_btixb"]
+
+[resource]
+script = ExtResource("2_btixb")
+quality = 0
+icon = ExtResource("1_btixb")
+description = "This Cog will attack before you
+Gain extra damage for each cog in battle"
+status_name = "Forward Thinking"
+id = 84
+metadata/_custom_type_script = "uid://df7irk63ikx4k"

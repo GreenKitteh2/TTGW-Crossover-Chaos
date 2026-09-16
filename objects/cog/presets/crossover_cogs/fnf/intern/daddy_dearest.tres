@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dt2eeue2ydv00"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_ghi4q"]
+[ext_resource type="Resource" uid="uid://dimhdaxn1tyey" path="res://objects/battle/battle_resources/cog_attacks/resources/tee_off.tres" id="2_welcl"]
+[ext_resource type="Resource" uid="uid://dwkmwkdn3ws4k" path="res://objects/battle/battle_resources/cog_attacks/resources/evil_eye.tres" id="3_xr3fp"]
+[ext_resource type="Resource" uid="uid://c24yy1wqmg24o" path="res://objects/battle/battle_resources/cog_attacks/resources/razzle_dazzle.tres" id="4_gu2cx"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="5_fmvto"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_fju66"]
+
+[resource]
+script = ExtResource("6_fju66")
+department = 4
+cog_name = "Daddy Dearest"
+name_prefix = "Daddy "
+name_suffix = " Dearest"
+head = "res://models/crossover_cogs/fnf/daddy dearest.glb"
+scale = 7.0
+hand_color = Color(0.972549, 0.76862746, 0.9098039, 1)
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_ghi4q")]([ExtResource("2_welcl"), ExtResource("3_xr3fp"), ExtResource("4_gu2cx"), ExtResource("5_fmvto")])
+level_low = 7
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["Getting yourself into a Dad battle are you?", "I was going for Boyfriend but you would make a good alternative."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

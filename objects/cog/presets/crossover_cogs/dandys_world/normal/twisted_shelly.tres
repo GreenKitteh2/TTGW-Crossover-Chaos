@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dgi236lel802g"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_rnaml"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="2_m4dmj"]
+[ext_resource type="Resource" uid="uid://6hjcsu17tt4g" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm.tres" id="2_rnaml"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="3_7q8ns"]
+[ext_resource type="Resource" uid="uid://b6smgrhefhpdk" path="res://objects/battle/battle_resources/cog_attacks/resources/sink_hole.tres" id="5_m4dmj"]
+[ext_resource type="Resource" uid="uid://dbyeiu73x1b8o" path="res://objects/battle/battle_resources/cog_signature_attack/resources/red_tape.tres" id="6_7q8ns"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_bs07v"]
+
+[resource]
+script = ExtResource("7_bs07v")
+department = 6
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/misc/blazer_1.png"
+custom_arm_tex = "res://models/cogs/textures/misc/sleeve_2.png"
+custom_leg_tex = "res://models/cogs/textures/misc/leg_4.png"
+custom_wrist_tex = "res://models/cogs/textures/misc/arm_1.png"
+cog_name = "Twisted Shelly"
+name_prefix = "Twisted "
+name_suffix = " Shelly"
+head = "res://models/crossover_cogs/dandys_world/Twisted Shelly.glb"
+scale = 5.0
+hand_color = Color(0.79607844, 0.6901961, 0.5686275, 1)
+custom_nametag_height = 11.0
+attacks = Array[ExtResource("1_rnaml")]([ExtResource("2_rnaml"), ExtResource("3_7q8ns"), ExtResource("2_m4dmj"), ExtResource("5_m4dmj"), ExtResource("6_7q8ns")])
+level_low = 8
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["You won't win.", "You would make a good fossil.", "I'll dig in your grave."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

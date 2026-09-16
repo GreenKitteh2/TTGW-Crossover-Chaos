@@ -1,0 +1,37 @@
+[gd_resource type="Resource" script_class="FloorVariant" format=3 uid="uid://cg4it8gi1n1yt"]
+
+[ext_resource type="Resource" uid="uid://bnubj377geur5" path="res://objects/cog/presets/pools/grunt_cogs.tres" id="1_ftddk"]
+[ext_resource type="Resource" uid="uid://cr0jpp264gg55" path="res://scenes/game_floor/department_floors/rooms_paranormal.tres" id="2_cvyco"]
+[ext_resource type="Texture2D" uid="uid://cp81meamv604o" path="res://models/cogs/misc/hp_light/paranormal.png" id="2_ut4c6"]
+[ext_resource type="Script" uid="uid://dq587088cmmwg" path="res://scenes/game_floor/floor_modifiers/scripts/misc/floor_mod_ghost.gd" id="4_slln1"]
+[ext_resource type="Script" uid="uid://biq2myn1bchnu" path="res://scenes/game_floor/floor_modifiers/scripts/misc/floor_mod_dark.gd" id="5_bmyuu"]
+[ext_resource type="Script" uid="uid://cxvrtrods5hgg" path="res://scenes/game_floor/floor_variants/floor_variant.gd" id="5_pylxm"]
+[ext_resource type="Script" uid="uid://combwqypom1ru" path="res://objects/items/classes/item.gd" id="7_a4re7"]
+[ext_resource type="Script" uid="uid://dyqii6pivq6ei" path="res://scenes/game_floor/floor_modifiers/scripts/misc/floor_mod_paranormal.gd" id="7_a8i0i"]
+[ext_resource type="Resource" uid="uid://bfkuxhwhi17r4" path="res://objects/items/resources/accessories/backpacks/angel_wings.tres" id="8_0jup8"]
+[ext_resource type="Resource" uid="uid://dbaqpmp7n1ngx" path="res://objects/items/resources/accessories/backpacks/dragon_wings.tres" id="9_0u1jn"]
+[ext_resource type="Resource" uid="uid://d3rg5of4nopl6" path="res://objects/items/resources/accessories/backpacks/wood_sword.tres" id="10_3qely"]
+[ext_resource type="Resource" uid="uid://b64vcq777407k" path="res://objects/items/resources/accessories/backpacks/gag_pack.tres" id="11_mikx1"]
+[ext_resource type="Resource" uid="uid://fjjonbhl865t" path="res://objects/items/resources/accessories/glasses/celebrity_shades.tres" id="12_44qvs"]
+[ext_resource type="Resource" uid="uid://dr6swjafd4wst" path="res://objects/items/resources/accessories/glasses/goggles.tres" id="13_hjidj"]
+[ext_resource type="Resource" uid="uid://cs5v54jdptmge" path="res://objects/items/resources/accessories/glasses/square_frames.tres" id="14_bvnn2"]
+[ext_resource type="Resource" uid="uid://djij80h8jh7yd" path="res://objects/items/resources/accessories/glasses/star_glasses.tres" id="15_cj5y1"]
+[ext_resource type="Resource" uid="uid://ctbfrxpj21da1" path="res://objects/items/resources/accessories/hats/crown.tres" id="16_sycwf"]
+[ext_resource type="Script" uid="uid://wiibpvvki8vs" path="res://objects/utils/convert_v1_2/old_classes/item_pool_1_1.gd" id="17_aupdo"]
+
+[sub_resource type="Resource" id="Resource_sf43m"]
+script = ExtResource("17_aupdo")
+items = Array[ExtResource("7_a4re7")]([ExtResource("8_0jup8"), ExtResource("9_0u1jn"), ExtResource("10_3qely"), ExtResource("11_mikx1"), ExtResource("12_44qvs"), ExtResource("13_hjidj"), ExtResource("14_bvnn2"), ExtResource("15_cj5y1"), ExtResource("16_sycwf")])
+low_roll_override = 5
+metadata/_custom_type_script = "uid://wiibpvvki8vs"
+
+[resource]
+script = ExtResource("5_pylxm")
+floor_type = ExtResource("2_cvyco")
+floor_name = "Paranormal Patents"
+reward_pool = SubResource("Resource_sf43m")
+cog_pool = ExtResource("1_ftddk")
+modifiers = Array[Script]([ExtResource("4_slln1"), ExtResource("5_bmyuu"), ExtResource("7_a8i0i")])
+is_alt_floor = true
+floor_icons = Array[Texture2D]([ExtResource("2_ut4c6")])
+room_count = 21

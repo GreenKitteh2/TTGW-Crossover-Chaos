@@ -1,0 +1,15 @@
+[gd_resource type="Resource" format=3 uid="uid://pm6w3i1t81gg"]
+
+[ext_resource type="Texture2D" uid="uid://dlv8myetvu77i" path="res://ui_assets/battle/statuses/sink_or_swim.png" id="1_lnhei"]
+[ext_resource type="Script" uid="uid://cclhogm4trpbh" path="res://objects/battle/battle_resources/status_effects/status_effect_sink_or_swim.gd" id="2_lnhei"]
+
+[resource]
+script = ExtResource("2_lnhei")
+quality = 0
+rounds = -1
+icon = ExtResource("1_lnhei")
+description = "All other Cogs gain 25% Damage
+This Cog recives +100% Defense and -50% Damage"
+status_name = "Sink or Swim"
+id = 85
+metadata/_custom_type_script = "uid://df7irk63ikx4k"

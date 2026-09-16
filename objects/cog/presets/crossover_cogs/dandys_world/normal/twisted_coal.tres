@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cnl305piqvndb"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_bu1ce"]
+[ext_resource type="Resource" uid="uid://dumpx6tbjo3xo" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/evil_eye_(coal_and_pebble).tres" id="2_bu1ce"]
+[ext_resource type="Resource" uid="uid://ct62ayh62qdhy" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/workout_(coal_and_pebble).tres" id="3_gc27m"]
+[ext_resource type="Resource" uid="uid://dvvovmpj1phj1" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/pick_pocket_(coal_and_pebble).tres" id="4_ln6tu"]
+[ext_resource type="Resource" uid="uid://nap7t5b478yq" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time_(coal_and_pebble).tres" id="5_arjn4"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_1jyln"]
+
+[resource]
+script = ExtResource("6_1jyln")
+department = 3
+custom_blazer_tex = "res://models/cogs/textures/misc/blazer_1.png"
+custom_arm_tex = "res://models/cogs/textures/misc/sleeve_2.png"
+custom_leg_tex = "res://models/cogs/textures/misc/leg_4.png"
+custom_wrist_tex = "res://models/cogs/textures/misc/arm_1.png"
+cog_name = "Twisted Coal"
+name_prefix = "Twisted "
+name_suffix = " Coal"
+head = "res://models/crossover_cogs/dandys_world/Twisted Coal.glb"
+scale = 5.3
+hand_color = Color(0.25490198, 0.25490198, 0.25490198, 1)
+custom_nametag_height = 11.0
+attacks = Array[ExtResource("1_bu1ce")]([ExtResource("2_bu1ce"), ExtResource("3_gc27m"), ExtResource("4_ln6tu"), ExtResource("5_arjn4")])
+level_low = 7
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["Grrrrrrrrrrrrr!", "Bork! Bork!", "Bwoof!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

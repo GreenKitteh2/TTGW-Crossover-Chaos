@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="CogPool" format=3 uid="uid://l8cud1ftnaeo"]
+
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="1_6ywyg"]
+[ext_resource type="Resource" uid="uid://cioudv48gm5xs" path="res://objects/cog/presets/crossover_cogs/tadc/normal/caine.tres" id="2_u1vfd"]
+[ext_resource type="Resource" uid="uid://dngy3avmlhfxd" path="res://objects/cog/presets/crossover_cogs/tadc/normal/gangle.tres" id="3_hvkfj"]
+[ext_resource type="Resource" uid="uid://c04god4tgmyfw" path="res://objects/cog/presets/crossover_cogs/tadc/normal/jax.tres" id="4_qomwk"]
+[ext_resource type="Resource" uid="uid://b473l0f2q4qo1" path="res://objects/cog/presets/crossover_cogs/tadc/normal/kinger.tres" id="5_6go2y"]
+[ext_resource type="Resource" uid="uid://jbesrfobjpih" path="res://objects/cog/presets/crossover_cogs/tadc/normal/pomni.tres" id="6_76kxc"]
+[ext_resource type="Resource" uid="uid://cmqmlykxabmds" path="res://objects/cog/presets/crossover_cogs/tadc/normal/ragatha.tres" id="7_6ywyg"]
+[ext_resource type="Resource" uid="uid://blbjtgahjfaye" path="res://objects/cog/presets/crossover_cogs/tadc/normal/zooble.tres" id="8_kb7ag"]
+[ext_resource type="Script" uid="uid://buc4y0vtgydo" path="res://objects/cog/cog_pool.gd" id="14_fxgnt"]
+
+[resource]
+script = ExtResource("14_fxgnt")
+cogs = Array[ExtResource("1_6ywyg")]([ExtResource("2_u1vfd"), ExtResource("3_hvkfj"), ExtResource("4_qomwk"), ExtResource("5_6go2y"), ExtResource("6_76kxc"), ExtResource("7_6ywyg"), ExtResource("8_kb7ag")])

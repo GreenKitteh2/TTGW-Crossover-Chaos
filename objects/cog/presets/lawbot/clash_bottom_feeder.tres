@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bl43njkk6uswi"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_aq71j"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="2_h51a0"]
+[ext_resource type="Resource" uid="uid://doowiij7lpxy1" path="res://objects/battle/battle_resources/cog_attacks/resources/rubber_stamp.tres" id="3_8lnhw"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="4_3fyth"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_gsoar"]
+
+[resource]
+script = ExtResource("5_gsoar")
+department = 2
+suit = 2
+cog_name = "Clash Bottom Feeder"
+name_plural = "Clash Bottom Feeders"
+name_prefix = "Clash "
+name_suffix = " Bottom Feeder"
+head = "res://models/cogs/heads/clash_feeder.glb"
+scale = 4.0
+head_textures = PackedStringArray("res://models/cogs/heads/clash_feeder_ttcc_ene_bottom_feeder.png")
+hand_color = Color(0.7490196, 0.7490196, 0.9490196, 1)
+attacks = Array[ExtResource("1_aq71j")]([ExtResource("2_h51a0"), ExtResource("3_8lnhw"), ExtResource("4_3fyth")])
+level_high = 8
+battle_phrases = Array[String](["Oh goody, lunch time.", "I'm ready to feast!", "I'm a sucker for Toons.", "Let's talk about the bottom line.", "You'll find my talents are bottomless.", "I'd love to have you for lunch.", "I'd like some feedback on my performance.", "Perfect timing, I need a quick bite.", "Looks like you've hit rock bottom.", "Good, I need a little pick-me-up."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

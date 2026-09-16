@@ -1,0 +1,12 @@
+[gd_resource type="Resource" format=3 uid="uid://cfogbc63nicvt"]
+
+[ext_resource type="Script" uid="uid://bwykf73b5juf1" path="res://objects/battle/battle_resources/cog_signature_attack/quick_attack.gd" id="1_yblvk"]
+
+[resource]
+script = ExtResource("1_yblvk")
+accuracy = 100
+damage = 0
+summary = "dnuor txen eht ni tsrif skcattA"
+attack_lines = Array[String]([" .tsrif gniog m'I", " .tsrif gniog ton er'uoy emit sihT", " .dneirf ym tsrif sgoC"])
+target_type = 4
+action_name = "kcattA kciuQ"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://dq087q3a7qptu"]
+
+[ext_resource type="Script" uid="uid://bay45nag2fwvd" path="res://objects/battle/battle_resources/cog_attacks/pound_key_(super).gd" id="1_u553k"]
+
+[resource]
+script = ExtResource("1_u553k")
+damage = 3
+summary = "The Cog becomes busy on a call!"
+attack_lines = Array[String](["Ring-a-ling - it's for you, mate!", "I 'ave been wantin' to drop a pound or two.", "I 'ave a lot of clout.", "Right then, Toon, it's the pound for you.", "Let me call up a cheeky little surprise.", "Time to return some calls.", "I'll ring you up, mate."])
+action_name = "Pound Key"

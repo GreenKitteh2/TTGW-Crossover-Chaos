@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://cs33wm8dypy8d"]
+
+[ext_resource type="Script" uid="uid://cdtvx5a7eoinp" path="res://objects/battle/battle_resources/status_effects/boss_effects/boss_logic_suit.gd" id="1_f1xe4"]
+
+[resource]
+script = ExtResource("1_f1xe4")
+rounds = -1
+visible = false
+description = "Suit logic"
+status_name = "Suit logic"
+id = 58

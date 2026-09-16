@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="FloorVariant" format=3 uid="uid://byb6adx8ec3st"]
+
+[ext_resource type="Texture2D" uid="uid://c84h4p4o7uyma" path="res://models/cogs/misc/hp_light/cashhard.png" id="2_bp2kd"]
+[ext_resource type="Resource" uid="uid://b14s6jiqdlynh" path="res://objects/cog/presets/pools/cashbot.tres" id="2_pgsd5"]
+[ext_resource type="Resource" uid="uid://c4k6my4wdeyi4" path="res://scenes/game_floor/department_floors/rooms_hard_cash.tres" id="3_jfcjc"]
+[ext_resource type="Script" uid="uid://mg662a6070m4" path="res://scenes/game_floor/floor_modifiers/scripts/misc/floor_mod_mint_hard.gd" id="4_jfcjc"]
+[ext_resource type="Script" uid="uid://cxvrtrods5hgg" path="res://scenes/game_floor/floor_variants/floor_variant.gd" id="5_km7c8"]
+
+[resource]
+script = ExtResource("5_km7c8")
+floor_type = ExtResource("3_jfcjc")
+floor_name = "Bullion Mint"
+cog_pool = ExtResource("2_pgsd5")
+modifiers = Array[Script]([ExtResource("4_jfcjc")])
+floor_icons = Array[Texture2D]([ExtResource("2_bp2kd")])
+room_count = 17

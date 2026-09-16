@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://d3wg8fjmaocb7"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_3lv6x"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="2_gu10d"]
+[ext_resource type="Resource" uid="uid://dwkmwkdn3ws4k" path="res://objects/battle/battle_resources/cog_attacks/resources/evil_eye.tres" id="3_3lv6x"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="4_ounu2"]
+[ext_resource type="Resource" uid="uid://kmogjr4fp015" path="res://objects/battle/battle_resources/cog_signature_attack/resources/stagger.tres" id="5_p8txf"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_ul1xa"]
+
+[resource]
+script = ExtResource("7_ul1xa")
+department = 3
+custom_blazer_tex = "res://models/cogs/textures/misc/blazer_1.png"
+custom_arm_tex = "res://models/cogs/textures/misc/sleeve_2.png"
+custom_leg_tex = "res://models/cogs/textures/misc/leg_4.png"
+custom_wrist_tex = "res://models/cogs/textures/misc/arm_1.png"
+cog_name = "Susie"
+name_plural = "Susies"
+head = "res://models/crossover_cogs/undertale_and_deltarune/susie.glb"
+scale = 5.05
+hand_color = Color(0.8901961, 0.52156866, 0.8156863, 1)
+attacks = Array[ExtResource("1_3lv6x")]([ExtResource("2_gu10d"), ExtResource("3_3lv6x"), ExtResource("4_ounu2"), ExtResource("5_p8txf")])
+level_low = 3
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["Can't weasel out of this one little punk!", "You seem to like interfering with the bad guys."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

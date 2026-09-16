@@ -1,0 +1,12 @@
+[gd_resource type="Resource" format=3 uid="uid://cebiuggarfrgj"]
+
+[ext_resource type="Texture2D" uid="uid://cbn11vdfxnajr" path="res://ui_assets/battle/statuses/shield_up.png" id="1_q5n8g"]
+[ext_resource type="Script" uid="uid://d2wxx6enicpog" path="res://objects/battle/battle_resources/status_effects/status_effect_shields_up.gd" id="2_q5n8g"]
+
+[resource]
+script = ExtResource("2_q5n8g")
+quality = 0
+icon = ExtResource("1_q5n8g")
+description = "This Cog will have damage redirected to them!"
+status_name = "Shields Up"
+id = 99

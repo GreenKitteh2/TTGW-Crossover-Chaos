@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://no5f2l6qb5it"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_sdm03"]
+[ext_resource type="Resource" uid="uid://6hjcsu17tt4g" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm.tres" id="2_i0up6"]
+[ext_resource type="Resource" uid="uid://b4kaq7rjifwfc" path="res://objects/battle/battle_resources/cog_attacks/resources/liquidate.tres" id="3_snjoe"]
+[ext_resource type="Resource" uid="uid://cae3lr6y4rrb8" path="res://objects/battle/battle_resources/cog_attacks/resources/quake.tres" id="4_s1aqw"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="5_pa10t"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_8ehhn"]
+
+[resource]
+script = ExtResource("7_8ehhn")
+department = 5
+suit = 1
+cog_name = "J"
+head = "res://models/crossover_cogs/murder_drones/j.glb"
+scale = 6.9
+hand_color = Color(0.78431374, 0.8, 0.78431374, 1)
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_sdm03")]([ExtResource("2_i0up6"), ExtResource("3_snjoe"), ExtResource("4_s1aqw"), ExtResource("5_pa10t")])
+level_low = 6
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["Oh, I wouldn't be surprised if you went past that Synergistic Liability.", "Cyn sends her regards."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

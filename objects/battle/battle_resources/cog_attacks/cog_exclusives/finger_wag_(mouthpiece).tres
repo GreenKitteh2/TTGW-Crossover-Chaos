@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://dx4umij3cvasf"]
+
+[ext_resource type="Script" uid="uid://bls75y8mja8lr" path="res://objects/battle/battle_resources/cog_attacks/finger_wag_(super).gd" id="1_cbkjm"]
+
+[resource]
+script = ExtResource("1_cbkjm")
+damage = 2
+summary = "The Cog will attack an 
+additional time if not respected!"
+attack_lines = Array[String](["Now, now, there's no reason to raise a fuss.", "Honestly, so ill-tempered!", "You could use a lesson in respect!", "I've met children less rowdy than you!"])
+action_name = "Finger Wag"

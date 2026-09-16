@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://keiw732h441u"]
+
+[ext_resource type="Script" uid="uid://cve13srpx3kde" path="res://objects/battle/battle_resources/cog_attacks/quake_(super).gd" id="1_qnr45"]
+
+[resource]
+script = ExtResource("1_qnr45")
+damage = 5
+summary = "The seismic activity makes it hard to dodge!"
+attack_lines = Array[String](["Grrrrrrrrrr!"])
+action_name = "Quake"

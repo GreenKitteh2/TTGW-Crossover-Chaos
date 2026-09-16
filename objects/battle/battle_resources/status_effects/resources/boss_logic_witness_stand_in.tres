@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://c3pak8ex0xipl"]
+
+[ext_resource type="Script" uid="uid://d31guinbg3erw" path="res://objects/battle/battle_resources/status_effects/boss_effects/boss_logic_witness_stand_in.gd" id="1_2ldwf"]
+
+[resource]
+script = ExtResource("1_2ldwf")
+rounds = -1
+visible = false
+description = "Witness Stand-In logic"
+status_name = "Witness Stand-In logic"
+id = 60

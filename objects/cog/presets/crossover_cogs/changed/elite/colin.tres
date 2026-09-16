@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bn8ga3cnfhvqr"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_d45po"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="2_r7bx3"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="3_om8lo"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="4_o2yx2"]
+[ext_resource type="Resource" uid="uid://duq7fidd28rw5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack.tres" id="5_mepis"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_i12fb"]
+
+[resource]
+script = ExtResource("7_i12fb")
+department = 3
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/waiter/waiter_m_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/waiter/waiter_m_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/waiter/waiter_m_leg.png"
+cog_name = "Colin"
+name_prefix = "Co"
+name_suffix = "lin"
+head = "res://models/crossover_cogs/changed/colin.glb"
+scale = 5.35
+hand_color = Color(0.972549, 0.9882353, 0.972549, 1)
+custom_nametag_suffix = "Elite"
+attacks = Array[ExtResource("1_d45po")]([ExtResource("2_r7bx3"), ExtResource("3_om8lo"), ExtResource("4_o2yx2"), ExtResource("5_mepis")])
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_elite_tier.tres")
+is_crossover_cog = true
+health_mod = 2.0
+battle_phrases = Array[String](["I'm not going to run away from you!", "I...I'm not scared...You are!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

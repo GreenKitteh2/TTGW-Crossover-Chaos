@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://d3o8f1lcghxal"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_pwaco"]
+[ext_resource type="Resource" uid="uid://b4kaq7rjifwfc" path="res://objects/battle/battle_resources/cog_attacks/resources/liquidate.tres" id="2_mevqe"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="3_51dmy"]
+[ext_resource type="Resource" uid="uid://c31yj6hc78hh3" path="res://objects/battle/battle_resources/cog_attacks/resources/eviction_notice.tres" id="4_n42mb"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_a5ynf"]
+
+[resource]
+script = ExtResource("5_a5ynf")
+department = 2
+suit = 1
+cog_name = "Clash Bloodsucker"
+name_plural = "Clash Bloodsuckers"
+name_prefix = "Clash "
+name_suffix = " Bloodsucker"
+head = "res://models/cogs/heads/clash_bloodsucker.glb"
+scale = 4.375
+head_textures = PackedStringArray("res://models/cogs/heads/clash_bloodsucker_ttcc_ene_bloodsucker.png")
+hand_color = Color(0.9490196, 0.9490196, 1, 1)
+attacks = Array[ExtResource("1_pwaco")]([ExtResource("2_mevqe"), ExtResource("3_51dmy"), ExtResource("4_n42mb")])
+level_low = 2
+level_high = 9
+battle_phrases = Array[String](["I'm going to make you dizzy.", "I'm going to leave you high and dry.", "You're soon going to need a cookie and some juice.", "I'm going to need to do a quick count on you.", "\"O\" don't be so \"Negative\".", "This may make you a sore loser.", "Do you have a donation for me?", "I'm surprised you found me, I'm very mobile.", "When I'm through, you'll need to lie down.", "I'm \"A Positive\" I'm going to win.", "Good timing, I'm a pint low.", "This will only hurt for a second."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://dmffm0gnm41vo"]
+
+[ext_resource type="Script" uid="uid://dkc60yahure4r" path="res://objects/battle/battle_resources/cog_signature_attack/stagger.gd" id="1_wd5xg"]
+
+[resource]
+script = ExtResource("1_wd5xg")
+damage = 0
+summary = "Evasiveness Down"
+attack_lines = Array[String](["I'M GOING TO KICK YOU DOWN!", "I HATE WATCHING YOU STAND!", "STAY ON THE GROUND!"])
+action_name = "Stagger"

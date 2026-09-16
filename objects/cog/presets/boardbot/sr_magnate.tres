@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=7 format=3 uid="uid://c14x0vy2a2bs2"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_kqt0p"]
+[ext_resource type="Resource" uid="uid://c3gg5tsci6aye" path="res://objects/battle/battle_resources/cog_attacks/resources/hang_up.tres" id="2_m1ahm"]
+[ext_resource type="Resource" uid="uid://dimhdaxn1tyey" path="res://objects/battle/battle_resources/cog_attacks/resources/tee_off.tres" id="3_kqt0p"]
+[ext_resource type="Resource" uid="uid://dwkmwkdn3ws4k" path="res://objects/battle/battle_resources/cog_attacks/resources/evil_eye.tres" id="4_8hv5s"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="5_whmk3"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_2am3u"]
+
+[resource]
+script = ExtResource("6_2am3u")
+department = 4
+cog_name = "Sr. Magnate"
+name_plural = "Sr. Magnates"
+name_prefix = "Sr. "
+name_suffix = " Magnate"
+head = "res://models/cogs/heads/srmagnate.glb"
+scale = 6.75
+head_textures = PackedStringArray("res://models/cogs/heads/srmagnate_cc_t_ene_suit_head_magnate_default.png")
+hand_color = Color(0.0823529, 0.0823529, 0.0823529, 1)
+attacks = Array[ExtResource("1_kqt0p")]([ExtResource("2_m1ahm"), ExtResource("3_kqt0p"), ExtResource("4_8hv5s"), ExtResource("5_whmk3")])
+level_low = 7
+level_high = 14
+battle_phrases = Array[String](["Even 'Legal Eagle' is terrified of me.", "Birds of a feather, let me win this fight altogether.", "Egg me on, I dare you.", "From heron, you will respect my authority.", "I'm a 'finch' to win this contest.", "I'm a hawk for Toon disposal.", "'Owl' be victorious in this clash.", "This will be a real hoot.", "Watch out, Toon. I’m a bird of prey.", "You will be 'thrushed' by my cunning.", "You'll need medical tweetment when I'm done with you.", "Your defeat is cardinal to my career goals.", "You're a sitting duck, Toon."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

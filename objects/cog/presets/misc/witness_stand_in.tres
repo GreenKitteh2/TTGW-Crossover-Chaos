@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://blhwsxhe7nwd8"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_p0nug"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="2_i3ary"]
+[ext_resource type="Resource" uid="uid://qk4f4h40o5u1" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip.tres" id="2_nbl4f"]
+[ext_resource type="Resource" uid="uid://dwkmwkdn3ws4k" path="res://objects/battle/battle_resources/cog_attacks/resources/evil_eye.tres" id="3_omp1b"]
+[ext_resource type="Resource" uid="uid://l385j58744f6" path="res://objects/battle/battle_resources/cog_attacks/resources/restraining_order.tres" id="4_bxgfo"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="5_aaf2x"]
+
+[resource]
+script = ExtResource("2_i3ary")
+department = 2
+cog_name = "Witness Stand-In"
+head = "res://models/cogs/heads/bigwig.glb"
+scale = 7.0
+head_textures = PackedStringArray("res://models/cogs/heads/bigwig_tt_t_ene_hed_bigWig.png")
+custom_nametag_suffix = "Deceased"
+attacks = Array[ExtResource("1_p0nug")]([ExtResource("2_nbl4f"), ExtResource("3_omp1b"), ExtResource("4_bxgfo"), ExtResource("5_aaf2x")])
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/attentive.tres", "res://objects/battle/battle_resources/status_effects/resources/tenure_status.tres", "res://objects/battle/battle_resources/status_effects/resources/boss_logic_witness_stand_in.tres")
+health_mod = 8.0
+battle_phrases = Array[String](["I have returned!"])

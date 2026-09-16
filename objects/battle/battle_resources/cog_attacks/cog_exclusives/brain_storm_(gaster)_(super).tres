@@ -1,0 +1,15 @@
+[gd_resource type="Resource" format=3 uid="uid://dfjinsja02s2v"]
+
+[ext_resource type="PackedScene" uid="uid://d03k2e6a74tko" path="res://objects/battle/effects/cloud_attacks/brain_storm.tscn" id="1_htb1x"]
+[ext_resource type="Script" uid="uid://d58510p3fqlj" path="res://objects/battle/battle_resources/cog_attacks/brain_storm_(super).gd" id="2_htb1x"]
+[ext_resource type="AudioStream" uid="uid://dbmpl58jist24" path="res://audio/sfx/battle/cogs/attacks/SA_brainstorm.ogg" id="3_o7xbw"]
+
+[resource]
+script = ExtResource("2_htb1x")
+particles = ExtResource("1_htb1x")
+sfx = ExtResource("3_o7xbw")
+animation = 1
+damage = 4
+summary = "The Toon's Gags loses points!"
+attack_lines = Array[String](["✋︎ ♐︎□︎❒︎♏︎♍︎♋︎⬧︎⧫︎ ❒︎♋︎♓︎■︎📬︎", "☟︎□︎◻︎♏︎ ⍓︎□︎◆︎ ◻︎♋︎♍︎🙵♏︎♎︎ ⍓︎□︎◆︎❒︎ ◆︎❍︎♌︎❒︎♏︎●︎●︎♋︎📬︎", "✋︎ ⬥︎♋︎■︎⧫︎ ⧫︎□︎ ♏︎■︎●︎♓︎♑︎♒︎⧫︎♏︎■︎ ⍓︎□︎◆︎📬︎", "☟︎□︎⬥︎ ♋︎♌︎□︎◆︎⧫︎ ♋︎ ♐︎♏︎⬥︎ ❒︎♋︎♓︎■︎ 👎︎☼︎⚐︎🏱︎💧︎✍︎", "☠︎□︎⧫︎ ⬧︎□︎ ⬧︎◆︎■︎■︎⍓︎ ■︎□︎⬥︎📪︎ ♋︎❒︎♏︎ ⍓︎□︎◆︎ ❄︎□︎□︎■︎✍︎", "☼︎♏︎♋︎♎︎⍓︎ ♐︎□︎❒︎ ♋︎ ♎︎□︎⬥︎■︎ ◻︎□︎◆︎❒︎✍︎", "✋︎🕯︎❍︎ ♑︎□︎♓︎■︎♑︎ ⧫︎□︎ ⧫︎♋︎🙵♏︎ ⍓︎□︎◆︎ ♌︎⍓︎ ⬧︎⧫︎□︎❒︎❍︎📬︎", "✋︎ ♍︎♋︎●︎●︎ ⧫︎♒︎♓︎⬧︎ ♋︎ ●︎♓︎♑︎♒︎⧫︎■︎♓︎■︎♑︎ ♋︎⧫︎⧫︎♋︎♍︎🙵📬︎", "✋︎ ●︎□︎❖︎♏︎ ⧫︎□︎ ♌︎♏︎ ♋︎ ⬥︎♏︎⧫︎ ♌︎●︎♋︎■︎🙵♏︎⧫︎📬︎"])
+action_name = "Brain Storm"

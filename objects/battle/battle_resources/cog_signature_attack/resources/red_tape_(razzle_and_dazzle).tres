@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3 uid="uid://dy8lcvke541kq"]
+
+[ext_resource type="PackedScene" uid="uid://u0b2uevrxq0v" path="res://models/props/cog_props/lbfo_red_tape/red_tape.fbx" id="1_t351q"]
+[ext_resource type="Script" uid="uid://bpfkv6uv0drgr" path="res://objects/battle/battle_resources/cog_signature_attack/red_tape.gd" id="2_8ddef"]
+
+[resource]
+script = ExtResource("2_8ddef")
+prop = ExtResource("1_t351q")
+custom_method = "red_tape"
+damage = 0
+summary = "Damage Down!"
+attack_lines = Array[String](["This should hold you. (It's too lose for me...)", "Someone needs to get a get a good grip on you. (If you can hold on...)", "I got to \"roll\" out safety protocols. (Is this safe..?)"])
+action_name = "Red Tape"
+metadata/_custom_type_script = "uid://itkxki65d0v7"

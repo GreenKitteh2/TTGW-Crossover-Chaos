@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://6lf4dqt7a84o"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_2dw4t"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_ndrvt"]
+[ext_resource type="Resource" uid="uid://c3gg5tsci6aye" path="res://objects/battle/battle_resources/cog_attacks/resources/hang_up.tres" id="3_2dw4t"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="4_fsn44"]
+[ext_resource type="Resource" uid="uid://c27ek2anjbx88" path="res://objects/battle/battle_resources/cog_attacks/resources/pound_key.tres" id="4_ndrvt"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_ac0tt"]
+
+[resource]
+script = ExtResource("7_ac0tt")
+department = 4
+suit = 1
+cog_name = "Twisted Eggson"
+name_prefix = "Twisted "
+name_suffix = " Eggson"
+head = "res://models/crossover_cogs/dandys_world/Twisted Eggson.glb"
+scale = 3.5
+hand_color = Color(0.6431373, 0.5294118, 0.40784314, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_2dw4t")]([ExtResource("2_ndrvt"), ExtResource("3_2dw4t"), ExtResource("4_ndrvt"), ExtResource("4_fsn44")])
+level_low = 5
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["You kids never respect your elders.", "You never get to expierence the old days.", "You youngings are the reason why things are bad."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

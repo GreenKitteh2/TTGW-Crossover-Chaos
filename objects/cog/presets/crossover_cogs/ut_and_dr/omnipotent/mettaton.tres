@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://oinibnbnmnmy"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_v0cdr"]
+[ext_resource type="Resource" uid="uid://6hjcsu17tt4g" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm.tres" id="2_il687"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="3_pr0vk"]
+[ext_resource type="Resource" uid="uid://bmp6wgk24lvba" path="res://objects/battle/battle_resources/cog_attacks/resources/pop_quiz_math.tres" id="3_sj8s5"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="4_sj8s5"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_d2445"]
+[ext_resource type="Resource" uid="uid://ds65kbrqrekdn" path="res://objects/battle/battle_resources/cog_signature_attack/resources/encourage.tres" id="6_son4n"]
+[ext_resource type="Resource" uid="uid://c82q6b10di5a1" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time.tres" id="7_1uod0"]
+
+[resource]
+script = ExtResource("6_d2445")
+department = 5
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/slender/blazer.png"
+custom_arm_tex = "res://models/cogs/textures/slender/sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/slender/leg.png"
+cog_name = "Mettaton"
+name_plural = "Mettatons"
+head = "res://models/crossover_cogs/undertale_and_deltarune/mettaton.glb"
+scale = 6.25
+hand_color = Color(0.85882354, 0.8666667, 0.85882354, 1)
+custom_nametag_height = 9.4
+custom_nametag_suffix = "Omnipotent"
+attacks = Array[ExtResource("1_v0cdr")]([ExtResource("2_il687"), ExtResource("3_sj8s5"), ExtResource("3_pr0vk"), ExtResource("4_sj8s5"), ExtResource("6_son4n"), ExtResource("7_1uod0")])
+level_low = 10
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_omnipotent_tier.tres")
+is_crossover_cog = true
+health_mod = 3.0
+battle_phrases = Array[String](["Hello darling, you're in our new show of \"Battle against the Killer Robot.\" ", "Your defeat will do wonders for my ratings!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

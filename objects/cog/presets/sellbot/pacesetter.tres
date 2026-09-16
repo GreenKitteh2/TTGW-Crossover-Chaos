@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cbaxpvaa1xgdb"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_w3e7h"]
+[ext_resource type="Resource" uid="uid://burqw6kmy7to8" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/quake_(pacesetter).tres" id="2_ytjk5"]
+[ext_resource type="Resource" uid="uid://cagnxkgub8tlr" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/shake_(pacesetter).tres" id="3_5gkdu"]
+[ext_resource type="Resource" uid="uid://bkagmphlt8qd7" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/tremor_(pacesetter).tres" id="4_876ta"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_ok53a"]
+
+[resource]
+script = ExtResource("7_ok53a")
+suit = 1
+cog_name = "Pacesetter"
+name_prefix = "Pace"
+name_suffix = "setter"
+head = "res://models/cogs/heads/pacesetter_head.glb"
+scale = 4.75
+hand_color = Color(0.4, 0.39215687, 0.39215687, 1)
+attacks = Array[ExtResource("1_w3e7h")]([ExtResource("2_ytjk5"), ExtResource("3_5gkdu"), ExtResource("4_876ta")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres", "res://objects/battle/battle_resources/status_effects/resources/status_effect_mile_a_minute.tres")
+is_manager = true
+health_mod = 3.0
+battle_phrases = Array[String](["You gotta do more than hustle to match my speed!", "20 meters ain't nothing!", "Bite the dust, buddy!", "Ka-pow."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

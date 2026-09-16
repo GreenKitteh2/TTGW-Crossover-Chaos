@@ -1,0 +1,8 @@
+[gd_resource type="Resource" format=3 uid="uid://s42jxkxye6yp"]
+
+[ext_resource type="Script" uid="uid://pbycnkf6niln" path="res://objects/battle/battle_resources/cog_signature_attack/bayou_bash.gd" id="1_vhesd"]
+
+[resource]
+script = ExtResource("1_vhesd")
+attack_lines = Array[String](["The party is over here, fellas!", "Good luck treading these waters now.", "It seems we may need a bit of assistance.", "You seem to be in alligator territory.", "In just a snap."])
+action_name = "Bayou Bash"

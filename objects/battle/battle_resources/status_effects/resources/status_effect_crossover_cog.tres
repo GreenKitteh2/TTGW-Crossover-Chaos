@@ -1,0 +1,10 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://cka0amqtlew4t"]
+
+[ext_resource type="Script" uid="uid://brmh4vhyv008j" path="res://objects/battle/battle_resources/status_effects/mod_cog_effects/status_effect_crossover_cog.gd" id="1_7sktw"]
+
+[resource]
+script = ExtResource("1_7sktw")
+visible = false
+description = "Cog Health with a twist"
+status_name = "Crossover HP"
+id = 58

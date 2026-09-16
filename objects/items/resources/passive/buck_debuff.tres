@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://4agj75giuhkm"]
+
+[ext_resource type="Script" uid="uid://bmidqvlturyk5" path="res://objects/items/custom/item_buck_debuff.gd" id="1_xt2v0"]
+[ext_resource type="Script" uid="uid://combwqypom1ru" path="res://objects/items/classes/item.gd" id="2_oxvr4"]
+
+[resource]
+script = ExtResource("2_oxvr4")
+qualitoon = 4
+item_name = "Buck Debuff"
+big_description = "Unique to Buck."
+item_script = ExtResource("1_xt2v0")

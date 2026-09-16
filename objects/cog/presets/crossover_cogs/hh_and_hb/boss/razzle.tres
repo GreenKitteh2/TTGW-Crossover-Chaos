@@ -1,0 +1,37 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://gpa86o3n01pb"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_850yv"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_fipwb"]
+[ext_resource type="Resource" uid="uid://b3mqc80kln1or" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket_(super).tres" id="3_u0v1s"]
+[ext_resource type="Resource" uid="uid://upir6hjcnwa5" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex_(super).tres" id="4_n0lbk"]
+[ext_resource type="Resource" uid="uid://c4wlxoewkna7s" path="res://objects/battle/battle_resources/cog_attacks/resources/half_windsor_(super).tres" id="5_2mahv"]
+[ext_resource type="Resource" uid="uid://bxlgjda1mpx2a" path="res://objects/battle/battle_resources/cog_signature_attack/resources/protect.tres" id="6_tcwsc"]
+[ext_resource type="Resource" uid="uid://b5helauv7f4y5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/pinpoint.tres" id="7_x7p1v"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_x21a6"]
+[ext_resource type="Resource" uid="uid://b3tkvlsedrm2l" path="res://objects/battle/battle_resources/cog_signature_attack/resources/back_talk.tres" id="8_u0v1s"]
+
+[resource]
+script = ExtResource("7_x21a6")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/hh_and_hb/razzle_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/hh_and_hb/razzle_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/hh_and_hb/razzle_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/hazbin_hotel.png"
+cog_name = "Razzle"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/Razzle.glb"
+scale = 4.3
+hand_color = Color(0.13333334, 0.13333334, 0.13333334, 1)
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_850yv")]([ExtResource("2_fipwb"), ExtResource("3_u0v1s"), ExtResource("4_n0lbk"), ExtResource("5_2mahv"), ExtResource("6_tcwsc"), ExtResource("7_x7p1v"), ExtResource("8_u0v1s")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["You weren't the one who killed Dazzle, right?", "Apparently someone here is also named Razzle.", "You're not part of The Vees are you?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

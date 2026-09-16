@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://deq858gxkw0ne"]
+
+[ext_resource type="Script" uid="uid://bay45nag2fwvd" path="res://objects/battle/battle_resources/cog_attacks/pound_key_(super).gd" id="1_0y8w5"]
+
+[resource]
+script = ExtResource("1_0y8w5")
+damage = 3
+summary = "The Cog becomes busy on a call!"
+attack_lines = Array[String](["Hold on, I'm getting a call. Oh! It's for you!", "Now THIS is something I'll have to tell Belle about!", "Just a moment, I have to take this.", "Hmm? Oh, I see! This call is for you!"])
+action_name = "Pound Key"

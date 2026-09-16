@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://7lqjy3sp6byq"]
+
+[ext_resource type="Script" uid="uid://81v5sdu0ir1n" path="res://objects/battle/battle_resources/cog_attacks/guilt_trip.gd" id="1_varwu"]
+
+[resource]
+script = ExtResource("1_varwu")
+damage = 5
+attack_lines = Array[String]([" !uoy no pirt tliug laer a yal ll'I", " ?ytliug gnileeF", " !tluaf ruoy lla s'tI", " .uoy no gnihtyreve emalb syawla I", " !tliug nwo ruoy ni wollaW", " !niaga uoy ot gnikaeps reven m'I", " .yrros er'uoy yas retteb dah uoY", " !sraey noillim a ni uoy evigrof t'ndluow I", " ?pirt ruoy rof ydaer uoy erA", " .pirt ruoy morf kcab teg uoy nehw em llaC", " ?pirt ruoy morf kcab teg uoy od nehW"])
+action_name = "pirT tliuG"
+metadata/_custom_type_script = "uid://bb27him60xtnk"

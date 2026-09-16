@@ -1,0 +1,9 @@
+[gd_resource type="Resource" format=3 uid="uid://b35hmwpaojsul"]
+
+[ext_resource type="Script" uid="uid://cxevceovtxxm3" path="res://objects/battle/battle_resources/misc_movies/witness_boss/challenge.gd" id="1_t64de"]
+
+[resource]
+script = ExtResource("1_t64de")
+summary = "Grants a Cog +1 Turn and extra damage"
+attack_lines = Array[String](["Do not let this Toon make you look weak.", "I'm giving you an oppertunity to fight back, don't mess this up.", "You are better than you think you are, don't let this Toon fool you."])
+action_name = "Challenge of Cause"

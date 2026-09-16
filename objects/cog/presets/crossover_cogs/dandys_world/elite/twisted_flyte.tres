@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bdja5cayk8in0"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_wofpu"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="2_a1s66"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="3_52as7"]
+[ext_resource type="Resource" uid="uid://qk4f4h40o5u1" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip.tres" id="4_a1s66"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="4_p25an"]
+[ext_resource type="Resource" uid="uid://3ymw0o36tlbg" path="res://objects/battle/battle_resources/cog_signature_attack/resources/spin.tres" id="6_52as7"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_cxh83"]
+
+[resource]
+script = ExtResource("6_cxh83")
+department = 3
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/waiter/waiter_m_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/waiter/waiter_m_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/waiter/waiter_m_leg.png"
+cog_name = "Twisted Flyte"
+name_prefix = "Twisted "
+name_suffix = " Flyte"
+head = "res://models/crossover_cogs/dandys_world/Twisted Flyte.glb"
+scale = 3
+hand_color = Color(0.17254902, 0.17254902, 0.17254902, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Elite"
+attacks = Array[ExtResource("1_wofpu")]([ExtResource("2_a1s66"), ExtResource("3_52as7"), ExtResource("4_a1s66"), ExtResource("4_p25an"), ExtResource("6_52as7")])
+level_low = 6
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_elite_tier.tres")
+is_crossover_cog = true
+health_mod = 2.0
+battle_phrases = Array[String](["You don't have enough energy to spare.", "It's only amount of time until you break.", "I'll exhaust you in the wind."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

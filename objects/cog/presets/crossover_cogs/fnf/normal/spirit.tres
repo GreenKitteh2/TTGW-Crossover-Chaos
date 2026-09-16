@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cwss1c7wobrnp"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_677uw"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_677uw"]
+[ext_resource type="Resource" uid="uid://bddy50xh8sfc8" path="res://objects/battle/battle_resources/cog_attacks/resources/tremor.tres" id="3_3ue48"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="3_677uw"]
+[ext_resource type="Resource" uid="uid://dwcurvq1jwvxu" path="res://objects/battle/battle_resources/cog_signature_attack/resources/disrupt.tres" id="5_3ue48"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_ctr7f"]
+
+[resource]
+script = ExtResource("6_ctr7f")
+department = 5
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/slender/blazer.png"
+custom_arm_tex = "res://models/cogs/textures/slender/sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/slender/leg.png"
+cog_name = "Spirit"
+head = "res://models/crossover_cogs/fnf/spirit.glb"
+scale = 5.6
+hand_color = Color(0.972549, 0.23529412, 0.40784314, 1)
+attacks = Array[ExtResource("1_677uw")]([ExtResource("2_677uw"), ExtResource("3_677uw"), ExtResource("3_3ue48"), ExtResource("5_3ue48")])
+level_low = 4
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["I don't like it when people compare me to Giygas.", "I need to switch bodies, you would make an example."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

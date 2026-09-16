@@ -1,0 +1,13 @@
+[gd_resource type="Resource" format=3 uid="uid://bm2rki32odtx3"]
+
+[ext_resource type="Texture2D" uid="uid://cct8up0mi2ijb" path="res://ui_assets/battle/statuses/overcharged.png" id="1_bhf5i"]
+[ext_resource type="Script" uid="uid://bub0iph375dmh" path="res://objects/battle/battle_resources/status_effects/mod_cog_effects/cog_overcharged.gd" id="2_bhf5i"]
+
+[resource]
+script = ExtResource("2_bhf5i")
+quality = 0
+rounds = -1
+icon = ExtResource("1_bhf5i")
+description = "This cog will inflict 50% more damage"
+status_name = "Overtime"
+id = 59

@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dgb21226rvk5c"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_e3msi"]
+[ext_resource type="Resource" uid="uid://bruosr4c0bash" path="res://objects/battle/battle_resources/cog_attacks/resources/clip_on_tie.tres" id="2_hcnci"]
+[ext_resource type="Resource" uid="uid://c27ek2anjbx88" path="res://objects/battle/battle_resources/cog_attacks/resources/pound_key.tres" id="3_e3msi"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_m6bjm"]
+
+[resource]
+script = ExtResource("5_m6bjm")
+department = 7
+suit = 2
+custom_blazer_tex = "res://models/cogs/textures/misc/desk_jockey_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/misc/desk_jockey_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/misc/desk_jockey_leg.png"
+cog_name = "Desk Jockey"
+name_prefix = "Desk "
+name_suffix = " Jockey"
+head = "res://models/cogs/heads/desk_jockey.glb"
+scale = 4.0
+custom_nametag_height = 10.0
+attacks = Array[ExtResource("1_e3msi")]([ExtResource("2_hcnci"), ExtResource("3_e3msi")])
+level_low = 3
+level_high = 20
+battle_phrases = Array[String](["My initiative may surprise you.", "I'm calling in backup!", "Let's get things started, shall we?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

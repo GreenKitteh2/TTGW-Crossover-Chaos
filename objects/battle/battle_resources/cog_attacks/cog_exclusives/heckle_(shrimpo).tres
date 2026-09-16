@@ -1,0 +1,20 @@
+[gd_resource type="Resource" format=3 uid="uid://cjhqnlqmfqvbp"]
+
+[ext_resource type="Script" uid="uid://2rt6lrj4fpim" path="res://objects/battle/battle_resources/cog_attacks/heckle.gd" id="1_7424e"]
+[ext_resource type="Script" uid="uid://csl6saufv84ri" path="res://objects/battle/battle_resources/status_effects/stat_boost.gd" id="2_hcf3m"]
+
+[sub_resource type="Resource" id="Resource_g5qp3"]
+script = ExtResource("2_hcf3m")
+boost = 0.8
+quality = 1
+rounds = -1
+id = 2
+
+[resource]
+script = ExtResource("1_7424e")
+status_effect = SubResource("Resource_g5qp3")
+accuracy = 60
+damage = 0
+summary = "Defense Down!"
+attack_lines = Array[String](["I HATE COMEDY!!!", "MY JOKES ARE BETTER!!!", "YOUR JOKES ARE ANNOYING!!!", "I HATE ANIMALS!!!"])
+action_name = "Heckle"

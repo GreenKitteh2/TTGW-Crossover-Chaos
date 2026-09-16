@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="StatEffectAftershock" load_steps=3 format=3 uid="uid://btbf0u8pdgfsk"]
+
+[ext_resource type="Texture2D" uid="uid://d4hgrl45t345t" path="res://ui_assets/battle/statuses/burning.png" id="1_4v8kp"]
+[ext_resource type="Script" uid="uid://bdu8ugwhi6yj3" path="res://objects/battle/battle_resources/status_effects/status_effect_burning.gd" id="2_4v8kp"]
+
+[resource]
+script = ExtResource("2_4v8kp")
+instant_effect = false
+quality = 1
+rounds = 3
+icon = ExtResource("1_4v8kp")
+description = ""
+status_name = "Burning"
+id = 63

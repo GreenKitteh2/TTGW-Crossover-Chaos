@@ -1,0 +1,12 @@
+[gd_resource type="Resource" format=3 uid="uid://65tkuwkosfwh"]
+
+[ext_resource type="Script" uid="uid://dlkyucy8i7wij" path="res://objects/battle/battle_resources/cog_signature_attack/strengthen.gd" id="1_0x13f"]
+
+[resource]
+script = ExtResource("1_0x13f")
+accuracy = 100
+damage = 0
+summary = "Damage boost for a short time"
+attack_lines = Array[String](["Beep."])
+target_type = 4
+action_name = "Strengthen"

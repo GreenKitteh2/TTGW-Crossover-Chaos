@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://c7mma4nnfbnx7"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_qshw6"]
+[ext_resource type="Resource" uid="uid://b3mqc80kln1or" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket_(super).tres" id="2_xp8ps"]
+[ext_resource type="Resource" uid="uid://dunqnjlafu5n0" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag_(super).tres" id="3_2tj1o"]
+[ext_resource type="Resource" uid="uid://b8evcct5837aq" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket_money.tres" id="4_53dwi"]
+[ext_resource type="Resource" uid="uid://b3tkvlsedrm2l" path="res://objects/battle/battle_resources/cog_signature_attack/resources/back_talk.tres" id="5_gs4uj"]
+[ext_resource type="Resource" uid="uid://3ymw0o36tlbg" path="res://objects/battle/battle_resources/cog_signature_attack/resources/spin.tres" id="6_tugsq"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_xyuur"]
+[ext_resource type="Resource" uid="uid://bad6gsuhm8ppm" path="res://objects/battle/battle_resources/cog_signature_attack/resources/point_steal.tres" id="7_xp8ps"]
+
+[resource]
+script = ExtResource("6_xyuur")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/connie_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/connie_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/connie_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Connie"
+head = "res://models/crossover_cogs/dandys_world/Connie.glb"
+scale = 3.5
+hand_color = Color(0.7764706, 0.9843137, 1, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_qshw6")]([ExtResource("2_xp8ps"), ExtResource("3_2tj1o"), ExtResource("4_53dwi"), ExtResource("5_gs4uj"), ExtResource("6_tugsq"), ExtResource("7_xp8ps")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_female_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["Boo!", "I will haunt you after this.", "You wouldn't see me."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

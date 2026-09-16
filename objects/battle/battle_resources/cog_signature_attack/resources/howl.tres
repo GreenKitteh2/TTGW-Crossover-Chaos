@@ -1,0 +1,9 @@
+[gd_resource type="Resource" format=3 uid="uid://niav3ffljpoa"]
+
+[ext_resource type="Script" uid="uid://3y5bcvwbf7w" path="res://objects/battle/battle_resources/cog_signature_attack/howl.gd" id="1_xp17p"]
+
+[resource]
+script = ExtResource("1_xp17p")
+attack_lines = Array[String]([])
+target_type = 3
+action_name = ""

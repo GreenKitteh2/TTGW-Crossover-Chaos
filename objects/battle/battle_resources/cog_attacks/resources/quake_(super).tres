@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://u8ja4vfq2adm"]
+
+[ext_resource type="Script" uid="uid://chapsu358g1bt" path="res://objects/battle/battle_resources/cog_attacks/quake.gd" id="1_y5w5d"]
+
+[resource]
+script = ExtResource("1_y5w5d")
+damage = 5
+summary = "The seismic activity makes it hard to dodge!"
+attack_lines = Array[String](["Let's quake, rattle, and roll.", "I've got a whole lot of quakin' goin' on!", "I see you quakin' in your shoes.", "Here it comes, it's the big one!", "This one's off the Richter scale.", "Now the earth will quake!", "Hey, what's shakin'? You!", "Ever been in an earthquake?", "You're on shaky ground now!"])
+action_name = "Quake"

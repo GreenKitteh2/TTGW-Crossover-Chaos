@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dbucbo8ogu760"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_xbera"]
+[ext_resource type="Resource" uid="uid://borwsix3jrbou" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/liquidate_(deep_diver).tres" id="2_5k0tm"]
+[ext_resource type="Resource" uid="uid://b3hwwh18205le" path="res://objects/battle/battle_resources/cog_signature_attack/resources/sink_or_swim.tres" id="3_5k0tm"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_tu6nj"]
+
+[resource]
+script = ExtResource("5_tu6nj")
+department = 4
+suit = 2
+custom_blazer_tex = "res://models/cogs/textures/managers/deep_diver_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/managers/deep_diver_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/managers/deep_diver_leg.png"
+cog_name = "Deep Diver"
+name_prefix = "Deep "
+name_suffix = " Diver"
+head = "res://models/cogs/heads/deep-diver_head.glb"
+scale = 7.0
+hand_color = Color(0.57254905, 0.57254905, 0.57254905, 1)
+attacks = Array[ExtResource("1_xbera")]([ExtResource("2_5k0tm"), ExtResource("3_5k0tm")])
+level_low = 7
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_female_cog = true
+is_manager = true
+health_mod = 2.0
+battle_phrases = Array[String](["I'm not so shore you know what you're getting into.", "Let's dive right into this, shall we?", "You're getting into deep waters, Toon.", "This battle will throw you off the deep end."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

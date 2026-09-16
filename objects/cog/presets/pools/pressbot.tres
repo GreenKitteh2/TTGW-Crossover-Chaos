@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CogPool" format=3 uid="uid://4pb1so8avbpl"]
+
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="1_y45xm"]
+[ext_resource type="Resource" uid="uid://d1nmu06kor8uv" path="res://objects/cog/presets/pressbot/paper_boy.tres" id="2_y3ek7"]
+[ext_resource type="Resource" uid="uid://dqnk6mfy88csy" path="res://objects/cog/presets/pressbot/shutter_bug.tres" id="3_ud4n7"]
+[ext_resource type="Resource" uid="uid://b3hfc45osc77e" path="res://objects/cog/presets/pressbot/gumshoe.tres" id="4_noiq4"]
+[ext_resource type="Resource" uid="uid://bfge46yr7m1ee" path="res://objects/cog/presets/pressbot/hackette.tres" id="5_pib7c"]
+[ext_resource type="Resource" uid="uid://dwhmdyke5ssxg" path="res://objects/cog/presets/pressbot/shadow_journalist.tres" id="6_g223h"]
+[ext_resource type="Resource" uid="uid://bgq7ijotwm8me" path="res://objects/cog/presets/pressbot/gazetteer.tres" id="7_dciup"]
+[ext_resource type="Resource" uid="uid://bmhcyv7mn2rsk" path="res://objects/cog/presets/pressbot/news_hound.tres" id="8_y45xm"]
+[ext_resource type="Resource" uid="uid://d3wrfcbiq1f1o" path="res://objects/cog/presets/pressbot/anchor_man.tres" id="9_qptq5"]
+[ext_resource type="Script" uid="uid://buc4y0vtgydo" path="res://objects/cog/cog_pool.gd" id="16_etc1j"]
+
+[resource]
+script = ExtResource("16_etc1j")
+cogs = Array[ExtResource("1_y45xm")]([ExtResource("2_y3ek7"), ExtResource("3_ud4n7"), ExtResource("4_noiq4"), ExtResource("5_pib7c"), ExtResource("6_g223h"), ExtResource("7_dciup"), ExtResource("8_y45xm"), ExtResource("9_qptq5")])

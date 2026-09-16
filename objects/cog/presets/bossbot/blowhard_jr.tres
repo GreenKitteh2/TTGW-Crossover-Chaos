@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://mg1i6f6x28lt"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_87fp0"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="2_h6f24"]
+[ext_resource type="Resource" uid="uid://305avsq3iu30" path="res://objects/battle/battle_resources/cog_attacks/resources/power_tie.tres" id="3_43c2e"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="4_q7343"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="4_th1ds"]
+
+[resource]
+script = ExtResource("4_th1ds")
+department = 3
+cog_name = "Blowhard Jr."
+name_plural = "Blowhard Jrs."
+name_prefix = "Blowhard "
+name_suffix = "  Jr."
+head = "res://models/cogs/heads/blowhard_jr.glb"
+scale = 5.75
+head_textures = PackedStringArray("res://models/cogs/heads/blowhard_jr_blowhard.png")
+hand_color = Color(0.8980392, 0.8117647, 0.79607844, 1)
+attacks = Array[ExtResource("1_87fp0")]([ExtResource("2_h6f24"), ExtResource("3_43c2e"), ExtResource("4_q7343")])
+level_low = 5
+battle_phrases = Array[String](["I make things quite dull.", "I'm very easy to push.", "The boss says I am a breath of fresh air.", "Watch out, I huffed and I puffed, and that rat flew away.", "Even Mr. Hollywood says I would be the perfect role for the winning Cog.", "Jack should watch what he says. I'm the real whizz at this game.", "Careful, I go beyond the sky's limits.", "This is such a hard job for everyone else, but not for me.", "Your whistle is nothing compared to my blast of wind!", "Beware, I'm a real tempest.", "You're in for a bit of a blow.", "You're going to be a real breeze."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

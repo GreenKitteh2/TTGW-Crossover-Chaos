@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=8 format=3 uid="uid://yq4j7jr04nik"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_4b8b0"]
+[ext_resource type="Resource" uid="uid://berwbvcnp521g" path="res://objects/battle/battle_resources/cog_attacks/resources/pink_slip.tres" id="2_gv655"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="4_xr35u"]
+[ext_resource type="Resource" uid="uid://dimhdaxn1tyey" path="res://objects/battle/battle_resources/cog_attacks/resources/tee_off.tres" id="4_xx5vq"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="5_6oyfg"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="6_xr35u"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_u82u3"]
+
+[resource]
+script = ExtResource("7_u82u3")
+department = 4
+cog_name = "Head Honcho"
+name_plural = "Head Honchos"
+name_prefix = "Head"
+name_suffix = " Honcho"
+head = "res://models/cogs/heads/headhoncho.glb"
+scale = 7.0
+head_textures = PackedStringArray("res://models/cogs/heads/headhoncho_ttcc_ene_headhoncho.png")
+hand_color = Color(0.521569, 0.454902, 0.423529, 1)
+attacks = Array[ExtResource("1_4b8b0")]([ExtResource("2_gv655"), ExtResource("4_xr35u"), ExtResource("4_xx5vq"), ExtResource("5_6oyfg"), ExtResource("6_xr35u")])
+level_low = 8
+level_high = 15
+battle_phrases = Array[String](["Let's make this quick. I am late for the board meeting.", "Headed my way?", "I'm way a-head of you, Toon.", "I'm married to my job.", "Take a seat, let's discuss some business.", "You've just reached the top of the totem pole.", "Call it a honcho, but I'm sure I will defeat you.", "Let's not get a-head of ourselves, aye Toon?", "I'm large and in charge.", "Defeating you will be my crowning achievement.", "You shouldn't be poking your head around, Toon."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

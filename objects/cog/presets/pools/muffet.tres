@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CogPool" format=3 uid="uid://druy1xihxu3rf"]
+
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="1_rq561"]
+[ext_resource type="Resource" uid="uid://ccfm8yy2lyyyb" path="res://objects/cog/presets/crossover_cogs/ut_and_dr/normal/muffet_(joke).tres" id="2_vifgo"]
+[ext_resource type="Script" uid="uid://buc4y0vtgydo" path="res://objects/cog/cog_pool.gd" id="18_cqxgv"]
+
+[resource]
+script = ExtResource("18_cqxgv")
+cogs = Array[ExtResource("1_rq561")]([ExtResource("2_vifgo")])

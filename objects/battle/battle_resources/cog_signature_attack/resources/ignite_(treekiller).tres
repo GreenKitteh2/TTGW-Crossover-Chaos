@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://btqptamak4bvy"]
+
+[ext_resource type="Script" uid="uid://bulmva33hirjm" path="res://objects/battle/battle_resources/cog_signature_attack/ignite.gd" id="1_y1rao"]
+
+[resource]
+script = ExtResource("1_y1rao")
+damage = 4
+summary = "Burns the Toon!"
+attack_lines = Array[String](["Clearly, yah don't own an air fryer.", "Do yah feel a tad toasty?", "Hope yah wore sunscreen.", "Yah wouldn't happen ta be cold-blooded?", "Aye think Ah have a bit of flare about meh.", "Oh look, a crispy little critter.", "Yeh going down in flames.", "It's gonna get rather warm around here.", "Can yah say ouch?", "Yah boutta go out in a blaze.Yah boutta go out in a blaze.", "This oughtta take the chill out of the air.", "Yah bettah 'ave brought some marshmallows!."])
+action_name = "Ignite"

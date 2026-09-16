@@ -1,0 +1,41 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://ra6jpsuw7dxt"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_iopxt"]
+[ext_resource type="Resource" uid="uid://b3mqc80kln1or" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket_(super).tres" id="2_jvkgd"]
+[ext_resource type="Resource" uid="uid://dunqnjlafu5n0" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag_(super).tres" id="3_3emfj"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="4_2n3a3"]
+[ext_resource type="Resource" uid="uid://bt1h3skm0otjo" path="res://objects/battle/battle_resources/cog_attacks/resources/tremor_(super).tres" id="5_ml7r2"]
+[ext_resource type="Resource" uid="uid://b5helauv7f4y5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/pinpoint.tres" id="6_i1hxo"]
+[ext_resource type="Resource" uid="uid://b35m7xym3lkwl" path="res://objects/battle/battle_resources/cog_signature_attack/resources/snipe.tres" id="7_fnwx5"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_rr0rf"]
+[ext_resource type="Resource" uid="uid://c82q6b10di5a1" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time.tres" id="8_jvkgd"]
+
+[resource]
+script = ExtResource("7_rr0rf")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_scraps_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_scraps_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_scraps_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Twisted Scraps"
+name_prefix = "Twisted "
+name_suffix = " Scraps"
+head = "res://models/crossover_cogs/dandys_world/Twisted Scraps.glb"
+scale = 3.5
+hand_color = Color(0.7764706, 0.4627451, 0.49411765, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_iopxt")]([ExtResource("2_jvkgd"), ExtResource("3_3emfj"), ExtResource("4_2n3a3"), ExtResource("5_ml7r2"), ExtResource("6_i1hxo"), ExtResource("7_fnwx5"), ExtResource("8_jvkgd")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_female_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["I can reach out to you.", "These claws can do more than climbing.", "I have a crafty sense."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

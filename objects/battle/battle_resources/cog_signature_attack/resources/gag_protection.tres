@@ -1,0 +1,13 @@
+[gd_resource type="Resource" format=3 uid="uid://cfeq7j1q6bl50"]
+
+[ext_resource type="Script" uid="uid://dmmosa71432p2" path="res://objects/battle/battle_resources/cog_signature_attack/gag_protection.gd" id="1_f0ekv"]
+
+[resource]
+script = ExtResource("1_f0ekv")
+accuracy = 100
+damage = 2
+summary = "Become immune to a random Gag"
+attack_lines = Array[String](["I've seen your tricks before.", "I wanna see you try to throw one at me.", "Time to rethink your strategy."])
+target_type = 1
+action_name = "Gag Protection"
+crit_chance_mod = 0.0

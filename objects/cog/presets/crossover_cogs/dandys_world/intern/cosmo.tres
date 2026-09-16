@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://c61r48ggvilrt"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_cwt0y"]
+[ext_resource type="Resource" uid="uid://erbbarg5bxm8" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex.tres" id="2_cwt0y"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="3_lpj2f"]
+[ext_resource type="Resource" uid="uid://6hjcsu17tt4g" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm.tres" id="4_c3554"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_xo3ae"]
+
+[resource]
+script = ExtResource("6_xo3ae")
+suit = 1
+cog_name = "Cosmo"
+head = "res://models/crossover_cogs/dandys_world/Cosmo.glb"
+scale = 3
+hand_color = Color(0.6, 0.33333334, 0.2901961, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_cwt0y")]([ExtResource("2_cwt0y"), ExtResource("3_lpj2f"), ExtResource("4_c3554")])
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["I'm a good cook but not a good fighter.", "You throw pies?!", "This might be sour for you."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

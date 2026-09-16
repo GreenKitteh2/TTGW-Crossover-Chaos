@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://kln4yh5h03c2"]
+
+[ext_resource type="Script" uid="uid://drsamcl7hnijm" path="res://objects/battle/battle_resources/misc_movies/auditor_boss/bull_market.gd" id="1_1xmn3"]
+
+[resource]
+script = ExtResource("1_1xmn3")
+accuracy = 75
+damage = 1
+ignore_stats = false
+summary = "The Market is hot!"
+attack_lines = Array[String](["Let’s heat up this market.", "The market is never stable around me.", "You mess with the BULL, you get the horns.", "I’m starting to see red.", "Time to flip this market on its head."])
+target_type = 0
+action_name = "Bull Market"
+one_time_use = false

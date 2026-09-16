@@ -1,0 +1,12 @@
+[gd_resource type="Resource" format=3 uid="uid://d3bfxng6kkj74"]
+
+[ext_resource type="Script" uid="uid://d0n721hsxp02y" path="res://objects/battle/battle_resources/cog_signature_attack/venomous_bite.gd" id="1_w54hu"]
+
+[resource]
+script = ExtResource("1_w54hu")
+accuracy = 100
+damage = 5
+summary = "Inflicts poison!"
+attack_lines = Array[String](["Have nobody told you to be careful around spiders Toon?", "Watch out, I tend to be poisonous.", "Does work have a sour taste?", "Feeling a little green?"])
+action_name = "Vemomous Bite"
+crit_chance_mod = 0.0

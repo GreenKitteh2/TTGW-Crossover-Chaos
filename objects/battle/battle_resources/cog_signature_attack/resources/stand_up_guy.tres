@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://dfkiplm26yl6a"]
+
+[ext_resource type="Script" uid="uid://coexdqkifyaca" path="res://objects/battle/battle_resources/cog_signature_attack/stand_up_guy.gd" id="1_it3gv"]
+
+[resource]
+script = ExtResource("1_it3gv")
+summary = "Charon absorbing damage dealt to all cogs
+this round!"
+attack_lines = Array[String]([])
+target_type = 3
+action_name = "Stand up Guy!"

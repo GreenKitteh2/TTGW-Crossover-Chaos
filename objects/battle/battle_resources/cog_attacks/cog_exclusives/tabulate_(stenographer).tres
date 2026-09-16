@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://djgnjmgjtb63q"]
+
+[ext_resource type="Script" uid="uid://c5ugl38byhait" path="res://objects/battle/battle_resources/cog_attacks/tabulate_(super).gd" id="1_mofis"]
+
+[resource]
+script = ExtResource("1_mofis")
+damage = 3
+summary = "Gain strength based on damage taken!"
+attack_lines = Array[String](["Litigation is expensive, can you pay the price?
+", "Time is money, and yours is about to run out.", "Consider this a litigation expense.", "I don't work pro bono, Toon."])
+action_name = "Tabulate"

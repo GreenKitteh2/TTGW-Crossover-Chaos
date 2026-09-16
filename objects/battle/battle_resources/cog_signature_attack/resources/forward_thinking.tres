@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://1uf0e67se3dd"]
+
+[ext_resource type="Script" uid="uid://b2xqb1c4yk6or" path="res://objects/battle/battle_resources/cog_signature_attack/forward_thinking.gd" id="1_5q6mw"]
+
+[resource]
+script = ExtResource("1_5q6mw")
+summary = "Attacks first with stronger damage 
+in the next round"
+attack_lines = Array[String](["I thought about this long before you showed your face!", "Oh, don't worry. I've thought ahead."])
+action_name = "Forward Thinking"

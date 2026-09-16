@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dp7esnm7hj87v"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_4aqsc"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="3_kv2fn"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="4_4biwl"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="4_mn4l5"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="5_4biwl"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_gch40"]
+
+[resource]
+script = ExtResource("6_gch40")
+department = 2
+suit = 1
+cog_name = "Carmilla Carmaine"
+name_prefix = "Carmilla "
+name_suffix = " Carmaine"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/carmilla carmaine.glb"
+scale = 5.7
+hand_color = Color(0.89411765, 0.85882354, 0.8352941, 1)
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_4aqsc")]([ExtResource("4_4biwl"), ExtResource("3_kv2fn"), ExtResource("4_mn4l5"), ExtResource("5_4biwl")])
+level_low = 7
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["I heard about toon extermination, you should be made an example.", "I'll might just imagine you as a Exorcist.", "Your fighting style is strange."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

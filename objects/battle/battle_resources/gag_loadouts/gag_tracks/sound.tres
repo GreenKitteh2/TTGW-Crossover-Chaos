@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Track" format=3 uid="uid://cvaos6ucteefy"]
+
+[ext_resource type="Script" uid="uid://cwnjrxjvy5kc3" path="res://objects/battle/battle_resources/toon_attacks/toon_attack.gd" id="1_63h6s"]
+[ext_resource type="Resource" uid="uid://4vss2qycp4rk" path="res://objects/battle/battle_resources/gag_loadouts/gags/sound/bike_horn.tres" id="2_bc7m3"]
+[ext_resource type="Resource" uid="uid://ckr8uplo6wg5h" path="res://objects/battle/battle_resources/gag_loadouts/gags/sound/whistle.tres" id="3_jbygq"]
+[ext_resource type="Resource" uid="uid://bawjqrc07c6o2" path="res://objects/battle/battle_resources/gag_loadouts/gags/sound/bugle.tres" id="4_ojnyc"]
+[ext_resource type="Resource" uid="uid://fcegry5yokp5" path="res://objects/battle/battle_resources/gag_loadouts/gags/sound/aoogah.tres" id="5_6hpd8"]
+[ext_resource type="Resource" uid="uid://l777pylc7632" path="res://objects/battle/battle_resources/gag_loadouts/gags/sound/elephant_trunk.tres" id="6_11ba6"]
+[ext_resource type="Resource" uid="uid://h6hi3blhr7gf" path="res://objects/battle/battle_resources/gag_loadouts/gags/sound/foghorn.tres" id="7_aq72y"]
+[ext_resource type="Resource" uid="uid://ciw7jmgu6iq05" path="res://objects/battle/battle_resources/gag_loadouts/gags/sound/opera_singer.tres" id="8_5wh40"]
+[ext_resource type="Script" uid="uid://b6b6pfoqyolr" path="res://objects/battle/battle_resources/gag_loadouts/track.gd" id="27_mb0m2"]
+
+[resource]
+script = ExtResource("27_mb0m2")
+track_name = "Sound"
+track_color = Color(0.309804, 0.388235, 0.835294, 1)
+gags = Array[ExtResource("1_63h6s")]([ExtResource("2_bc7m3"), ExtResource("3_jbygq"), ExtResource("4_ojnyc"), ExtResource("5_6hpd8"), ExtResource("6_11ba6"), ExtResource("7_aq72y"), ExtResource("8_5wh40")])
+mod_gags = Dictionary[ExtResource("1_63h6s"), int]({
+ExtResource("2_bc7m3"): 0,
+ExtResource("3_jbygq"): 1,
+ExtResource("4_ojnyc"): 2,
+ExtResource("5_6hpd8"): 3,
+ExtResource("6_11ba6"): 4,
+ExtResource("7_aq72y"): 5,
+ExtResource("8_5wh40"): 6
+})

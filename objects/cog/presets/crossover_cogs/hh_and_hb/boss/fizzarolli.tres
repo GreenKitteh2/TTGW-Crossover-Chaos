@@ -1,0 +1,37 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://b1fpx34mel8ug"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_27t2v"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_27t2v"]
+[ext_resource type="Resource" uid="uid://u8ja4vfq2adm" path="res://objects/battle/battle_resources/cog_attacks/resources/quake_(super).tres" id="3_kknsj"]
+[ext_resource type="Resource" uid="uid://d164evvd4rxxi" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm_(super).tres" id="4_qphgg"]
+[ext_resource type="Resource" uid="uid://b3mqc80kln1or" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket_(super).tres" id="5_p01ko"]
+[ext_resource type="Resource" uid="uid://cfeq7j1q6bl50" path="res://objects/battle/battle_resources/cog_signature_attack/resources/gag_protection.tres" id="6_2q6ud"]
+[ext_resource type="Resource" uid="uid://duq7fidd28rw5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack.tres" id="7_ikdi7"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_x7meg"]
+[ext_resource type="Resource" uid="uid://dbyeiu73x1b8o" path="res://objects/battle/battle_resources/cog_signature_attack/resources/red_tape.tres" id="8_kknsj"]
+
+[resource]
+script = ExtResource("7_x7meg")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/hh_and_hb/fizzarolli_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/hh_and_hb/fizzarolli_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/hh_and_hb/fizzarolli_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/helluva_boss.png"
+cog_name = "Fizzarolli"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/fizzaroli.glb"
+scale = 6.7
+hand_color = Color(0.972549, 0.96862745, 0.9411765, 1)
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_27t2v")]([ExtResource("2_27t2v"), ExtResource("3_kknsj"), ExtResource("4_qphgg"), ExtResource("5_p01ko"), ExtResource("6_2q6ud"), ExtResource("7_ikdi7"), ExtResource("8_kknsj")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["I'm just hanging around with these robots, you can bold line on the term \"Robo-Fizz\".", "I would stretch out to you but you're more of a nuisance!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

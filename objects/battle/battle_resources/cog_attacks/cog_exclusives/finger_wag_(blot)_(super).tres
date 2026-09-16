@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://ct6rnwalc4j5g"]
+
+[ext_resource type="Script" uid="uid://bls75y8mja8lr" path="res://objects/battle/battle_resources/cog_attacks/finger_wag_(super).gd" id="1_6vdpx"]
+
+[resource]
+script = ExtResource("1_6vdpx")
+damage = 2
+summary = "The Cog will attack an 
+additional time if not respected!"
+attack_lines = Array[String]([" .semit dnasuoht a uoy dlot evah I", " .nooT ereh ees woN", " .hgual em ekam t'noD", " .ereht revo emoc em ekam t'noD", " .flesym gnitaeper fo derit m'I", " .siht revo neeb ev'ew eveileb I", " .sgoC su rof tcepser on evah uoY", " .noitnetta yap uoy emit s'ti kniht I", " .halB ,halB ,halB ,halB ,halB", " .gniteem siht pots em ekam t'noD", " ?uoy etarapes ot evah ot gniog I mA", " .erofeb siht hguorht neeb ev'eW"])
+action_name = "gaW regniF"

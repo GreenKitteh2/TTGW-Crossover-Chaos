@@ -1,0 +1,17 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://bb0cqempy6wnr"]
+
+[ext_resource type="Script" uid="uid://c23echbnnutff" path="res://objects/battle/battle_resources/status_effects/boss_effects/boss_logic_mint_auditor.gd" id="1_o388w"]
+
+[resource]
+script = ExtResource("1_o388w")
+quality = 2
+rounds = -1
+rounds_offset = 0
+icon_color = Color(1, 1, 1, 1)
+icon_scale = 1.0
+mini_icon_color = Color(1, 1, 1, 1)
+mini_icon_scale = 1.0
+visible = false
+description = "Mint Auditor logic"
+status_name = "Mint Auditor logic"
+id = 51

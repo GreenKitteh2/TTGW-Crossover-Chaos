@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://xdqoynf1y4h"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_3ktm7"]
+[ext_resource type="Resource" uid="uid://b3mqc80kln1or" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket_(super).tres" id="2_7w3x3"]
+[ext_resource type="Resource" uid="uid://dr6b24x45vlbs" path="res://objects/battle/battle_resources/cog_signature_attack/resources/tribute.tres" id="4_7w3x3"]
+[ext_resource type="Resource" uid="uid://30grlrrpycv0" path="res://objects/battle/battle_resources/cog_signature_attack/resources/slush_fund.tres" id="4_px1wo"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_slohr"]
+
+[resource]
+script = ExtResource("6_slohr")
+department = 1
+custom_blazer_tex = "res://models/cogs/textures/cash/blazer_exe.png"
+custom_arm_tex = "res://models/cogs/textures/cash/sleeve_exe.png"
+custom_leg_tex = "res://models/cogs/textures/cash/leg_exe.png"
+cog_name = "Kerberos"
+head = "res://models/cogs/heads/skelecog_a.glb"
+scale = 6.9
+hand_color = Color(0.6509804, 0.7490196, 0.6509804, 1)
+head_color = Color(0.6509804, 0.7490196, 0.6509804, 1)
+attacks = Array[ExtResource("1_3ktm7")]([ExtResource("2_7w3x3"), ExtResource("4_px1wo"), ExtResource("4_7w3x3")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_manager = true
+health_mod = 2.0
+battle_phrases = Array[String](["We'll launch ya out of town.", "Stick around and we'll put ya on ice, Toon."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

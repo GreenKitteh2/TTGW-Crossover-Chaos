@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://b2saj7370sl6o"]
+
+[ext_resource type="Script" uid="uid://c7wcyyptyjs52" path="res://objects/battle/battle_resources/cog_signature_attack/ink_drain_(laa).gd" id="1_mtcsa"]
+
+[resource]
+script = ExtResource("1_mtcsa")
+damage = 0
+summary = "All gags 25% less effective for two rounds!"
+attack_lines = Array[String](["Ya look a liddle drained, Toon.", "Ya don't have an inkling of a chance!", "Ya plans are goin' down the drain!", "Ya hopes are diluted, Toon."])
+action_name = "Ink Drain"

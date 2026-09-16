@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dsdeqckhnlqtw"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_hrh8n"]
+[ext_resource type="Resource" uid="uid://cgxddicg2bmp8" path="res://objects/battle/battle_resources/cog_signature_attack/resources/spin_(duck_shuffler).tres" id="2_aquvf"]
+[ext_resource type="Resource" uid="uid://d87pvusiqp6o" path="res://objects/battle/battle_resources/cog_signature_attack/resources/wager_management.tres" id="3_5ryku"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_it78n"]
+
+[resource]
+script = ExtResource("7_it78n")
+department = 1
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/managers/duck_shuffler_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/managers/duck_shuffler_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/managers/duck_shuffler_leg.png"
+cog_name = "Duck Shuffler"
+name_prefix = "Duck "
+name_suffix = " Shuffler"
+head = "res://models/cogs/heads/duck-shuffler_head.glb"
+scale = 4.75
+hand_color = Color(0.64705884, 0.09019608, 0.043137256, 1)
+attacks = Array[ExtResource("1_hrh8n")]([ExtResource("2_aquvf"), ExtResource("3_5ryku")])
+level_low = 5
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_manager = true
+health_mod = 2.0
+battle_phrases = Array[String](["Deal me IN!", "Watch it, the cardth are THTACKED againtht ya!", "Taking a chanthe are we??", "All betth are OFF!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

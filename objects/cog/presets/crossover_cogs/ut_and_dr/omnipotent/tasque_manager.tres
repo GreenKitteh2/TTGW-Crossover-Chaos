@@ -1,0 +1,37 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dggpei2icod72"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_u2ldn"]
+[ext_resource type="Resource" uid="uid://55lp6noha8te" path="res://objects/battle/battle_resources/cog_attacks/resources/shake.tres" id="2_u2ldn"]
+[ext_resource type="Resource" uid="uid://erbbarg5bxm8" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex.tres" id="3_r2cp2"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="4_sowwt"]
+[ext_resource type="Resource" uid="uid://bxlgjda1mpx2a" path="res://objects/battle/battle_resources/cog_signature_attack/resources/protect.tres" id="5_ykw5w"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_mx73c"]
+[ext_resource type="Resource" uid="uid://dh3pqqflmofma" path="res://objects/battle/battle_resources/cog_signature_attack/resources/call_back_up.tres" id="6_ralke"]
+
+[resource]
+script = ExtResource("6_mx73c")
+department = 5
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/slender/blazer.png"
+custom_arm_tex = "res://models/cogs/textures/slender/sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/slender/leg.png"
+cog_name = "Tasque Manager"
+name_plural = "Tasque Managers"
+name_prefix = "Tasque "
+name_suffix = " Manager"
+head = "res://models/crossover_cogs/undertale_and_deltarune/tasque manager.glb"
+scale = 6.15
+hand_color = Color(0.972549, 0.9764706, 0.9607843, 1)
+custom_nametag_suffix = "Omnipotent"
+attacks = Array[ExtResource("1_u2ldn")]([ExtResource("2_u2ldn"), ExtResource("3_r2cp2"), ExtResource("4_sowwt"), ExtResource("5_ykw5w"), ExtResource("6_ralke")])
+level_low = 9
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_omnipotent_tier.tres")
+is_crossover_cog = true
+is_female_cog = true
+health_mod = 3.0
+battle_phrases = Array[String](["I want order in this faclitiy.", "I'll deal with this situation like ABC."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://d2lveeht17a8q"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_38vs6"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="2_38vs6"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="3_o6swi"]
+[ext_resource type="Resource" uid="uid://305avsq3iu30" path="res://objects/battle/battle_resources/cog_attacks/resources/power_tie.tres" id="4_rua2u"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_7p1lj"]
+
+[resource]
+script = ExtResource("6_7p1lj")
+department = 3
+suit = 1
+cog_name = "Eclipse"
+head = "res://models/crossover_cogs/dandys_world/Eclipse.glb"
+scale = 3
+hand_color = Color(0.26666668, 0.3647059, 0.47058824, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_38vs6")]([ExtResource("2_38vs6"), ExtResource("3_o6swi"), ExtResource("4_rua2u")])
+level_low = 3
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["You're about to be hunted!", "So that's where the stinky scent came from.", "You wouldn't face my pack."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

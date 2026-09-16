@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://b8dbiv0c5taig"]
+
+[ext_resource type="Script" uid="uid://crgaccnpwnqky" path="res://objects/battle/battle_resources/cog_attacks/power_trip_(super).gd" id="1_a46gj"]
+
+[resource]
+script = ExtResource("1_a46gj")
+damage = 6
+summary = "The Cog feels the power!"
+attack_lines = Array[String](["You think you're SO powerful just because you have GAGS!", "You have the power to stop this madness!", "I want you to know that I don't like doing this!", "I could crush you between my hands! Okay, maybe not...", "I'm so powerful... Really, I am!"])
+action_name = "Power Trip"
+metadata/_custom_type_script = "uid://bb27him60xtnk"

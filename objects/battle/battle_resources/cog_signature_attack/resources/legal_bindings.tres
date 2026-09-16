@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3 uid="uid://bfej0ojs1pnrh"]
+
+[ext_resource type="PackedScene" uid="uid://u0b2uevrxq0v" path="res://models/props/cog_props/lbfo_red_tape/red_tape.fbx" id="1_fcgex"]
+[ext_resource type="Script" uid="uid://dllb7ks5p8rua" path="res://objects/battle/battle_resources/cog_signature_attack/legal_bindings.gd" id="2_fcgex"]
+
+[resource]
+script = ExtResource("2_fcgex")
+prop = ExtResource("1_fcgex")
+custom_method = "red_tape"
+damage = 0
+summary = "Take damage overtime!"
+attack_lines = Array[String](["Hmph...", "Hrnhmpf...", "Hrm...", "Hm, hm..."])
+action_name = "Legal Bindings"
+metadata/_custom_type_script = "uid://itkxki65d0v7"

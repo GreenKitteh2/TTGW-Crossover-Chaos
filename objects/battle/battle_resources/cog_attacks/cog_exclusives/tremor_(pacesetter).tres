@@ -1,0 +1,12 @@
+[gd_resource type="Resource" format=3 uid="uid://bkagmphlt8qd7"]
+
+[ext_resource type="Script" uid="uid://o4xrnglrikkf" path="res://objects/battle/battle_resources/cog_attacks/tremor_(super).gd" id="1_nrl6t"]
+
+[resource]
+script = ExtResource("1_nrl6t")
+anim_type = 1
+damage = 4
+summary = "The seismic activity makes 
+the Toon's defense break!"
+attack_lines = Array[String](["You'll need to keep steady if you want to keep up!", "Time to tear up the dance floor!", "It's not a real show unless the walls shake!", "You've gotta know how to shake to get into the Pace Place!"])
+action_name = "Tremor"

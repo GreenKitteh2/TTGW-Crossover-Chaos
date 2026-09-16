@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://18kqgpgk053b"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_5hulv"]
+[ext_resource type="Resource" uid="uid://dwkmwkdn3ws4k" path="res://objects/battle/battle_resources/cog_attacks/resources/evil_eye.tres" id="2_dv7e4"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="3_5hulv"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="4_hmbhi"]
+
+[resource]
+script = ExtResource("4_hmbhi")
+department = 2
+cog_name = "Barrister"
+name_plural = "Barristers"
+name_prefix = "Bar"
+name_suffix = "rister"
+head = "res://models/cogs/heads/barrister.glb"
+scale = 6.75
+head_textures = PackedStringArray("res://models/cogs/heads/barrister_ttcc_ene_barrister.png")
+hand_color = Color(0.95686275, 0.95686275, 0.98039216, 1)
+custom_nametag_height = 10.0
+attacks = Array[ExtResource("1_5hulv")]([ExtResource("2_dv7e4"), ExtResource("3_5hulv")])
+level_low = 7
+level_high = 14
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/mod_cog_field_specialist.tres")
+health_mod = 0.7
+battle_phrases = Array[String](["You and I are polar opposites, Toon.", "You'll find my methods quite aggressive.", "You wouldn't want to see me around the block.", "Consider me a roadblock in your progress.", "You won't pass this exam.", "A Toon? Looks like I'll have to grin and bar it.", "I'm not just another brick in the wall.", "You're on my block now!", "You're blocking my way.", "You can't block progress, Toon.", "I'm a real chip off the old block.", "You've been barred from going any further.", "Consider yourself blocked."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

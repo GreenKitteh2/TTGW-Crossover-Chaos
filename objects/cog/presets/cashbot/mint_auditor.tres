@@ -1,0 +1,34 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dflrg1cypmcoj"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_w2l68"]
+[ext_resource type="Resource" uid="uid://dc3wprcrjg58t" path="res://objects/battle/battle_resources/cog_attacks/resources/audit.tres" id="2_r3h7u"]
+[ext_resource type="Resource" uid="uid://bik8l6ycrnufq" path="res://objects/battle/battle_resources/cog_attacks/resources/calculate.tres" id="3_utd1m"]
+[ext_resource type="Resource" uid="uid://bruosr4c0bash" path="res://objects/battle/battle_resources/cog_attacks/resources/clip_on_tie.tres" id="4_ql5hd"]
+[ext_resource type="Resource" uid="uid://bxeasogxfcdk2" path="res://objects/battle/battle_resources/cog_attacks/resources/tabulate.tres" id="4_rva8g"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_pjeft"]
+
+[resource]
+script = ExtResource("6_pjeft")
+department = 1
+suit = 2
+custom_blazer_tex = "res://models/cogs/textures/cash/ttr_t_ene_cashbotAuditor_blazer.jpg"
+custom_arm_tex = "res://models/cogs/textures/cash/sleeve_original.png"
+custom_leg_tex = "res://models/cogs/textures/cash/leg_original.png"
+cog_name = "The Mint Auditor"
+name_plural = "The Mint Auditor"
+name_prefix = "Mint"
+name_suffix = "Auditor"
+head = "res://models/cogs/heads/ttr-auditor_head.glb"
+scale = 5.5
+head_textures = PackedStringArray("res://models/cogs/heads/ttr-auditor_head_ttr_t_ene_cashbotAuditor.jpg")
+hand_color = Color(0.65098, 0.94902, 0.85098, 1)
+custom_nametag_suffix = "Supervisor"
+attacks = Array[ExtResource("1_w2l68")]([ExtResource("2_r3h7u"), ExtResource("3_utd1m"), ExtResource("4_rva8g"), ExtResource("4_ql5hd")])
+level_high = 8
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/boss_logic_mint_auditor.tres", "res://objects/battle/battle_resources/status_effects/resources/auditor_bear_market.tres", "res://objects/battle/battle_resources/status_effects/resources/attentive.tres", "res://objects/battle/battle_resources/status_effects/resources/tenure_status.tres")
+health_mod = 2.0
+battle_phrases = Array[String](["You may have gotten this far, but the market is on MY side now."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

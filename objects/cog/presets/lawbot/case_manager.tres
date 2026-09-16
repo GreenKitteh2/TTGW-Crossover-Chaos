@@ -1,0 +1,34 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cqvd2s0h8db8a"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_aogc5"]
+[ext_resource type="Resource" uid="uid://ctyblg2e4he4y" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/eviction_notice_(case_manager).tres" id="2_aogc5"]
+[ext_resource type="Resource" uid="uid://bp3ffixcxnmyw" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/restraining_order_(case_manager).tres" id="3_tki1x"]
+[ext_resource type="Resource" uid="uid://bbn6vo0rc4g14" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/guilt_trip_(case_manager).tres" id="4_tki1x"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_246sv"]
+[ext_resource type="Resource" uid="uid://dya4g7hsqn571" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/rolodex_(case_manager).tres" id="5_v0fcy"]
+[ext_resource type="Resource" uid="uid://bfej0ojs1pnrh" path="res://objects/battle/battle_resources/cog_signature_attack/resources/legal_bindings.tres" id="6_v0fcy"]
+[ext_resource type="Resource" uid="uid://dx3xs1c2awdbq" path="res://objects/battle/battle_resources/cog_signature_attack/resources/insurance_plan.tres" id="7_qoqjy"]
+
+[resource]
+script = ExtResource("5_246sv")
+department = 2
+custom_blazer_tex = "res://models/cogs/textures/law/blazer_exe.png"
+custom_arm_tex = "res://models/cogs/textures/law/sleeve_exe.png"
+custom_leg_tex = "res://models/cogs/textures/law/leg_exe.png"
+cog_name = "Case Manager"
+name_prefix = "Case "
+name_suffix = " Manager"
+head = "res://models/cogs/heads/case-manager_head.glb"
+scale = 6.85
+hand_color = Color(0.31764707, 0.22745098, 0.16470589, 1)
+attacks = Array[ExtResource("1_aogc5")]([ExtResource("2_aogc5"), ExtResource("3_tki1x"), ExtResource("4_tki1x"), ExtResource("5_v0fcy"), ExtResource("6_v0fcy"), ExtResource("7_qoqjy")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_manager = true
+health_mod = 2.0
+battle_phrases = Array[String](["Hmmph.", "Mmph."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

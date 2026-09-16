@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://c2ac151il00c5"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_o5yd1"]
+[ext_resource type="Resource" uid="uid://dwkmwkdn3ws4k" path="res://objects/battle/battle_resources/cog_attacks/resources/evil_eye.tres" id="2_o5yd1"]
+[ext_resource type="Resource" uid="uid://c24yy1wqmg24o" path="res://objects/battle/battle_resources/cog_attacks/resources/razzle_dazzle.tres" id="3_02uhk"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="4_u8jji"]
+[ext_resource type="Resource" uid="uid://dimhdaxn1tyey" path="res://objects/battle/battle_resources/cog_attacks/resources/tee_off.tres" id="5_2b86m"]
+[ext_resource type="Resource" uid="uid://kmogjr4fp015" path="res://objects/battle/battle_resources/cog_signature_attack/resources/stagger.tres" id="6_0oldr"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_auqn7"]
+
+[resource]
+script = ExtResource("7_auqn7")
+department = 2
+custom_blazer_tex = "res://models/cogs/textures/misc/blazer_1.png"
+custom_arm_tex = "res://models/cogs/textures/misc/sleeve_2.png"
+custom_leg_tex = "res://models/cogs/textures/misc/leg_4.png"
+custom_wrist_tex = "res://models/cogs/textures/misc/arm_1.png"
+cog_name = "Vortex"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/vortex.glb"
+scale = 6.85
+hand_color = Color(0.5019608, 0.4745098, 0.5137255, 1)
+custom_nametag_height = 9.8
+attacks = Array[ExtResource("1_o5yd1")]([ExtResource("2_o5yd1"), ExtResource("3_02uhk"), ExtResource("4_u8jji"), ExtResource("5_2b86m"), ExtResource("6_0oldr")])
+level_low = 5
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["I'm a tough hound, give me all you got!", "There is already a bigger dog here, so might as well get."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

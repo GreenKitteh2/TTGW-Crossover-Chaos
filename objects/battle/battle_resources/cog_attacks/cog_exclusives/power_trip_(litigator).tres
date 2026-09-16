@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://bjtp2wrma8il7"]
+
+[ext_resource type="Script" uid="uid://crgaccnpwnqky" path="res://objects/battle/battle_resources/cog_attacks/power_trip_(super).gd" id="1_omsv1"]
+
+[resource]
+script = ExtResource("1_omsv1")
+damage = 6
+summary = "The Cog feels the power!"
+attack_lines = Array[String](["Let me remind you who's in charge here.", "Tripped you up? Well, that's not surprising.", "I'm in control, don't forget that.", "Did I trip you up? Aw, how pathetic."])
+action_name = "Power Trip"
+metadata/_custom_type_script = "uid://bb27him60xtnk"

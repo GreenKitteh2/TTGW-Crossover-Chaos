@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="CogAttackReinforcements" format=3 uid="uid://bi4b4luvkn127"]
+
+[ext_resource type="Script" uid="uid://c6itql0dvd0fk" path="res://objects/battle/battle_resources/cog_attacks/reinforcement_call.gd" id="1_tlhf6"]
+
+[resource]
+script = ExtResource("1_tlhf6")
+cog_amount = 3
+accuracy = 75
+damage = 1
+ignore_stats = false
+summary = ""
+attack_lines = Array[String](["Ah oh, I need some back up"])
+target_type = 0
+action_name = "Produce Backup"
+one_time_use = false

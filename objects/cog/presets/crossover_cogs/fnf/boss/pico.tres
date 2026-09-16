@@ -1,0 +1,37 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://c087sic27jb2q"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_tq4px"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_1xkbg"]
+[ext_resource type="Resource" uid="uid://u8ja4vfq2adm" path="res://objects/battle/battle_resources/cog_attacks/resources/quake_(super).tres" id="2_2picu"]
+[ext_resource type="Resource" uid="uid://dunqnjlafu5n0" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag_(super).tres" id="3_30r4h"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="5_rtv8p"]
+[ext_resource type="Resource" uid="uid://b72hb7uavcclo" path="res://objects/battle/battle_resources/cog_signature_attack/resources/strengthen.tres" id="6_evo0t"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_xvks1"]
+[ext_resource type="Resource" uid="uid://b35m7xym3lkwl" path="res://objects/battle/battle_resources/cog_signature_attack/resources/snipe.tres" id="7_sy3ic"]
+[ext_resource type="Resource" uid="uid://duq7fidd28rw5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack.tres" id="8_2picu"]
+
+[resource]
+script = ExtResource("6_xvks1")
+department = 3
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/fnf/pico_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/fnf/pico_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/fnf/pico_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/friday_night_funkin.png"
+cog_name = "Pico"
+head = "res://models/crossover_cogs/fnf/pico.glb"
+scale = 4.3
+hand_color = Color(0.972549, 0.8039216, 0.67058825, 1)
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_tq4px")]([ExtResource("2_2picu"), ExtResource("3_30r4h"), ExtResource("2_1xkbg"), ExtResource("5_rtv8p"), ExtResource("6_evo0t"), ExtResource("7_sy3ic"), ExtResource("8_2picu")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["I'm a sucker for dangerous situations like you.", "Be careful, I'm dangerous to be around."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cvne7qmigtxku"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_1s0jj"]
+[ext_resource type="Resource" uid="uid://dwkmwkdn3ws4k" path="res://objects/battle/battle_resources/cog_attacks/resources/evil_eye.tres" id="2_n6ymx"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="3_81r3q"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="4_g77lh"]
+
+[resource]
+script = ExtResource("4_g77lh")
+department = 2
+cog_name = "Clash Legal Eagle"
+name_plural = "Clash Legal Eagles"
+name_prefix = "Clash "
+name_suffix = " Legal Eagle"
+head = "res://models/cogs/heads/clash_legaleagle.glb"
+scale = 7.125
+head_textures = PackedStringArray("res://models/cogs/heads/clash_legaleagle_ttcc_ene_legal_eagle.png")
+hand_color = Color(0.6901961, 0.6745098, 0.85490197, 1)
+custom_nametag_height = 10.0
+attacks = Array[ExtResource("1_1s0jj")]([ExtResource("2_n6ymx"), ExtResource("3_81r3q")])
+level_low = 7
+level_high = 14
+battle_phrases = Array[String](["I am going to give you legal nightmares.", "I call this a citizen's arrest.", "I'm bringing down the law on you!", "Careful, my legal isn't very tender.", "You won't win this battle.", "Legally, you're too small to fight me.", "This is so much fun it should be illegal.", "I soar, then I score.", "You should know, I have some killer instincts.", "There is no limit to my talons."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=9 format=3 uid="uid://eh263ys0kla3"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_55ikm"]
+[ext_resource type="Resource" uid="uid://dc3wprcrjg58t" path="res://objects/battle/battle_resources/cog_attacks/resources/audit.tres" id="2_w1fee"]
+[ext_resource type="Resource" uid="uid://bxeasogxfcdk2" path="res://objects/battle/battle_resources/cog_attacks/resources/tabulate.tres" id="3_sqit2"]
+[ext_resource type="Resource" uid="uid://cfwymrymjx7s5" path="res://objects/battle/battle_resources/cog_attacks/resources/write_off.tres" id="4_8gupv"]
+[ext_resource type="Resource" uid="uid://bpupdhbap1rq" path="res://objects/battle/battle_resources/cog_attacks/resources/freeze_assets.tres" id="4_sqit2"]
+[ext_resource type="Resource" uid="uid://bik8l6ycrnufq" path="res://objects/battle/battle_resources/cog_attacks/resources/calculate.tres" id="6_77wci"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_iia64"]
+[ext_resource type="Resource" uid="uid://c27ek2anjbx88" path="res://objects/battle/battle_resources/cog_attacks/resources/pound_key.tres" id="7_s6nt3"]
+
+[resource]
+script = ExtResource("6_iia64")
+department = 5
+cog_name = "Root User"
+name_plural = "Root Users"
+name_prefix = "Root "
+name_suffix = " User"
+head = "res://models/cogs/heads/root-user_head.glb"
+scale = 7.0
+head_textures = PackedStringArray("res://models/cogs/heads/root-user_head_root-user.png", "res://models/cogs/heads/root-user_head_brow.png", "res://models/cogs/heads/root-user_head_root-hat.png", "res://models/cogs/heads/root-user_head_root-leaf.png", "res://models/cogs/heads/root-user_head_root-root.png", "res://models/cogs/heads/root-user_head_Leaf.png")
+hand_color = Color(0.41960785, 0.3019608, 0.2, 1)
+custom_nametag_height = 11.5
+attacks = Array[ExtResource("1_55ikm")]([ExtResource("2_w1fee"), ExtResource("3_sqit2"), ExtResource("4_8gupv"), ExtResource("4_sqit2"), ExtResource("6_77wci"), ExtResource("7_s6nt3")])
+level_low = 8
+level_high = 15
+battle_phrases = Array[String](["Time to plant you in the ground.", "I'm going to take away your privileges!", "You're the root of the problem.", "Prepare to be rooted out!", "I'm the root of your problem.", "Show me your roots!", "I have full control over your account."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

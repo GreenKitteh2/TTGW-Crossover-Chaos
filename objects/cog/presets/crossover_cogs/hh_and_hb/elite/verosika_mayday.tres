@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://ba10kxecxh83v"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_80v55"]
+[ext_resource type="Resource" uid="uid://cae3lr6y4rrb8" path="res://objects/battle/battle_resources/cog_attacks/resources/quake.tres" id="3_80v55"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="4_sraw0"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="5_4rc7g"]
+[ext_resource type="Resource" uid="uid://qk4f4h40o5u1" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip.tres" id="5_uowgv"]
+[ext_resource type="Resource" uid="uid://b3tkvlsedrm2l" path="res://objects/battle/battle_resources/cog_signature_attack/resources/back_talk.tres" id="6_5mawb"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_dwig4"]
+
+[resource]
+script = ExtResource("7_dwig4")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/waiter/waiter_m_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/waiter/waiter_m_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/waiter/waiter_m_leg.png"
+cog_name = "Verosika Mayday"
+name_prefix = "Verosika "
+name_suffix = " Mayday"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/verosika mayday.glb"
+scale = 7.45
+hand_color = Color(0.972549, 0.23529412, 0.5137255, 1)
+custom_nametag_suffix = "Elite"
+attacks = Array[ExtResource("1_80v55")]([ExtResource("5_4rc7g"), ExtResource("3_80v55"), ExtResource("4_sraw0"), ExtResource("5_uowgv"), ExtResource("6_5mawb")])
+level_low = 7
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_elite_tier.tres")
+is_crossover_cog = true
+is_female_cog = true
+health_mod = 2.0
+battle_phrases = Array[String](["So you're supposed to be a Toon? What a sad wash up.", "I won't be surprised if Blitzo couldn't deal with you."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

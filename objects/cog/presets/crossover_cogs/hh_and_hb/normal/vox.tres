@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://fpdrwv7buvta"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_ks1jm"]
+[ext_resource type="Resource" uid="uid://6hjcsu17tt4g" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm.tres" id="2_ks1jm"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="3_2p7yp"]
+[ext_resource type="Resource" uid="uid://berwbvcnp521g" path="res://objects/battle/battle_resources/cog_attacks/resources/pink_slip.tres" id="4_s73yo"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="5_3pxdf"]
+[ext_resource type="Resource" uid="uid://dbyeiu73x1b8o" path="res://objects/battle/battle_resources/cog_signature_attack/resources/red_tape.tres" id="6_by3x2"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_osy6o"]
+
+[resource]
+script = ExtResource("7_osy6o")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/misc/blazer_1.png"
+custom_arm_tex = "res://models/cogs/textures/misc/sleeve_2.png"
+custom_leg_tex = "res://models/cogs/textures/misc/leg_4.png"
+custom_wrist_tex = "res://models/cogs/textures/misc/arm_1.png"
+cog_name = "Vox"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/Vox.glb"
+scale = 6.5
+hand_color = Color(0.26666668, 0.1882353, 0.21176471, 1)
+attacks = Array[ExtResource("1_ks1jm")]([ExtResource("2_ks1jm"), ExtResource("3_2p7yp"), ExtResource("4_s73yo"), ExtResource("5_3pxdf"), ExtResource("6_by3x2")])
+level_low = 8
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["Like to see our speical television?", "If I had a choice of sparing the Smiling freak and you? I'd choose the Smiling freak.", "The cogs struck a deal with VoxTek, hence the security."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dmiywe4u4ek10"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_yqgtl"]
+[ext_resource type="Resource" uid="uid://qk4f4h40o5u1" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip.tres" id="2_mtlii"]
+[ext_resource type="Resource" uid="uid://l385j58744f6" path="res://objects/battle/battle_resources/cog_attacks/resources/restraining_order.tres" id="3_8rpd3"]
+[ext_resource type="Resource" uid="uid://b4kaq7rjifwfc" path="res://objects/battle/battle_resources/cog_attacks/resources/liquidate.tres" id="4_e7p4y"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="4_k2xb3"]
+
+[resource]
+script = ExtResource("4_k2xb3")
+department = 2
+suit = 1
+cog_name = "Shyster"
+name_plural = "Shysters"
+name_prefix = "Shy"
+name_suffix = "ster"
+head = "res://models/cogs/heads/shyster.glb"
+scale = 5.65
+head_textures = PackedStringArray("res://models/cogs/heads/shyster_ttcc_ene_shyster.png")
+hand_color = Color(0.52156866, 0.54901963, 0.70980394, 1)
+attacks = Array[ExtResource("1_yqgtl")]([ExtResource("2_mtlii"), ExtResource("3_8rpd3"), ExtResource("4_e7p4y")])
+level_low = 6
+level_high = 13
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/mod_cog_field_specialist.tres")
+is_female_cog = true
+health_mod = 0.7
+battle_phrases = Array[String](["Perhaps I could let you in on a little secret...", "I've got everything to hide.", "A little white lie wouldn't hurt...", "Oh, me? If you insist...", "I'm the real deal, trust me.", "I won't shy away from a fight.", "I won't let you hide from me.", "I'm only one victory shy of a promotion.", "I reserved all rights to this battle."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

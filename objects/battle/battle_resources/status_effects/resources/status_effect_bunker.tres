@@ -1,0 +1,19 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://cgtlfgu06fdbw"]
+
+[ext_resource type="Texture2D" uid="uid://byrqsj82tcnrp" path="res://ui_assets/battle/statuses/overtime.png" id="1_dsojw"]
+[ext_resource type="Script" uid="uid://b0b68efa61prk" path="res://objects/battle/battle_resources/status_effects/status_effect_overtime.gd" id="2_seuxk"]
+
+[resource]
+script = ExtResource("2_seuxk")
+quality = 0
+rounds = -1
+rounds_offset = 0
+icon = ExtResource("1_dsojw")
+icon_color = Color(1, 1, 1, 1)
+icon_scale = 1.0
+mini_icon_color = Color(1, 1, 1, 1)
+mini_icon_scale = 1.0
+visible = true
+description = "Extra Turn"
+status_name = "Bunker Shot"
+id = 45

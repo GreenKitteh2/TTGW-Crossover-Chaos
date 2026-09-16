@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://df2ueh21w75ct"]
+
+[ext_resource type="Script" uid="uid://dptfr3lc68nyh" path="res://objects/battle/battle_resources/cog_attacks/shake_(super).gd" id="1_lg2mf"]
+
+[resource]
+script = ExtResource("1_lg2mf")
+anim_type = 1
+damage = 4
+summary = "The Cog gain power for every successful hits."
+attack_lines = Array[String](["You're right on the epicenter.", "You're standing on a fault line.", "It's going to be a bumpy ride.", "I think of this as a natural disaster."])
+action_name = "Shake"

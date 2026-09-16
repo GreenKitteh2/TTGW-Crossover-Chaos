@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://uy5tey7mbsx6"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_6oulr"]
+[ext_resource type="Resource" uid="uid://b3tlged7kqx0t" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip_(super).tres" id="2_qk6ab"]
+[ext_resource type="Resource" uid="uid://dlwpx5lx83vsb" path="res://objects/battle/battle_resources/cog_attacks/resources/power_tie_(super).tres" id="3_ei4am"]
+[ext_resource type="Resource" uid="uid://bt1h3skm0otjo" path="res://objects/battle/battle_resources/cog_attacks/resources/tremor_(super).tres" id="4_tjeyw"]
+[ext_resource type="Resource" uid="uid://b6smgrhefhpdk" path="res://objects/battle/battle_resources/cog_attacks/resources/sink_hole.tres" id="5_td25d"]
+[ext_resource type="Resource" uid="uid://b72hb7uavcclo" path="res://objects/battle/battle_resources/cog_signature_attack/resources/strengthen.tres" id="6_57657"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_2nlwh"]
+[ext_resource type="Resource" uid="uid://dbyeiu73x1b8o" path="res://objects/battle/battle_resources/cog_signature_attack/resources/red_tape.tres" id="7_e3y4j"]
+[ext_resource type="Resource" uid="uid://b8gp1patb8r4e" path="res://objects/battle/battle_resources/cog_signature_attack/resources/inject.tres" id="8_qk6ab"]
+
+[resource]
+script = ExtResource("7_2nlwh")
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_bassie_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_bassie_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_bassie_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Twisted Bassie"
+name_prefix = "Twisted "
+name_suffix = " Bassie"
+head = "res://models/crossover_cogs/dandys_world/Twisted Bassie.glb"
+scale = 5.0
+hand_color = Color(0.5058824, 0.39607844, 0.34117648, 1)
+custom_nametag_height = 12.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_6oulr")]([ExtResource("2_qk6ab"), ExtResource("3_ei4am"), ExtResource("4_tjeyw"), ExtResource("5_td25d"), ExtResource("6_57657"), ExtResource("7_e3y4j"), ExtResource("8_qk6ab")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_female_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["You replaced me!", "I don't want to be replaced!", "I can do better!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

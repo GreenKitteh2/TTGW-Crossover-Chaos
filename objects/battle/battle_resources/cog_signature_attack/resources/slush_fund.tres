@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://30grlrrpycv0"]
+
+[ext_resource type="Script" uid="uid://clkf3tv6twutf" path="res://objects/battle/battle_resources/cog_signature_attack/slush_fund.gd" id="1_6mwso"]
+
+[resource]
+script = ExtResource("1_6mwso")
+accuracy = 100
+damage = 2
+attack_lines = Array[String]([])
+target_type = 3
+crit_chance_mod = 0.0

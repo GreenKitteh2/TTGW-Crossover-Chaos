@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://b3mqc80kln1or"]
+
+[ext_resource type="Script" uid="uid://cb2q0uiqkvk38" path="res://objects/battle/battle_resources/cog_attacks/pickpocket_(super).gd" id="1_htile"]
+
+[resource]
+script = ExtResource("1_htile")
+damage = 2
+summary = "The Cog steals a Gag from the Toon!"
+attack_lines = Array[String](["Let me check your valuables.", "Hey, what's that over there?", "Like taking candy from a baby.", "What a steal.", "I'll hold this for you.", "Watch my hands at all times.", "The hand is quicker than the eye.", "There's nothing up my sleeve.", "The management is not responsible for lost items.", "Finder's keepers.", "You'll never see it coming.", "One for me, none for you.", "Don't mind if I do.", "You won't be needing this..."])
+action_name = "Pick Pocket"

@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bbullcxhri7w8"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_bjgf6"]
+[ext_resource type="Resource" uid="uid://pdmpp4qlb2f5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/ignite_(major_player).tres" id="2_rd5gg"]
+[ext_resource type="Resource" uid="uid://c7c8cqcmfvysb" path="res://objects/battle/battle_resources/cog_signature_attack/resources/spin_(major_player).tres" id="3_u4xd8"]
+[ext_resource type="Resource" uid="uid://dr6hc2x3dp41r" path="res://objects/battle/battle_resources/cog_signature_attack/resources/song_and_dance.tres" id="4_pc8o2"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="4_rd5gg"]
+[ext_resource type="Resource" uid="uid://djp2qjhxibruo" path="res://objects/battle/battle_resources/cog_signature_attack/resources/stagger_(major_player).tres" id="5_62sln"]
+[ext_resource type="Resource" uid="uid://do7dpfnqduc8" path="res://objects/battle/battle_resources/cog_signature_attack/resources/guest_verse.tres" id="6_bsqmw"]
+
+[resource]
+script = ExtResource("4_rd5gg")
+department = 3
+custom_blazer_tex = "res://models/cogs/textures/managers/major_player_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/managers/major_player_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/managers/major_player_leg.png"
+cog_name = "Major Player"
+name_prefix = "Major "
+name_suffix = " Player"
+head = "res://models/cogs/heads/major-player_head.glb"
+scale = 7.0
+attacks = Array[ExtResource("1_bjgf6")]([ExtResource("2_rd5gg"), ExtResource("3_u4xd8"), ExtResource("4_pc8o2"), ExtResource("5_62sln"), ExtResource("6_bsqmw")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_manager = true
+health_mod = 2.5
+battle_phrases = Array[String](["Caught the blues, baby?", "Time to face the music and dance, Tune.", "Let's tango-ago-go!", "Skibidobabadadoo!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

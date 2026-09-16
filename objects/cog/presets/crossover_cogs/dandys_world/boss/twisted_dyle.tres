@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://c6qar65vhfh03"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_hhd7l"]
+[ext_resource type="Resource" uid="uid://d15mam6m8bjh1" path="res://objects/battle/battle_resources/cog_attacks/resources/hang_up_(super).tres" id="2_pkq2w"]
+[ext_resource type="Resource" uid="uid://dcth1mrm7s8bo" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip_(super).tres" id="3_rga3g"]
+[ext_resource type="Resource" uid="uid://upir6hjcnwa5" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex_(super).tres" id="4_xnrhs"]
+[ext_resource type="Resource" uid="uid://dlwpx5lx83vsb" path="res://objects/battle/battle_resources/cog_attacks/resources/power_tie_(super).tres" id="5_o1xcy"]
+[ext_resource type="Resource" uid="uid://duq7fidd28rw5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack.tres" id="6_5rjc8"]
+[ext_resource type="Resource" uid="uid://bnomwykacv64m" path="res://objects/battle/battle_resources/cog_signature_attack/resources/on_the_clock.tres" id="7_ds8ww"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_m4pkd"]
+[ext_resource type="Resource" uid="uid://c82q6b10di5a1" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time.tres" id="8_pkq2w"]
+
+[resource]
+script = ExtResource("7_m4pkd")
+department = 4
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_dyle_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_dyle_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_dyle_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Twisted Dyle"
+name_prefix = "Twisted "
+name_suffix = " Dyle"
+head = "res://models/crossover_cogs/dandys_world/Twisted Dyle.glb"
+scale = 6.0
+hand_color = Color(0, 0, 0, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_hhd7l")]([ExtResource("2_pkq2w"), ExtResource("3_rga3g"), ExtResource("4_xnrhs"), ExtResource("5_o1xcy"), ExtResource("6_5rjc8"), ExtResource("7_ds8ww"), ExtResource("8_pkq2w")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["Times up.", "It's only a matter of time for you to fall.", "Clock is ticking."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

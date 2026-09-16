@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://c05xd6peq8ytq"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_wr058"]
+[ext_resource type="Resource" uid="uid://cae3lr6y4rrb8" path="res://objects/battle/battle_resources/cog_attacks/resources/quake.tres" id="2_wr058"]
+[ext_resource type="Resource" uid="uid://55lp6noha8te" path="res://objects/battle/battle_resources/cog_attacks/resources/shake.tres" id="3_15eud"]
+[ext_resource type="Resource" uid="uid://bddy50xh8sfc8" path="res://objects/battle/battle_resources/cog_attacks/resources/tremor.tres" id="4_wccjd"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_vb6t4"]
+
+[resource]
+script = ExtResource("6_vb6t4")
+suit = 1
+cog_name = "Twisted Cocoa"
+name_prefix = "Twisted "
+name_suffix = " Cocoa"
+head = "res://models/crossover_cogs/dandys_world/Twisted Cocoa.glb"
+scale = 3.5
+hand_color = Color(0, 0, 0, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_wr058")]([ExtResource("2_wr058"), ExtResource("3_15eud"), ExtResource("4_wccjd")])
+level_low = 7
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["You better hop off the band wagon.", "You are no help.", "I have a fast reaction."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

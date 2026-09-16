@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://b35m7xym3lkwl"]
+
+[ext_resource type="Script" uid="uid://dbqh8yxqyjvqy" path="res://objects/battle/battle_resources/cog_signature_attack/snipe.gd" id="1_45bdk"]
+
+[resource]
+script = ExtResource("1_45bdk")
+damage = 0
+summary = "Removes 10% of Laffs"
+attack_lines = Array[String](["Bullseye!", "Gotcha!", "Think fast!", "Can you catch this?"])
+action_name = "Snipe"

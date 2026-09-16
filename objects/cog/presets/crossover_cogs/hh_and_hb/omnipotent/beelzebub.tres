@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cyht77jyxaqis"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_baeuy"]
+[ext_resource type="Resource" uid="uid://b4kaq7rjifwfc" path="res://objects/battle/battle_resources/cog_attacks/resources/liquidate.tres" id="2_baeuy"]
+[ext_resource type="Resource" uid="uid://bddy50xh8sfc8" path="res://objects/battle/battle_resources/cog_attacks/resources/tremor.tres" id="3_ucx0w"]
+[ext_resource type="Resource" uid="uid://b6smgrhefhpdk" path="res://objects/battle/battle_resources/cog_attacks/resources/sink_hole.tres" id="4_pr5h8"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="5_d54ig"]
+[ext_resource type="Resource" uid="uid://b5helauv7f4y5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/pinpoint.tres" id="6_71dj3"]
+[ext_resource type="Resource" uid="uid://cwo1w818pihtu" path="res://objects/battle/battle_resources/cog_signature_attack/resources/heal.tres" id="7_5fgw4"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_rb63l"]
+
+[resource]
+script = ExtResource("7_rb63l")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/slender/blazer.png"
+custom_arm_tex = "res://models/cogs/textures/slender/sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/slender/leg.png"
+cog_name = "Beelzebub"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/beelzebub.glb"
+scale = 7.1
+hand_color = Color(0.9411765, 0.9098039, 0.6784314, 1)
+custom_nametag_suffix = "Omnipotent"
+attacks = Array[ExtResource("1_baeuy")]([ExtResource("2_baeuy"), ExtResource("3_ucx0w"), ExtResource("4_pr5h8"), ExtResource("5_d54ig"), ExtResource("6_71dj3"), ExtResource("7_5fgw4")])
+level_low = 9
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_omnipotent_tier.tres")
+is_crossover_cog = true
+is_female_cog = true
+health_mod = 3.0
+battle_phrases = Array[String](["This will sting a little, little fella.", "Oh honey, you wouldn't try to defeat me."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

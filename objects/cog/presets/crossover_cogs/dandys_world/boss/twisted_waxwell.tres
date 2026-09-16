@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bgmafl2x7kg2v"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_fdg4y"]
+[ext_resource type="Resource" uid="uid://dcth1mrm7s8bo" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip_(super).tres" id="2_61y8a"]
+[ext_resource type="Resource" uid="uid://df2ueh21w75ct" path="res://objects/battle/battle_resources/cog_attacks/resources/shake_(super).tres" id="3_8qlm5"]
+[ext_resource type="Resource" uid="uid://u8ja4vfq2adm" path="res://objects/battle/battle_resources/cog_attacks/resources/quake_(super).tres" id="4_6jhwo"]
+[ext_resource type="Resource" uid="uid://bt1h3skm0otjo" path="res://objects/battle/battle_resources/cog_attacks/resources/tremor_(super).tres" id="5_ycxtr"]
+[ext_resource type="Resource" uid="uid://dwcurvq1jwvxu" path="res://objects/battle/battle_resources/cog_signature_attack/resources/disrupt.tres" id="6_f7yaa"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_me7d5"]
+[ext_resource type="Resource" uid="uid://du05l8r6sxyrq" path="res://objects/battle/battle_resources/cog_signature_attack/resources/ignite.tres" id="7_txajr"]
+[ext_resource type="Resource" uid="uid://duq7fidd28rw5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack.tres" id="8_61y8a"]
+
+[resource]
+script = ExtResource("7_me7d5")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_waxwell_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_waxwell_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_waxwell_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Twisted Waxwell"
+name_prefix = "Twisted "
+name_suffix = " Waxwell"
+head = "res://models/crossover_cogs/dandys_world/Twisted Waxwell.glb"
+scale = 4.45
+hand_color = Color(0.3882353, 0.34117648, 0.5058824, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_fdg4y")]([ExtResource("2_61y8a"), ExtResource("3_8qlm5"), ExtResource("4_6jhwo"), ExtResource("5_ycxtr"), ExtResource("6_f7yaa"), ExtResource("7_txajr"), ExtResource("8_61y8a")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["I'm never a good villain...", "Please leave me alone.", "I'm burnt out from all this..."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

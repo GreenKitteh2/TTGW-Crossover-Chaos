@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://2wndggdpjxbk"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_h7t1e"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_h7t1e"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="3_yqju0"]
+[ext_resource type="Resource" uid="uid://erbbarg5bxm8" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex.tres" id="4_34cga"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_3kt5r"]
+
+[resource]
+script = ExtResource("6_3kt5r")
+suit = 1
+cog_name = "Twisted Brusha"
+name_prefix = "Twisted "
+name_suffix = " Brusha"
+head = "res://models/crossover_cogs/dandys_world/Twisted Brusha.glb"
+scale = 3.5
+hand_color = Color(0.6313726, 0.58431375, 0.5686275, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_h7t1e")]([ExtResource("2_h7t1e"), ExtResource("3_yqju0"), ExtResource("4_34cga")])
+level_low = 5
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["You never encourage art.", "You're nothing but a mistake.", "You are nothing but a stain of a masterpiece."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

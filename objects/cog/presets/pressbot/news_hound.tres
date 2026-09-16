@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=6 format=3 uid="uid://bmhcyv7mn2rsk"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_o2t35"]
+[ext_resource type="Resource" uid="uid://dwkmwkdn3ws4k" path="res://objects/battle/battle_resources/cog_attacks/resources/evil_eye.tres" id="2_anj0q"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="3_0vwgs"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="4_0ebju"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="4_0vwgs"]
+
+[resource]
+script = ExtResource("4_0ebju")
+department = 6
+cog_name = "News Hound"
+name_plural = "News Hounds"
+name_prefix = "News "
+name_suffix = " Hound"
+head = "res://models/cogs/heads/newshound.glb"
+scale = 6.5
+head_textures = PackedStringArray("res://models/cogs/heads/newshound_newshound.png")
+hand_color = Color(0.3372549, 0.2901961, 0.2784314, 1)
+attacks = Array[ExtResource("1_o2t35")]([ExtResource("2_anj0q"), ExtResource("3_0vwgs"), ExtResource("4_0vwgs")])
+level_low = 7
+level_high = 14
+battle_phrases = Array[String](["You smell of nothing but bad news, Toon.", "My pawprints will be all over the reports of your defeat, Toon.", "Your presence is making my ears itch. Wait - scratch that report.", "You'll just be another line stacked inside my report when we're finished.", "I'm sure you'll find this breaking news to be quite ruff.", "You're barking at the wrong source of news, Toon.", "Sniffing out bad sources is my job, and you're one of them.", "Play dead, It'll make for some lighthearted news.", "I only sit, shake and speak to reputable sources.", "I'm going to keep this battle on a short leash."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

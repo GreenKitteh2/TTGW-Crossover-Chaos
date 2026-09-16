@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dc6j8i3veygdb"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_fk015"]
+[ext_resource type="Resource" uid="uid://c3gg5tsci6aye" path="res://objects/battle/battle_resources/cog_attacks/resources/hang_up.tres" id="2_fk015"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="3_lgqy0"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="4_6w31b"]
+[ext_resource type="Resource" uid="uid://cdhgcruc4sdn2" path="res://objects/battle/battle_resources/cog_signature_attack/resources/self_heal.tres" id="5_aa5my"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_efb76"]
+
+[resource]
+script = ExtResource("6_efb76")
+department = 4
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/waiter/waiter_m_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/waiter/waiter_m_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/waiter/waiter_m_leg.png"
+cog_name = "Teagan"
+name_prefix = "Tea"
+name_suffix = "gan"
+head = "res://models/crossover_cogs/dandys_world/Teagan.glb"
+scale = 3
+hand_color = Color(0.84705883, 0.54509807, 0.105882354, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Elite"
+attacks = Array[ExtResource("1_fk015")]([ExtResource("2_fk015"), ExtResource("3_lgqy0"), ExtResource("4_6w31b"), ExtResource("5_aa5my")])
+level_low = 2
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_elite_tier.tres")
+is_crossover_cog = true
+is_female_cog = true
+health_mod = 2.0
+battle_phrases = Array[String](["What brings you during our tea party?", "Goodness you have no manners.", "This battle will fly out of the handle."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

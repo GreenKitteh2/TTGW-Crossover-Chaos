@@ -1,0 +1,9 @@
+[gd_resource type="Resource" format=3 uid="uid://n5sep0bh4vsc"]
+
+[ext_resource type="Script" uid="uid://xaes6j4t2nyu" path="res://objects/battle/battle_resources/cog_attacks/finger_wag.gd" id="1_20evc"]
+
+[resource]
+script = ExtResource("1_20evc")
+damage = 2
+attack_lines = Array[String]([" .semit dnasuoht a uoy dlot evah I", " .nooT ereh ees woN", " .hgual em ekam t'noD", " .ereht revo emoc em ekam t'noD", " .flesym gnitaeper fo derit m'I", " .siht revo neeb ev'ew eveileb I", " .sgoC su rof tcepser on evah uoY", " .noitnetta yap uoy emit s'ti kniht I", " .halB ,halB ,halB ,halB ,halB", " .gniteem siht pots em ekam t'noD", " ?uoy etarapes ot evah ot gniog I mA", " .erofeb siht hguorht neeb ev'eW"])
+action_name = "gaW regniF"

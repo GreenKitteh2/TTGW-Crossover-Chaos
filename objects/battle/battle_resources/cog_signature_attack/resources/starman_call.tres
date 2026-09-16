@@ -1,0 +1,8 @@
+[gd_resource type="Resource" format=3 uid="uid://c1r3ts5vbvvl6"]
+
+[ext_resource type="Script" uid="uid://dryvpihnny0lc" path="res://objects/battle/battle_resources/cog_signature_attack/starman_call.gd" id="1_qapta"]
+
+[resource]
+script = ExtResource("1_qapta")
+attack_lines = Array[String](["Help...me...", "This is not fair...not fair...", "Servents..."])
+action_name = "Starman Call"

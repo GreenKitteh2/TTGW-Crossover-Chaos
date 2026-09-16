@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://b6pq0tqiu8x5u"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_ramie"]
+[ext_resource type="Resource" uid="uid://55lp6noha8te" path="res://objects/battle/battle_resources/cog_attacks/resources/shake.tres" id="2_ramie"]
+[ext_resource type="Resource" uid="uid://cae3lr6y4rrb8" path="res://objects/battle/battle_resources/cog_attacks/resources/quake.tres" id="3_uyud1"]
+[ext_resource type="Resource" uid="uid://bddy50xh8sfc8" path="res://objects/battle/battle_resources/cog_attacks/resources/tremor.tres" id="4_voqns"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="5_qrmbw"]
+[ext_resource type="Resource" uid="uid://c82q6b10di5a1" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time.tres" id="6_n2h3o"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_4w72e"]
+
+[resource]
+script = ExtResource("7_4w72e")
+department = 4
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/waiter/waiter_m_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/waiter/waiter_m_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/waiter/waiter_m_leg.png"
+cog_name = "The Roaring Knight"
+name_plural = "The Roaring Knights"
+name_prefix = "The Roaring "
+name_suffix = " Knight"
+head = "res://models/crossover_cogs/undertale_and_deltarune/roaring knight.glb"
+scale = 5.7
+hand_color = Color(0, 0, 0, 1)
+custom_nametag_suffix = "Elite"
+can_speak = false
+attacks = Array[ExtResource("1_ramie")]([ExtResource("2_ramie"), ExtResource("3_uyud1"), ExtResource("4_voqns"), ExtResource("5_qrmbw"), ExtResource("6_n2h3o")])
+level_low = 8
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_elite_tier.tres")
+is_crossover_cog = true
+is_female_cog = true
+health_mod = 2.0
+battle_phrases = Array[String](["..."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

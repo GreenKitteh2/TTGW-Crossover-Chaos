@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://b5a0g8a2fweu4"]
+
+[ext_resource type="Script" uid="uid://bay45nag2fwvd" path="res://objects/battle/battle_resources/cog_attacks/pound_key_(super).gd" id="1_cewnk"]
+
+[resource]
+script = ExtResource("1_cewnk")
+damage = 3
+summary = "The Cog becomes busy on a call!"
+attack_lines = Array[String](["These buttons just don't have the same feel as a rotary dial.", "Retirement just can't compare to the excitement of a 9 to 5. Don't you agree?", "My cookie recipe? Well, start with crude oil. A few pounds.", "I don't enjoy fighting, but I'm afraid I'm not one to press for more options."])
+action_name = "Pound Key"

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" format=3 uid="uid://dt63o5d6gtfpy"]
+
+[ext_resource type="Script" uid="uid://cjunlfb0wvfkq" path="res://objects/battle/battle_resources/cog_attacks/pickpocket.gd" id="1_a28wq"]
+
+[resource]
+script = ExtResource("1_a28wq")
+damage = 2
+attack_lines = Array[String]([" .selbaulav ruoy kcehc em teL", " ?ereht revo taht s'tahw ,yeH", " .ybab a morf ydnac gnikat ekiL", " .laets a tahW", " .uoy rof siht dloh ll'I", " .semit lla ta sdnah ym hctaW", " .eye eht naht rekciuq si dnah ehT", " .eveels ym pu gnihton s'erehT", " .smeti tsol rof elbisnopser ton si tnemeganam ehT", " .srepeek s'redniF", " .gnimoc ti ees reven ll'uoY", " .uoy rof enon ,em rof enO", " .od I fi dnim t'noD", " ...siht gnideen eb t'now uoY"])
+action_name = "tekcoP kciP"

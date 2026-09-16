@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://ba1hor563520b"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_pmadq"]
+[ext_resource type="Resource" uid="uid://dcth1mrm7s8bo" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip_(super).tres" id="2_4piie"]
+[ext_resource type="Resource" uid="uid://cn30emocsuk56" path="res://objects/battle/battle_resources/cog_attacks/resources/liquidate_(super).tres" id="3_hjhht"]
+[ext_resource type="Resource" uid="uid://dunqnjlafu5n0" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag_(super).tres" id="4_skksk"]
+[ext_resource type="Resource" uid="uid://b6smgrhefhpdk" path="res://objects/battle/battle_resources/cog_attacks/resources/sink_hole.tres" id="5_j0cmv"]
+[ext_resource type="Resource" uid="uid://dwcurvq1jwvxu" path="res://objects/battle/battle_resources/cog_signature_attack/resources/disrupt.tres" id="6_ajq5j"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_h1hl8"]
+[ext_resource type="Resource" uid="uid://c82q6b10di5a1" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time.tres" id="7_j8rao"]
+[ext_resource type="Resource" uid="uid://duq7fidd28rw5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack.tres" id="8_4piie"]
+
+[resource]
+script = ExtResource("7_h1hl8")
+department = 1
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_astro_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_astro_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_astro_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Twisted Astro"
+name_prefix = "Twisted "
+name_suffix = " Astro"
+head = "res://models/crossover_cogs/dandys_world/Twisted Astro.glb"
+scale = 5.0
+hand_color = Color(0.654902, 0.88235295, 0.8509804, 1)
+custom_nametag_height = 12.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_pmadq")]([ExtResource("2_4piie"), ExtResource("3_hjhht"), ExtResource("4_skksk"), ExtResource("5_j0cmv"), ExtResource("6_ajq5j"), ExtResource("7_j8rao"), ExtResource("8_4piie")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["Just go to sleep...", "I'll give you a nightmare.", "You need to rest...forever..."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

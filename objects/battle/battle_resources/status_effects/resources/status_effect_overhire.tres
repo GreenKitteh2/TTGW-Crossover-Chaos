@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3 uid="uid://6e0tbydv8g50"]
+
+[ext_resource type="Texture2D" uid="uid://c4jce6krx7l0i" path="res://ui_assets/battle/statuses/overhire.png" id="1_nluf1"]
+[ext_resource type="Script" uid="uid://d3s3uh6apj3dl" path="res://objects/battle/battle_resources/status_effects/status_effect_overhire.gd" id="2_nluf1"]
+
+[resource]
+script = ExtResource("2_nluf1")
+quality = 0
+rounds = -1
+icon = ExtResource("1_nluf1")
+description = "Gain extra damage ands defense for each cog in battle"
+status_name = "Overhire"
+id = 92
+metadata/_custom_type_script = "uid://df7irk63ikx4k"

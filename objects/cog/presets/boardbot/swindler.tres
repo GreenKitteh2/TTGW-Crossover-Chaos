@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=7 format=3 uid="uid://cl1a2yfwb8dlh"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_ch40e"]
+[ext_resource type="Resource" uid="uid://c3gg5tsci6aye" path="res://objects/battle/battle_resources/cog_attacks/resources/hang_up.tres" id="2_ch40e"]
+[ext_resource type="Resource" uid="uid://erbbarg5bxm8" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex.tres" id="3_4hsw7"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="4_prxtm"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="5_tm2bx"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_x8f4t"]
+
+[resource]
+script = ExtResource("6_x8f4t")
+department = 4
+cog_name = "Swindler"
+name_plural = "Swindlers"
+name_prefix = "Swind"
+name_suffix = "ler"
+head = "res://models/cogs/heads/swindler.glb"
+scale = 4.35
+head_textures = PackedStringArray("res://models/cogs/heads/swindler_ttcc_ene_swindler.png")
+hand_color = Color(0.462745, 0.462745, 0.462745, 1)
+attacks = Array[ExtResource("1_ch40e")]([ExtResource("2_ch40e"), ExtResource("3_4hsw7"), ExtResource("4_prxtm"), ExtResource("5_tm2bx")])
+level_low = 3
+level_high = 10
+battle_phrases = Array[String](["I'm always swindling from the bottom to the top.", "It sure is a nice day for some swindling.", "Swindling is my favorite pasttime."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

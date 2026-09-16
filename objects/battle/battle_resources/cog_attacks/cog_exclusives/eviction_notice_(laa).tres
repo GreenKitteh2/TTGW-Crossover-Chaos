@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3 uid="uid://rq6od63nmr1p"]
+
+[ext_resource type="PackedScene" uid="uid://ceg2xgfw3sggn" path="res://models/props/cog_props/shredder_paper/shredder_paper.fbx" id="1_444eb"]
+[ext_resource type="Script" uid="uid://c8fqmorap6nbv" path="res://objects/battle/battle_resources/cog_attacks/eviction_notice_(super).gd" id="2_k2iwm"]
+
+[resource]
+script = ExtResource("2_k2iwm")
+prop = ExtResource("1_444eb")
+custom_method = "eviction_notice"
+damage = 3
+summary = "The Toon's track gag points will be reduced to 0!"
+attack_lines = Array[String](["I'm gonna to send you packing.", "Ya look to be in a hostel position.", "Seems ta be movin' time.", "Looks ta be time for some new living arrangements.", "Ya best pack your bags, Toon.", "Prepare to be re-located.", "Now this might just be EX-trem-ely unsettlin'.", "You look a bit behind on ya lease.", "Y'all boutta be uprooted."])
+action_name = "Eviction Notice"
+metadata/_custom_type_script = "uid://itkxki65d0v7"

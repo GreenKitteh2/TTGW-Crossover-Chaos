@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://du7pv4i0jg4k8"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_r7gym"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="2_5k5l5"]
+[ext_resource type="Resource" uid="uid://dwkmwkdn3ws4k" path="res://objects/battle/battle_resources/cog_attacks/resources/evil_eye.tres" id="3_gv78y"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="4_bva10"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_34qd5"]
+
+[resource]
+script = ExtResource("5_34qd5")
+department = 2
+cog_name = "Clash Big Wig"
+name_plural = "Clash Big Wigs"
+name_prefix = "Clash "
+name_suffix = " Big Wig"
+head = "res://models/cogs/heads/clash_bigwig.glb"
+scale = 7.0
+head_textures = PackedStringArray("res://models/cogs/heads/clash_bigwig_ttcc_ene_big_wig.png")
+hand_color = Color(0.74902, 0.74902, 0.94902, 1)
+attacks = Array[ExtResource("1_r7gym")]([ExtResource("2_5k5l5"), ExtResource("3_gv78y"), ExtResource("4_bva10")])
+level_low = 8
+level_high = 20
+battle_phrases = Array[String](["Don't brush me aside.", "You make my hair curl.", "I can make this permanent if you want.", "It looks like you're going to have some split ends.", "You can't handle the truth.", "I think it's your turn to be dyed.", "I'm so glad you're on time for your cut.", "You're in big trouble!", "I'm going to wig out on you.", "I'm a big deal, little Toon.", "Court is in session."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

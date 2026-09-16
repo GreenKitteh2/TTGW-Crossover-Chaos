@@ -1,0 +1,13 @@
+[gd_resource type="Resource" format=3 uid="uid://bkrp7v55f3ijh"]
+
+[ext_resource type="Texture2D" uid="uid://lg1d0if48s1f" path="res://ui_assets/battle/statuses/frozen.png" id="1_va51o"]
+[ext_resource type="Script" uid="uid://c3lryqoi07wrh" path="res://objects/battle/battle_resources/status_effects/status_effect_frozen.gd" id="2_va51o"]
+
+[resource]
+script = ExtResource("2_va51o")
+quality = 1
+rounds = 3
+icon = ExtResource("1_va51o")
+description = "Your turn to attack gets delayed"
+status_name = "Frozen"
+id = 69

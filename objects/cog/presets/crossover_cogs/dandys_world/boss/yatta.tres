@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dx0ec8nb8bst4"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_4a78t"]
+[ext_resource type="Resource" uid="uid://bt1h3skm0otjo" path="res://objects/battle/battle_resources/cog_attacks/resources/tremor_(super).tres" id="2_1lrut"]
+[ext_resource type="Resource" uid="uid://df2ueh21w75ct" path="res://objects/battle/battle_resources/cog_attacks/resources/shake_(super).tres" id="3_o7klr"]
+[ext_resource type="Resource" uid="uid://u8ja4vfq2adm" path="res://objects/battle/battle_resources/cog_attacks/resources/quake_(super).tres" id="4_ywxn1"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="5_4a78t"]
+[ext_resource type="Resource" uid="uid://dwcurvq1jwvxu" path="res://objects/battle/battle_resources/cog_signature_attack/resources/disrupt.tres" id="6_5tpvc"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_mwq76"]
+[ext_resource type="Resource" uid="uid://duq7fidd28rw5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack.tres" id="7_q3jjd"]
+[ext_resource type="Resource" uid="uid://c82q6b10di5a1" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time.tres" id="8_1lrut"]
+
+[resource]
+script = ExtResource("7_mwq76")
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/yatta_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/yatta_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/yatta_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Yatta"
+head = "res://models/crossover_cogs/dandys_world/Yatta.glb"
+scale = 3.5
+hand_color = Color(0.9882353, 0.84705883, 0.42745098, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_4a78t")]([ExtResource("2_1lrut"), ExtResource("3_o7klr"), ExtResource("4_ywxn1"), ExtResource("5_4a78t"), ExtResource("6_5tpvc"), ExtResource("7_q3jjd"), ExtResource("8_1lrut")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_female_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["I'm EXCITED to fight for the first time!", "Who wants CANDY!", "We got the ENERGY!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

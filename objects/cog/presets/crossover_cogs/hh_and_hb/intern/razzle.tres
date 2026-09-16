@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cnpj8ufdsxmio"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_850yv"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_fipwb"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="3_850yv"]
+[ext_resource type="Resource" uid="uid://erbbarg5bxm8" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex.tres" id="4_fipwb"]
+[ext_resource type="Resource" uid="uid://cltphjfp4x2rk" path="res://objects/battle/battle_resources/cog_attacks/resources/half_windsor.tres" id="5_000ye"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_x21a6"]
+
+[resource]
+script = ExtResource("7_x21a6")
+department = 2
+suit = 1
+cog_name = "Razzle"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/Razzle.glb"
+scale = 4.3
+hand_color = Color(0.13333334, 0.13333334, 0.13333334, 1)
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_850yv")]([ExtResource("2_fipwb"), ExtResource("3_850yv"), ExtResource("4_fipwb"), ExtResource("5_000ye")])
+level_low = 3
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["You weren't the one who killed Dazzle, right?", "Apparently someone here is also named Razzle.", "You're not part of The Vees are you?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

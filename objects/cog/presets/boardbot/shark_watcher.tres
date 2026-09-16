@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=5 format=3 uid="uid://dt105x28ofctn"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_evi58"]
+[ext_resource type="Resource" uid="uid://b4kaq7rjifwfc" path="res://objects/battle/battle_resources/cog_attacks/resources/liquidate.tres" id="2_evi58"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="3_nj2hf"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="4_v2wwe"]
+
+[resource]
+script = ExtResource("4_v2wwe")
+department = 4
+suit = 2
+cog_name = "Shark Watcher"
+name_plural = "Shark Watchers"
+name_prefix = "Shark "
+name_suffix = " Watcher"
+head = "res://models/cogs/heads/sharkwatcher.glb"
+scale = 5.45
+head_textures = PackedStringArray("res://models/cogs/heads/sharkwatcher_cc_t_ene_sharkwatcher.png")
+hand_color = Color(0.368627, 0.529412, 0.545098, 1)
+attacks = Array[ExtResource("1_evi58")]([ExtResource("2_evi58"), ExtResource("3_nj2hf")])
+level_low = 5
+battle_phrases = Array[String](["These waters are not for you.", "You've recklessly ventured into treacherous waters, my friend.", "I implore you to expedite this encounter without delay.", "You can sea yourself out of town, Toon.", "Your inevitable demise will surely make a splash.", "I possess an exquisitely precise eye that is observing your every move.", "You don't possess a bite as strong as I do.", "There is always a bigger fish, Toon.", "There will be no takeovers to be executed under your jurisdiction, Toon."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

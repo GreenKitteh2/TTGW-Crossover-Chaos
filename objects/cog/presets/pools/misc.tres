@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="CogPool" format=3 uid="uid://dbgg6yslot56y"]
+
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="1_842sa"]
+[ext_resource type="Resource" uid="uid://dvdwhp5hux2sw" path="res://objects/cog/presets/crossover_cogs/misc/normal/giygas.tres" id="2_dsvev"]
+[ext_resource type="Resource" uid="uid://bhs7nce8fxtv2" path="res://objects/cog/presets/crossover_cogs/misc/normal/niko.tres" id="3_jt0ua"]
+[ext_resource type="Resource" uid="uid://bb7dk3cj3m6tj" path="res://objects/cog/presets/crossover_cogs/misc/normal/starman_jr.tres" id="4_m7qir"]
+[ext_resource type="Resource" uid="uid://cvues0ybmgurh" path="res://objects/cog/presets/crossover_cogs/misc/normal/starman.tres" id="5_ddk78"]
+[ext_resource type="Resource" uid="uid://jpkpdclwhuyy" path="res://objects/cog/presets/crossover_cogs/misc/normal/blue_starman.tres" id="6_2vcut"]
+[ext_resource type="Resource" uid="uid://dyq16qj7vw53i" path="res://objects/cog/presets/crossover_cogs/misc/normal/last_starman.tres" id="7_ur6wr"]
+[ext_resource type="Resource" uid="uid://cfle00pu4kncw" path="res://objects/cog/presets/crossover_cogs/misc/normal/starman_super.tres" id="8_r5lr1"]
+[ext_resource type="Resource" uid="uid://b0j1xk5dejewt" path="res://objects/cog/presets/crossover_cogs/misc/normal/starman_deluxe.tres" id="9_11qbq"]
+[ext_resource type="Resource" uid="uid://bkvwra45dcc73" path="res://objects/cog/presets/crossover_cogs/misc/normal/ghost_of_starman.tres" id="10_842sa"]
+[ext_resource type="Resource" uid="uid://c8y3grpnonppk" path="res://objects/cog/presets/crossover_cogs/misc/normal/final_starman.tres" id="11_tj2vu"]
+[ext_resource type="Script" uid="uid://buc4y0vtgydo" path="res://objects/cog/cog_pool.gd" id="18_ecr7x"]
+
+[resource]
+script = ExtResource("18_ecr7x")
+cogs = Array[ExtResource("1_842sa")]([ExtResource("2_dsvev"), ExtResource("3_jt0ua"), ExtResource("4_m7qir"), ExtResource("5_ddk78"), ExtResource("6_2vcut"), ExtResource("7_ur6wr"), ExtResource("8_r5lr1"), ExtResource("9_11qbq"), ExtResource("10_842sa"), ExtResource("11_tj2vu")])

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="ItemActive" format=3 uid="uid://bl5sf2ae2nlij"]
+
+[ext_resource type="Script" uid="uid://5uwfsntxdag6" path="res://objects/items/classes/item_active.gd" id="1_jg8cp"]
+[ext_resource type="Texture2D" uid="uid://bt2odeej3111t" path="res://ui_assets/player_ui/pocket_prank_icons/white_out.png" id="1_mvvmp"]
+[ext_resource type="Script" uid="uid://d3gjueiyx0mu8" path="res://objects/items/custom/reusable_white_out/item_reusable_white_out.gd" id="2_s4qo4"]
+[ext_resource type="PackedScene" uid="uid://cenicsw45ina8" path="res://models/props/toon_props/white_out/white_out.tscn" id="3_s4qo4"]
+
+[resource]
+script = ExtResource("1_jg8cp")
+active_type = 2
+charge_count = 1
+current_charge = 1
+qualitoon = 4
+world_scale = 0.75
+item_name = "Reusable White-Out"
+item_description = "LAP 2!"
+big_description = "Restarts and rerolls the current floor. You keep all of the items you've collected on it thus far (however, it shuffles your stats)"
+model = ExtResource("3_s4qo4")
+item_script = ExtResource("2_s4qo4")
+icon = ExtResource("1_mvvmp")
+shop_category_color = Color(0.196078, 0.580392, 0.917647, 1)
+metadata/_custom_type_script = "uid://5uwfsntxdag6"

@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://djdrm7ho2i5ll"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_0ab5s"]
+[ext_resource type="Resource" uid="uid://ctic2hlkgddom" path="res://objects/battle/battle_resources/cog_attacks/resources/evil_eye_(super).tres" id="2_0ab5s"]
+[ext_resource type="Resource" uid="uid://bjtp2wrma8il7" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/power_trip_(litigator).tres" id="3_b1e55"]
+[ext_resource type="Resource" uid="uid://baqxsurrd5hp1" path="res://objects/battle/battle_resources/cog_signature_attack/resources/ignite_(litigator).tres" id="4_ymb1r"]
+[ext_resource type="Resource" uid="uid://s42jxkxye6yp" path="res://objects/battle/battle_resources/cog_signature_attack/resources/bayou_bash.tres" id="5_amnw0"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_luybv"]
+[ext_resource type="Resource" uid="uid://b8y1rejnjf1em" path="res://objects/battle/battle_resources/cog_signature_attack/resources/bayou_bellow.tres" id="6_b1e55"]
+
+[resource]
+script = ExtResource("5_luybv")
+department = 2
+custom_blazer_tex = "res://models/cogs/textures/law/blazer_exe.png"
+custom_arm_tex = "res://models/cogs/textures/law/sleeve_exe.png"
+custom_leg_tex = "res://models/cogs/textures/law/leg_exe.png"
+cog_name = "Litigator"
+name_prefix = "Liti"
+name_suffix = "gator"
+head = "res://models/cogs/heads/litigator_head.glb"
+scale = 7.1
+hand_color = Color(0.3137255, 0.36078432, 0.5372549, 1)
+attacks = Array[ExtResource("1_0ab5s")]([ExtResource("2_0ab5s"), ExtResource("3_b1e55"), ExtResource("4_ymb1r"), ExtResource("5_amnw0"), ExtResource("6_b1e55")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_manager = true
+health_mod = 2.0
+battle_phrases = Array[String](["Your strategies will go up in smoke, Toon.", "I like to see the big picture."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

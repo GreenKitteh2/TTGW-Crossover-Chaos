@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://ccrtd7t13spjc"]
+
+[ext_resource type="Script" uid="uid://ko5ve2k1dvc2" path="res://objects/battle/battle_resources/cog_signature_attack/refinement_(derrick_man).gd" id="1_3mvll"]
+
+[resource]
+script = ExtResource("1_3mvll")
+damage = 0
+attack_lines = Array[String]([])
+target_type = 3
+action_name = "Refinement"

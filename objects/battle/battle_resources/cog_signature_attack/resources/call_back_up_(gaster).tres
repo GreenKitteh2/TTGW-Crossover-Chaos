@@ -1,0 +1,8 @@
+[gd_resource type="Resource" format=3 uid="uid://cumo6ntw8sj2j"]
+
+[ext_resource type="Script" uid="uid://d2a066pdj7d8m" path="res://objects/battle/battle_resources/cog_signature_attack/call_back_up.gd" id="1_h7v76"]
+
+[resource]
+script = ExtResource("1_h7v76")
+attack_lines = Array[String](["💣︎♋︎⍓︎ ✋︎ ♋︎♍︎❑︎◆︎♓︎❒︎♏︎ ⬧︎□︎❍︎♏︎ ♋︎⬧︎⬧︎♓︎⬧︎⧫︎♋︎■︎♍︎♏︎ ♒︎♏︎❒︎♏︎✍︎", "✋︎🕯︎❍︎ 🙵♓︎■︎♎︎♋︎ ♓︎■︎ ⧫︎❒︎□︎◆︎♌︎●︎♏︎ ♒︎♏︎❒︎♏︎📬︎", "✋︎ ■︎♏︎♏︎♎︎ ⬧︎□︎❍︎♏︎ ♋︎⬧︎⬧︎♓︎⬧︎⧫︎♋︎■︎♍︎♏︎📬︎"])
+action_name = "Call Back up"

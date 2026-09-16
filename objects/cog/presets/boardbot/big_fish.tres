@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cdxmio3sltbg2"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_v712x"]
+[ext_resource type="Resource" uid="uid://b4kaq7rjifwfc" path="res://objects/battle/battle_resources/cog_attacks/resources/liquidate.tres" id="2_v712x"]
+[ext_resource type="Resource" uid="uid://305avsq3iu30" path="res://objects/battle/battle_resources/cog_attacks/resources/power_tie.tres" id="3_fcnd1"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="4_7o3yf"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_o6m4j"]
+
+[resource]
+script = ExtResource("5_o6m4j")
+department = 4
+suit = 2
+cog_name = "Big Fish"
+name_plural = "Big Fishes"
+name_prefix = "Big "
+name_suffix = " Fish"
+head = "res://models/cogs/heads/bigfish.glb"
+scale = 7.0
+head_textures = PackedStringArray("res://models/cogs/heads/bigfish_ttcc_ene_bigfish.png")
+hand_color = Color(0.623529, 0.6, 0.631373, 1)
+attacks = Array[ExtResource("1_v712x")]([ExtResource("2_v712x"), ExtResource("3_fcnd1"), ExtResource("4_7o3yf")])
+level_low = 7
+level_high = 14
+is_female_cog = true
+battle_phrases = Array[String](["Any fin is possible if I don't trout myself.", "You're just fishing for trouble.", "You will find me swimming in cash.", "I won't feel gillty after defeating you.", "I'm bigger than any fish you will ever catch.", "Something's rather fishy in here. No, it's just me!", "I'm a Big Fish in a little pond, Toon."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

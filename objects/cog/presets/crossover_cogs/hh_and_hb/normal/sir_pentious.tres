@@ -1,0 +1,34 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cwl66nuvy4vit"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_h74jm"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="2_35ua3"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="3_3u383"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="3_h74jm"]
+[ext_resource type="Resource" uid="uid://b8koccoxj7hrd" path="res://objects/battle/battle_resources/cog_signature_attack/resources/repair.tres" id="5_s8d1e"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_0nm5b"]
+
+[resource]
+script = ExtResource("7_0nm5b")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/misc/blazer_1.png"
+custom_arm_tex = "res://models/cogs/textures/misc/sleeve_2.png"
+custom_leg_tex = "res://models/cogs/textures/misc/leg_4.png"
+custom_wrist_tex = "res://models/cogs/textures/misc/arm_1.png"
+cog_name = "Sir Pentious"
+name_plural = "Sir Pentiouses"
+name_prefix = "Sir "
+name_suffix = " Pentious"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/pentious.glb"
+scale = 6.0
+hand_color = Color(0.36862746, 0.32156864, 0.30980393, 1)
+custom_nametag_height = 10.9
+attacks = Array[ExtResource("1_h74jm")]([ExtResource("2_35ua3"), ExtResource("3_h74jm"), ExtResource("3_3u383"), ExtResource("5_s8d1e")])
+level_low = 6
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["I can't let myself fail on this one.", "This might be my chance to be a winner!", "I helped with the inventions they were making you know."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

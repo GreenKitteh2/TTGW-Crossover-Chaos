@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://6ys165dd8gtj"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_4dc1f"]
+[ext_resource type="Resource" uid="uid://doowiij7lpxy1" path="res://objects/battle/battle_resources/cog_attacks/resources/rubber_stamp.tres" id="2_u1rmj"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="3_yoxu5"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="4_py7us"]
+
+[resource]
+script = ExtResource("4_py7us")
+department = 2
+cog_name = "Clash Double Talker"
+name_plural = "Clash Double Talkers"
+name_prefix = "Clash "
+name_suffix = " Double Talker"
+head = "res://models/cogs/heads/clash_doubletalker.glb"
+scale = 4.25
+head_textures = PackedStringArray("res://models/cogs/heads/clash_doubletalker_ttcc_ene_doubletalker.png")
+hand_color = Color(0.74902, 0.74902, 0.94902, 1)
+attacks = Array[ExtResource("1_4dc1f")]([ExtResource("2_u1rmj"), ExtResource("3_yoxu5")])
+level_low = 3
+level_high = 10
+battle_phrases = Array[String](["You're not going to like my double play.", "I'm going to give you double the trouble.", "You may want to double up against me.", "You may want to double-think this.", "Doubles, anyone??", "Get ready for a double TAKE!", "I serve a mean double-DECKER.", "It's time to do some double-dealing.", "See if you can stop my double-cross.", "I plan to do some double dipping."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

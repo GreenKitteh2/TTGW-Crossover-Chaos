@@ -1,0 +1,34 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dsm6rm6xnv6a3"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_0leik"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_mowge"]
+[ext_resource type="Resource" uid="uid://c3gg5tsci6aye" path="res://objects/battle/battle_resources/cog_attacks/resources/hang_up.tres" id="3_0leik"]
+[ext_resource type="Resource" uid="uid://c27ek2anjbx88" path="res://objects/battle/battle_resources/cog_attacks/resources/pound_key.tres" id="4_mowge"]
+[ext_resource type="Resource" uid="uid://b5helauv7f4y5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/pinpoint.tres" id="5_g5hdk"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_2pxuh"]
+[ext_resource type="Resource" uid="uid://bxlgjda1mpx2a" path="res://objects/battle/battle_resources/cog_signature_attack/resources/protect.tres" id="6_qekv2"]
+
+[resource]
+script = ExtResource("6_2pxuh")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/slender/blazer.png"
+custom_arm_tex = "res://models/cogs/textures/slender/sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/slender/leg.png"
+cog_name = "Rodger"
+head = "res://models/crossover_cogs/dandys_world/Rodger.glb"
+scale = 3.5
+hand_color = Color(0.49411765, 0.41568628, 0.3529412, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Omnipotent"
+attacks = Array[ExtResource("1_0leik")]([ExtResource("2_mowge"), ExtResource("3_0leik"), ExtResource("4_mowge"), ExtResource("5_g5hdk"), ExtResource("6_qekv2")])
+level_low = 6
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_omnipotent_tier.tres")
+is_crossover_cog = true
+health_mod = 3.0
+battle_phrases = Array[String](["How did you get here?", "I've been getting some clues that you're doing this.", "We're just here to investigate."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

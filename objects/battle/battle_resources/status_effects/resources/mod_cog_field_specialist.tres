@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://4skc7dstora5"]
+
+[ext_resource type="Texture2D" uid="uid://cojeoyknhl7vv" path="res://ui_assets/battle/statuses/leverage.png" id="1_jvtnx"]
+[ext_resource type="Script" uid="uid://4k87onitafyd" path="res://objects/battle/battle_resources/status_effects/mod_cog_effects/cog_mod_field_specialist.gd" id="2_jvtnx"]
+
+[resource]
+script = ExtResource("2_jvtnx")
+rounds = -1
+icon = ExtResource("1_jvtnx")
+description = "This Cog has more damage but less defense"
+status_name = "Field Specialist"
+id = 55
+metadata/_custom_type_script = "uid://df7irk63ikx4k"

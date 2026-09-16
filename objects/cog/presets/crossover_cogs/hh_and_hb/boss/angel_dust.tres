@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://7u646fbrese4"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_2xudw"]
+[ext_resource type="Resource" uid="uid://b3mqc80kln1or" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket_(super).tres" id="2_qtanx"]
+[ext_resource type="Resource" uid="uid://u8ja4vfq2adm" path="res://objects/battle/battle_resources/cog_attacks/resources/quake_(super).tres" id="3_xr62i"]
+[ext_resource type="Resource" uid="uid://dlwpx5lx83vsb" path="res://objects/battle/battle_resources/cog_attacks/resources/power_tie_(super).tres" id="4_8doxk"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="5_q1ao5"]
+[ext_resource type="Resource" uid="uid://b3tkvlsedrm2l" path="res://objects/battle/battle_resources/cog_signature_attack/resources/back_talk.tres" id="6_x4kke"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_pftvy"]
+[ext_resource type="Resource" uid="uid://d3bfxng6kkj74" path="res://objects/battle/battle_resources/cog_signature_attack/resources/venomous_bite.tres" id="7_yuqmb"]
+[ext_resource type="Resource" uid="uid://duq7fidd28rw5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack.tres" id="8_qtanx"]
+
+[resource]
+script = ExtResource("7_pftvy")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/hh_and_hb/angel_dust_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/hh_and_hb/angel_dust_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/hh_and_hb/angel_dust_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/hazbin_hotel.png"
+cog_name = "Angel Dust"
+name_prefix = "Angel "
+name_suffix = " Dust"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/angel dust.glb"
+scale = 5.6
+hand_color = Color(1, 1, 0.99215686, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_2xudw")]([ExtResource("2_qtanx"), ExtResource("3_xr62i"), ExtResource("4_8doxk"), ExtResource("5_q1ao5"), ExtResource("6_x4kke"), ExtResource("7_yuqmb"), ExtResource("8_qtanx")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["I didn't want to be here but since Alastor is here, oh well.", "I hope you're not as bad as Valentino.", "Why do I only have two arms?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

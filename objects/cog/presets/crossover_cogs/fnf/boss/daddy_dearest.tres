@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://b2l5mg8tw8hbh"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_ghi4q"]
+[ext_resource type="Resource" uid="uid://3dxin5galt7i" path="res://objects/battle/battle_resources/cog_attacks/resources/tee_off_(super).tres" id="2_m4su3"]
+[ext_resource type="Resource" uid="uid://ctic2hlkgddom" path="res://objects/battle/battle_resources/cog_attacks/resources/evil_eye_(super).tres" id="3_6cawm"]
+[ext_resource type="Resource" uid="uid://b8d005ps7d223" path="res://objects/battle/battle_resources/cog_attacks/resources/razzle_dazzle_(super).tres" id="4_ly0ar"]
+[ext_resource type="Resource" uid="uid://dcth1mrm7s8bo" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip_(super).tres" id="5_ayg46"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_fju66"]
+[ext_resource type="Resource" uid="uid://c82q6b10di5a1" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time.tres" id="6_hjxn1"]
+[ext_resource type="Resource" uid="uid://b5helauv7f4y5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/pinpoint.tres" id="7_m4su3"]
+[ext_resource type="Resource" uid="uid://bdrmowdu0ek8o" path="res://objects/battle/battle_resources/cog_signature_attack/resources/henchman_call.tres" id="8_6cawm"]
+
+[resource]
+script = ExtResource("6_fju66")
+department = 4
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/fnf/daddy_dearest_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/fnf/daddy_dearest_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/fnf/daddy_dearest_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/friday_night_funkin.png"
+cog_name = "Daddy Dearest"
+name_prefix = "Daddy "
+name_suffix = " Dearest"
+head = "res://models/crossover_cogs/fnf/daddy dearest.glb"
+scale = 7.0
+hand_color = Color(0.972549, 0.76862746, 0.9098039, 1)
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_ghi4q")]([ExtResource("2_m4su3"), ExtResource("3_6cawm"), ExtResource("4_ly0ar"), ExtResource("5_ayg46"), ExtResource("6_hjxn1"), ExtResource("7_m4su3"), ExtResource("8_6cawm")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["Getting yourself into a Dad battle are you?", "I was going for Boyfriend but you would make a good alternative."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

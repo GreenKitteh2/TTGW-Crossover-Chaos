@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://ceewv2ofoe282"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_ixbor"]
+[ext_resource type="Resource" uid="uid://ct6rnwalc4j5g" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/finger_wag_(blot)_(super).tres" id="2_8td1n"]
+[ext_resource type="Resource" uid="uid://dj7qi248x3vx6" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/guilt_trip_(blot)_(super).tres" id="3_ie6lw"]
+[ext_resource type="Resource" uid="uid://cn7tygxogani3" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/pink_slip_(blot)_(super).tres" id="4_frd6f"]
+[ext_resource type="Resource" uid="uid://bt0wbhj4rs4g0" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/pick_pocket_(blot)_(super).tres" id="5_3ebis"]
+[ext_resource type="Resource" uid="uid://2sbo3dial7i7" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time_(blot).tres" id="6_56h2v"]
+[ext_resource type="Resource" uid="uid://cfogbc63nicvt" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack_(blot).tres" id="7_oul56"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_rko3a"]
+[ext_resource type="Resource" uid="uid://dctl45w0e4cam" path="res://objects/battle/battle_resources/cog_signature_attack/resources/gag_protection_(blot).tres" id="8_8td1n"]
+
+[resource]
+script = ExtResource("7_rko3a")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_blot_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_blot_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_blot_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Twisted Blot"
+name_prefix = "Twisted "
+name_suffix = " Blot"
+head = "res://models/crossover_cogs/dandys_world/Twisted Blot.glb"
+scale = 4.5
+hand_color = Color(0, 0, 0, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_ixbor")]([ExtResource("2_8td1n"), ExtResource("3_ie6lw"), ExtResource("4_frd6f"), ExtResource("5_3ebis"), ExtResource("6_56h2v"), ExtResource("7_oul56"), ExtResource("8_8td1n")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["!deppart m'I", "!tuo teg ot tnaw I", "!EM PLEH"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

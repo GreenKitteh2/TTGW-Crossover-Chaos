@@ -1,0 +1,34 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dt5i2uv0mkjak"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_h812c"]
+[ext_resource type="Resource" uid="uid://cltphjfp4x2rk" path="res://objects/battle/battle_resources/cog_attacks/resources/half_windsor.tres" id="2_h812c"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="4_pn7yq"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="4_x2hru"]
+[ext_resource type="Resource" uid="uid://bxlgjda1mpx2a" path="res://objects/battle/battle_resources/cog_signature_attack/resources/protect.tres" id="5_ue8cs"]
+[ext_resource type="Resource" uid="uid://ds65kbrqrekdn" path="res://objects/battle/battle_resources/cog_signature_attack/resources/encourage.tres" id="6_2g3pc"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_f0rhc"]
+
+[resource]
+script = ExtResource("6_f0rhc")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/slender/blazer.png"
+custom_arm_tex = "res://models/cogs/textures/slender/sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/slender/leg.png"
+cog_name = "Goob"
+head = "res://models/crossover_cogs/dandys_world/Goob.glb"
+scale = 3.5
+hand_color = Color(0, 0.4392157, 1, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Omnipotent"
+attacks = Array[ExtResource("1_h812c")]([ExtResource("2_h812c"), ExtResource("4_pn7yq"), ExtResource("4_x2hru"), ExtResource("5_ue8cs"), ExtResource("6_2g3pc")])
+level_low = 7
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_omnipotent_tier.tres")
+is_crossover_cog = true
+health_mod = 3.0
+battle_phrases = Array[String](["Scraps would be amazed on my combat!", "This is fun!", "Hugs for everyone!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

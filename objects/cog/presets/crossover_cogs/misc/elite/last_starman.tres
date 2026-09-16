@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cil6hginqthhx"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_xafun"]
+[ext_resource type="Resource" uid="uid://3dxin5galt7i" path="res://objects/battle/battle_resources/cog_attacks/resources/tee_off_(super).tres" id="2_umlav"]
+[ext_resource type="Resource" uid="uid://cinyfw5clb8cg" path="res://objects/battle/battle_resources/cog_attacks/resources/rubber_stamp_(super).tres" id="3_ibx0c"]
+[ext_resource type="Resource" uid="uid://c0d4roktabhfm" path="res://objects/battle/battle_resources/cog_attacks/resources/freeze_assets_(super).tres" id="4_2qmog"]
+[ext_resource type="Resource" uid="uid://dunqnjlafu5n0" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag_(super).tres" id="5_umlav"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_70uji"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="6_uh66f"]
+
+[resource]
+script = ExtResource("6_70uji")
+department = 5
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/misc/laststarman_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/misc/laststarman_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/misc/laststarman_leg.png"
+custom_wrist_tex = "res://models/cogs/textures/crossover_cogs/misc/laststarman_sleeve.png"
+custom_shoe_tex = "res://models/cogs/textures/crossover_cogs/misc/laststarman_sleeve.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/earthbound.png"
+cog_name = "Last Starman"
+name_prefix = "Last "
+name_suffix = " Starman"
+head = "res://models/crossover_cogs/misc/starman.glb"
+scale = 5.2
+head_textures = PackedStringArray("res://models/crossover_cogs/misc/starman face.png")
+hand_color = Color(1, 0.9490196, 0.5764706, 1)
+head_color = Color(1, 0.9490196, 0.5764706, 1)
+custom_nametag_height = 9.4
+custom_nametag_suffix = "Elite Minion"
+attacks = Array[ExtResource("1_xafun")]([ExtResource("2_umlav"), ExtResource("3_ibx0c"), ExtResource("4_2qmog"), ExtResource("5_umlav"), ExtResource("6_uh66f")])
+level_low = 4
+level_high = 20
+is_crossover_cog = true
+health_mod = 1.5
+battle_phrases = Array[String](["I work for Giygas's army.", "I have affiliations with a certain skeleton.", "We're here to help OUR future."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

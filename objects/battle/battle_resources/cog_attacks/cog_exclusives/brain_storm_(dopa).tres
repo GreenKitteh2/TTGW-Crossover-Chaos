@@ -1,0 +1,15 @@
+[gd_resource type="Resource" format=3 uid="uid://fvugwe20vyax"]
+
+[ext_resource type="PackedScene" uid="uid://d03k2e6a74tko" path="res://objects/battle/effects/cloud_attacks/brain_storm.tscn" id="1_tu01n"]
+[ext_resource type="Script" uid="uid://d58510p3fqlj" path="res://objects/battle/battle_resources/cog_attacks/brain_storm_(super).gd" id="2_nupsy"]
+[ext_resource type="AudioStream" uid="uid://dbmpl58jist24" path="res://audio/sfx/battle/cogs/attacks/SA_brainstorm.ogg" id="3_lge2r"]
+
+[resource]
+script = ExtResource("2_nupsy")
+particles = ExtResource("1_tu01n")
+sfx = ExtResource("3_lge2r")
+animation = 1
+damage = 4
+summary = "The Toon's Gags loses points!"
+attack_lines = Array[String](["Brace yourself for some electromagnetic interference!", "Defeating you will bring our ratings sky-high.", "I used to be quite the shock jock on radio.", "I'm going to put you out of transmission.", "Today's news will kick up quite the storm!"])
+action_name = "Brain Storm"

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" format=3 uid="uid://cebv8cy0rx027"]
+
+[ext_resource type="PackedScene" uid="uid://g8y8nk27j6d2" path="res://models/props/cog_props/clip_on_tie/clip_on_tie.fbx" id="1_sdjs8"]
+[ext_resource type="Script" uid="uid://bhslrjf7yis4s" path="res://objects/battle/battle_resources/cog_attacks/clip_on_tie_(super).gd" id="2_l1jbe"]
+[ext_resource type="AudioStream" uid="uid://c13tykgnbuaqv" path="res://audio/sfx/battle/cogs/attacks/SA_powertie_throw.ogg" id="3_s3130"]
+
+[resource]
+script = ExtResource("2_l1jbe")
+model = ExtResource("1_sdjs8")
+model_rotation = Vector3(-0.228851, -1.87019, 2.443)
+model_position = Vector3(-0.320663, 0.61715, -0.615531)
+sfx_throw = ExtResource("3_s3130")
+damage = 2
+summary = "The Toon is embarrassed by the mundane attire!"
+attack_lines = Array[String](["I like these... No knots to tie.", "Look, no slip-stitch. Uh, whoops, wrong tie.", "There's peanut butter on the back, but you'll live.", "My dad's a stickler for the dress code. Not that I care.", "Don't love these colors..."])
+action_name = "Clip On Tie"
+metadata/_custom_type_script = "uid://bb27him60xtnk"

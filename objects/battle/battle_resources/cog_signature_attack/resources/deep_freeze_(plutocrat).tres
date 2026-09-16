@@ -1,0 +1,13 @@
+[gd_resource type="Resource" format=3 uid="uid://dvvt0fmjvgvte"]
+
+[ext_resource type="PackedScene" uid="uid://7374wvctrryy" path="res://objects/battle/effects/cloud_attacks/snow.tscn" id="1_hc1g0"]
+[ext_resource type="Script" uid="uid://btk6m8u84c8hx" path="res://objects/battle/battle_resources/cog_signature_attack/deep_freeze.gd" id="2_oarps"]
+
+[resource]
+script = ExtResource("2_oarps")
+particles = ExtResource("1_hc1g0")
+animation = 2
+damage = 3
+summary = "Freezes the Toon!"
+attack_lines = Array[String](["This is really gonna freeze ya up, chumps!", "I'm 'boutta storm up a squall ya wont ever forget!", "I refuse to be dwarfed by the likes of you!", "Ya won't be able to handle the gravity of this!", "Y'know what? It's 'bout time you take a chill pill.", "You've gone and done it now, haven'tcha!"])
+action_name = "Deep Freeze"

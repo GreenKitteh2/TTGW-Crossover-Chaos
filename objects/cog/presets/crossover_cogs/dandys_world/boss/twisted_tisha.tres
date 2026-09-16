@@ -1,0 +1,41 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://btl0hu4bkpmsl"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_qlw00"]
+[ext_resource type="Resource" uid="uid://c0d4roktabhfm" path="res://objects/battle/battle_resources/cog_attacks/resources/freeze_assets_(super).tres" id="2_ve36x"]
+[ext_resource type="Resource" uid="uid://bhmmdrdha46gv" path="res://objects/battle/battle_resources/cog_attacks/resources/pink_slip_(super).tres" id="3_arbk3"]
+[ext_resource type="Resource" uid="uid://cn30emocsuk56" path="res://objects/battle/battle_resources/cog_attacks/resources/liquidate_(super).tres" id="4_vdt54"]
+[ext_resource type="Resource" uid="uid://dunqnjlafu5n0" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag_(super).tres" id="5_fko2d"]
+[ext_resource type="Resource" uid="uid://c82q6b10di5a1" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time.tres" id="6_xpw5c"]
+[ext_resource type="Resource" uid="uid://dbyeiu73x1b8o" path="res://objects/battle/battle_resources/cog_signature_attack/resources/red_tape.tres" id="7_imgup"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_wra7k"]
+[ext_resource type="Resource" uid="uid://m27fmwkp3qdf" path="res://objects/battle/battle_resources/cog_signature_attack/resources/marked.tres" id="8_ve36x"]
+
+[resource]
+script = ExtResource("7_wra7k")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_tisha_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_tisha_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_tisha_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Twisted Tisha"
+name_prefix = "Twisted "
+name_suffix = " Tisha"
+head = "res://models/crossover_cogs/dandys_world/Twisted Tisha.glb"
+scale = 3.5
+hand_color = Color(0.654902, 0.87058824, 0.8627451, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_qlw00")]([ExtResource("2_ve36x"), ExtResource("3_arbk3"), ExtResource("4_vdt54"), ExtResource("5_fko2d"), ExtResource("6_xpw5c"), ExtResource("7_imgup"), ExtResource("8_ve36x")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_female_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["Everything is a mess.", "You create nothing but messes.", "Must...clean..."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

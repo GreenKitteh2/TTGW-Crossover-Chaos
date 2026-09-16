@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://ce6gvu41561pi"]
+
+[ext_resource type="Script" uid="uid://cqjao7ra7sudp" path="res://objects/battle/battle_resources/cog_attacks/guilt_trip_(super).gd" id="1_j1bcw"]
+
+[resource]
+script = ExtResource("1_j1bcw")
+damage = 5
+summary = "The Cog is about to get their revenge"
+attack_lines = Array[String](["I can't believe you made me do this...", "Do you have any idea how hard I work? Zzz...", "Wallow in... Zzz...", "I'll never forgive you for interrupting my nap..."])
+action_name = "Guilt Trip"
+metadata/_custom_type_script = "uid://bb27him60xtnk"

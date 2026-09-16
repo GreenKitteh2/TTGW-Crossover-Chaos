@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dfralcbmogy0p"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_ktf22"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="2_dxee8"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="3_ktf22"]
+[ext_resource type="Resource" uid="uid://c3gg5tsci6aye" path="res://objects/battle/battle_resources/cog_attacks/resources/hang_up.tres" id="4_dxee8"]
+[ext_resource type="Resource" uid="uid://ds65kbrqrekdn" path="res://objects/battle/battle_resources/cog_signature_attack/resources/encourage.tres" id="5_soem5"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_h0f4w"]
+
+[resource]
+script = ExtResource("6_h0f4w")
+department = 4
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/misc/blazer_1.png"
+custom_arm_tex = "res://models/cogs/textures/misc/sleeve_2.png"
+custom_leg_tex = "res://models/cogs/textures/misc/leg_4.png"
+custom_wrist_tex = "res://models/cogs/textures/misc/arm_1.png"
+cog_name = "Eggson"
+name_prefix = "Egg"
+name_suffix = "son"
+head = "res://models/crossover_cogs/dandys_world/Eggson.glb"
+scale = 3.5
+hand_color = Color(0.7529412, 0.5803922, 0.40784314, 1)
+custom_nametag_height = 13.0
+attacks = Array[ExtResource("1_ktf22")]([ExtResource("2_dxee8"), ExtResource("3_ktf22"), ExtResource("4_dxee8"), ExtResource("5_soem5")])
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["Back in my day, we settle it with a discussion.", "When was the last time you been outside?", "I'm just an old honest man."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" format=3 uid="uid://slywi7r3q78s"]
+
+[ext_resource type="Script" uid="uid://kql4ytbd337j" path="res://objects/battle/battle_resources/cog_signature_attack/bulk_up.gd" id="1_ief74"]
+
+[resource]
+script = ExtResource("1_ief74")
+accuracy = 100
+damage = 0
+summary = "Defense boost for a short time"
+attack_lines = Array[String](["I can take a hit!", "Give me your worst!", "Your gags don't mean much to me."])
+target_type = 4
+action_name = "Bulk Up"

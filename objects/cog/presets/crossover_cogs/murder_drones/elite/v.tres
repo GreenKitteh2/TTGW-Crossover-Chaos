@@ -1,0 +1,34 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://ctt2375i8wbre"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_5ossb"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_axt4s"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="3_aaje8"]
+[ext_resource type="Resource" uid="uid://55lp6noha8te" path="res://objects/battle/battle_resources/cog_attacks/resources/shake.tres" id="4_l7ofi"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="5_6fu54"]
+[ext_resource type="Resource" uid="uid://duq7fidd28rw5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack.tres" id="6_5ossb"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_nfeyg"]
+
+[resource]
+script = ExtResource("7_nfeyg")
+department = 5
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/waiter/waiter_m_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/waiter/waiter_m_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/waiter/waiter_m_leg.png"
+cog_name = "V"
+head = "res://models/crossover_cogs/murder_drones/v.glb"
+scale = 6.9
+hand_color = Color(0.78431374, 0.8, 0.78431374, 1)
+custom_nametag_suffix = "Elite"
+attacks = Array[ExtResource("1_5ossb")]([ExtResource("2_axt4s"), ExtResource("3_aaje8"), ExtResource("4_l7ofi"), ExtResource("5_6fu54"), ExtResource("6_5ossb")])
+level_low = 6
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_elite_tier.tres")
+is_crossover_cog = true
+is_female_cog = true
+health_mod = 2.0
+battle_phrases = Array[String](["Oh there you are! Someone told me there is a toon running around.", "Heard of disassembly? You do now!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

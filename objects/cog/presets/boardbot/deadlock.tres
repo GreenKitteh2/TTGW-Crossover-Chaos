@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=5 format=3 uid="uid://nxlylhs1s4v4"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_fov3t"]
+[ext_resource type="Resource" uid="uid://qk4f4h40o5u1" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip.tres" id="2_uh73a"]
+[ext_resource type="Resource" uid="uid://dwkmwkdn3ws4k" path="res://objects/battle/battle_resources/cog_attacks/resources/evil_eye.tres" id="3_fov3t"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="4_g4cxd"]
+
+[resource]
+script = ExtResource("4_g4cxd")
+department = 4
+suit = 2
+cog_name = "Deadlock"
+name_plural = "Deadlocks"
+name_prefix = "Dead"
+name_suffix = "lock"
+head = "res://models/cogs/heads/deadlock.glb"
+scale = 5.0
+head_textures = PackedStringArray("res://models/cogs/heads/deadlock_cc_t_ene_deadlock.png")
+hand_color = Color(0.329412, 0.427451, 0.447059, 1)
+attacks = Array[ExtResource("1_fov3t")]([ExtResource("2_uh73a"), ExtResource("3_fov3t")])
+level_low = 5
+battle_phrases = Array[String](["The secret to my success? That's under lock and key.", "I've locked this area away from pesky Toons like you!", "Think you know the key to beat me?", "Your resilience will get us nowhere!", "You? Unlock me? Fat chance.", "Persistence is key, don't ya know?", "This'll be over soon if you see things MY way.", "I'll lock you up nice and tight, Toon!", "My victory is already LOCKED IN!", "I'm locked on to ya, Toon!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cqw7yjicu3v6v"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_6k127"]
+[ext_resource type="Resource" uid="uid://cae3lr6y4rrb8" path="res://objects/battle/battle_resources/cog_attacks/resources/quake.tres" id="2_6k127"]
+[ext_resource type="Resource" uid="uid://erbbarg5bxm8" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex.tres" id="3_pbwa8"]
+[ext_resource type="Resource" uid="uid://55lp6noha8te" path="res://objects/battle/battle_resources/cog_attacks/resources/shake.tres" id="4_tgyhy"]
+[ext_resource type="Resource" uid="uid://bddy50xh8sfc8" path="res://objects/battle/battle_resources/cog_attacks/resources/tremor.tres" id="5_8alhk"]
+[ext_resource type="Resource" uid="uid://duq7fidd28rw5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack.tres" id="6_xh8so"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_hg3pj"]
+
+[resource]
+script = ExtResource("7_hg3pj")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/waiter/waiter_m_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/waiter/waiter_m_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/waiter/waiter_m_leg.png"
+cog_name = "Niffty"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/niffty.glb"
+scale = 3.5
+custom_nametag_suffix = "Elite"
+attacks = Array[ExtResource("1_6k127")]([ExtResource("2_6k127"), ExtResource("3_pbwa8"), ExtResource("4_tgyhy"), ExtResource("5_8alhk"), ExtResource("6_xh8so")])
+level_low = 2
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_elite_tier.tres")
+is_crossover_cog = true
+is_female_cog = true
+health_mod = 2.0
+battle_phrases = Array[String](["There needs some fun around here.", "My turn my turn!", "You are a strange looking bug."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

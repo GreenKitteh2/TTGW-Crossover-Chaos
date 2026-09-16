@@ -1,0 +1,34 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://mrh8d4k6q3qa"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_ifng3"]
+[ext_resource type="Resource" uid="uid://jwee4pdvfxrb" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/brain_storm_(rainmaker).tres" id="2_r0tj2"]
+[ext_resource type="Resource" uid="uid://xvujjxywp18d" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/liquidate_(rainmaker).tres" id="3_hbyjs"]
+[ext_resource type="Resource" uid="uid://b8dbiv0c5taig" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/power_trip_(rainmaker).tres" id="4_obb0g"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_s4ora"]
+[ext_resource type="Resource" uid="uid://brphinbswf17p" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/freeze_assets_(rainmaker).tres" id="5_str7k"]
+
+[resource]
+script = ExtResource("5_s4ora")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/law/blazer_exe.png"
+custom_arm_tex = "res://models/cogs/textures/law/sleeve_exe.png"
+custom_leg_tex = "res://models/cogs/textures/law/leg_exe.png"
+cog_name = "Rainmaker"
+name_prefix = "Rain"
+name_suffix = "maker"
+head = "res://models/cogs/heads/rainmaker_head.glb"
+scale = 4.9
+hand_color = Color(0.6745098, 0.6901961, 0.7411765, 1)
+attacks = Array[ExtResource("1_ifng3")]([ExtResource("2_r0tj2"), ExtResource("3_hbyjs"), ExtResource("4_obb0g"), ExtResource("5_str7k")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres", "res://objects/battle/battle_resources/status_effects/resources/status_effect_extra_attack.tres")
+is_female_cog = true
+is_manager = true
+health_mod = 2.0
+battle_phrases = Array[String](["My memory is a bit clouded right now.", "I can weather the storm, Toon.", "Sigh, I really don't want to do this.", "You and I should know that time heals all wounds."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

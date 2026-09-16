@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://gaux347hilf6"]
+
+[ext_resource type="Script" uid="uid://gxs5iivdovyp" path="res://objects/battle/battle_resources/cog_signature_attack/objection.gd" id="1_ottqa"]
+
+[resource]
+script = ExtResource("1_ottqa")
+damage = 5
+attack_lines = Array[String](["Objection! Why can the plaintiff utilize combo damage when we, the defendants, cannot?"])
+action_name = "Objection!"
+metadata/_custom_type_script = "uid://bb27him60xtnk"

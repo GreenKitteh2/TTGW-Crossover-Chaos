@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cmpcqs3l4erga"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_bio8f"]
+[ext_resource type="Resource" uid="uid://ctic2hlkgddom" path="res://objects/battle/battle_resources/cog_attacks/resources/evil_eye_(super).tres" id="2_j6ak7"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="3_irvhc"]
+[ext_resource type="Resource" uid="uid://b3tlged7kqx0t" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip_(super).tres" id="4_ejqhj"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_7300h"]
+[ext_resource type="Resource" uid="uid://b72hb7uavcclo" path="res://objects/battle/battle_resources/cog_signature_attack/resources/strengthen.tres" id="5_irvhc"]
+[ext_resource type="Resource" uid="uid://du05l8r6sxyrq" path="res://objects/battle/battle_resources/cog_signature_attack/resources/ignite.tres" id="6_nsw5g"]
+[ext_resource type="Resource" uid="uid://slywi7r3q78s" path="res://objects/battle/battle_resources/cog_signature_attack/resources/bulk_up.tres" id="7_j6ak7"]
+
+[resource]
+script = ExtResource("5_7300h")
+department = 4
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/ut_and_dr/asgore_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/ut_and_dr/asgore_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/ut_and_dr/asgore_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/undertale.png"
+cog_name = "Asgore"
+name_plural = "Asgores"
+head = "res://models/crossover_cogs/undertale_and_deltarune/asgore.glb"
+scale = 7.35
+hand_color = Color(0.972549, 0.9882353, 0.972549, 1)
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_bio8f")]([ExtResource("2_j6ak7"), ExtResource("3_irvhc"), ExtResource("4_ejqhj"), ExtResource("5_irvhc"), ExtResource("6_nsw5g"), ExtResource("7_j6ak7")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["Nice meeting you Toon, Goodbye.", "I've destroy humans who come here, I will do the same for Toons like you."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

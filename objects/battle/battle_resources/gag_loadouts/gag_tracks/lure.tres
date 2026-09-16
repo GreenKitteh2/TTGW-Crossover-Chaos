@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="Track" format=3 uid="uid://dqldfsmn7g606"]
+
+[ext_resource type="Script" uid="uid://cwnjrxjvy5kc3" path="res://objects/battle/battle_resources/toon_attacks/toon_attack.gd" id="1_txqk2"]
+[ext_resource type="Resource" uid="uid://cj73wfn7qlr5p" path="res://objects/battle/battle_resources/gag_loadouts/gags/lure/1_dollar_bill.tres" id="2_a0v0m"]
+[ext_resource type="Resource" uid="uid://bhdchdf1hjd0c" path="res://objects/battle/battle_resources/gag_loadouts/gags/lure/small_magnet.tres" id="3_lm2mb"]
+[ext_resource type="Resource" uid="uid://baf06bjnmwsh5" path="res://objects/battle/battle_resources/gag_loadouts/gags/lure/5_dollar_bill.tres" id="4_6h8l6"]
+[ext_resource type="Resource" uid="uid://ga3j6hwgxeys" path="res://objects/battle/battle_resources/gag_loadouts/gags/lure/big_magnet.tres" id="5_ple67"]
+[ext_resource type="Resource" uid="uid://b4t7upshin64v" path="res://objects/battle/battle_resources/gag_loadouts/gags/lure/10_dollar_bill.tres" id="6_p4v71"]
+[ext_resource type="Resource" uid="uid://5vn3fn3ys5kt" path="res://objects/battle/battle_resources/gag_loadouts/gags/lure/hypno_goggles.tres" id="7_wy8xf"]
+[ext_resource type="Resource" uid="uid://du7u0oljwrd3h" path="res://objects/battle/battle_resources/gag_loadouts/gags/lure/presentation.tres" id="8_rqkk5"]
+[ext_resource type="Script" uid="uid://b6b6pfoqyolr" path="res://objects/battle/battle_resources/gag_loadouts/track.gd" id="14_tulk0"]
+
+[resource]
+script = ExtResource("14_tulk0")
+track_type = 1
+track_name = "Lure"
+track_color = Color(0.282353, 0.623529, 0.247059, 1)
+gags = Array[ExtResource("1_txqk2")]([ExtResource("2_a0v0m"), ExtResource("3_lm2mb"), ExtResource("4_6h8l6"), ExtResource("5_ple67"), ExtResource("6_p4v71"), ExtResource("7_wy8xf"), ExtResource("8_rqkk5")])
+mod_gags = Dictionary[ExtResource("1_txqk2"), int]({
+ExtResource("2_a0v0m"): 0,
+ExtResource("3_lm2mb"): 1,
+ExtResource("4_6h8l6"): 2,
+ExtResource("5_ple67"): 3,
+ExtResource("6_p4v71"): 4,
+ExtResource("7_wy8xf"): 5,
+ExtResource("8_rqkk5"): 6
+})

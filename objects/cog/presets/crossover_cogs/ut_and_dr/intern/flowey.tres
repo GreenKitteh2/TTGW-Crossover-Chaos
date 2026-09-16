@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://c85iamtbnkgku"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_6p7ae"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_6p7ae"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="3_1x76y"]
+[ext_resource type="Resource" uid="uid://qk4f4h40o5u1" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip.tres" id="4_vi5ub"]
+[ext_resource type="Resource" uid="uid://55lp6noha8te" path="res://objects/battle/battle_resources/cog_attacks/resources/shake.tres" id="5_gvk04"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_26j1m"]
+
+[resource]
+script = ExtResource("7_26j1m")
+department = 3
+suit = 1
+cog_name = "Flowey"
+name_plural = "Floweys"
+head = "res://models/crossover_cogs/undertale_and_deltarune/flowey.glb"
+scale = 6.4
+hand_color = Color(0.37254903, 0.37254903, 0.37254903, 1)
+custom_nametag_height = 9.2
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_6p7ae")]([ExtResource("2_6p7ae"), ExtResource("3_1x76y"), ExtResource("4_vi5ub"), ExtResource("5_gvk04")])
+level_low = 2
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["Howdy Toon!", "I control this suit, like what you see?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

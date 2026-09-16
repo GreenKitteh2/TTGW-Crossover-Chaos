@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://hjq6iodv4cps"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_vvwi8"]
+[ext_resource type="Resource" uid="uid://b3mqc80kln1or" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket_(super).tres" id="2_yhvli"]
+[ext_resource type="Resource" uid="uid://b8evcct5837aq" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket_money.tres" id="3_mwkfd"]
+[ext_resource type="Resource" uid="uid://d15mam6m8bjh1" path="res://objects/battle/battle_resources/cog_attacks/resources/hang_up_(super).tres" id="4_13lwo"]
+[ext_resource type="Resource" uid="uid://csa16be805low" path="res://objects/battle/battle_resources/cog_attacks/resources/pound_key_(super).tres" id="5_3uupr"]
+[ext_resource type="Resource" uid="uid://c82q6b10di5a1" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time.tres" id="6_yhxl7"]
+[ext_resource type="Resource" uid="uid://ds65kbrqrekdn" path="res://objects/battle/battle_resources/cog_signature_attack/resources/encourage.tres" id="7_6pscy"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_041ma"]
+[ext_resource type="Resource" uid="uid://3ymw0o36tlbg" path="res://objects/battle/battle_resources/cog_signature_attack/resources/spin.tres" id="8_yhvli"]
+
+[resource]
+script = ExtResource("7_041ma")
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/ut_and_dr/spamton_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/ut_and_dr/spamton_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/ut_and_dr/spamton_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/undertale.png"
+cog_name = "Spamton"
+name_plural = "Spamtons"
+name_prefix = "Spam"
+name_suffix = "ton"
+head = "res://models/crossover_cogs/undertale_and_deltarune/spamton.glb"
+scale = 3.45
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_vvwi8")]([ExtResource("2_yhvli"), ExtResource("3_mwkfd"), ExtResource("4_13lwo"), ExtResource("5_3uupr"), ExtResource("6_yhxl7"), ExtResource("7_6pscy"), ExtResource("8_yhvli")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["[Cartoon Animal] IT'S TIME TO BECOME A BIG SHOT.", "EXCHANGE SOME [Comedic hazards] FOR SOME KROMER.", "TAKE THE DEAL [Cartoon character] I PROMISE IT'S WORTH IT."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

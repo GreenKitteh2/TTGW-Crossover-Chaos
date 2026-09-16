@@ -1,0 +1,9 @@
+[gd_resource type="Resource" format=3 uid="uid://dfl8xkvhb0pg2"]
+
+[ext_resource type="Script" uid="uid://30a4uuq8vy7q" path="res://objects/battle/battle_resources/cog_signature_attack/backburner.gd" id="1_s5o5n"]
+
+[resource]
+script = ExtResource("1_s5o5n")
+attack_lines = Array[String]([])
+target_type = 3
+action_name = ""

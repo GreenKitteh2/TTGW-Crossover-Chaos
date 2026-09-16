@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://djp2qjhxibruo"]
+
+[ext_resource type="Script" uid="uid://dkc60yahure4r" path="res://objects/battle/battle_resources/cog_signature_attack/stagger.gd" id="1_vd2hh"]
+
+[resource]
+script = ExtResource("1_vd2hh")
+damage = 0
+summary = "Evasiveness Down"
+attack_lines = Array[String](["Let the rhythm quake your core, babe.", "Everybody's jumpin', babe.", "Shake to the tempo!", "Time for the one o' clock jump!", "h now the crowd is shakin to the tune!", "Feel the rhythm? Feel the Tappin?", "I call this one the Jockey Jump!", "Babe this song ain't soft.", "Let's get shakin' babe."])
+action_name = "Stagger"

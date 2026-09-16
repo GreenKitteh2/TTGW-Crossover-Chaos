@@ -1,0 +1,15 @@
+[gd_resource type="Resource" format=3 uid="uid://b2e6m7ew37tcu"]
+
+[ext_resource type="Script" uid="uid://o4xrnglrikkf" path="res://objects/battle/battle_resources/cog_attacks/tremor_(super).gd" id="1_82hf6"]
+
+[resource]
+script = ExtResource("1_82hf6")
+anim_type = 1
+damage = 4
+summary = "The seismic activity makes 
+the Toon's defense break!"
+attack_lines = Array[String](["Gonna shake things up now!
+
+
+", "Stomp, stomp, STOMP!!", "What? Tripped up? Ha!!", "What? Y'all scared?? Ya look shaken up!!"])
+action_name = "Tremor"

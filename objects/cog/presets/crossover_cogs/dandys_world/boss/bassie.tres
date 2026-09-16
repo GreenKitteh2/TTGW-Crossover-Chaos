@@ -1,0 +1,37 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cjrqdo0g0vtdk"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_bado2"]
+[ext_resource type="Resource" uid="uid://chw4w2odwx3mc" path="res://objects/battle/battle_resources/cog_attacks/resources/clip_on_tie_(super).tres" id="2_7yw44"]
+[ext_resource type="Resource" uid="uid://dcth1mrm7s8bo" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip_(super).tres" id="3_wd2j7"]
+[ext_resource type="Resource" uid="uid://c4wlxoewkna7s" path="res://objects/battle/battle_resources/cog_attacks/resources/half_windsor_(super).tres" id="4_8whlo"]
+[ext_resource type="Resource" uid="uid://bxlgjda1mpx2a" path="res://objects/battle/battle_resources/cog_signature_attack/resources/protect.tres" id="5_7yw44"]
+[ext_resource type="Resource" uid="uid://b72hb7uavcclo" path="res://objects/battle/battle_resources/cog_signature_attack/resources/strengthen.tres" id="6_ac501"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_mtfkb"]
+[ext_resource type="Resource" uid="uid://ds65kbrqrekdn" path="res://objects/battle/battle_resources/cog_signature_attack/resources/encourage.tres" id="7_wd2j7"]
+
+[resource]
+script = ExtResource("6_mtfkb")
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/bassie_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/bassie_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/bassie_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Bassie"
+head = "res://models/crossover_cogs/dandys_world/Bassie.glb"
+scale = 3.5
+hand_color = Color(0.654902, 0.47843137, 0.3882353, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_bado2")]([ExtResource("2_7yw44"), ExtResource("3_wd2j7"), ExtResource("4_8whlo"), ExtResource("5_7yw44"), ExtResource("6_ac501"), ExtResource("7_wd2j7")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_female_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["No. I'm not letting myself get replaced.", "Let me do my part!", "What flowers do you want for your downfall?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

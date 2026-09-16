@@ -1,0 +1,74 @@
+[gd_resource type="Resource" script_class="PlayerCharacter" format=3 uid="uid://b5idbpx0w8qyq"]
+
+[ext_resource type="Script" uid="uid://o2fe7ud1faj6" path="res://objects/battle/battle_resources/stats.gd" id="1_dojkc"]
+[ext_resource type="Script" uid="uid://c8kas2j4io1jh" path="res://objects/toon/clothing/toon_bottoms.gd" id="2_xf5hf"]
+[ext_resource type="Script" uid="uid://yg7gxug4rab" path="res://objects/toon/toon_dna.gd" id="4_2gljj"]
+[ext_resource type="Texture2D" uid="uid://bwbe11pfn3to0" path="res://models/toon/textures/clothes/skirts/desat_skirt_1_4.png" id="4_xf5hf"]
+[ext_resource type="Script" uid="uid://dfqwh4jmdy0iw" path="res://objects/toon/clothing/toon_shirt.gd" id="5_5wc5i"]
+[ext_resource type="Texture2D" uid="uid://c62x3ynplld0u" path="res://models/toon/textures/clothes/shirts/desat_shirt_5.png" id="6_dojkc"]
+[ext_resource type="Texture2D" uid="uid://dh7dyokcfyw43" path="res://models/toon/textures/clothes/shirts/desat_sleeve_1.png" id="7_ofqj0"]
+[ext_resource type="Resource" uid="uid://tyi7ukxtvcgc" path="res://objects/battle/battle_resources/gag_loadouts/loadouts/standard_loadout.tres" id="8_ufxqb"]
+[ext_resource type="Script" uid="uid://ts8xpgftpmty" path="res://objects/player/character.gd" id="9_3bf5p"]
+[ext_resource type="Script" uid="uid://combwqypom1ru" path="res://objects/items/classes/item.gd" id="10_tru6j"]
+[ext_resource type="Resource" path="res://objects/items/resources/passive/frisk_setup.tres" id="11_g25un"]
+[ext_resource type="Resource" uid="uid://d4nsekncalswu" path="res://objects/items/resources/active/sandwich.tres" id="12_2gljj"]
+[ext_resource type="Resource" uid="uid://digbtm3frw0sr" path="res://objects/items/resources/accessories/glasses/heart_glasses.tres" id="14_301qw"]
+[ext_resource type="Resource" uid="uid://1mu6kq6h0d8j" path="res://objects/items/resources/accessories/hats/heart_headband.tres" id="15_ofqj0"]
+
+[sub_resource type="Resource" id="Resource_4mp7f"]
+script = ExtResource("1_dojkc")
+damage = 0.75
+defense = 1.5
+evasiveness = 1.5
+max_hp = 30
+hp = 30
+
+[sub_resource type="Resource" id="Resource_2bsmm"]
+script = ExtResource("2_xf5hf")
+texture = ExtResource("4_xf5hf")
+base_color = Color(0.219608, 0.54902, 0.835294, 1)
+
+[sub_resource type="Resource" id="Resource_17x8t"]
+script = ExtResource("5_5wc5i")
+shirt_texture = ExtResource("6_dojkc")
+sleeve_texture = ExtResource("7_ofqj0")
+base_color = Color(0.219608, 0.54902, 0.835294, 1)
+sleeve_color = Color(0.219608, 0.54902, 0.835294, 1)
+
+[sub_resource type="Resource" id="Resource_ppw05"]
+script = ExtResource("4_2gljj")
+body_type = 1
+species = 1
+head_index = 2
+skirt = true
+head_color = Color(0.951642, 0.826084, 0, 1)
+torso_color = Color(0.952941, 0.827451, 0, 1)
+leg_color = Color(0.359349, 0.166318, 0, 1)
+shirt = SubResource("Resource_17x8t")
+bottoms = SubResource("Resource_2bsmm")
+
+[resource]
+script = ExtResource("9_3bf5p")
+character_name = "Feline Friend"
+character_summary = "- has 150% Defense but 75% Damage
+- has a chance to be healed by attacks
+- gain a extra laff boost
+- discovers anomolies before entering"
+character_blurb = "They can sense possible dangers, can witstand threats, but they don't hurt much."
+dna = SubResource("Resource_ppw05")
+gag_loadout = ExtResource("8_ufxqb")
+starting_laff = 30
+starting_items = Array[ExtResource("10_tru6j")]([ExtResource("11_g25un"), ExtResource("12_2gljj"), ExtResource("14_301qw"), ExtResource("15_ofqj0")])
+base_stats = SubResource("Resource_4mp7f")
+starting_gags = Dictionary[String, int]({
+"Drop": 0,
+"Lure": 1,
+"Sound": 0,
+"Squirt": 1,
+"Throw": 0,
+"Trap": 0
+})
+additional_stats = Dictionary[String, Variant]({
+"luck": 1.0
+})
+achievement_index = 4

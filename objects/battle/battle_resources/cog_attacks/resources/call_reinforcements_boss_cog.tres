@@ -1,0 +1,8 @@
+[gd_resource type="Resource" format=3 uid="uid://ji1vhtwfrmvc"]
+
+[ext_resource type="Script" uid="uid://b1blyej5e1rmq" path="res://objects/battle/battle_resources/cog_attacks/reinforcement_call_boss_cog.gd" id="1_7ijss"]
+
+[resource]
+script = ExtResource("1_7ijss")
+attack_lines = Array[String]([])
+action_name = ""

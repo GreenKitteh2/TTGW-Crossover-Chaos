@@ -1,0 +1,9 @@
+[gd_resource type="Resource" format=3 uid="uid://bi6m53t0a0yag"]
+
+[ext_resource type="Script" uid="uid://c87dip08ur3la" path="res://objects/battle/battle_resources/misc_movies/sales_director/sd_reboot.gd" id="1_u1fyf"]
+
+[resource]
+script = ExtResource("1_u1fyf")
+summary = "Summons reinforcements!"
+attack_lines = Array[String]([])
+action_name = "Reboot"

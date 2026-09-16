@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://csi4oobf8cyaj"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_xayl8"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_74huu"]
+[ext_resource type="Resource" uid="uid://d164evvd4rxxi" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm_(super).tres" id="3_fqedd"]
+[ext_resource type="Resource" uid="uid://dunqnjlafu5n0" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag_(super).tres" id="4_rd37m"]
+[ext_resource type="Resource" uid="uid://df2ueh21w75ct" path="res://objects/battle/battle_resources/cog_attacks/resources/shake_(super).tres" id="5_hv233"]
+[ext_resource type="Resource" uid="uid://bxlgjda1mpx2a" path="res://objects/battle/battle_resources/cog_signature_attack/resources/protect.tres" id="6_74huu"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_isman"]
+[ext_resource type="Resource" uid="uid://ds65kbrqrekdn" path="res://objects/battle/battle_resources/cog_signature_attack/resources/encourage.tres" id="7_vefcm"]
+[ext_resource type="Resource" uid="uid://slywi7r3q78s" path="res://objects/battle/battle_resources/cog_signature_attack/resources/bulk_up.tres" id="8_fqedd"]
+
+[resource]
+script = ExtResource("7_isman")
+department = 4
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/tadc/kinger_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/tadc/kinger_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/tadc/kinger_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/tadc.png"
+cog_name = "Kinger"
+name_prefix = "King"
+name_suffix = "er"
+head = "res://models/crossover_cogs/tadc/kinger.glb"
+scale = 6.6
+hand_color = Color(0.9372549, 0.627451, 0.3764706, 1)
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_xayl8")]([ExtResource("2_74huu"), ExtResource("3_fqedd"), ExtResource("4_rd37m"), ExtResource("5_hv233"), ExtResource("6_74huu"), ExtResource("7_vefcm"), ExtResource("8_fqedd")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["T...Toon?! TOON!", "Oh a Toon, at least I have a buddy with...me."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

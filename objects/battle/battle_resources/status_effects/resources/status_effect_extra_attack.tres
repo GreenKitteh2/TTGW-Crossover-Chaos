@@ -1,0 +1,13 @@
+[gd_resource type="Resource" format=3 uid="uid://4dg2o4cf40yc"]
+
+[ext_resource type="Texture2D" uid="uid://bpf772mvr0bxa" path="res://ui_assets/battle/statuses/ambush_marketing.png" id="1_5j2ol"]
+[ext_resource type="Script" uid="uid://1xpvq4satucw" path="res://objects/battle/battle_resources/status_effects/status_effect_ambush_marketing.gd" id="2_7cm8s"]
+
+[resource]
+script = ExtResource("2_7cm8s")
+quality = 0
+rounds = -1
+icon = ExtResource("1_5j2ol")
+description = "This Cog has gained +1 extra attack!"
+status_name = "Extra Attack"
+id = 86

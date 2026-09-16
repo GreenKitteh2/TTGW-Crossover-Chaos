@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://eup7r57bi8ro"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_m5nf5"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="2_e244w"]
+[ext_resource type="Resource" uid="uid://6hjcsu17tt4g" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm.tres" id="3_m5nf5"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="4_e244w"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_7e2um"]
+
+[resource]
+script = ExtResource("5_7e2um")
+department = 4
+cog_name = "Circuit Breaker"
+name_plural = "Circuit Breakers"
+name_prefix = "Circuit "
+name_suffix = " Breaker"
+head = "res://models/cogs/heads/circuit breaker.glb"
+scale = 4.9
+head_textures = PackedStringArray("res://models/cogs/heads/circuit breaker_cc_t_ene_circuitbreaker.png")
+hand_color = Color(0.278431, 0.309804, 0.309804, 1)
+attacks = Array[ExtResource("1_m5nf5")]([ExtResource("2_e244w"), ExtResource("3_m5nf5"), ExtResource("4_e244w")])
+level_low = 4
+level_high = 11
+battle_phrases = Array[String](["It's about time I cut your cord", "You? Defeat me? That'd be a shock!", "Don't make me break you!", "You've sparked a war, Toon!", "Now you've sparked my anger!", "I'm going to have to cut you off here.", "Let me break it down for you...", "Prepare for an electrifying showdown!", "Prepare for the shock of a lifetime!", "This fight will be electrifying!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CogPool" format=3 uid="uid://dv0u0i3ykawo3"]
+
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="1_6n44x"]
+[ext_resource type="Resource" uid="uid://cdhk86vwa1npo" path="res://objects/cog/presets/crossover_cogs/changed/normal/colin.tres" id="2_mvdm8"]
+[ext_resource type="Resource" uid="uid://cqaccfuxqbbis" path="res://objects/cog/presets/crossover_cogs/changed/normal/dr_k.tres" id="3_6n44x"]
+[ext_resource type="Resource" uid="uid://eyi7wojhmgoo" path="res://objects/cog/presets/crossover_cogs/changed/normal/puro.tres" id="4_yd16w"]
+[ext_resource type="Script" uid="uid://buc4y0vtgydo" path="res://objects/cog/cog_pool.gd" id="6_s242t"]
+
+[resource]
+script = ExtResource("6_s242t")
+cogs = Array[ExtResource("1_6n44x")]([ExtResource("2_mvdm8"), ExtResource("3_6n44x"), ExtResource("4_yd16w")])

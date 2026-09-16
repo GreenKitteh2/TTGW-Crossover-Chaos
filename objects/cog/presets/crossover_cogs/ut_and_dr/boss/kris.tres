@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dveflmk4sxghk"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_iajw6"]
+[ext_resource type="Resource" uid="uid://dunqnjlafu5n0" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag_(super).tres" id="2_4qj5i"]
+[ext_resource type="Resource" uid="uid://d164evvd4rxxi" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm_(super).tres" id="3_6oj0y"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="4_jvrhw"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_0ld8a"]
+[ext_resource type="Resource" uid="uid://c82q6b10di5a1" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time.tres" id="5_jvrhw"]
+[ext_resource type="Resource" uid="uid://cdhgcruc4sdn2" path="res://objects/battle/battle_resources/cog_signature_attack/resources/self_heal.tres" id="6_ijsc5"]
+[ext_resource type="Resource" uid="uid://b72hb7uavcclo" path="res://objects/battle/battle_resources/cog_signature_attack/resources/strengthen.tres" id="7_4qj5i"]
+
+[resource]
+script = ExtResource("5_0ld8a")
+department = 3
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/ut_and_dr/kris_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/ut_and_dr/kris_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/ut_and_dr/kris_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/undertale.png"
+cog_name = "Kris"
+name_plural = "Krises"
+head = "res://models/crossover_cogs/undertale_and_deltarune/kris.glb"
+scale = 4.45
+hand_color = Color(0.3882353, 0.96862745, 0.972549, 1)
+custom_nametag_suffix = "Boss Cog"
+can_speak = false
+attacks = Array[ExtResource("1_iajw6")]([ExtResource("2_4qj5i"), ExtResource("3_6oj0y"), ExtResource("4_jvrhw"), ExtResource("5_jvrhw"), ExtResource("6_ijsc5"), ExtResource("7_4qj5i")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["..."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

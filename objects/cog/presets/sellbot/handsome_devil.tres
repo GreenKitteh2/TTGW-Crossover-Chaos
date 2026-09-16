@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dpja1rq451wm7"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_jsrjq"]
+[ext_resource type="Resource" uid="uid://qk4f4h40o5u1" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip.tres" id="2_fk14j"]
+[ext_resource type="Resource" uid="uid://c24yy1wqmg24o" path="res://objects/battle/battle_resources/cog_attacks/resources/razzle_dazzle.tres" id="3_fk14j"]
+[ext_resource type="Resource" uid="uid://dwkmwkdn3ws4k" path="res://objects/battle/battle_resources/cog_attacks/resources/evil_eye.tres" id="4_7kij0"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="5_6wxtl"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_bhed0"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="6_o35n2"]
+
+[resource]
+script = ExtResource("5_bhed0")
+cog_name = "Handsome Devil"
+name_plural = "Handsome Devils"
+name_prefix = "Handsome "
+name_suffix = " Devil"
+head = "res://models/cogs/heads/devil.glb"
+scale = 5.75
+head_textures = PackedStringArray("res://models/cogs/heads/devil_devil.png")
+hand_color = Color(0.5803922, 0.39215687, 0.49019608, 1)
+attacks = Array[ExtResource("1_jsrjq")]([ExtResource("2_fk14j"), ExtResource("3_fk14j"), ExtResource("4_7kij0"), ExtResource("5_6wxtl"), ExtResource("6_o35n2")])
+level_low = 7
+level_high = 14
+battle_phrases = Array[String](["They say I'm quite the handsome one.", "Are you ready to become soulmates?", "Here's my number. It's 1-666-SALES.", "Speaking of the devil, guess who showed up?", "Careful, I am quite the fiery to put out.", "Watch out, I'm going to commit all the sins.", "Today's price will be your soul.", "This isn't even my final form.", "Have you seen the Forecaster's prediction? I heard there is going to be a lot of hail.", "You don't belong here."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

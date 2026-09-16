@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dkycyvn8nt8sy"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_l5kwf"]
+[ext_resource type="Resource" uid="uid://dv0i1dia3gmal" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/liquidate_(derrick_man).tres" id="2_l5kwf"]
+[ext_resource type="Resource" uid="uid://0dwb1dr8rx2u" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/freeze_assets_(derrick_man).tres" id="3_l5kwf"]
+[ext_resource type="Resource" uid="uid://ccrtd7t13spjc" path="res://objects/battle/battle_resources/cog_signature_attack/resources/refinement_(derrick_man).tres" id="4_l5kwf"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_tiu64"]
+
+[resource]
+script = ExtResource("5_tiu64")
+department = 3
+custom_blazer_tex = "res://models/cogs/textures/boss/blazer_exe.png"
+custom_arm_tex = "res://models/cogs/textures/boss/sleeve_exe.png"
+custom_leg_tex = "res://models/cogs/textures/boss/leg_exe.png"
+cog_name = "Derrick Man"
+name_plural = "Derrick Men"
+name_prefix = "Derrick "
+name_suffix = " Man"
+head = "res://models/cogs/heads/derrick-man.glb"
+scale = 4.75
+hand_color = Color(0.5647059, 0.3764706, 0.2, 1)
+attacks = Array[ExtResource("1_l5kwf")]([ExtResource("2_l5kwf"), ExtResource("3_l5kwf"), ExtResource("4_l5kwf")])
+level_low = 5
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_manager = true
+health_mod = 2.0
+battle_phrases = Array[String](["This is a waste of my time.", "You toons have such unrefined tastes.", "You need to refine your approach.", "I thought I smelled something extra crude!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

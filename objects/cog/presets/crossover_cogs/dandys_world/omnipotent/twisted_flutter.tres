@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bw2tr0rc3mmk3"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_nqi2u"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="2_6xybj"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="3_0tp30"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="5_el5ey"]
+[ext_resource type="Resource" uid="uid://duq7fidd28rw5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack.tres" id="5_nqi2u"]
+[ext_resource type="Resource" uid="uid://c82q6b10di5a1" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time.tres" id="6_pjx4y"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_wmk5e"]
+
+[resource]
+script = ExtResource("7_wmk5e")
+department = 1
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/slender/blazer.png"
+custom_arm_tex = "res://models/cogs/textures/slender/sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/slender/leg.png"
+cog_name = "Twisted Flutter"
+name_prefix = "Twisted "
+name_suffix = " Flutter"
+head = "res://models/crossover_cogs/dandys_world/Twisted Flutter.glb"
+scale = 3.5
+hand_color = Color(0.14901961, 0.14901961, 0.14901961, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Omnipotent"
+can_speak = false
+attacks = Array[ExtResource("1_nqi2u")]([ExtResource("2_6xybj"), ExtResource("3_0tp30"), ExtResource("5_el5ey"), ExtResource("5_nqi2u"), ExtResource("6_pjx4y")])
+level_low = 11
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_omnipotent_tier.tres")
+is_crossover_cog = true
+is_female_cog = true
+health_mod = 3.0
+battle_phrases = Array[String](["..."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

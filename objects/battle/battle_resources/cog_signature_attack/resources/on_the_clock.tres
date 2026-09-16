@@ -1,0 +1,12 @@
+[gd_resource type="Resource" format=3 uid="uid://bnomwykacv64m"]
+
+[ext_resource type="Script" uid="uid://bhk4hdgg4cpmy" path="res://objects/battle/battle_resources/cog_signature_attack/on_the_clock.gd" id="1_1ffd5"]
+
+[resource]
+script = ExtResource("1_1ffd5")
+accuracy = 100
+damage = 2
+summary = "Puts you in a battle timer!"
+attack_lines = Array[String](["I don't have much time here so hurry up.", "Time is running out Toon.", "How about I take your time.", "I'm ready to clock out."])
+action_name = "On the clock"
+crit_chance_mod = 0.0

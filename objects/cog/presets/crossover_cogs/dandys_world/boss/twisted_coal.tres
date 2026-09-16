@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://d1n0xcf380aou"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_bu1ce"]
+[ext_resource type="Resource" uid="uid://dre7mevaowru2" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/evil_eye_(coal_and_pebble)_(super).tres" id="2_hg052"]
+[ext_resource type="Resource" uid="uid://ct62ayh62qdhy" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/workout_(coal_and_pebble).tres" id="3_gc27m"]
+[ext_resource type="Resource" uid="uid://bm0f1cyeo1xft" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/pick_pocket_(coal_and_pebble)_(super).tres" id="4_dfqsx"]
+[ext_resource type="Resource" uid="uid://nap7t5b478yq" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time_(coal_and_pebble).tres" id="5_arjn4"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_1jyln"]
+[ext_resource type="Resource" uid="uid://cpjqlag3jd80b" path="res://objects/battle/battle_resources/cog_signature_attack/resources/marked_(coal_and_pebble).tres" id="6_evvei"]
+[ext_resource type="Resource" uid="uid://dysi38k8dnyvn" path="res://objects/battle/battle_resources/cog_signature_attack/resources/strengthen_(coal_and_pebble).tres" id="7_hg052"]
+
+[resource]
+script = ExtResource("6_1jyln")
+department = 3
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_coal_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_coal_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_coal_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Twisted Coal"
+name_prefix = "Twisted "
+name_suffix = " Coal"
+head = "res://models/crossover_cogs/dandys_world/Twisted Coal.glb"
+scale = 5.3
+hand_color = Color(0.25490198, 0.25490198, 0.25490198, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_bu1ce")]([ExtResource("2_hg052"), ExtResource("3_gc27m"), ExtResource("4_dfqsx"), ExtResource("5_arjn4"), ExtResource("6_evvei"), ExtResource("7_hg052")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_female_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["Grrrrrrrrrrrrr!", "Bork! Bork!", "Bwoof!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

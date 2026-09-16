@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=7 format=3 uid="uid://cowd2upnopndm"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_xwtey"]
+[ext_resource type="Resource" uid="uid://dimhdaxn1tyey" path="res://objects/battle/battle_resources/cog_attacks/resources/tee_off.tres" id="2_1coom"]
+[ext_resource type="Resource" uid="uid://c27ek2anjbx88" path="res://objects/battle/battle_resources/cog_attacks/resources/pound_key.tres" id="3_meai5"]
+[ext_resource type="Resource" uid="uid://berwbvcnp521g" path="res://objects/battle/battle_resources/cog_attacks/resources/pink_slip.tres" id="4_meai5"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_ct24r"]
+[ext_resource type="Resource" uid="uid://c31yj6hc78hh3" path="res://objects/battle/battle_resources/cog_attacks/resources/eviction_notice.tres" id="5_i3b5p"]
+
+[resource]
+script = ExtResource("5_ct24r")
+department = 5
+cog_name = "Keyboard Warrior"
+name_plural = "Keyboard Warriors"
+name_prefix = "Keyboard "
+name_suffix = " Warrior"
+head = "res://models/cogs/heads/keyboard-warrior_head.glb"
+scale = 4.8
+head_textures = PackedStringArray("res://models/cogs/heads/keyboard-warrior_head_keyboardwarrior_final.png")
+hand_color = Color(0.34901962, 0.34901962, 0.34901962, 1)
+custom_nametag_height = 12.0
+attacks = Array[ExtResource("1_xwtey")]([ExtResource("2_1coom"), ExtResource("3_meai5"), ExtResource("4_meai5"), ExtResource("5_i3b5p")])
+level_low = 5
+battle_phrases = Array[String](["Your opinions don't matter to me.", "I'll tell you who runs this town.", "Let's discuss a stand-off.", "Where're you headed, warrior?", "Don't even think about it, warrior.", "Tell them I'm coming.", "Get ready for this flame war.", "Civil discussions? What are those?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

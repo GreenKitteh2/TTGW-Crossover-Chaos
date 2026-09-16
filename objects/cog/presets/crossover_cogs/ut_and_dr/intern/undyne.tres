@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dcmx4cn065ior"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_ak1gc"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="2_qp3ak"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="3_ak1gc"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_yrvye"]
+
+[resource]
+script = ExtResource("6_yrvye")
+department = 2
+cog_name = "Undyne"
+name_plural = "Undynes"
+head = "res://models/crossover_cogs/undertale_and_deltarune/undyne.glb"
+scale = 6.45
+hand_color = Color(0.3372549, 0.5176471, 0.64705884, 1)
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_ak1gc")]([ExtResource("2_qp3ak"), ExtResource("3_ak1gc")])
+level_low = 6
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["NGAAAAAHHHHHHHHHHHHH!", "So you're a Toon?! I see you as small and wimpy!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

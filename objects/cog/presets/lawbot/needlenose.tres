@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bi5qrg3xoba42"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_1b7dl"]
+[ext_resource type="Resource" uid="uid://c27ek2anjbx88" path="res://objects/battle/battle_resources/cog_attacks/resources/pound_key.tres" id="2_1b7dl"]
+[ext_resource type="Resource" uid="uid://doowiij7lpxy1" path="res://objects/battle/battle_resources/cog_attacks/resources/rubber_stamp.tres" id="3_ixedc"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="4_1b7dl"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_rjjk3"]
+
+[resource]
+script = ExtResource("5_rjjk3")
+department = 2
+suit = 2
+cog_name = "Needlenose"
+name_plural = "Needlenoses"
+name_prefix = "Needle"
+name_suffix = "nose"
+head = "res://models/cogs/heads/needlenose.glb"
+scale = 4.35
+head_textures = PackedStringArray("res://models/cogs/heads/needlenose_ttcc_ene_needlenose.png")
+hand_color = Color(0.29803923, 0.3647059, 0.60784316, 1)
+attacks = Array[ExtResource("1_1b7dl")]([ExtResource("2_1b7dl"), ExtResource("3_ixedc"), ExtResource("4_1b7dl")])
+level_low = 3
+level_high = 10
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/mod_cog_field_specialist.tres")
+is_female_cog = true
+health_mod = 0.7
+battle_phrases = Array[String](["Sew, you've found me?", "A Toon? Knot a problem.", "You seam-stressed to fight me.", "Get to the point, Toon.", "My abilities are on point.", "You'll be hanging on by a thread when I'm done with you.", "Toons seem to have a pattern of losing to me.", "Needleless to say, you'll be heading to the playground.", "I've got my eye on you!", "I'll point you back to the playground."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

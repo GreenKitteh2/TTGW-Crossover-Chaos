@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bckulp2tnn5h3"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_cbg6s"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_5iqr5"]
+[ext_resource type="Resource" uid="uid://c24yy1wqmg24o" path="res://objects/battle/battle_resources/cog_attacks/resources/razzle_dazzle.tres" id="3_gsbnu"]
+[ext_resource type="Resource" uid="uid://dimhdaxn1tyey" path="res://objects/battle/battle_resources/cog_attacks/resources/tee_off.tres" id="4_oedh7"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="5_urrwb"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_5s7em"]
+[ext_resource type="Resource" uid="uid://b35m7xym3lkwl" path="res://objects/battle/battle_resources/cog_signature_attack/resources/snipe.tres" id="6_yperl"]
+
+[resource]
+script = ExtResource("6_5s7em")
+department = 3
+custom_blazer_tex = "res://models/cogs/textures/misc/blazer_1.png"
+custom_arm_tex = "res://models/cogs/textures/misc/sleeve_2.png"
+custom_leg_tex = "res://models/cogs/textures/misc/leg_4.png"
+custom_wrist_tex = "res://models/cogs/textures/misc/arm_1.png"
+cog_name = "Tankman"
+name_prefix = "Tank"
+name_suffix = "man"
+head = "res://models/crossover_cogs/fnf/tankman.glb"
+scale = 5.6
+hand_color = Color(0, 0, 0, 1)
+attacks = Array[ExtResource("1_cbg6s")]([ExtResource("2_5iqr5"), ExtResource("3_gsbnu"), ExtResource("4_oedh7"), ExtResource("5_urrwb"), ExtResource("6_yperl")])
+level_low = 5
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["So you're the \"Toon\", Ugh.", "This is war against you Toons, and at war, people DIE! I think."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

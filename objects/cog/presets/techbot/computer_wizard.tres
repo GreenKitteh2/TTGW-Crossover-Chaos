@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=7 format=3 uid="uid://c7gd7u0igds6n"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_3rt2g"]
+[ext_resource type="Resource" uid="uid://c27ek2anjbx88" path="res://objects/battle/battle_resources/cog_attacks/resources/pound_key.tres" id="2_uawb4"]
+[ext_resource type="Resource" uid="uid://bddy50xh8sfc8" path="res://objects/battle/battle_resources/cog_attacks/resources/tremor.tres" id="3_414i7"]
+[ext_resource type="Resource" uid="uid://6hjcsu17tt4g" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm.tres" id="4_4nxl7"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_1f6vp"]
+[ext_resource type="Resource" uid="uid://b4kaq7rjifwfc" path="res://objects/battle/battle_resources/cog_attacks/resources/liquidate.tres" id="5_mimsx"]
+
+[resource]
+script = ExtResource("5_1f6vp")
+department = 5
+suit = 1
+cog_name = "Computer Wizard"
+name_plural = "Computer Wizards"
+name_prefix = "Computer "
+name_suffix = " Wizard"
+head = "res://models/cogs/heads/computer-wizard_head.glb"
+scale = 6.25
+head_textures = PackedStringArray("res://models/cogs/heads/computer-wizard_head_techbot_heads_palette.png")
+hand_color = Color(0.84705883, 0.7058824, 0.85490197, 1)
+custom_nametag_height = 9.5
+attacks = Array[ExtResource("1_3rt2g")]([ExtResource("2_uawb4"), ExtResource("3_414i7"), ExtResource("4_4nxl7"), ExtResource("5_mimsx")])
+level_low = 7
+level_high = 14
+battle_phrases = Array[String](["This will be easy - I know my way around things.", "My proficiency with tech is magical.", "I spell DEFEAT.", "I’m going to put you in a cast.", "You’re not ready for what I’m conjuring.", "This next script will be enchanting.", "Prepare for your last duel, Toon.", "The Mages Guild knows all about you, Toon."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

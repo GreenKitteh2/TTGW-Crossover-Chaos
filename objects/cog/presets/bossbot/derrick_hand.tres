@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://6dikvf8bq63f"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_imnrr"]
+[ext_resource type="Resource" uid="uid://b31co40ubygs2" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/liquidate_(derrick_hand).tres" id="2_imnrr"]
+[ext_resource type="Resource" uid="uid://by75ye1wqdoqk" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/freeze_assets_(derrick_hand).tres" id="3_oag76"]
+[ext_resource type="Resource" uid="uid://c73cd4gt13il2" path="res://objects/battle/battle_resources/cog_signature_attack/resources/refinement_(derrick_hand).tres" id="4_imnrr"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_48kue"]
+
+[resource]
+script = ExtResource("5_48kue")
+department = 3
+custom_blazer_tex = "res://models/cogs/textures/boss/blazer_exe.png"
+custom_arm_tex = "res://models/cogs/textures/boss/sleeve_exe.png"
+custom_leg_tex = "res://models/cogs/textures/boss/leg_exe.png"
+cog_name = "Derrick Hand"
+name_prefix = "Derrick "
+name_suffix = " Hand"
+head = "res://models/cogs/heads/derrick-hand_head.glb"
+scale = 7.0
+hand_color = Color(0.27058825, 0.2509804, 0.24313726, 1)
+custom_nametag_height = 10.0
+attacks = Array[ExtResource("1_imnrr")]([ExtResource("2_imnrr"), ExtResource("3_oag76"), ExtResource("4_imnrr")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_manager = true
+health_mod = 2.5
+battle_phrases = Array[String](["I'll be sure to drill in the point.", "I'm suspending this well, Toon.", "This will be a spinning success.", "You seem to be getting a bit dizzy."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

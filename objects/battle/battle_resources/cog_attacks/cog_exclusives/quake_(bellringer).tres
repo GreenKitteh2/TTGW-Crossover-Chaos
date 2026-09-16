@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://dsoxy4umn8rf3"]
+
+[ext_resource type="Script" uid="uid://cve13srpx3kde" path="res://objects/battle/battle_resources/cog_attacks/quake_(super).gd" id="1_2ygtl"]
+
+[resource]
+script = ExtResource("1_2ygtl")
+damage = 5
+summary = "The seismic activity makes it hard to dodge!"
+attack_lines = Array[String](["You're on dodgy ground now!", "I've got a whole lot o' quakin' goin' on!", "Let's quake, rattle, an' roll.", "This one's proper off the Richter scale.", "Ever been in a proper earthquake?"])
+action_name = "Quake"

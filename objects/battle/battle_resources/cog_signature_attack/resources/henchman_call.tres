@@ -1,0 +1,8 @@
+[gd_resource type="Resource" format=3 uid="uid://bdrmowdu0ek8o"]
+
+[ext_resource type="Script" uid="uid://k07v7osg0hcf" path="res://objects/battle/battle_resources/cog_signature_attack/henchman_call.gd" id="1_d4rr4"]
+
+[resource]
+script = ExtResource("1_d4rr4")
+attack_lines = Array[String](["Don't think you had it easy, henchmen!", "I'm not going to hold my self back, Get em boys!", "I'll have my henchmen take care of this."])
+action_name = "Henchman Call"

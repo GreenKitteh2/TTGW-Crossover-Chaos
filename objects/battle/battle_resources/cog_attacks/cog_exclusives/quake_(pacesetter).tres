@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://burqw6kmy7to8"]
+
+[ext_resource type="Script" uid="uid://cve13srpx3kde" path="res://objects/battle/battle_resources/cog_attacks/quake_(super).gd" id="1_a5dsv"]
+
+[resource]
+script = ExtResource("1_a5dsv")
+damage = 5
+summary = "The seismic activity makes it hard to dodge!"
+attack_lines = Array[String](["You'll need to keep steady if you want to keep up!", "Time to tear up the dance floor!", "It's not a real show unless the walls shake!", "You've gotta know how to shake to get into the Pace Place!"])
+action_name = "Quake"

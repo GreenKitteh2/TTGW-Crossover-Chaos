@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bhjhldkcd5sit"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_6tdu6"]
+[ext_resource type="Resource" uid="uid://u8ja4vfq2adm" path="res://objects/battle/battle_resources/cog_attacks/resources/quake_(super).tres" id="2_6tdu6"]
+[ext_resource type="Resource" uid="uid://cv4rmklfhc1nr" path="res://objects/battle/battle_resources/cog_attacks/resources/eviction_notice_(super).tres" id="3_hrc1k"]
+[ext_resource type="Resource" uid="uid://dbyeiu73x1b8o" path="res://objects/battle/battle_resources/cog_signature_attack/resources/red_tape.tres" id="4_hrc1k"]
+[ext_resource type="Resource" uid="uid://3ymw0o36tlbg" path="res://objects/battle/battle_resources/cog_signature_attack/resources/spin.tres" id="5_00s4s"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_vcvqi"]
+[ext_resource type="Resource" uid="uid://gaux347hilf6" path="res://objects/battle/battle_resources/cog_signature_attack/resources/objection.tres" id="6_00s4s"]
+
+[resource]
+script = ExtResource("5_vcvqi")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/law/blazer_exe.png"
+custom_arm_tex = "res://models/cogs/textures/law/sleeve_exe.png"
+custom_leg_tex = "res://models/cogs/textures/law/leg_exe.png"
+cog_name = "Head Attorney"
+name_prefix = "Head "
+name_suffix = " Attorney"
+head = "res://models/cogs/heads/skelecog_b.glb"
+scale = 7.35
+hand_color = Color(0.5207673, 0.73908556, 0.94861525, 1)
+head_color = Color(0.52156866, 0.7372549, 0.9490196, 1)
+attacks = Array[ExtResource("1_6tdu6")]([ExtResource("2_6tdu6"), ExtResource("3_hrc1k"), ExtResource("4_hrc1k"), ExtResource("5_00s4s"), ExtResource("6_00s4s")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_manager = true
+health_mod = 2.0
+battle_phrases = Array[String](["I'm the Head Attorney."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

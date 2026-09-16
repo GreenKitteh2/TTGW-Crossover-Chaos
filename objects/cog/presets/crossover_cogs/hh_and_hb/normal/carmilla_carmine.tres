@@ -1,0 +1,34 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bb07ict034rt3"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_4aqsc"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="3_kv2fn"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="4_4biwl"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="4_mn4l5"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="5_4biwl"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_gch40"]
+[ext_resource type="Resource" uid="uid://duq7fidd28rw5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack.tres" id="6_xwwc7"]
+
+[resource]
+script = ExtResource("6_gch40")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/misc/blazer_1.png"
+custom_arm_tex = "res://models/cogs/textures/misc/sleeve_2.png"
+custom_leg_tex = "res://models/cogs/textures/misc/leg_4.png"
+custom_wrist_tex = "res://models/cogs/textures/misc/arm_1.png"
+cog_name = "Carmilla Carmaine"
+name_prefix = "Carmilla "
+name_suffix = " Carmaine"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/carmilla carmaine.glb"
+scale = 5.7
+hand_color = Color(0.89411765, 0.85882354, 0.8352941, 1)
+attacks = Array[ExtResource("1_4aqsc")]([ExtResource("4_4biwl"), ExtResource("3_kv2fn"), ExtResource("4_mn4l5"), ExtResource("5_4biwl"), ExtResource("6_xwwc7")])
+level_low = 7
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["I heard about toon extermination, you should be made an example.", "I'll might just imagine you as a Exorcist.", "Your fighting style is strange."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

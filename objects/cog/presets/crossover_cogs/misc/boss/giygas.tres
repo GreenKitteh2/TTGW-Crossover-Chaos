@@ -1,0 +1,37 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dfb1dlidydsec"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_x0xpq"]
+[ext_resource type="Resource" uid="uid://by6bex6umhjn5" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/evil_eye_(giygas)_(super).tres" id="2_mmo5b"]
+[ext_resource type="Resource" uid="uid://cy2mb4acq1l4j" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/workout_(giygas).tres" id="3_b5tkx"]
+[ext_resource type="Resource" uid="uid://bipai56mspsmb" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/power_trip_(giygas)_(super).tres" id="4_vtvyk"]
+[ext_resource type="Resource" uid="uid://b44j6ei8pi8yi" path="res://objects/battle/battle_resources/cog_signature_attack/resources/disrupt_(giygas).tres" id="5_e1qfl"]
+[ext_resource type="Resource" uid="uid://ctthtl4oi1h1w" path="res://objects/battle/battle_resources/cog_signature_attack/resources/stagger_(giygas).tres" id="6_b35bt"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_r37xe"]
+[ext_resource type="Resource" uid="uid://c1r3ts5vbvvl6" path="res://objects/battle/battle_resources/cog_signature_attack/resources/starman_call.tres" id="7_mmo5b"]
+
+[resource]
+script = ExtResource("6_r37xe")
+department = 4
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/misc/giygas_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/misc/giygas_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/misc/giygas_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/earthbound.png"
+cog_name = "Giygas"
+head = "res://models/cogs/heads/yesman.glb"
+scale = 8.0
+head_textures = PackedStringArray("res://models/crossover_cogs/misc/Giygas.png")
+hand_color = Color(0.63529414, 0, 0.07058824, 1)
+custom_nametag_height = 9.4
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_x0xpq")]([ExtResource("2_mmo5b"), ExtResource("3_b5tkx"), ExtResource("4_vtvyk"), ExtResource("5_e1qfl"), ExtResource("6_b35bt"), ExtResource("7_mmo5b")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["Toon, Toon, Toon, Toon, Toon, Toon, Toon, Toon, Toon, Toon, Toon, Toon, Toon, Toon, Toon, Toon.....", "…I’m h…a…p…p…y…", "…It hurts, …it hurts…", "It hurts, Toon…", "I feel… g… o… o… d…", "It’s not right… not right… not right...", "Please just... Toon.", "Toon!", "…I’m so sad... …..Toon.", "…friends…", "…go… b… a… c…k…", "Ah, Grrr, Ohhh…", "Argh… Yaaagh!…"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

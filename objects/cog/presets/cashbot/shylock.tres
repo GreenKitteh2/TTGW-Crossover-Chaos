@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://b34q2aq2q3xvh"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_ux54i"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_y37u8"]
+[ext_resource type="Resource" uid="uid://cfwymrymjx7s5" path="res://objects/battle/battle_resources/cog_attacks/resources/write_off.tres" id="5_btekn"]
+[ext_resource type="Resource" uid="uid://b8evcct5837aq" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket_money.tres" id="6_5woob"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_wupls"]
+
+[resource]
+script = ExtResource("7_wupls")
+department = 1
+suit = 1
+cog_name = "Shylock"
+name_plural = "Shylocks"
+name_prefix = "Shy"
+name_suffix = "lock"
+head = "res://models/cogs/heads/shylock.glb"
+scale = 3.75
+head_textures = PackedStringArray("res://models/cogs/heads/shylock_shylock.png")
+hand_color = Color(0.72156864, 0.75686276, 0.72156864, 1)
+attacks = Array[ExtResource("1_ux54i")]([ExtResource("2_y37u8"), ExtResource("5_btekn"), ExtResource("6_5woob")])
+level_high = 8
+battle_phrases = Array[String](["Oh, don't be so shy.", "We need to lock about your lack of payment.", "I think you came a little shy of your payment.", "Payment is key to my success.", "You picked on the wrong lock.", "Remember, knowledge is key to the openings of success.", "Sorry, but our deal rates are locked.", "There's no shying away now.", "I lost the keys, so there is no escaping me.", "You're not my type."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

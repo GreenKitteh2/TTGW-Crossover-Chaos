@@ -1,0 +1,34 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://clrm4epfc4fw0"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_25ttb"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="2_vaok6"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="3_25ttb"]
+[ext_resource type="Resource" uid="uid://305avsq3iu30" path="res://objects/battle/battle_resources/cog_attacks/resources/power_tie.tres" id="4_t2xc6"]
+[ext_resource type="Resource" uid="uid://cfeq7j1q6bl50" path="res://objects/battle/battle_resources/cog_signature_attack/resources/gag_protection.tres" id="5_t0dlc"]
+[ext_resource type="Resource" uid="uid://cncrrqbyd1o0y" path="res://objects/battle/battle_resources/cog_signature_attack/resources/enlighten.tres" id="6_26c20"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_756bh"]
+
+[resource]
+script = ExtResource("6_756bh")
+department = 2
+custom_blazer_tex = "res://models/cogs/textures/slender/blazer.png"
+custom_arm_tex = "res://models/cogs/textures/slender/sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/slender/leg.png"
+cog_name = "Gerson"
+name_plural = "Gersons"
+head = "res://models/crossover_cogs/undertale_and_deltarune/gerson.glb"
+scale = 4.8
+hand_color = Color(0.5176471, 0.84705883, 0.23529412, 1)
+custom_nametag_suffix = "Omnipotent"
+attacks = Array[ExtResource("1_25ttb")]([ExtResource("2_vaok6"), ExtResource("3_25ttb"), ExtResource("4_t2xc6"), ExtResource("5_t0dlc"), ExtResource("6_26c20")])
+level_low = 11
+level_high = 20
+level_high = 15
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_omnipotent_tier.tres")
+is_crossover_cog = true
+health_mod = 3.0
+battle_phrases = Array[String](["I'm old.", "I may not have a hammer but I'm still the hammer of justice.", "I heard you're looking for a toon to freedom."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

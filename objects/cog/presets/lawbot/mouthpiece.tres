@@ -1,0 +1,34 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://du6atb8l0f7ue"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_3dqyx"]
+[ext_resource type="Resource" uid="uid://g7h8gwd0d25j" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/rolodex_(mouthpiece).tres" id="2_3dqyx"]
+[ext_resource type="Resource" uid="uid://dv1nxde61xmtq" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/hang_up_(mouthpiece).tres" id="3_w3aff"]
+[ext_resource type="Resource" uid="uid://b5a0g8a2fweu4" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/pound_key_(mouthpiece).tres" id="4_c7ldi"]
+[ext_resource type="Resource" uid="uid://dx4umij3cvasf" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/finger_wag_(mouthpiece).tres" id="5_sa33u"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_abrtw"]
+
+[resource]
+script = ExtResource("6_abrtw")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/managers/mouthpiece_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/managers/mouthpiece_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/managers/mouthpiece_leg.png"
+cog_name = "Mouthpiece"
+name_prefix = "Mouth"
+name_suffix = "piece"
+head = "res://models/cogs/heads/mouthpiece_head.glb"
+scale = 4.75
+hand_color = Color(0.26666668, 0.28627452, 0.3764706, 1)
+attacks = Array[ExtResource("1_3dqyx")]([ExtResource("2_3dqyx"), ExtResource("3_w3aff"), ExtResource("4_c7ldi"), ExtResource("5_sa33u")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_fresh_from_the_oven.tres", "res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_female_cog = true
+is_manager = true
+health_mod = 2.0
+battle_phrases = Array[String](["Come to chat?", "I was hoping you'd come visit me.", "Don't mouth off to me, young Toon!", "You should have called ahead, I could have made you some cookies!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3 uid="uid://ctyblg2e4he4y"]
+
+[ext_resource type="PackedScene" uid="uid://ceg2xgfw3sggn" path="res://models/props/cog_props/shredder_paper/shredder_paper.fbx" id="1_dddot"]
+[ext_resource type="Script" uid="uid://c8fqmorap6nbv" path="res://objects/battle/battle_resources/cog_attacks/eviction_notice_(super).gd" id="2_d8la0"]
+
+[resource]
+script = ExtResource("2_d8la0")
+prop = ExtResource("1_dddot")
+custom_method = "eviction_notice"
+damage = 3
+summary = "The Toon's track gag points will be reduced to 0!"
+attack_lines = Array[String](["Get out.", "Hmph. Out.", "Too noisy...", "You're gone."])
+action_name = "Eviction Notice"
+metadata/_custom_type_script = "uid://itkxki65d0v7"

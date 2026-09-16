@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3 uid="uid://dbyeiu73x1b8o"]
+
+[ext_resource type="PackedScene" uid="uid://u0b2uevrxq0v" path="res://models/props/cog_props/lbfo_red_tape/red_tape.fbx" id="1_varaj"]
+[ext_resource type="Script" uid="uid://bpfkv6uv0drgr" path="res://objects/battle/battle_resources/cog_signature_attack/red_tape.gd" id="2_fwk7r"]
+
+[resource]
+script = ExtResource("2_fwk7r")
+prop = ExtResource("1_varaj")
+custom_method = "red_tape"
+damage = 0
+summary = "Damage Down!"
+attack_lines = Array[String](["Hope you're claustrophobic.", "I want this meeting to stick with you.", "I’ll make sure you stick around.", "I'm going to tie you up for a while.", "Just try to unravel this.", "Let me keep you busy.", "Looks like you're in a sticky situation.", "See if you can cut through this.", "This should wrap things up.", "This will get sticky.", "You’re on a roll."])
+action_name = "Red Tape"
+metadata/_custom_type_script = "uid://itkxki65d0v7"

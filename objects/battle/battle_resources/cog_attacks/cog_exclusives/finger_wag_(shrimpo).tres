@@ -1,0 +1,9 @@
+[gd_resource type="Resource" format=3 uid="uid://dotln3iguah4x"]
+
+[ext_resource type="Script" uid="uid://xaes6j4t2nyu" path="res://objects/battle/battle_resources/cog_attacks/finger_wag.gd" id="1_yk8iu"]
+
+[resource]
+script = ExtResource("1_yk8iu")
+damage = 2
+attack_lines = Array[String](["I HATE TOONS!!!", "I HATE YOUR GAGS!!!", "I HATE TALKING!!!"])
+action_name = "Finger Wag"

@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://c5spbk4x2s5le"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_2xudw"]
+[ext_resource type="Resource" uid="uid://cae3lr6y4rrb8" path="res://objects/battle/battle_resources/cog_attacks/resources/quake.tres" id="3_2xudw"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="3_q1ao5"]
+[ext_resource type="Resource" uid="uid://305avsq3iu30" path="res://objects/battle/battle_resources/cog_attacks/resources/power_tie.tres" id="4_fl6ia"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="5_q1ao5"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_pftvy"]
+
+[resource]
+script = ExtResource("7_pftvy")
+department = 2
+suit = 1
+cog_name = "Angel Dust"
+name_prefix = "Angel "
+name_suffix = " Dust"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/angel dust.glb"
+scale = 5.6
+hand_color = Color(1, 1, 0.99215686, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_2xudw")]([ExtResource("3_q1ao5"), ExtResource("3_2xudw"), ExtResource("4_fl6ia"), ExtResource("5_q1ao5")])
+level_low = 4
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["I didn't want to be here but since Alastor is here, oh well.", "I hope you're not as bad as Valentino.", "Why do I only have two arms?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

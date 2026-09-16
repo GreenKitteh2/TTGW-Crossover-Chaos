@@ -1,0 +1,34 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://blh2vwakaxoln"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_vvwi8"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="2_vvwi8"]
+[ext_resource type="Resource" uid="uid://b8evcct5837aq" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket_money.tres" id="3_mwkfd"]
+[ext_resource type="Resource" uid="uid://c3gg5tsci6aye" path="res://objects/battle/battle_resources/cog_attacks/resources/hang_up.tres" id="4_imr3j"]
+[ext_resource type="Resource" uid="uid://c27ek2anjbx88" path="res://objects/battle/battle_resources/cog_attacks/resources/pound_key.tres" id="5_hkm1m"]
+[ext_resource type="Resource" uid="uid://c82q6b10di5a1" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time.tres" id="6_yhxl7"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_041ma"]
+
+[resource]
+script = ExtResource("7_041ma")
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/waiter/waiter_m_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/waiter/waiter_m_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/waiter/waiter_m_leg.png"
+cog_name = "Spamton"
+name_plural = "Spamtons"
+name_prefix = "Spam"
+name_suffix = "ton"
+head = "res://models/crossover_cogs/undertale_and_deltarune/spamton.glb"
+scale = 3.45
+custom_nametag_suffix = "Elite"
+attacks = Array[ExtResource("1_vvwi8")]([ExtResource("2_vvwi8"), ExtResource("3_mwkfd"), ExtResource("4_imr3j"), ExtResource("5_hkm1m"), ExtResource("6_yhxl7")])
+level_low = 3
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_elite_tier.tres")
+is_crossover_cog = true
+health_mod = 2.0
+battle_phrases = Array[String](["[Cartoon Animal] IT'S TIME TO BECOME A BIG SHOT.", "EXCHANGE SOME [Comedic hazards] FOR SOME KROMER.", "TAKE THE DEAL [Cartoon character] I PROMISE IT'S WORTH IT."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

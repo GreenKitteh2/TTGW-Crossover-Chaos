@@ -1,0 +1,12 @@
+[gd_resource type="Resource" format=3 uid="uid://bpp34ll3vd2w0"]
+
+[ext_resource type="Script" uid="uid://bwykf73b5juf1" path="res://objects/battle/battle_resources/cog_signature_attack/quick_attack.gd" id="1_67jgb"]
+
+[resource]
+script = ExtResource("1_67jgb")
+accuracy = 100
+damage = 0
+summary = "Attacks first in the next round"
+attack_lines = Array[String](["I'M GOING TO HIT YOU!!!", "I HATE BEING SECOND!!!", "YOU ANNOY ME!!!"])
+target_type = 4
+action_name = "Quick Attack"

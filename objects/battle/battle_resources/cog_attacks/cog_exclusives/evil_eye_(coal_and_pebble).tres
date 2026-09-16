@@ -1,0 +1,9 @@
+[gd_resource type="Resource" format=3 uid="uid://dumpx6tbjo3xo"]
+
+[ext_resource type="Script" uid="uid://dn58fyc7cb1if" path="res://objects/battle/battle_resources/cog_attacks/evil_eye.gd" id="1_snabl"]
+
+[resource]
+script = ExtResource("1_snabl")
+damage = 5
+attack_lines = Array[String](["Grrrrrrrr!", "Bark Bark!", "Bark!"])
+action_name = "Evil Eye"

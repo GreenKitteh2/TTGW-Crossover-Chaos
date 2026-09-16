@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cnksbcc4uh7kx"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_enjl3"]
+[ext_resource type="Resource" uid="uid://dunqnjlafu5n0" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag_(super).tres" id="2_41koh"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="3_vq44m"]
+[ext_resource type="Resource" uid="uid://dcth1mrm7s8bo" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip_(super).tres" id="4_ci4u7"]
+[ext_resource type="Resource" uid="uid://b3tlged7kqx0t" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip_(super).tres" id="5_g2do3"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_b2q54"]
+[ext_resource type="Resource" uid="uid://b3tkvlsedrm2l" path="res://objects/battle/battle_resources/cog_signature_attack/resources/back_talk.tres" id="6_ojr7b"]
+[ext_resource type="Resource" uid="uid://duq7fidd28rw5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack.tres" id="7_nhclt"]
+[ext_resource type="Resource" uid="uid://bdrmowdu0ek8o" path="res://objects/battle/battle_resources/cog_signature_attack/resources/henchman_call.tres" id="8_41koh"]
+
+[resource]
+script = ExtResource("6_b2q54")
+department = 4
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/fnf/mommy_mearest_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/fnf/mommy_mearest_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/fnf/mommy_mearest_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/friday_night_funkin.png"
+cog_name = "Mommy Mearest"
+name_prefix = "Mommy "
+name_suffix = " Mearest"
+head = "res://models/crossover_cogs/fnf/mommy mearest.glb"
+scale = 6.7
+hand_color = Color(0.972549, 0.76862746, 0.9098039, 1)
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_enjl3")]([ExtResource("2_41koh"), ExtResource("3_vq44m"), ExtResource("4_ci4u7"), ExtResource("5_g2do3"), ExtResource("6_ojr7b"), ExtResource("7_nhclt"), ExtResource("8_41koh")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_female_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["It's better to take a loss, Mommy knows best.", "You're getting yourself into mommy issues."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

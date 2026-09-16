@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=6 format=3 uid="uid://xbr4nrwtcj2o"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_q5nre"]
+[ext_resource type="Resource" uid="uid://c24yy1wqmg24o" path="res://objects/battle/battle_resources/cog_attacks/resources/razzle_dazzle.tres" id="3_eby56"]
+[ext_resource type="Resource" uid="uid://erbbarg5bxm8" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex.tres" id="3_yqn22"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="5_gnd0c"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_kt7pq"]
+
+[resource]
+script = ExtResource("5_kt7pq")
+department = 4
+cog_name = "Middleman"
+name_plural = "Middlemen"
+name_prefix = "Middle"
+name_suffix = "man"
+head = "res://models/cogs/heads/middleman.glb"
+scale = 4.75
+head_textures = PackedStringArray("res://models/cogs/heads/middleman_ttcc_ene_middleman.png")
+hand_color = Color(0.462745, 0.462745, 0.462745, 1)
+attacks = Array[ExtResource("1_q5nre")]([ExtResource("3_yqn22"), ExtResource("3_eby56"), ExtResource("5_gnd0c")])
+level_low = 4
+level_high = 11
+battle_phrases = Array[String](["Whether you're left or right, I'll always be in the middle.", "You're in the middle of my way.", "The right is too large, the left is too small, but the middle is just right.", "Winning is my middle name.", "I may be in the middle, but you're at the end of the line.", "Looks like you found yourself in the middle of some trouble.", "Can't you see I'm in the middle of something?", "You'll regret the beginning, middle, and end."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

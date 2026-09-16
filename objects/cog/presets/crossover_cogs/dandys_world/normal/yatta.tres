@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://0odpve5x0uvm"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_4a78t"]
+[ext_resource type="Resource" uid="uid://bddy50xh8sfc8" path="res://objects/battle/battle_resources/cog_attacks/resources/tremor.tres" id="2_0vk3d"]
+[ext_resource type="Resource" uid="uid://55lp6noha8te" path="res://objects/battle/battle_resources/cog_attacks/resources/shake.tres" id="3_l6ixr"]
+[ext_resource type="Resource" uid="uid://cae3lr6y4rrb8" path="res://objects/battle/battle_resources/cog_attacks/resources/quake.tres" id="4_wm5qq"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="5_4a78t"]
+[ext_resource type="Resource" uid="uid://dwcurvq1jwvxu" path="res://objects/battle/battle_resources/cog_signature_attack/resources/disrupt.tres" id="6_5tpvc"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_mwq76"]
+
+[resource]
+script = ExtResource("7_mwq76")
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/misc/blazer_1.png"
+custom_arm_tex = "res://models/cogs/textures/misc/sleeve_2.png"
+custom_leg_tex = "res://models/cogs/textures/misc/leg_4.png"
+custom_wrist_tex = "res://models/cogs/textures/misc/arm_1.png"
+cog_name = "Yatta"
+head = "res://models/crossover_cogs/dandys_world/Yatta.glb"
+scale = 3.5
+hand_color = Color(0.9882353, 0.84705883, 0.42745098, 1)
+custom_nametag_height = 11.0
+attacks = Array[ExtResource("1_4a78t")]([ExtResource("2_0vk3d"), ExtResource("3_l6ixr"), ExtResource("4_wm5qq"), ExtResource("5_4a78t"), ExtResource("6_5tpvc")])
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["I'm EXCITED to fight for the first time!", "Who wants CANDY!", "We got the ENERGY!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

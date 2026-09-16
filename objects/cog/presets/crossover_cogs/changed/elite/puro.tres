@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://xblr3fpdem6l"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_rsvbt"]
+[ext_resource type="Resource" uid="uid://b4kaq7rjifwfc" path="res://objects/battle/battle_resources/cog_attacks/resources/liquidate.tres" id="2_rsvbt"]
+[ext_resource type="Resource" uid="uid://cae3lr6y4rrb8" path="res://objects/battle/battle_resources/cog_attacks/resources/quake.tres" id="3_jpqqx"]
+[ext_resource type="Resource" uid="uid://b6smgrhefhpdk" path="res://objects/battle/battle_resources/cog_attacks/resources/sink_hole.tres" id="4_gkpux"]
+[ext_resource type="Resource" uid="uid://qk4f4h40o5u1" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip.tres" id="5_841o8"]
+[ext_resource type="Resource" uid="uid://slywi7r3q78s" path="res://objects/battle/battle_resources/cog_signature_attack/resources/bulk_up.tres" id="6_sr7qe"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_vujna"]
+
+[resource]
+script = ExtResource("7_vujna")
+department = 4
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/waiter/waiter_m_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/waiter/waiter_m_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/waiter/waiter_m_leg.png"
+cog_name = "Puro"
+head = "res://models/crossover_cogs/changed/puro.glb"
+scale = 6.25
+hand_color = Color(0.21960784, 0.22352941, 0.21960784, 1)
+custom_nametag_suffix = "Elite"
+attacks = Array[ExtResource("1_rsvbt")]([ExtResource("2_rsvbt"), ExtResource("3_jpqqx"), ExtResource("4_gkpux"), ExtResource("5_841o8"), ExtResource("6_sr7qe")])
+level_low = 6
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_elite_tier.tres")
+is_crossover_cog = true
+health_mod = 2.0
+battle_phrases = Array[String](["Oh, I guess it's you I have to fight...", "You're going to hate me for this-"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

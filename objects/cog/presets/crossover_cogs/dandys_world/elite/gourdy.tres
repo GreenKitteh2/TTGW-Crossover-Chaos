@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://b1tbpge5060db"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_e4e6a"]
+[ext_resource type="Resource" uid="uid://bruosr4c0bash" path="res://objects/battle/battle_resources/cog_attacks/resources/clip_on_tie.tres" id="3_e4e6a"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="3_gn6gu"]
+[ext_resource type="Resource" uid="uid://305avsq3iu30" path="res://objects/battle/battle_resources/cog_attacks/resources/power_tie.tres" id="4_ohbs7"]
+[ext_resource type="Resource" uid="uid://ds65kbrqrekdn" path="res://objects/battle/battle_resources/cog_signature_attack/resources/encourage.tres" id="5_gn6gu"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_iae67"]
+
+[resource]
+script = ExtResource("6_iae67")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/waiter/waiter_m_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/waiter/waiter_m_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/waiter/waiter_m_leg.png"
+cog_name = "Gourdy"
+head = "res://models/crossover_cogs/dandys_world/Gourdy.glb"
+scale = 2.8
+hand_color = Color(0.9254902, 0.4862745, 0.18039216, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Elite"
+attacks = Array[ExtResource("1_e4e6a")]([ExtResource("3_gn6gu"), ExtResource("3_e4e6a"), ExtResource("4_ohbs7"), ExtResource("5_gn6gu")])
+level_low = 4
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_elite_tier.tres")
+is_crossover_cog = true
+health_mod = 2.0
+battle_phrases = Array[String](["Trick or Treat!", "You don't look that scary than they say.", "I'm spooky!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

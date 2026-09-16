@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://b2xd4d38b8mkt"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_401ww"]
+[ext_resource type="Resource" uid="uid://c31yj6hc78hh3" path="res://objects/battle/battle_resources/cog_attacks/resources/eviction_notice.tres" id="2_43o0f"]
+[ext_resource type="Resource" uid="uid://erbbarg5bxm8" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex.tres" id="3_dbi3d"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="4_6debj"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="4_cy571"]
+
+[resource]
+script = ExtResource("4_cy571")
+department = 2
+cog_name = "Conveyancer"
+name_plural = "Conveyancers"
+name_prefix = "Convey"
+name_suffix = "ancer"
+head = "res://models/cogs/heads/conveyancer.glb"
+scale = 4.35
+head_textures = PackedStringArray("res://models/cogs/heads/conveyancer_ttcc_ene_conveyancer.png")
+hand_color = Color(0.24313726, 0.2784314, 0.3882353, 1)
+attacks = Array[ExtResource("1_401ww")]([ExtResource("2_43o0f"), ExtResource("3_dbi3d"), ExtResource("4_6debj")])
+level_low = 4
+level_high = 11
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/mod_cog_operations_analyst.tres")
+health_mod = 1.5
+battle_phrases = Array[String](["You're outta line!", "Let's get a move on.", "Watch where you tread.", "You're treading into dangerous territory.", "You are in line for defeat.", "You have no right to assembly here.", "I can't convey how much you're about to lose.", "You've reached the end of the line.", "Stay in line, Toon!", "This battle should convey your weaknesses.", "This encounter will be massively productive.", "Watch out Toon, I have a lot of tricks under my belt.", "You're treading on thin ice, Toon."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

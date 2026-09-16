@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://c2ka0c4jdpgu"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_2c1wb"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="2_wk2o5"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="3_2c1wb"]
+[ext_resource type="Resource" uid="uid://b8evcct5837aq" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket_money.tres" id="4_wk2o5"]
+[ext_resource type="Resource" uid="uid://m27fmwkp3qdf" path="res://objects/battle/battle_resources/cog_signature_attack/resources/marked.tres" id="5_fpj76"]
+[ext_resource type="Resource" uid="uid://b5helauv7f4y5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/pinpoint.tres" id="6_afq2p"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_atu17"]
+
+[resource]
+script = ExtResource("6_atu17")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/slender/blazer.png"
+custom_arm_tex = "res://models/cogs/textures/slender/sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/slender/leg.png"
+cog_name = "Twisted Goob"
+name_prefix = "Twisted "
+name_suffix = " Goob"
+head = "res://models/crossover_cogs/dandys_world/Twisted Goob.glb"
+scale = 3.5
+hand_color = Color(0, 0.4392157, 1, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Omnipotent"
+attacks = Array[ExtResource("1_2c1wb")]([ExtResource("2_wk2o5"), ExtResource("3_2c1wb"), ExtResource("4_wk2o5"), ExtResource("5_fpj76"), ExtResource("6_afq2p")])
+level_low = 11
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_omnipotent_tier.tres")
+is_crossover_cog = true
+health_mod = 3.0
+battle_phrases = Array[String](["I just want to give hugs.", "I'm not having fun anymore.", "Why don't you want a hug?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

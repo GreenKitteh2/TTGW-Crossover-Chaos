@@ -1,0 +1,9 @@
+[gd_resource type="Resource" format=3 uid="uid://d15mam6m8bjh1"]
+
+[ext_resource type="Script" uid="uid://bfyblrm6pku4o" path="res://objects/battle/battle_resources/cog_attacks/hang_up_(super).gd" id="1_in2bo"]
+
+[resource]
+script = ExtResource("1_in2bo")
+summary = "The Toon can't get a word in with the Cog!"
+attack_lines = Array[String](["You've been disconnected.", "Good bye!", "It's time I end our connection.", "...and don't call back!", "Click!", "This conversation is over.", "I'm severing this link.", "I think you have a few hang ups.", "It appears you've got a weak link.", "Your time is up.", "I hope you receive this loud and clear.", "You got the wrong number."])
+action_name = "Hang Up"

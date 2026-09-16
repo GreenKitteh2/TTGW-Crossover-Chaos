@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://d6dh1v6uaw8u"]
+
+[ext_resource type="Texture2D" uid="uid://dgg8cp4e4qcyo" path="res://ui_assets/battle/statuses/resonance.png" id="1_o0wu5"]
+[ext_resource type="Script" uid="uid://c6ectse2wbxfd" path="res://objects/battle/battle_resources/status_effects/status_effect_resonance.gd" id="2_o0wu5"]
+
+[resource]
+script = ExtResource("2_o0wu5")
+quality = 1
+icon = ExtResource("1_o0wu5")
+description = ""
+id = 101

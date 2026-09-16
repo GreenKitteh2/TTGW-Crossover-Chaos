@@ -1,0 +1,69 @@
+[gd_resource type="Resource" script_class="PlayerCharacter" format=3 uid="uid://c4oncqo7ayyxc"]
+
+[ext_resource type="Script" uid="uid://combwqypom1ru" path="res://objects/items/classes/item.gd" id="1_aaf3t"]
+[ext_resource type="Script" uid="uid://o2fe7ud1faj6" path="res://objects/battle/battle_resources/stats.gd" id="2_ih215"]
+[ext_resource type="Script" uid="uid://c8kas2j4io1jh" path="res://objects/toon/clothing/toon_bottoms.gd" id="3_4ea1w"]
+[ext_resource type="Texture2D" uid="uid://cyp1jcpuhlxpa" path="res://models/toon/textures/clothes/shorts/tt_t_chr_avt_shorts_halloween5.png" id="4_6syrf"]
+[ext_resource type="Script" uid="uid://yg7gxug4rab" path="res://objects/toon/toon_dna.gd" id="5_ks43w"]
+[ext_resource type="Script" uid="uid://dfqwh4jmdy0iw" path="res://objects/toon/clothing/toon_shirt.gd" id="6_rd4jm"]
+[ext_resource type="Texture2D" uid="uid://l65o2t150u0t" path="res://models/toon/textures/clothes/shirts/tt_t_chr_avt_shirt_halloween5.png" id="7_eord1"]
+[ext_resource type="Texture2D" uid="uid://dh7dyokcfyw43" path="res://models/toon/textures/clothes/shirts/desat_sleeve_1.png" id="8_67pgn"]
+[ext_resource type="Resource" uid="uid://tyi7ukxtvcgc" path="res://objects/battle/battle_resources/gag_loadouts/loadouts/standard_loadout.tres" id="9_y8ij8"]
+[ext_resource type="Script" uid="uid://ts8xpgftpmty" path="res://objects/player/character.gd" id="10_hhrco"]
+[ext_resource type="Resource" uid="uid://crknakwbtbbum" path="res://objects/items/resources/accessories/glasses/buck_glasses.tres" id="11_4ea1w"]
+[ext_resource type="Resource" uid="uid://3eoxrbr1v8yj" path="res://objects/items/resources/passive/buck_power.tres" id="11_6syrf"]
+[ext_resource type="Resource" uid="uid://4agj75giuhkm" path="res://objects/items/resources/passive/buck_debuff.tres" id="12_aaf3t"]
+[ext_resource type="Resource" uid="uid://g3qgy38g5dqs" path="res://objects/items/resources/accessories/hats/top_hat.tres" id="14_ih215"]
+
+[sub_resource type="Resource" id="Resource_4mp7f"]
+script = ExtResource("2_ih215")
+damage = 1.5
+evasiveness = 1.5
+speed = 1.5
+max_hp = 50
+hp = 50
+
+[sub_resource type="Resource" id="Resource_2bsmm"]
+script = ExtResource("3_4ea1w")
+texture = ExtResource("4_6syrf")
+
+[sub_resource type="Resource" id="Resource_17x8t"]
+script = ExtResource("6_rd4jm")
+shirt_texture = ExtResource("7_eord1")
+sleeve_texture = ExtResource("8_67pgn")
+
+[sub_resource type="Resource" id="Resource_ppw05"]
+script = ExtResource("5_ks43w")
+body_type = 1
+leg_type = 2
+species = 8
+head_index = 2
+eyelashes = false
+shirt = SubResource("Resource_17x8t")
+bottoms = SubResource("Resource_2bsmm")
+
+[resource]
+script = ExtResource("10_hhrco")
+character_name = "King Pants"
+character_summary = "- Gain a random stat boosts for every crossover cog
+destroyed
+- Inflicts a random debuff to crossover cogs, 
+but they'll be agile."
+character_blurb = "A known twitch streamer who has chosen to take his abilities to the horizon at any cost."
+dna = SubResource("Resource_ppw05")
+gag_loadout = ExtResource("9_y8ij8")
+starting_laff = 50
+starting_items = Array[ExtResource("1_aaf3t")]([ExtResource("11_4ea1w"), ExtResource("11_6syrf"), ExtResource("12_aaf3t"), ExtResource("14_ih215")])
+base_stats = SubResource("Resource_4mp7f")
+starting_gags = Dictionary[String, int]({
+"Drop": 0,
+"Lure": 1,
+"Sound": 1,
+"Squirt": 0,
+"Throw": 1,
+"Trap": 0
+})
+additional_stats = Dictionary[String, Variant]({
+"luck": 1.0
+})
+achievement_index = 19

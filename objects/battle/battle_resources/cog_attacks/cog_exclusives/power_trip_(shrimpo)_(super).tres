@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://uhr27d6t4301"]
+
+[ext_resource type="Script" uid="uid://crgaccnpwnqky" path="res://objects/battle/battle_resources/cog_attacks/power_trip_(super).gd" id="1_j7xjo"]
+
+[resource]
+script = ExtResource("1_j7xjo")
+damage = 6
+summary = "The Cog feels the power!"
+attack_lines = Array[String](["I'M STRONGER THAN YOU!!!", "I CAN KNOCK YOU DOWN!!!", "I HATE WATCHING STAND!!!"])
+action_name = "Power Trip"
+metadata/_custom_type_script = "uid://bb27him60xtnk"

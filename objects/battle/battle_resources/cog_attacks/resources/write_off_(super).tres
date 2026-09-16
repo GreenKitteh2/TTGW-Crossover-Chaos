@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://q0fa05imy2ax"]
+
+[ext_resource type="Script" uid="uid://ccw0m3bio3w42" path="res://objects/battle/battle_resources/cog_attacks/write_off_(super).gd" id="1_oi0xw"]
+
+[resource]
+script = ExtResource("1_oi0xw")
+damage = 3
+summary = "The Cog gets a little bit of a kickback!"
+attack_lines = Array[String](["Let me increase your losses.", "Let's make the best of a bad deal.", "Time to balance the books.", "This won't look good on your books.", "I'm looking for some dividends.", "You must account for your losses.", "You can forget about a bonus.", "I'll shuffle your accounts around.", "You're about to suffer some losses.", "This is going to hurt your bottom line."])
+action_name = "Write Off"

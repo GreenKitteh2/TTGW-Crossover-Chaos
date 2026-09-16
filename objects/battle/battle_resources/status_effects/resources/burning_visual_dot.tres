@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="StatusEffect" load_steps=3 format=3 uid="uid://celcp013sbifk"]
+
+[ext_resource type="Texture2D" uid="uid://d4hgrl45t345t" path="res://ui_assets/battle/statuses/burning.png" id="1_f7em0"]
+[ext_resource type="Script" uid="uid://df7irk63ikx4k" path="res://objects/battle/battle_resources/status_effect.gd" id="2_lxi6f"]
+
+[resource]
+script = ExtResource("2_lxi6f")
+quality = 1
+rounds = 3
+icon = ExtResource("1_f7em0")
+description = "%d damage per round"
+status_name = "Burning"
+id = 62
+metadata/_custom_type_script = "uid://df7irk63ikx4k"

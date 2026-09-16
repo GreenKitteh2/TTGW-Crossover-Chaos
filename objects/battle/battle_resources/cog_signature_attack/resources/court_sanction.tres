@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://bx5dgsimlftp6"]
+
+[ext_resource type="Script" uid="uid://cfg64un53log3" path="res://objects/battle/battle_resources/cog_signature_attack/court_sanction.gd" id="1_vm286"]
+
+[resource]
+script = ExtResource("1_vm286")
+damage = 2
+summary = "Damage Down!"
+attack_lines = Array[String](["I spy with my little eye, a Toon who isn't pulling their weight.", "What happened to your little strategy called \"teamwork\"?", "Someone isn't doing their part around here."])
+action_name = "Court Sanction"

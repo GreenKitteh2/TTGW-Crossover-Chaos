@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://lxdlqpurrgjr"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_4nc31"]
+[ext_resource type="Resource" uid="uid://qk4f4h40o5u1" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip.tres" id="2_dw2kr"]
+[ext_resource type="Resource" uid="uid://bpupdhbap1rq" path="res://objects/battle/battle_resources/cog_attacks/resources/freeze_assets.tres" id="3_4nc31"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="4_kxjks"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_b1de3"]
+
+[resource]
+script = ExtResource("7_b1de3")
+department = 2
+suit = 1
+cog_name = "Noelle"
+name_plural = "Noelles"
+head = "res://models/crossover_cogs/undertale_and_deltarune/noelle.glb"
+scale = 4.45
+hand_color = Color(0.8627451, 0.5372549, 0.59607846, 1)
+custom_nametag_height = 10.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_4nc31")]([ExtResource("2_dw2kr"), ExtResource("3_4nc31"), ExtResource("4_kxjks")])
+level_low = 4
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["I hope susie is here to see this...", "Is it cold here or is that just...it's just me...", "Y...You want me to proceed?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

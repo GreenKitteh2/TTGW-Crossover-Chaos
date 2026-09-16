@@ -1,0 +1,436 @@
+[gd_resource type="Resource" script_class="DepartmentFloor" format=3 uid="uid://dpikfhra45gf7"]
+
+[ext_resource type="Script" uid="uid://ci1am4p7axbxy" path="res://objects/modules/facility_room.gd" id="1_yetbl"]
+[ext_resource type="Script" uid="uid://brjywdpat6vxg" path="res://scenes/game_floor/department_floors/department_floor.gd" id="2_1mfhy"]
+
+[sub_resource type="Resource" id="Resource_yetbl"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/cgc/variants/cgc_fairway_battle.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_1mfhy"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/cgc/variants/cgc_fairway_mole_battle.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_b7e0y"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/cgc/variants/cgc_long_battle_room.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_yh3ch"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/cgc/variants/cgc_L_battle.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_1seop"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/cgc/variants/cgc_mole_hedge_battle.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_kkqsy"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/cgc/variants/cgc_mole_room_battle.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_6pah2"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/cgc/variants/cgc_walled_battle_room.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_yv6gj"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/mint/variants/mint_diamond_room_battle.tscn"
+rarity_weight = 0.8
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_fajc4"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/mint/variants/mint_skele_room_battle.tscn"
+rarity_weight = 0.9
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_mwo4v"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/mint/variants/mint_skele_room2_straight_battle.tscn"
+rarity_weight = 0.8
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_p45ju"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/mint/variants/mint_goon_room_battle.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_pmmbn"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/mint/variants/mint_obstacle_battle_room.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_73hwp"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/mint/variants/mint_skele_room2_right_battle.tscn"
+rarity_weight = 0.25
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_d58dk"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/mint/variants/mint_skele_room2_straight_battle.tscn"
+rarity_weight = 0.25
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_2je8w"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/mint/variants/mint_skele_room2_left_battle.tscn"
+rarity_weight = 0.25
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_i8wxc"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/mint/variants/mint_bankteller_left.tscn"
+rarity_weight = 0.8
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_mj2th"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/mint/variants/mint_bankteller_right.tscn"
+rarity_weight = 0.8
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_hq178"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/office/variants/office_battle_room_battle.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_p345r"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/office/variants/office_obstacle_battle_gavels.tscn"
+rarity_weight = 0.7
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_i3any"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/office/variants/office_L_room_battle.tscn"
+rarity_weight = 0.7
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_e71tu"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/office/variants/office_hexagon_battle_room.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_ukkpl"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/office/variants/office_diamond_room_battle.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_mdqic"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/factory/variants/factory_boiler_room_battle.tscn"
+rarity_weight = 0.9
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_y6hsx"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/factory/variants/factory_gear_room_battle.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_umepo"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/factory/variants/factory_pipe_room_battles.tscn"
+rarity_weight = 0.9
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_na1je"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/factory/variants/factory_paint_battle_room.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_jrvsv"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/factory/variants/factory_doublesilo_battle.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_oc725"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/factory/variants/factory_lobby_battle.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_0ad6n"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/factory/variants/factory_catwalk_battle.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_2re10"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/factory/variants/factory_warehouse_ushape_battle.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_o8iy4"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/factory/variants/factory_paint_mixer_battle.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_xjemn"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/cgc/variants/cgc_superbattle1.tscn"
+rarity_weight = 0.25
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_0bebu"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/cgc/variants/cgc_superbattle2.tscn"
+rarity_weight = 0.25
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_pojsl"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/factory/variants/factory_superbattle1.tscn"
+rarity_weight = 0.25
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_bnoxi"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/factory/variants/factory_superbattle2.tscn"
+rarity_weight = 0.25
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_oo110"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/mint/variants/mint_superbattle1.tscn"
+rarity_weight = 0.25
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_xqhci"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/mint/variants/mint_superbattle2.tscn"
+rarity_weight = 0.25
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_3335p"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/office/variants/office_superbattle1.tscn"
+rarity_weight = 0.25
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_riv2r"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/office/variants/office_superbattle2.tscn"
+rarity_weight = 0.25
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_youxm"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/mint/variants/error_room.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_qh4gh"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/cgc/variants/cgc_maze_room.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_nlhdo"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/cgc/variants/cgc_mole_stomp.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_2exdi"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/cgc/variants/cgc_golf_ball_room.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_1b4qc"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/cgc/variants/cgc_fairway_golf.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_0ivgu"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/cgc/variants/cgc_quadrant_room.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_4vq70"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/cgc/variants/cgc_long_room_moles.tscn"
+rarity_weight = 0.8
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_eyovg"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/cgc/variants/cgc_treasure_room.tscn"
+rarity_weight = 0.4
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_w876r"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/mint/variants/mint_paint_room_standard.tscn"
+rarity_weight = 0.75
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_77vio"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/mint/variants/mint_lava_room_standard.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_d0vod"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/mint/variants/mint_obstacle_room_lava.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_111jt"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/mint/variants/mint_skele_stompers.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_q874o"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/mint/variants/mint_obstacle_lava_mixer.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_puydb"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/mint/base_rooms/mint_conveyor_room.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_mf6ps"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/mint/base_rooms/mint_conveyer_lava_jump.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_8mcrk"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/mint/variants/mint_lava_rising_room.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_1fhpk"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/office/variants/office_obstacle_course.tscn"
+rarity_weight = 0.9
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_a1eee"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/office/variants/office_bookshelf_maze.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_y685s"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/office/variants/office_L_room_spotlights.tscn"
+rarity_weight = 0.7
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_i0ryr"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/office/variants/office_l_room_stomper.tscn"
+rarity_weight = 0.7
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_5s4q8"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/office/variants/office_book_rows_room.tscn"
+rarity_weight = 0.9
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_hyrf1"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/factory/variants/factory_paint_mixer_platforms.tscn"
+rarity_weight = 0.9
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_1hqkk"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/factory/variants/factory_pipe_room_goons.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_38j31"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/factory/variants/factory_obstacle_paint_gears.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_qqihj"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/factory/variants/factory_lobby_obstacle.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_12tlw"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/factory/variants/factory_lobby_massive_stomper.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_trh3q"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/factory/variants/factory_paint_l_room_platform.tscn"
+rarity_weight = 0.85
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_h2kes"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/factory/variants/factory_paint_gear_room.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_tu2ns"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/factory/variants/factory_long_paint_obstacle.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_8ipym"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/cgc/variants/cgc_shop.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_ypn42"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/mint/variants/mint_shop.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_upli4"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/office/variants/office_shop.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_53d28"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/factory/variants/factory_shop.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_j5r81"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/cgc/variants/cgc_fairway_fence_prison.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_ity2e"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/cgc/variants/cgc_fairway_vertical.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_g2nex"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/cgc/variants/cgc_long_parkour_oil.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_n7kml"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/mint/variants/mint_ceiling_chests_room.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_cpobx"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/mint/variants/mint_special_pipe_room.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[sub_resource type="Resource" id="Resource_o65x5"]
+script = ExtResource("1_yetbl")
+room = "res://objects/modules/factory/variants/factory_warehouse_conveyors.tscn"
+metadata/_custom_type_script = "uid://ci1am4p7axbxy"
+
+[resource]
+script = ExtResource("2_1mfhy")
+entrances = PackedStringArray("res://objects/modules/cgc/variants/cgc_entrance_standard.tscn", "res://objects/modules/mint/variants/mint_standard_entrance.tscn", "res://objects/modules/office/variants/office_entrance_standard.tscn", "res://objects/modules/factory/base_rooms/factory_entrance.tscn")
+battle_rooms = Array[ExtResource("1_yetbl")]([SubResource("Resource_yetbl"), SubResource("Resource_1mfhy"), SubResource("Resource_b7e0y"), SubResource("Resource_yh3ch"), SubResource("Resource_1seop"), SubResource("Resource_kkqsy"), SubResource("Resource_6pah2"), SubResource("Resource_yv6gj"), SubResource("Resource_fajc4"), SubResource("Resource_mwo4v"), SubResource("Resource_p45ju"), SubResource("Resource_pmmbn"), SubResource("Resource_73hwp"), SubResource("Resource_d58dk"), SubResource("Resource_2je8w"), SubResource("Resource_i8wxc"), SubResource("Resource_mj2th"), SubResource("Resource_hq178"), SubResource("Resource_p345r"), SubResource("Resource_i3any"), SubResource("Resource_e71tu"), SubResource("Resource_ukkpl"), SubResource("Resource_mdqic"), SubResource("Resource_y6hsx"), SubResource("Resource_umepo"), SubResource("Resource_na1je"), SubResource("Resource_jrvsv"), SubResource("Resource_oc725"), SubResource("Resource_0ad6n"), SubResource("Resource_2re10"), SubResource("Resource_o8iy4"), SubResource("Resource_xjemn"), SubResource("Resource_0bebu"), SubResource("Resource_pojsl"), SubResource("Resource_bnoxi"), SubResource("Resource_oo110"), SubResource("Resource_xqhci"), SubResource("Resource_3335p"), SubResource("Resource_riv2r")])
+obstacle_rooms = Array[ExtResource("1_yetbl")]([SubResource("Resource_qh4gh"), SubResource("Resource_nlhdo"), SubResource("Resource_2exdi"), SubResource("Resource_1b4qc"), SubResource("Resource_0ivgu"), SubResource("Resource_4vq70"), SubResource("Resource_eyovg"), SubResource("Resource_w876r"), SubResource("Resource_77vio"), SubResource("Resource_d0vod"), SubResource("Resource_111jt"), SubResource("Resource_q874o"), SubResource("Resource_puydb"), SubResource("Resource_mf6ps"), SubResource("Resource_8mcrk"), SubResource("Resource_1fhpk"), SubResource("Resource_a1eee"), SubResource("Resource_y685s"), SubResource("Resource_i0ryr"), SubResource("Resource_5s4q8"), SubResource("Resource_hyrf1"), SubResource("Resource_1hqkk"), SubResource("Resource_38j31"), SubResource("Resource_qqihj"), SubResource("Resource_12tlw"), SubResource("Resource_trh3q"), SubResource("Resource_h2kes"), SubResource("Resource_tu2ns")])
+connectors = PackedStringArray("res://objects/modules/office/base_rooms/connector1.tscn", "res://objects/modules/office/base_rooms/connector2.tscn", "res://objects/modules/office/base_rooms/office_connector_buried.tscn", "res://objects/modules/office/base_rooms/office_connector_foyer.tscn", "res://objects/modules/mint/base_rooms/mint_connector1.tscn", "res://objects/modules/mint/base_rooms/mint_connector2.tscn", "res://objects/modules/factory/base_rooms/factory_connector1.tscn", "res://objects/modules/factory/variants/factory_connector_2.tscn", "res://objects/modules/factory/variants/factory_connector_snake.tscn", "res://objects/modules/factory/variants/factory_connector_snake_2.tscn", "res://objects/modules/cgc/base_rooms/cgc_connector_hedges.tscn", "res://objects/modules/cgc/base_rooms/cgc_connector_pillarhedge.tscn", "res://objects/modules/cgc/base_rooms/cgc_connector_river.tscn", "res://objects/modules/cgc/base_rooms/cgc_connector_statue.tscn")
+pre_final_rooms = Array[ExtResource("1_yetbl")]([SubResource("Resource_8ipym"), SubResource("Resource_ypn42"), SubResource("Resource_upli4"), SubResource("Resource_53d28")])
+final_rooms = Array[ExtResource("1_yetbl")]([SubResource("Resource_youxm")])
+one_time_rooms = PackedStringArray("res://objects/modules/factory/variants/factory_goontorial.tscn")
+special_rooms = Array[ExtResource("1_yetbl")]([SubResource("Resource_j5r81"), SubResource("Resource_ity2e"), SubResource("Resource_g2nex"), SubResource("Resource_n7kml"), SubResource("Resource_cpobx"), SubResource("Resource_o65x5")])
+background_music = PackedStringArray("res://audio/music/Sellbot_ftf_interior1.ogg", "res://audio/music/Sellbot_ftf_interior2.ogg", "res://audio/music/Sellbot_ftf_interior3.ogg", "res://audio/music/Sellbot_ftf_interior4.ogg")
+battle_music = PackedStringArray("res://audio/music/Sellbot_ftf_battle1.ogg", "res://audio/music/Sellbot_ftf_battle2.ogg", "res://audio/music/Sellbot_ftf_battle3.ogg", "res://audio/music/Sellbot_ftf_battle4.ogg")

@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cd4c4grm1mnmf"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_k5sih"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="2_k5sih"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="3_ck77x"]
+[ext_resource type="Resource" uid="uid://55lp6noha8te" path="res://objects/battle/battle_resources/cog_attacks/resources/shake.tres" id="5_1fysp"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="5_i8isr"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_bcgan"]
+
+[resource]
+script = ExtResource("7_bcgan")
+department = 2
+suit = 1
+cog_name = "Waxwell"
+name_prefix = "Wax"
+name_suffix = "well"
+head = "res://models/crossover_cogs/dandys_world/Waxwell.glb"
+scale = 3.5
+hand_color = Color(0.3882353, 0.34117648, 0.5058824, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_k5sih")]([ExtResource("2_k5sih"), ExtResource("5_i8isr"), ExtResource("3_ck77x"), ExtResource("5_1fysp")])
+level_low = 3
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["Get ready to burn out!", "I'm the most evil Toon you'll meet.", "Watch this, I can win this battle myself."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

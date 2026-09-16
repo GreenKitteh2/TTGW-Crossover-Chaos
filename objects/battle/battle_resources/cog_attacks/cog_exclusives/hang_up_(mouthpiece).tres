@@ -1,0 +1,9 @@
+[gd_resource type="Resource" format=3 uid="uid://dv1nxde61xmtq"]
+
+[ext_resource type="Script" uid="uid://cdc82h130g5b5" path="res://objects/battle/battle_resources/cog_attacks/hang_up.gd" id="1_eaibv"]
+
+[resource]
+script = ExtResource("1_eaibv")
+summary = "The Toon can't get a word in with the Cog!"
+attack_lines = Array[String](["Maybe you should change your tone before ringing me again.", "This old lady's not ready to hang up her hat just yet!", "If you decide to dial back, perhaps you could dial down as well.", "Oh dear, it appears I have the wrong number! Toodle-oo!"])
+action_name = "Hang Up"

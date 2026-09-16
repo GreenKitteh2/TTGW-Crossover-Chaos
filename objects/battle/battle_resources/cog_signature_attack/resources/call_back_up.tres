@@ -1,0 +1,8 @@
+[gd_resource type="Resource" format=3 uid="uid://dh3pqqflmofma"]
+
+[ext_resource type="Script" uid="uid://d2a066pdj7d8m" path="res://objects/battle/battle_resources/cog_signature_attack/call_back_up.gd" id="1_6ksob"]
+
+[resource]
+script = ExtResource("1_6ksob")
+attack_lines = Array[String](["May I acquire some assistance here?", "I'm kinda in trouble here.", "I need some assistance."])
+action_name = "Call Back up"

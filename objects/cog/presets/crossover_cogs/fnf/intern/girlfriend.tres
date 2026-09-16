@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://lbjwuc8tm4v2"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_r6hb1"]
+[ext_resource type="Resource" uid="uid://cae3lr6y4rrb8" path="res://objects/battle/battle_resources/cog_attacks/resources/quake.tres" id="2_iqgq6"]
+[ext_resource type="Resource" uid="uid://b4kaq7rjifwfc" path="res://objects/battle/battle_resources/cog_attacks/resources/liquidate.tres" id="3_r6hb1"]
+[ext_resource type="Resource" uid="uid://6hjcsu17tt4g" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm.tres" id="4_62n4k"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_jpkpo"]
+
+[resource]
+script = ExtResource("7_jpkpo")
+department = 4
+suit = 1
+cog_name = "Girlfriend"
+name_prefix = "Girl"
+name_suffix = "friend"
+head = "res://models/crossover_cogs/fnf/girlfriend.glb"
+scale = 4.3
+hand_color = Color(0.972549, 0.827451, 0.8156863, 1)
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_r6hb1")]([ExtResource("2_iqgq6"), ExtResource("3_r6hb1"), ExtResource("4_62n4k")])
+level_low = 2
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["You'll going to be down.", "You might as well step your game up.", "It's best if you left.", "Things for you are not going to be right."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" format=3 uid="uid://bmjk3j7gkhe6e"]
+
+[ext_resource type="Script" uid="uid://cefjg1nkprut2" path="res://objects/battle/battle_resources/status_effects/boss_effects/status_effect_challenge.gd" id="1_k4gmi"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_oa6d5"]
+load_path = "res://.godot/imported/overtime.png-e244a74f92ae5a9e1c108be2a16fec0c.ctex"
+
+[resource]
+script = ExtResource("1_k4gmi")
+quality = 0
+rounds = 2
+icon = SubResource("CompressedTexture2D_oa6d5")
+description = "+1 Turn and 50% extra damage"
+status_name = "Challenge of Cause"
+id = 36

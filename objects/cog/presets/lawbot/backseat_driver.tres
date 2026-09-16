@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dxnnah6em01tc"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_jw7p4"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="2_my1bl"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="3_jw7p4"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="4_61q7n"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_i0jbb"]
+
+[resource]
+script = ExtResource("5_i0jbb")
+department = 2
+suit = 2
+cog_name = "Backseat Driver"
+name_plural = "Backseat Drivers"
+name_prefix = "Backseat "
+name_suffix = " Driver"
+head = "res://models/cogs/heads/backseat.glb"
+scale = 4.0
+head_textures = PackedStringArray("res://models/cogs/heads/backseat_backseat.png")
+hand_color = Color(0.6745098, 0.6745098, 0.7529412, 1)
+attacks = Array[ExtResource("1_jw7p4")]([ExtResource("2_my1bl"), ExtResource("3_jw7p4"), ExtResource("4_61q7n")])
+level_high = 8
+battle_phrases = Array[String](["I suggest you turn around.", "How about we go forward with this?", "Perhaps the way is backwards?", "TURN!", "I think the nagivation brought you to the wrong place.", "You can call me Carlos.", "Careful, I'm the one driving now.", "Look at you. You are driving for defeat!", "I'm going to keep your eyes on the road.", "Careful, I leave quite the skidmark."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

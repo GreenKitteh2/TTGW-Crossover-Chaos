@@ -1,0 +1,12 @@
+[gd_resource type="Resource" format=3 uid="uid://brphinbswf17p"]
+
+[ext_resource type="PackedScene" uid="uid://7374wvctrryy" path="res://objects/battle/effects/cloud_attacks/snow.tscn" id="1_pfbhb"]
+[ext_resource type="Script" uid="uid://cb075k6n86p6" path="res://objects/battle/battle_resources/cog_attacks/freeze_assets_(super).gd" id="2_mp1mt"]
+
+[resource]
+script = ExtResource("2_mp1mt")
+particles = ExtResource("1_pfbhb")
+damage = 3
+summary = "The Toon becomes brittle to the next attack!"
+attack_lines = Array[String](["You Toons always make me feel blue!", "Mary told me not to take these things so hard...", "You started this! You can end it at any time.", "I wish you would be a little warmer to me.", "Do you like games? How about a round of freeze tag?!"])
+action_name = "Freeze Assets"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://dvt316ckxwkco"]
+
+[ext_resource type="Script" uid="uid://bjss2eu8c2gdb" path="res://objects/battle/battle_resources/cog_signature_attack/zero_task.gd" id="1_pgx6s"]
+
+[resource]
+script = ExtResource("1_pgx6s")
+damage = 0
+attack_lines = Array[String]([])
+target_type = 3
+action_name = "Zero Task"

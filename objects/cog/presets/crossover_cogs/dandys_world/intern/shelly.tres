@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cjp5uixa4fbop"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_233xw"]
+[ext_resource type="Resource" uid="uid://6hjcsu17tt4g" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm.tres" id="2_5rfdg"]
+[ext_resource type="Resource" uid="uid://berwbvcnp521g" path="res://objects/battle/battle_resources/cog_attacks/resources/pink_slip.tres" id="3_233xw"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_hj8hr"]
+
+[resource]
+script = ExtResource("6_hj8hr")
+department = 6
+suit = 1
+cog_name = "Shelly"
+name_plural = "Shellies"
+head = "res://models/crossover_cogs/dandys_world/Shelly.glb"
+scale = 3
+hand_color = Color(1, 0.8352941, 0.64705884, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_233xw")]([ExtResource("2_5rfdg"), ExtResource("3_233xw"), ExtResource("2_5rfdg")])
+level_low = 4
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["This is going to be history!", "We can do this!", "Have they told you that they discovered oil?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

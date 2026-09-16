@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3 uid="uid://dk2apcvyie0kg"]
+
+[ext_resource type="Texture2D" uid="uid://cw01n4mfe3x3e" path="res://ui_assets/battle/statuses/soaked.png" id="1_jkclb"]
+[ext_resource type="Script" uid="uid://bsdgtgfgtp7mm" path="res://objects/battle/battle_resources/status_effects/status_effect_soaked.gd" id="2_jkclb"]
+
+[resource]
+script = ExtResource("2_jkclb")
+quality = 1
+rounds = 3
+icon = ExtResource("1_jkclb")
+description = "-10% Damage
+-10% Evasiveness"
+status_name = "Soaked"
+id = 81

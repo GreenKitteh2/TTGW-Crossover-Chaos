@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3 uid="uid://blbpiyhapsdu7"]
+
+[ext_resource type="PackedScene" uid="uid://u0b2uevrxq0v" path="res://models/props/cog_props/lbfo_red_tape/red_tape.fbx" id="1_vs134"]
+[ext_resource type="Script" uid="uid://bpfkv6uv0drgr" path="res://objects/battle/battle_resources/cog_signature_attack/red_tape.gd" id="2_0jjuo"]
+
+[resource]
+script = ExtResource("2_0jjuo")
+prop = ExtResource("1_vs134")
+custom_method = "red_tape"
+damage = 0
+summary = "Damage Down!"
+attack_lines = Array[String](["Ya can't get outta this one, not by a jugful.", "This oughtta tie the barb on that!", "Gonna need more than a boot ta step over this tape!", "Sorry pardner, I don't much think ya can unravel this con-on-drum. Now, I say, that looks a bad paste!", "Next time yer gonna get the fence!", "Now this is taped fine as a cream gravy!", "Roll out the thunder boys!", "Stick to your Gags, yer gonna need 'em.", "Stuck to the saddle, pardner?"])
+action_name = "Red Tape"
+metadata/_custom_type_script = "uid://itkxki65d0v7"

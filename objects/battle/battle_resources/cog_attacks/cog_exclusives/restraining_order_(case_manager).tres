@@ -1,0 +1,15 @@
+[gd_resource type="Resource" format=3 uid="uid://bp3ffixcxnmyw"]
+
+[ext_resource type="PackedScene" uid="uid://ceg2xgfw3sggn" path="res://models/props/cog_props/shredder_paper/shredder_paper.fbx" id="1_vmdul"]
+[ext_resource type="Script" uid="uid://bg6sxudkrfwph" path="res://objects/battle/battle_resources/cog_attacks/restraining_order_(super).gd" id="2_f0mce"]
+
+[resource]
+script = ExtResource("2_f0mce")
+prop = ExtResource("1_vmdul")
+custom_method = "restraining_order"
+damage = 4
+summary = "The Toon will feel a strain if they go
+against the rules!"
+attack_lines = Array[String](["Annoying...", "Hmm... Restrain yourself.", "...I'll wrap this up quickly.", "Look... Your hands are tied."])
+action_name = "Restraining Order"
+metadata/_custom_type_script = "uid://itkxki65d0v7"

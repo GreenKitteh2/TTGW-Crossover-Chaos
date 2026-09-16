@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://duxqgtajtrgxp"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_sy0hy"]
+[ext_resource type="Resource" uid="uid://blbpiyhapsdu7" path="res://objects/battle/battle_resources/cog_signature_attack/resources/red_tape_(dold).tres" id="2_sy0hy"]
+[ext_resource type="Resource" uid="uid://b04rcodv5xdli" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/eviction_notice_(dold).tres" id="3_rwls7"]
+[ext_resource type="Resource" uid="uid://bcarr363tqn2l" path="res://objects/battle/battle_resources/cog_signature_attack/resources/aftershock.tres" id="4_16irf"]
+[ext_resource type="Resource" uid="uid://42acta7o8xl5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/ink_drain_(dold).tres" id="5_5mgui"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_1xqjs"]
+
+[resource]
+script = ExtResource("7_1xqjs")
+department = 4
+custom_blazer_tex = "res://models/cogs/textures/board/blazer_exe.png"
+custom_arm_tex = "res://models/cogs/textures/board/sleeve_exe.png"
+custom_leg_tex = "res://models/cogs/textures/board/leg_exe.png"
+cog_name = "Director of Land Development"
+name_prefix = "Director of "
+name_suffix = "  Land Development"
+head = "res://models/cogs/heads/dold_head.glb"
+scale = 7.25
+hand_color = Color(0.76862746, 0.34509805, 0.101960786, 1)
+custom_nametag_height = 10.0
+attacks = Array[ExtResource("1_sy0hy")]([ExtResource("2_sy0hy"), ExtResource("3_rwls7"), ExtResource("4_16irf"), ExtResource("5_5mgui")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_manager = true
+health_mod = 2.0
+battle_phrases = Array[String](["There ain't room in this town for tha both o' us.", "Yippee-ki-yah-yippee-ki-yo!", "Ink says yer wanted.", "Yer farm looks drained."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

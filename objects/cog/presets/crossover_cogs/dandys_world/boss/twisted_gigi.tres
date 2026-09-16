@@ -1,0 +1,41 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bm76kvx7gy1jy"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_n4sg8"]
+[ext_resource type="Resource" uid="uid://b3mqc80kln1or" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket_(super).tres" id="2_nnjgb"]
+[ext_resource type="Resource" uid="uid://b8evcct5837aq" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket_money.tres" id="3_n4sg8"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="4_0gep3"]
+[ext_resource type="Resource" uid="uid://cv4rmklfhc1nr" path="res://objects/battle/battle_resources/cog_attacks/resources/eviction_notice_(super).tres" id="5_s7is0"]
+[ext_resource type="Resource" uid="uid://m27fmwkp3qdf" path="res://objects/battle/battle_resources/cog_signature_attack/resources/marked.tres" id="6_i7qy5"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_2kwcy"]
+[ext_resource type="Resource" uid="uid://bad6gsuhm8ppm" path="res://objects/battle/battle_resources/cog_signature_attack/resources/point_steal.tres" id="7_imxvs"]
+[ext_resource type="Resource" uid="uid://dwcurvq1jwvxu" path="res://objects/battle/battle_resources/cog_signature_attack/resources/disrupt.tres" id="8_nnjgb"]
+
+[resource]
+script = ExtResource("7_2kwcy")
+department = 1
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_gigi_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_gigi_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_gigi_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Twisted Gigi"
+name_prefix = "Twisted "
+name_suffix = " Gigi"
+head = "res://models/crossover_cogs/dandys_world/Twisted Gigi.glb"
+scale = 4.0
+hand_color = Color(0, 0, 0, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_n4sg8")]([ExtResource("2_nnjgb"), ExtResource("3_n4sg8"), ExtResource("4_0gep3"), ExtResource("5_s7is0"), ExtResource("6_i7qy5"), ExtResource("7_imxvs"), ExtResource("8_nnjgb")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_female_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["Gimme all of your gags.", "Everything is mine!", "Give me your valuables."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

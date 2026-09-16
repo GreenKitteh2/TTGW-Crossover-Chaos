@@ -1,0 +1,34 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://b2ncqtop1cpg"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_k8uct"]
+[ext_resource type="Resource" uid="uid://bmp6wgk24lvba" path="res://objects/battle/battle_resources/cog_attacks/resources/pop_quiz_math.tres" id="2_k8uct"]
+[ext_resource type="Resource" uid="uid://bruosr4c0bash" path="res://objects/battle/battle_resources/cog_attacks/resources/clip_on_tie.tres" id="3_hyjc6"]
+[ext_resource type="Resource" uid="uid://6hjcsu17tt4g" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm.tres" id="4_c1m2f"]
+[ext_resource type="Resource" uid="uid://305avsq3iu30" path="res://objects/battle/battle_resources/cog_attacks/resources/power_tie.tres" id="5_6nd2n"]
+[ext_resource type="Resource" uid="uid://ds65kbrqrekdn" path="res://objects/battle/battle_resources/cog_signature_attack/resources/encourage.tres" id="6_47mmq"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_kmkpu"]
+[ext_resource type="Resource" uid="uid://bxlgjda1mpx2a" path="res://objects/battle/battle_resources/cog_signature_attack/resources/protect.tres" id="7_pue1w"]
+
+[resource]
+script = ExtResource("7_kmkpu")
+department = 6
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/slender/blazer.png"
+custom_arm_tex = "res://models/cogs/textures/slender/sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/slender/leg.png"
+cog_name = "Tenna"
+name_plural = "Tennas"
+head = "res://models/crossover_cogs/undertale_and_deltarune/tenna.glb"
+scale = 6.0
+custom_nametag_suffix = "Omnipotent"
+attacks = Array[ExtResource("1_k8uct")]([ExtResource("2_k8uct"), ExtResource("3_hyjc6"), ExtResource("4_c1m2f"), ExtResource("5_6nd2n"), ExtResource("6_47mmq"), ExtResource("7_pue1w")])
+level_low = 10
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_omnipotent_tier.tres")
+is_crossover_cog = true
+health_mod = 3.0
+battle_phrases = Array[String](["IT'S TV TIME!", "It's time for a battle minigame!", "Just say \"I LOVE TV.\""])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

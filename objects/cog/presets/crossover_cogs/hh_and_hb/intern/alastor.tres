@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cbpkl58lhxvxt"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_udlg7"]
+[ext_resource type="Resource" uid="uid://cfwymrymjx7s5" path="res://objects/battle/battle_resources/cog_attacks/resources/write_off.tres" id="2_udlg7"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="3_2x4qk"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="4_yvvjs"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="5_varwh"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_4qa6y"]
+
+[resource]
+script = ExtResource("7_4qa6y")
+department = 2
+suit = 1
+cog_name = "Alastor"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/Alastor.glb"
+scale = 6.5
+hand_color = Color(0.9843137, 0.81960785, 0.69803923, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_udlg7")]([ExtResource("2_udlg7"), ExtResource("3_2x4qk"), ExtResource("4_yvvjs"), ExtResource("5_varwh")])
+level_low = 8
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["I'm volunteering with my assosiates today.", "Do I know you?", "C.O.G.S. Inc. is on the radio folks!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

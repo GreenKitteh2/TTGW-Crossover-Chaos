@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bg8ga31w73f1i"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_o2lvk"]
+[ext_resource type="Resource" uid="uid://cfwymrymjx7s5" path="res://objects/battle/battle_resources/cog_attacks/resources/write_off.tres" id="2_0sve7"]
+[ext_resource type="Resource" uid="uid://cae3lr6y4rrb8" path="res://objects/battle/battle_resources/cog_attacks/resources/quake.tres" id="3_rlots"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="4_qjrgi"]
+
+[resource]
+script = ExtResource("4_qjrgi")
+department = 2
+suit = 1
+cog_name = "Clash Spin Doctor"
+name_plural = "Clash Spin Doctors"
+name_prefix = "Clash "
+name_suffix = " Spin Doctor"
+head = "res://models/cogs/heads/clash_doctor.glb"
+scale = 5.65
+head_textures = PackedStringArray("res://models/cogs/heads/clash_doctor_ttcc_ene_spin_doctor.png")
+hand_color = Color(0.47843137, 0.7607843, 0.6313726, 1)
+attacks = Array[ExtResource("1_o2lvk")]([ExtResource("2_0sve7"), ExtResource("3_rlots")])
+level_low = 6
+level_high = 13
+battle_phrases = Array[String](["You'll never know when I'll stop.", "Care to take a few turns with me?", "The doctor is in, the Toon is out.", "I have my own special spin on the subject.", "Let me take you for a spin...", "The doctor will see you now.", "You look like you need a doctor.", "You think this won't hurt a bit, but it will!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

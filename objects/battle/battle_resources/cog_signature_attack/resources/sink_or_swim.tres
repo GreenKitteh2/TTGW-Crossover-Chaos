@@ -1,0 +1,13 @@
+[gd_resource type="Resource" format=3 uid="uid://b3hwwh18205le"]
+
+[ext_resource type="Script" uid="uid://bkhx5h5xdnqq6" path="res://objects/battle/battle_resources/cog_signature_attack/sink_or_swim.gd" id="1_7ounk"]
+
+[resource]
+script = ExtResource("1_7ounk")
+accuracy = 100
+damage = 0
+summary = "Buffs other cogs and goes on 
+the defensive tactic."
+attack_lines = Array[String](["Time for a subvention.", "Let's sea if you can handle this.", "I'll never submit!", "I'll drag you down with me.", "Why don't I stem the tide for a bit?"])
+target_type = 4
+action_name = "Sink or Swim"

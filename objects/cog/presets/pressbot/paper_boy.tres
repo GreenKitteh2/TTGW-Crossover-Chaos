@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=6 format=3 uid="uid://d1nmu06kor8uv"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_kveta"]
+[ext_resource type="Resource" uid="uid://erbbarg5bxm8" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex.tres" id="2_ofmh4"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="3_dst4r"]
+[ext_resource type="Resource" uid="uid://bruosr4c0bash" path="res://objects/battle/battle_resources/cog_attacks/resources/clip_on_tie.tres" id="4_6lno6"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="4_suvtk"]
+
+[resource]
+script = ExtResource("4_suvtk")
+department = 6
+suit = 1
+cog_name = "Paper Boy"
+name_plural = "Paper Boys"
+name_prefix = "Paper "
+name_suffix = " Boy"
+head = "res://models/cogs/heads/paperboy.glb"
+scale = 3.5
+head_textures = PackedStringArray("res://models/cogs/heads/paperboy_paperboy.png")
+hand_color = Color(0.7921569, 0.76862746, 0.7254902, 1)
+attacks = Array[ExtResource("1_kveta")]([ExtResource("2_ofmh4"), ExtResource("3_dst4r"), ExtResource("4_6lno6")])
+level_high = 8
+battle_phrases = Array[String](["I'll be delivering you a swift defeat.", "Extra! Extra! Toon loses yet another battle!", "I specialize in the delivery of news and toon defeating.", "The newspaper your defeat is printed on will be 100% recyclable.", "News delivery and your defeat are regularly scheduled.", "I just finished my shift, but I can still deliver your defeat.", "There's a big shipment of sadness coming your way.", "You're no match Toon. Dogs are afraid of THIS paperboy.", "Sad news delivered straight to you. Only one small payment of all your gags!", "You better watch out, Toon. I've got a good aim with newspapers.", "This is no laughing matter.", "I'm going to give you the business."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

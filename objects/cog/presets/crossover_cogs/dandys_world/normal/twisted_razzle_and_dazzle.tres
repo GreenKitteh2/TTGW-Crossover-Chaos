@@ -1,0 +1,34 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://jxs77fpntdsg"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_exuuj"]
+[ext_resource type="Resource" uid="uid://ri0sbduh61x1" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/heckle_(razzle_and_dazzle).tres" id="2_iuli3"]
+[ext_resource type="Resource" uid="uid://c8ukrk7bp24bd" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/finger_wag_(razzle_and_dazzle).tres" id="3_kkjlf"]
+[ext_resource type="Resource" uid="uid://bfickm737ayv7" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/clip_on_tie_(razzle_and_dazzle).tres" id="4_0vkl0"]
+[ext_resource type="Resource" uid="uid://bljpjngbla51n" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/workout_(razzle_and_dazzle).tres" id="5_s55lf"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_oqfk7"]
+[ext_resource type="Resource" uid="uid://b3wkah45n6qb" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time_(razzle_and_dazzle).tres" id="6_owops"]
+
+[resource]
+script = ExtResource("6_oqfk7")
+department = 1
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/misc/blazer_1.png"
+custom_arm_tex = "res://models/cogs/textures/misc/sleeve_2.png"
+custom_leg_tex = "res://models/cogs/textures/misc/leg_4.png"
+custom_wrist_tex = "res://models/cogs/textures/misc/arm_1.png"
+cog_name = "Twisted Razzle & Dazzle"
+name_prefix = "Twisted "
+name_suffix = " Razzle & Dazzle"
+head = "res://models/crossover_cogs/dandys_world/Twisted Razzle and Dazzle.glb"
+scale = 3.5
+hand_color = Color(0, 0, 0, 1)
+custom_nametag_height = 11.0
+attacks = Array[ExtResource("1_exuuj")]([ExtResource("2_iuli3"), ExtResource("3_kkjlf"), ExtResource("4_0vkl0"), ExtResource("5_s55lf"), ExtResource("6_owops")])
+level_low = 6
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["We may be two. (But we're one...)", "I got my half (Why need another?)", "We got the energy (But we're tired.)"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

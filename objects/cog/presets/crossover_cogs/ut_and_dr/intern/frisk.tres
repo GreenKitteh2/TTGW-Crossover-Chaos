@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dcfeetihpeeq2"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_b4p2t"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="2_ymhqa"]
+[ext_resource type="Resource" uid="uid://6hjcsu17tt4g" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm.tres" id="3_qehvk"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_ssvsy"]
+
+[resource]
+script = ExtResource("7_ssvsy")
+department = 3
+suit = 1
+cog_name = "Frisk"
+name_plural = "Frisks"
+head = "res://models/crossover_cogs/undertale_and_deltarune/frisk.glb"
+scale = 3.95
+hand_color = Color(0.972549, 0.78431374, 0.03137255, 1)
+custom_nametag_suffix = "Intern"
+can_speak = false
+attacks = Array[ExtResource("1_b4p2t")]([ExtResource("2_ymhqa"), ExtResource("3_qehvk")])
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["..."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" format=3 uid="uid://2sbo3dial7i7"]
+
+[ext_resource type="Script" uid="uid://bddxnfdkgo6x5" path="res://objects/battle/battle_resources/cog_signature_attack/double_time.gd" id="1_uu2ka"]
+
+[resource]
+script = ExtResource("1_uu2ka")
+accuracy = 100
+damage = 0
+summary = ".dnuor txen eht ni eciwt kcattA"
+attack_lines = Array[String]([" .yadot emitrevo gnikrow m'I", " .ti yalp nac OWT", " .nooT nwod gnilbuoD"])
+target_type = 4
+action_name = "emiT elbuoD"

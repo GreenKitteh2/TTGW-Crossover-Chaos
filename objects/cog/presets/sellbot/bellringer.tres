@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://icksgehhd2od"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_iqlyn"]
+[ext_resource type="Resource" uid="uid://dsoxy4umn8rf3" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/quake_(bellringer).tres" id="2_iqlyn"]
+[ext_resource type="Resource" uid="uid://cab0hx1d23hj4" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/rolodex_(bellringer).tres" id="3_n87d0"]
+[ext_resource type="Resource" uid="uid://dq087q3a7qptu" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/pound_key_(bellringer).tres" id="4_iv7ob"]
+[ext_resource type="Resource" uid="uid://ben0sbuiy8n8e" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/hang_up_(bellringer).tres" id="5_iqlyn"]
+[ext_resource type="Resource" uid="uid://d1iypoe3h0mst" path="res://objects/battle/battle_resources/cog_signature_attack/resources/healing_bell.tres" id="6_iqlyn"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_mbf1i"]
+
+[resource]
+script = ExtResource("7_mbf1i")
+suit = 1
+cog_name = "Bellringer"
+name_prefix = "Bell"
+name_suffix = "ringer"
+head = "res://models/cogs/heads/bellringer_head.glb"
+scale = 4.75
+hand_color = Color(0.7137255, 0.5568628, 0.28627452, 1)
+attacks = Array[ExtResource("1_iqlyn")]([ExtResource("2_iqlyn"), ExtResource("3_n87d0"), ExtResource("4_iv7ob"), ExtResource("5_iqlyn"), ExtResource("6_iqlyn")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_manager = true
+health_mod = 2.0
+battle_phrases = Array[String](["This should shake you up.", "Prepare to be moved.", "I feel moved to defeat you.", "Are you shaking yet?", "I'm ready to make my move.", "This should be a moving moment.", "I think it's my move.", "Move it or lose it.", "Watch out, Toon, you're on shaky ground.", "You had better move out of the way."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=6 format=3 uid="uid://t8otoij7cs7m"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_045yc"]
+[ext_resource type="Resource" uid="uid://berwbvcnp521g" path="res://objects/battle/battle_resources/cog_attacks/resources/pink_slip.tres" id="2_045yc"]
+[ext_resource type="Resource" uid="uid://erbbarg5bxm8" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex.tres" id="3_k3qb3"]
+[ext_resource type="Resource" uid="uid://cfwymrymjx7s5" path="res://objects/battle/battle_resources/cog_attacks/resources/write_off.tres" id="4_jor8q"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_y43mb"]
+
+[resource]
+script = ExtResource("5_y43mb")
+department = 5
+suit = 1
+cog_name = "Poindexter"
+name_plural = "Poindexters"
+name_prefix = "Poin"
+name_suffix = "dexter"
+head = "res://models/cogs/heads/pointdexter_head.glb"
+scale = 4.5
+head_textures = PackedStringArray("res://models/cogs/heads/pointdexter_head_techbot_heads_palette.png")
+hand_color = Color(0.8980392, 0.76862746, 0.85490197, 1)
+attacks = Array[ExtResource("1_045yc")]([ExtResource("2_045yc"), ExtResource("3_k3qb3"), ExtResource("4_jor8q")])
+level_low = 2
+level_high = 9
+battle_phrases = Array[String](["I’m no laughing matter.", "You’re picking on the wrong nerd!", "Be careful who you make fun of.", "You think this is funny, buster?", "Your jokes are messing with my mental acuity.", "You couldn’t comprehend my work.", "Behold my academic ingenuity!", "I sense inferior intelligence."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

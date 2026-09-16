@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://7pru0wp03v5u"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_iclxq"]
+[ext_resource type="Resource" uid="uid://b022rudn3vkpt" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/brain_storm_(gaster).tres" id="2_jyhia"]
+[ext_resource type="Resource" uid="uid://b385yh2lk7pqn" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/quake_(gaster).tres" id="3_dgw3g"]
+[ext_resource type="Resource" uid="uid://dpxqb4sscudyg" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/power_trip_(gaster).tres" id="4_jyhia"]
+[ext_resource type="Resource" uid="uid://cumo6ntw8sj2j" path="res://objects/battle/battle_resources/cog_signature_attack/resources/call_back_up_(gaster).tres" id="5_dgw3g"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_e2uob"]
+
+[resource]
+script = ExtResource("5_e2uob")
+department = 4
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/slender/blazer.png"
+custom_arm_tex = "res://models/cogs/textures/slender/sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/slender/leg.png"
+cog_name = "Gaster"
+name_plural = "Gasters"
+head = "res://models/crossover_cogs/undertale_and_deltarune/gaster.glb"
+scale = 6.4
+hand_color = Color(0.972549, 0.9882353, 0.972549, 1)
+attacks = Array[ExtResource("1_iclxq")]([ExtResource("2_jyhia"), ExtResource("3_dgw3g"), ExtResource("4_jyhia"), ExtResource("5_dgw3g")])
+level_low = 8
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["☟︎♏︎●︎●︎□︎ ❄︎□︎□︎■︎📪︎ 🏱︎❒︎♏︎◻︎♋︎❒︎♏︎ ⧫︎□︎ ●︎□︎⬧︎♏︎", "✋︎ ♋︎❍︎ ⧫︎♒︎♏︎ ❍︎♋︎■︎ ⬥︎♒︎□︎ ⬧︎◻︎♏︎♋︎🙵⬧︎ ♓︎■︎ ♒︎♋︎■︎♎︎⬧", "✋︎🕯︎❖︎♏︎ ♒︎♏︎♋︎❒︎♎︎ □︎♐︎ ⍓︎□︎◆︎ ⧫︎□︎□︎■︎"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bgdbbhgytxuux"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_x15mp"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="2_x15mp"]
+[ext_resource type="Resource" uid="uid://305avsq3iu30" path="res://objects/battle/battle_resources/cog_attacks/resources/power_tie.tres" id="4_gfc5i"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="5_cdc6g"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="5_fnxic"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_iim3i"]
+
+[resource]
+script = ExtResource("7_iim3i")
+department = 2
+suit = 1
+cog_name = "Velvette"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/velvette.glb"
+scale = 5.3
+hand_color = Color(0.42745098, 0.29803923, 0.35686275, 1)
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_x15mp")]([ExtResource("2_x15mp"), ExtResource("5_fnxic"), ExtResource("4_gfc5i"), ExtResource("5_cdc6g")])
+level_low = 6
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["I work for Vox...and...these guys.", "Do I even have to wear this suit?", "How bad could you be unlike the others with me."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

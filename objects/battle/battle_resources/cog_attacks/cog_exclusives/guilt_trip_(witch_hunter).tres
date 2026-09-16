@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://bvgeevkm6gbgv"]
+
+[ext_resource type="Script" uid="uid://cqjao7ra7sudp" path="res://objects/battle/battle_resources/cog_attacks/guilt_trip_(super).gd" id="1_dk4su"]
+
+[resource]
+script = ExtResource("1_dk4su")
+damage = 5
+summary = "The Cog is about to get their revenge"
+attack_lines = Array[String](["Tripping you up is mere bagatelle.", "Impudent vermin must watch their steps.", "Your pride only serves to vaticinate your fall.", "You have been tried and found guilty.", "An individual of my ranking should not be degraded in dealing with the likes of you."])
+action_name = "Guilt Trip"
+metadata/_custom_type_script = "uid://bb27him60xtnk"

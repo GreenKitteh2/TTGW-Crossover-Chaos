@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dmnh24ww8731e"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_2cb4m"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="2_o1xhl"]
+[ext_resource type="Resource" uid="uid://305avsq3iu30" path="res://objects/battle/battle_resources/cog_attacks/resources/power_tie.tres" id="3_1ss3i"]
+[ext_resource type="Resource" uid="uid://bruosr4c0bash" path="res://objects/battle/battle_resources/cog_attacks/resources/clip_on_tie.tres" id="4_rsfe0"]
+[ext_resource type="Resource" uid="uid://cltphjfp4x2rk" path="res://objects/battle/battle_resources/cog_attacks/resources/half_windsor.tres" id="5_xd4do"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_fbuev"]
+
+[resource]
+script = ExtResource("6_fbuev")
+suit = 1
+cog_name = "Toodles"
+head = "res://models/crossover_cogs/dandys_world/Toodles.glb"
+scale = 2.8
+hand_color = Color(0.2784314, 0.27450982, 0.2784314, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_2cb4m")]([ExtResource("2_o1xhl"), ExtResource("3_1ss3i"), ExtResource("4_rsfe0"), ExtResource("5_xd4do")])
+level_low = 2
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["I'm helping!", "Can we be friends?", "They're taking me on a tour!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bfa2mgh5yiiax"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_iclxq"]
+[ext_resource type="Resource" uid="uid://b022rudn3vkpt" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/brain_storm_(gaster).tres" id="2_kloxk"]
+[ext_resource type="Resource" uid="uid://b385yh2lk7pqn" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/quake_(gaster).tres" id="3_3mt4i"]
+[ext_resource type="Resource" uid="uid://dpxqb4sscudyg" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/power_trip_(gaster).tres" id="4_a40tj"]
+[ext_resource type="Resource" uid="uid://cumo6ntw8sj2j" path="res://objects/battle/battle_resources/cog_signature_attack/resources/call_back_up_(gaster).tres" id="5_20026"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_e2uob"]
+
+[resource]
+script = ExtResource("5_e2uob")
+department = 4
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/waiter/waiter_m_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/waiter/waiter_m_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/waiter/waiter_m_leg.png"
+cog_name = "Gaster"
+name_plural = "Gasters"
+head = "res://models/crossover_cogs/undertale_and_deltarune/gaster.glb"
+scale = 6.4
+hand_color = Color(0.972549, 0.9882353, 0.972549, 1)
+custom_nametag_suffix = "Elite"
+attacks = Array[ExtResource("1_iclxq")]([ExtResource("2_kloxk"), ExtResource("3_3mt4i"), ExtResource("4_a40tj"), ExtResource("5_20026")])
+level_low = 8
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_elite_tier.tres")
+is_crossover_cog = true
+health_mod = 2.0
+battle_phrases = Array[String](["☟︎♏︎●︎●︎□︎ ❄︎□︎□︎■︎📪︎ 🏱︎❒︎♏︎◻︎♋︎❒︎♏︎ ⧫︎□︎ ●︎□︎⬧︎♏︎", "✋︎ ♋︎❍︎ ⧫︎♒︎♏︎ ❍︎♋︎■︎ ⬥︎♒︎□︎ ⬧︎◻︎♏︎♋︎🙵⬧︎ ♓︎■︎ ♒︎♋︎■︎♎︎⬧", "✋︎🕯︎❖︎♏︎ ♒︎♏︎♋︎❒︎♎︎ □︎♐︎ ⍓︎□︎◆︎ ⧫︎□︎□︎■︎"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dtimw6j58oq3s"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_g1xcl"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="2_g1xcl"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="4_4tuwy"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="4_r115c"]
+[ext_resource type="Resource" uid="uid://305avsq3iu30" path="res://objects/battle/battle_resources/cog_attacks/resources/power_tie.tres" id="5_i1qko"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_4kjil"]
+
+[resource]
+script = ExtResource("7_4kjil")
+suit = 1
+cog_name = "Twisted Ginger"
+name_prefix = "Twisted "
+name_suffix = " Ginger"
+head = "res://models/crossover_cogs/dandys_world/Twisted Ginger.glb"
+scale = 3.5
+hand_color = Color(0.63529414, 0.3764706, 0.23529412, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_g1xcl")]([ExtResource("2_g1xcl"), ExtResource("4_4tuwy"), ExtResource("4_r115c"), ExtResource("5_i1qko")])
+level_low = 6
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["My make up is all smuged.", "I can't make the cookies perfect.", "My cousin wouldn't like this."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

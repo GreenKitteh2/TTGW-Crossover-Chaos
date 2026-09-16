@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://lgfoeii6quui"]
+
+[ext_resource type="Script" uid="uid://bulmva33hirjm" path="res://objects/battle/battle_resources/cog_signature_attack/ignite.gd" id="1_4ycjt"]
+
+[resource]
+script = ExtResource("1_4ycjt")
+damage = 4
+summary = "Burns the Toon!"
+attack_lines = Array[String](["Clearly, thou doth not owneth an air fryeth contraption.", "I bethink I haveth a bit of flare about me.", "I hopeth thee woreth sunscreen.", "I just sparkleth, I not?", "Hoteth, hoteth, and hotter.", "It iseth going to geteth rather warm around hereth.", "Doth thou feeleth a little toasty?", "I hopeth thou art not cold blooded.", "Thou art a flasheth in the pan.", "Caneth thou sayeth \"ouch\"?", "How doest \"well-done\" soundeth?", "This shouldst taketh the chill out of the air.", "Oh looketh, a burnt boor.", "Thou shall goeth out in a blaze.", "Thou better stopeth, dropeth, and rolleth!", "I hopeth thou broughteth some marshmallows."])
+action_name = "Ignite"

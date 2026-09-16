@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cky2bduy4e7ku"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_g3xcr"]
+[ext_resource type="Resource" uid="uid://cfwymrymjx7s5" path="res://objects/battle/battle_resources/cog_attacks/resources/write_off.tres" id="2_2n2yi"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="3_xqllm"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="4_a6ow1"]
+
+[resource]
+script = ExtResource("4_a6ow1")
+department = 2
+suit = 1
+cog_name = "Ratifier"
+name_plural = "Ratifiers"
+name_prefix = "Rat"
+name_suffix = "ifier"
+head = "res://models/cogs/heads/rattifier.glb"
+scale = 4.95
+head_textures = PackedStringArray("res://models/cogs/heads/rattifier_Image_0.png", "res://models/cogs/heads/rattifier_Image_1.png")
+hand_color = Color(0.58431375, 0.58431375, 0.68235296, 1)
+custom_nametag_height = 9.1
+attacks = Array[ExtResource("1_g3xcr")]([ExtResource("2_2n2yi"), ExtResource("3_xqllm")])
+level_low = 5
+battle_phrases = Array[String](["Under the ratification of this order, you are hereby illegal.", "Cong-rats! You are now outlawed.", "In the long term, I'm winning this rat race.", "Careful, I am extremely ratical.", "The one thing I won't outlaw is your musophobia.", "Watch out, I am expertly trained in ka-rat-e.", "You better hide and squeak, because the new law is coming after you.", "Watch out, I just gave myself the best road dent insurance.", "This new law will render you eraticated.", "I am going to rat you out to the boss!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

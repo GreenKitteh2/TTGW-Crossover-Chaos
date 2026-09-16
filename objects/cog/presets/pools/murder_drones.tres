@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CogPool" format=3 uid="uid://cuj0s0ywd14j6"]
+
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="1_vf2pi"]
+[ext_resource type="Resource" uid="uid://dqa7g4nd1k6h0" path="res://objects/cog/presets/crossover_cogs/murder_drones/normal/j.tres" id="2_jyxps"]
+[ext_resource type="Resource" uid="uid://bxo2utpejfwry" path="res://objects/cog/presets/crossover_cogs/murder_drones/normal/n.tres" id="3_x02oo"]
+[ext_resource type="Resource" uid="uid://kcd8r7v6ptgv" path="res://objects/cog/presets/crossover_cogs/murder_drones/normal/uzi.tres" id="4_l0bl6"]
+[ext_resource type="Resource" uid="uid://qpdti6ej5fpv" path="res://objects/cog/presets/crossover_cogs/murder_drones/normal/v.tres" id="5_vf2pi"]
+[ext_resource type="Script" uid="uid://buc4y0vtgydo" path="res://objects/cog/cog_pool.gd" id="9_1g3rn"]
+
+[resource]
+script = ExtResource("9_1g3rn")
+cogs = Array[ExtResource("1_vf2pi")]([ExtResource("2_jyxps"), ExtResource("3_x02oo"), ExtResource("4_l0bl6"), ExtResource("5_vf2pi")])

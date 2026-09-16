@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://odpu8n4forti"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_pcyv8"]
+[ext_resource type="Resource" uid="uid://d0qrjbh71vy0y" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/power_trip_(firestarter).tres" id="2_ede71"]
+[ext_resource type="Resource" uid="uid://c12j1k0ra36go" path="res://objects/battle/battle_resources/cog_signature_attack/resources/ignite_(firestarter).tres" id="3_r7ffl"]
+[ext_resource type="Resource" uid="uid://dfl8xkvhb0pg2" path="res://objects/battle/battle_resources/cog_signature_attack/resources/backburner.tres" id="4_pcyv8"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_pt3ys"]
+
+[resource]
+script = ExtResource("7_pt3ys")
+department = 3
+custom_blazer_tex = "res://models/cogs/textures/managers/firestarter_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/managers/firestarter_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/managers/firestarter_leg.png"
+cog_name = "Firestarter"
+name_prefix = "Fire"
+name_suffix = "starter"
+head = "res://models/cogs/heads/fire-starter_head.glb"
+scale = 6.75
+hand_color = Color(0.7058824, 0.1764706, 0.019607844, 1)
+attacks = Array[ExtResource("1_pcyv8")]([ExtResource("2_ede71"), ExtResource("3_r7ffl"), ExtResource("4_pcyv8")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_manager = true
+health_mod = 3.0
+battle_phrases = Array[String](["Hope you know how to stop, drop and roll.", "Didn't your guardians tell you to not play with fire?", "You aren't going to like it when I'm heated...", "Like a moth into a flame..."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

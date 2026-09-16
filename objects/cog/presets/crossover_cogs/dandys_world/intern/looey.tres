@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://2ik0lcynqg7j"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_bodt3"]
+[ext_resource type="Resource" uid="uid://c3gg5tsci6aye" path="res://objects/battle/battle_resources/cog_attacks/resources/hang_up.tres" id="2_bodt3"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="4_astep"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="4_dgcy5"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_7hbg6"]
+
+[resource]
+script = ExtResource("6_7hbg6")
+department = 6
+suit = 1
+cog_name = "Looey"
+head = "res://models/crossover_cogs/dandys_world/Looey.glb"
+scale = 3
+hand_color = Color(0.54901963, 0.40784314, 0.6666667, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_bodt3")]([ExtResource("2_bodt3"), ExtResource("4_astep"), ExtResource("4_dgcy5")])
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["Keep watching, I got this.", "I got some neat tricks for everyone to see!", "This will be my best act by far!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

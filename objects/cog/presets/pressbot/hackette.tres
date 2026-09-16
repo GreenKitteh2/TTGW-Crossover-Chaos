@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=6 format=3 uid="uid://bfge46yr7m1ee"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_8wnv2"]
+[ext_resource type="Resource" uid="uid://55lp6noha8te" path="res://objects/battle/battle_resources/cog_attacks/resources/shake.tres" id="2_8wnv2"]
+[ext_resource type="Resource" uid="uid://erbbarg5bxm8" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex.tres" id="2_11oex"]
+[ext_resource type="Resource" uid="uid://c3gg5tsci6aye" path="res://objects/battle/battle_resources/cog_attacks/resources/hang_up.tres" id="3_11oex"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_dmdq3"]
+
+[resource]
+script = ExtResource("5_dmdq3")
+department = 6
+suit = 1
+cog_name = "Hackette"
+name_plural = "Hackettes"
+name_prefix = "Hack"
+name_suffix = "ette"
+head = "res://models/cogs/heads/hackette.glb"
+scale = 4.4
+head_textures = PackedStringArray("res://models/cogs/heads/hackette_hackette.png")
+hand_color = Color(0.9137255, 0.9137255, 0.9137255, 1)
+attacks = Array[ExtResource("1_8wnv2")]([ExtResource("2_8wnv2"), ExtResource("3_11oex"), ExtResource("2_11oex")])
+level_low = 4
+level_high = 11
+is_female_cog = true
+battle_phrases = Array[String](["My report on you being a hack is nearly complete.", "Will you enjoy your losses being publicized?", "'Toon defeated ruthlessly' will be my next big headline.", "Journalism moves fast, just like your defeat will be.", "I'm eyeing your defeat to be my next big break.", "It's improper etiquette to attack a journalist, Toon.", "You better give me a good fight. I'm itching for a good story.", "This better be good. I'm this close to finishing my magnum opus.", "The deadline for your sadness report is coming up.", "Any final statements before I publish your defeat?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

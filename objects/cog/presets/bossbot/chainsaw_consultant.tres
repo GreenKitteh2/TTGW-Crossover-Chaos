@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cf21yunjdqpu5"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_pu2ib"]
+[ext_resource type="Resource" uid="uid://upir6hjcnwa5" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex_(super).tres" id="2_pu2ib"]
+[ext_resource type="Resource" uid="uid://kmogjr4fp015" path="res://objects/battle/battle_resources/cog_signature_attack/resources/stagger.tres" id="3_okshd"]
+[ext_resource type="Resource" uid="uid://m27fmwkp3qdf" path="res://objects/battle/battle_resources/cog_signature_attack/resources/marked.tres" id="4_w4t3x"]
+[ext_resource type="Resource" uid="uid://bhmmdrdha46gv" path="res://objects/battle/battle_resources/cog_attacks/resources/pink_slip_(super).tres" id="5_okshd"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_t13m5"]
+
+[resource]
+script = ExtResource("5_t13m5")
+department = 3
+custom_blazer_tex = "res://models/cogs/textures/managers/chainsaw_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/managers/chainsaw_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/managers/chainsaw_leg.png"
+cog_name = "Chainsaw Consultant"
+name_prefix = "Chainsaw "
+name_suffix = " Consultant"
+head = "res://models/cogs/heads/chainsaw-consultant_head.glb"
+scale = 7.0
+hand_color = Color(0.3137255, 0.3137255, 0.3137255, 1)
+attacks = Array[ExtResource("1_pu2ib")]([ExtResource("2_pu2ib"), ExtResource("3_okshd"), ExtResource("4_w4t3x"), ExtResource("5_okshd")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_manager = true
+health_mod = 3.0
+battle_phrases = Array[String](["ENTERING EMPLOYEE TERMINATION MODE.", "If you worked for this company, you'd be out in a cannon.", "I'm kind of busy right now, can you go away?", "You don't want to see what happens when I get angry."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

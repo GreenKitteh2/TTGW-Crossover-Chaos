@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bkvwra45dcc73"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_uvrca"]
+[ext_resource type="Resource" uid="uid://dimhdaxn1tyey" path="res://objects/battle/battle_resources/cog_attacks/resources/tee_off.tres" id="2_c4u62"]
+[ext_resource type="Resource" uid="uid://doowiij7lpxy1" path="res://objects/battle/battle_resources/cog_attacks/resources/rubber_stamp.tres" id="3_gqhyo"]
+[ext_resource type="Resource" uid="uid://6hjcsu17tt4g" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm.tres" id="4_ev20s"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="6_s7fuk"]
+[ext_resource type="Resource" uid="uid://c24yy1wqmg24o" path="res://objects/battle/battle_resources/cog_attacks/resources/razzle_dazzle.tres" id="6_uvrca"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="7_c4u62"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="8_6ud8j"]
+
+[resource]
+script = ExtResource("8_6ud8j")
+department = 5
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/misc/ghoststarman_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/misc/ghoststarman_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/misc/ghoststarman_leg.png"
+custom_wrist_tex = "res://models/cogs/textures/crossover_cogs/misc/ghoststarman_sleeve.png"
+custom_shoe_tex = "res://models/cogs/textures/crossover_cogs/misc/ghoststarman_sleeve.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/earthbound.png"
+cog_name = "Ghost of Starman"
+name_prefix = "Ghost of "
+name_suffix = " Starman"
+head = "res://models/crossover_cogs/misc/starman.glb"
+scale = 5.2
+head_textures = PackedStringArray("res://models/crossover_cogs/misc/ghost starman face.png")
+hand_color = Color(0.015686275, 0.015686275, 0.015686275, 1)
+head_color = Color(1, 0, 0.43137255, 1)
+custom_nametag_height = 9.4
+custom_nametag_suffix = "Minion"
+attacks = Array[ExtResource("1_uvrca")]([ExtResource("2_c4u62"), ExtResource("3_gqhyo"), ExtResource("4_ev20s"), ExtResource("6_s7fuk"), ExtResource("6_uvrca"), ExtResource("7_c4u62")])
+level_low = 7
+level_high = 20
+is_crossover_cog = true
+health_mod = 1.5
+battle_phrases = Array[String](["I work for Giygas's army.", "I have affiliations with a certain skeleton.", "We're here to help OUR future."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

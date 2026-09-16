@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://b44j6ei8pi8yi"]
+
+[ext_resource type="Script" uid="uid://bvsdy08yuqry8" path="res://objects/battle/battle_resources/cog_signature_attack/disrupt.gd" id="1_3whrm"]
+
+[resource]
+script = ExtResource("1_3whrm")
+damage = 0
+summary = "Cause gags to miss."
+attack_lines = Array[String](["This isn't right...isn't right...", "Stop...It hurts...", "Please...stop..."])
+action_name = "Disrupt"

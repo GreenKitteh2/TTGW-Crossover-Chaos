@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://coduc3aoygrqr"]
+
+[ext_resource type="Texture2D" uid="uid://lk7dmx385ho5" path="res://ui_assets/battle/statuses/omnipotent.png" id="1_bi4ho"]
+[ext_resource type="Script" uid="uid://b8xj8vbls2eji" path="res://objects/battle/battle_resources/status_effects/status_effect_omnipotent_tier.gd" id="2_bi4ho"]
+
+[resource]
+script = ExtResource("2_bi4ho")
+rounds = -1
+icon = ExtResource("1_bi4ho")
+status_name = "Omnipotent Class"
+id = 68
+metadata/_custom_type_script = "uid://df7irk63ikx4k"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://ctic2hlkgddom"]
+
+[ext_resource type="Script" uid="uid://t3krrtv6qkfu" path="res://objects/battle/battle_resources/cog_attacks/evil_eye_(super).gd" id="1_we4db"]
+
+[resource]
+script = ExtResource("1_we4db")
+damage = 5
+summary = "The Toon's attack weakens 
+under the cog's glare!"
+attack_lines = Array[String](["I'm giving you the evil eye.", "Could you eye-ball this for me?", "Wait. I've got something in my eye.", "I've got my eye on you!", "Could you keep an eye on this for me?", "I've got a real eye for evil.", "I'll poke you in the eye!"])
+action_name = "Evil Eye"

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="CogPool" format=3 uid="uid://cufa2p2ukyhf5"]
+
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="1_tjsy8"]
+[ext_resource type="Resource" uid="uid://bb7dk3cj3m6tj" path="res://objects/cog/presets/crossover_cogs/misc/normal/starman_jr.tres" id="2_ngx55"]
+[ext_resource type="Resource" uid="uid://cvues0ybmgurh" path="res://objects/cog/presets/crossover_cogs/misc/normal/starman.tres" id="3_yof6m"]
+[ext_resource type="Resource" uid="uid://jpkpdclwhuyy" path="res://objects/cog/presets/crossover_cogs/misc/normal/blue_starman.tres" id="4_44fc4"]
+[ext_resource type="Script" uid="uid://buc4y0vtgydo" path="res://objects/cog/cog_pool.gd" id="4_mq2j5"]
+[ext_resource type="Resource" uid="uid://dyq16qj7vw53i" path="res://objects/cog/presets/crossover_cogs/misc/normal/last_starman.tres" id="5_lhh1d"]
+[ext_resource type="Resource" uid="uid://cfle00pu4kncw" path="res://objects/cog/presets/crossover_cogs/misc/normal/starman_super.tres" id="6_i6qgj"]
+[ext_resource type="Resource" uid="uid://b0j1xk5dejewt" path="res://objects/cog/presets/crossover_cogs/misc/normal/starman_deluxe.tres" id="7_3160v"]
+[ext_resource type="Resource" uid="uid://bkvwra45dcc73" path="res://objects/cog/presets/crossover_cogs/misc/normal/ghost_of_starman.tres" id="8_e1kdp"]
+[ext_resource type="Resource" uid="uid://c8y3grpnonppk" path="res://objects/cog/presets/crossover_cogs/misc/normal/final_starman.tres" id="9_mu1tv"]
+[ext_resource type="Resource" uid="uid://c5hh1hli4ctnf" path="res://objects/cog/presets/crossover_cogs/misc/elite/starman_jr.tres" id="10_3lvjd"]
+[ext_resource type="Resource" uid="uid://bwkw41b13287h" path="res://objects/cog/presets/crossover_cogs/misc/elite/starman.tres" id="11_3rhju"]
+[ext_resource type="Resource" uid="uid://dvac5316xayqc" path="res://objects/cog/presets/crossover_cogs/misc/elite/blue_starman.tres" id="12_h5c8f"]
+[ext_resource type="Resource" uid="uid://cil6hginqthhx" path="res://objects/cog/presets/crossover_cogs/misc/elite/last_starman.tres" id="13_afc7a"]
+[ext_resource type="Resource" uid="uid://bv8f38rvxk68e" path="res://objects/cog/presets/crossover_cogs/misc/elite/starman_super.tres" id="14_x0j7p"]
+[ext_resource type="Resource" uid="uid://bjxmtstosw0pt" path="res://objects/cog/presets/crossover_cogs/misc/elite/starman_deluxe.tres" id="15_bkylf"]
+[ext_resource type="Resource" uid="uid://dvdvuw1bgeblc" path="res://objects/cog/presets/crossover_cogs/misc/elite/ghost_of_starman.tres" id="16_go2xr"]
+[ext_resource type="Resource" uid="uid://cggdvv0pngeqa" path="res://objects/cog/presets/crossover_cogs/misc/elite/final_starman.tres" id="17_a4ekj"]
+
+[resource]
+script = ExtResource("4_mq2j5")
+cogs = Array[ExtResource("1_tjsy8")]([ExtResource("2_ngx55"), ExtResource("3_yof6m"), ExtResource("4_44fc4"), ExtResource("5_lhh1d"), ExtResource("6_i6qgj"), ExtResource("7_3160v"), ExtResource("8_e1kdp"), ExtResource("9_mu1tv"), ExtResource("10_3lvjd"), ExtResource("11_3rhju"), ExtResource("12_h5c8f"), ExtResource("13_afc7a"), ExtResource("14_x0j7p"), ExtResource("15_bkylf"), ExtResource("16_go2xr"), ExtResource("17_a4ekj")])

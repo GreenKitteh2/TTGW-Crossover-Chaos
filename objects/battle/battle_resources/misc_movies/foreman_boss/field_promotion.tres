@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://bjm6rdmqpnkd5"]
+
+[ext_resource type="Script" uid="uid://b30mvfngdq7uu" path="res://objects/battle/battle_resources/misc_movies/foreman_boss/field_promotion.gd" id="1_sasdn"]
+
+[resource]
+script = ExtResource("1_sasdn")
+accuracy = 75
+damage = 1
+ignore_stats = false
+summary = "Deducts a Cog defense for damage boost"
+attack_lines = Array[String](["This promotion will come out of your paycheck.", "You've earned this. Now take them down.", "Get ready to attack that Toon.", "A great defense is an even greater offense.", "I'm removing your warranty."])
+target_type = 0
+action_name = "Field Promotion"
+one_time_use = false

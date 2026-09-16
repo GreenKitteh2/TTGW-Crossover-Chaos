@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://mwsvh1ak6vet"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_rfeoa"]
+[ext_resource type="Resource" uid="uid://fvugwe20vyax" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/brain_storm_(dopa).tres" id="2_rfeoa"]
+[ext_resource type="Resource" uid="uid://bvp8pgbkgrumt" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/guilt_trip_(dopa).tres" id="3_k8k8p"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="4_1jpjr"]
+
+[resource]
+script = ExtResource("4_1jpjr")
+suit = 2
+custom_blazer_tex = "res://models/cogs/textures/sell/blazer_exe.png"
+custom_arm_tex = "res://models/cogs/textures/sell/sleeve_exe.png"
+custom_leg_tex = "res://models/cogs/textures/sell/leg_exe.png"
+cog_name = "Director Of Public Affairs"
+name_plural = "Director Of Public Affairs"
+name_prefix = "Director Of "
+name_suffix = " Public Affairs"
+head = "res://models/cogs/heads/dopa.glb"
+scale = 7.25
+hand_color = Color(0.6627451, 0.37254903, 1, 1)
+attacks = Array[ExtResource("1_rfeoa")]([ExtResource("2_rfeoa"), ExtResource("3_k8k8p")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_manager = true
+health_mod = 2.5
+battle_phrases = Array[String](["You aren't a good fit for this show.", "Apologies, but I am changing the station.", "Goodnight, Toon. Goodnight.", "There's only static between us."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

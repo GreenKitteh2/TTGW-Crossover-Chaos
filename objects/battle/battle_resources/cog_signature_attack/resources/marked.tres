@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://m27fmwkp3qdf"]
+
+[ext_resource type="Script" uid="uid://dwjxc8wwkxtgt" path="res://objects/battle/battle_resources/cog_signature_attack/marked.gd" id="1_5rrh7"]
+
+[resource]
+script = ExtResource("1_5rrh7")
+damage = 0
+summary = "Decreases Evasiveness by 50%"
+attack_lines = Array[String](["You're in my sights now.", "Got you right where I wanted.", "Just hold still."])
+action_name = "Marked in"

@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://vma08no6aj1j"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_clrb4"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="2_5dhpr"]
+[ext_resource type="Resource" uid="uid://upir6hjcnwa5" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex_(super).tres" id="3_ryjvi"]
+[ext_resource type="Resource" uid="uid://chw4w2odwx3mc" path="res://objects/battle/battle_resources/cog_attacks/resources/clip_on_tie_(super).tres" id="4_lkcpv"]
+[ext_resource type="Resource" uid="uid://dunqnjlafu5n0" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag_(super).tres" id="5_c6vgb"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_1y6ay"]
+[ext_resource type="Resource" uid="uid://slywi7r3q78s" path="res://objects/battle/battle_resources/cog_signature_attack/resources/bulk_up.tres" id="6_igygh"]
+[ext_resource type="Resource" uid="uid://b3tkvlsedrm2l" path="res://objects/battle/battle_resources/cog_signature_attack/resources/back_talk.tres" id="7_3xofu"]
+[ext_resource type="Resource" uid="uid://dwcurvq1jwvxu" path="res://objects/battle/battle_resources/cog_signature_attack/resources/disrupt.tres" id="8_ryjvi"]
+
+[resource]
+script = ExtResource("6_1y6ay")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/hh_and_hb/lucifer_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/hh_and_hb/lucifer_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/hh_and_hb/lucifer_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/hazbin_hotel.png"
+cog_name = "Lucifer"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/lucifer.glb"
+scale = 5.65
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_clrb4")]([ExtResource("2_5dhpr"), ExtResource("3_ryjvi"), ExtResource("4_lkcpv"), ExtResource("5_c6vgb"), ExtResource("6_igygh"), ExtResource("7_3xofu"), ExtResource("8_ryjvi")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["You don't look like a rubber duck. I should just throw you away.", "Lilith didn't leave me just for this.", "Are you mocking me?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

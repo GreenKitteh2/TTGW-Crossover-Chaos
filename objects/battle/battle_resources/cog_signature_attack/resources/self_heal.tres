@@ -1,0 +1,13 @@
+[gd_resource type="Resource" format=3 uid="uid://cdhgcruc4sdn2"]
+
+[ext_resource type="Script" uid="uid://cy7jqcbdkuyjr" path="res://objects/battle/battle_resources/cog_signature_attack/self_heal.gd" id="1_q8a1x"]
+
+[resource]
+script = ExtResource("1_q8a1x")
+accuracy = 100
+damage = 2
+summary = "Regain health"
+attack_lines = Array[String](["I need a quick fix up.", "Better be safe.", "Gotta keep myself in the game."])
+target_type = 4
+action_name = "Self Heal"
+crit_chance_mod = 0.0

@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dv2d2imchvmbd"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_uyfda"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="2_1f78m"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_uyfda"]
+[ext_resource type="Resource" uid="uid://qk4f4h40o5u1" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip.tres" id="4_1f78m"]
+[ext_resource type="Resource" uid="uid://m27fmwkp3qdf" path="res://objects/battle/battle_resources/cog_signature_attack/resources/marked.tres" id="5_fsmb2"]
+[ext_resource type="Resource" uid="uid://cdhgcruc4sdn2" path="res://objects/battle/battle_resources/cog_signature_attack/resources/self_heal.tres" id="6_avqle"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_dekes"]
+
+[resource]
+script = ExtResource("6_dekes")
+department = 3
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/slender/blazer.png"
+custom_arm_tex = "res://models/cogs/textures/slender/sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/slender/leg.png"
+cog_name = "Chara"
+name_plural = "Charas"
+head = "res://models/crossover_cogs/undertale_and_deltarune/chara.glb"
+scale = 3.95
+hand_color = Color(0.9529412, 0.7647059, 0.60784316, 1)
+custom_nametag_suffix = "Omnipotent"
+attacks = Array[ExtResource("1_uyfda")]([ExtResource("2_uyfda"), ExtResource("2_1f78m"), ExtResource("4_1f78m"), ExtResource("5_fsmb2"), ExtResource("6_avqle")])
+level_low = 10
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_omnipotent_tier.tres")
+is_crossover_cog = true
+is_female_cog = true
+health_mod = 3.0
+battle_phrases = Array[String](["Two can play that game.", "I see you kill cogs for living, let's turn the tables."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

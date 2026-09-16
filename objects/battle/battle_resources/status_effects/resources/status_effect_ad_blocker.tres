@@ -1,0 +1,13 @@
+[gd_resource type="Resource" format=3 uid="uid://b4bmj870xqy3a"]
+
+[ext_resource type="Texture2D" uid="uid://cw0neq1n65pfe" path="res://ui_assets/battle/statuses/ads.png" id="1_n435q"]
+[ext_resource type="Script" uid="uid://cftbwuij3xjty" path="res://objects/battle/battle_resources/status_effects/status_effect_ad_blocker.gd" id="2_n435q"]
+
+[resource]
+script = ExtResource("2_n435q")
+quality = 1
+rounds = 3
+icon = ExtResource("1_n435q")
+description = "Ads are getting in the way!"
+status_name = "Ad Blocker"
+id = 74

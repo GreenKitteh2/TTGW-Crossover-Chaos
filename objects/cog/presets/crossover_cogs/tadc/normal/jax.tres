@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://c04god4tgmyfw"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_bulxl"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_bulxl"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="2_sp6ns"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="3_0h548"]
+[ext_resource type="Resource" uid="uid://6hjcsu17tt4g" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm.tres" id="3_sp6ns"]
+[ext_resource type="Resource" uid="uid://duq7fidd28rw5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack.tres" id="6_0h548"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_0yhc8"]
+
+[resource]
+script = ExtResource("7_0yhc8")
+department = 6
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/misc/blazer_1.png"
+custom_arm_tex = "res://models/cogs/textures/misc/sleeve_2.png"
+custom_leg_tex = "res://models/cogs/textures/misc/leg_4.png"
+custom_wrist_tex = "res://models/cogs/textures/misc/arm_1.png"
+cog_name = "Jax"
+head = "res://models/crossover_cogs/tadc/Jax.glb"
+scale = 7.0
+hand_color = Color(0.52156866, 0.5058824, 0.65882355, 1)
+custom_nametag_height = 11.2
+attacks = Array[ExtResource("1_bulxl")]([ExtResource("2_bulxl"), ExtResource("3_sp6ns"), ExtResource("2_sp6ns"), ExtResource("3_0h548"), ExtResource("6_0h548")])
+level_low = 6
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["Oh, You're the Toon people are talking about.", "You're going to get past me.", "Shocked to see i'm a rabbit?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

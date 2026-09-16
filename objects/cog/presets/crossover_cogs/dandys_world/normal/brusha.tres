@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bjtjus1crvcx"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_lp648"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="2_lp648"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="3_skbrb"]
+[ext_resource type="Resource" uid="uid://erbbarg5bxm8" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex.tres" id="4_pj16e"]
+[ext_resource type="Resource" uid="uid://b5helauv7f4y5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/pinpoint.tres" id="5_6tiyl"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_5kwmf"]
+
+[resource]
+script = ExtResource("6_5kwmf")
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/misc/blazer_1.png"
+custom_arm_tex = "res://models/cogs/textures/misc/sleeve_2.png"
+custom_leg_tex = "res://models/cogs/textures/misc/leg_4.png"
+custom_wrist_tex = "res://models/cogs/textures/misc/arm_1.png"
+cog_name = "Brusha"
+name_prefix = "Brush"
+name_suffix = "a"
+head = "res://models/crossover_cogs/dandys_world/brusha.glb"
+scale = 3.5
+hand_color = Color(0.7607843, 0.63529414, 0.54901963, 1)
+custom_nametag_height = 13.0
+attacks = Array[ExtResource("1_lp648")]([ExtResource("2_lp648"), ExtResource("3_skbrb"), ExtResource("4_pj16e"), ExtResource("5_6tiyl")])
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["Is \"throwing pie\" a work of art for you?", "I got some saddening art.", "You might need to frown for a moment, let me draw."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

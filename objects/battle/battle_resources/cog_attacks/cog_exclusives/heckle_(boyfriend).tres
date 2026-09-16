@@ -1,0 +1,20 @@
+[gd_resource type="Resource" format=3 uid="uid://bv0kpqbq7nh44"]
+
+[ext_resource type="Script" uid="uid://2rt6lrj4fpim" path="res://objects/battle/battle_resources/cog_attacks/heckle.gd" id="1_dn63e"]
+[ext_resource type="Script" uid="uid://csl6saufv84ri" path="res://objects/battle/battle_resources/status_effects/stat_boost.gd" id="2_gj2mn"]
+
+[sub_resource type="Resource" id="Resource_g5qp3"]
+script = ExtResource("2_gj2mn")
+boost = 0.8
+quality = 1
+rounds = -1
+id = 2
+
+[resource]
+script = ExtResource("1_dn63e")
+status_effect = SubResource("Resource_g5qp3")
+accuracy = 60
+damage = 0
+summary = "Defense Down!"
+attack_lines = Array[String](["Beep."])
+action_name = "Heckle"

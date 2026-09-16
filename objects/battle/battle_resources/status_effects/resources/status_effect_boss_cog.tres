@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3 uid="uid://ccfff0ve7yxxg"]
+
+[ext_resource type="Texture2D" uid="uid://dslx6riiqwpej" path="res://ui_assets/battle/statuses/manager.png" id="1_de80g"]
+[ext_resource type="Script" uid="uid://bo5w2dgaf0ges" path="res://objects/battle/battle_resources/status_effects/status_effect_boss_cog.gd" id="2_de80g"]
+
+[resource]
+script = ExtResource("2_de80g")
+quality = 0
+rounds = -1
+icon = ExtResource("1_de80g")
+description = "This cog has a powerful authority, they're attentive and unable to be fired, if fighting alone, they'll summon cogs to come to their aid."
+status_name = "Boss Cog"
+id = 71
+metadata/_custom_type_script = "uid://df7irk63ikx4k"

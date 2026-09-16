@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=7 format=3 uid="uid://45pfq5q6k5ia"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_xpm26"]
+[ext_resource type="Resource" uid="uid://erbbarg5bxm8" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex.tres" id="2_yxwma"]
+[ext_resource type="Resource" uid="uid://b4kaq7rjifwfc" path="res://objects/battle/battle_resources/cog_attacks/resources/liquidate.tres" id="3_47b5a"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="4_e2rpj"]
+[ext_resource type="Resource" uid="uid://dwkmwkdn3ws4k" path="res://objects/battle/battle_resources/cog_attacks/resources/evil_eye.tres" id="5_1j1fs"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_nrnvl"]
+
+[resource]
+script = ExtResource("5_nrnvl")
+department = 5
+cog_name = "Voodoo Programmer"
+name_plural = "Voodoo Programmers"
+name_prefix = "Voodoo "
+name_suffix = " Programmer"
+head = "res://models/cogs/heads/voodoo-programmer_head.glb"
+scale = 4.8
+head_textures = PackedStringArray("res://models/cogs/heads/voodoo-programmer_head_voodoo_programmer.png")
+hand_color = Color(0.83137256, 0.7294118, 0.3019608, 1)
+attacks = Array[ExtResource("1_xpm26")]([ExtResource("2_yxwma"), ExtResource("3_47b5a"), ExtResource("4_e2rpj"), ExtResource("5_1j1fs")])
+level_low = 3
+level_high = 10
+battle_phrases = Array[String](["This is all part of my code.", "I'm sure this will work.", "Deep magic begins here...", "I'll teach you how this code works.", "Wanna know how this code works?", "I'll teach you, Toon!", "It's just like magic.", "Your knowledge doesn't go beyond this."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

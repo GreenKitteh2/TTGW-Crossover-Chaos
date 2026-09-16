@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://188yyprc27ll"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_sk0na"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="2_sk0na"]
+[ext_resource type="Resource" uid="uid://b8evcct5837aq" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket_money.tres" id="4_nnsv1"]
+[ext_resource type="Resource" uid="uid://305avsq3iu30" path="res://objects/battle/battle_resources/cog_attacks/resources/power_tie.tres" id="5_81ll4"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="5_dggae"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_5aas3"]
+
+[resource]
+script = ExtResource("6_5aas3")
+department = 1
+suit = 2
+cog_name = "Fat Cat"
+name_plural = "Fat Cats"
+name_prefix = "Fat "
+name_suffix = " Cat"
+head = "res://models/cogs/heads/fatcat.glb"
+scale = 6.5
+head_textures = PackedStringArray("res://models/cogs/heads/fatcat_fat_cat.png")
+hand_color = Color(0.7882353, 0.8392157, 0.81960785, 1)
+attacks = Array[ExtResource("1_sk0na")]([ExtResource("2_sk0na"), ExtResource("5_81ll4"), ExtResource("4_nnsv1"), ExtResource("5_dggae")])
+level_low = 7
+level_high = 14
+battle_phrases = Array[String](["Money is the art of purrfection.", "Oh sweet, you're the purrfect meal.", "I'm so furtunate to have all the money in the world.", "You will never furget me.", "I'm a real purrsonality.", "Do I look pawfully familiar? Good.", "You're infurior to me, Toon.", "You can't pawse the game on me.", "It ain't easy being purrfect.", "Careful, I have nine lives.", "I am pawsitive that I will win."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

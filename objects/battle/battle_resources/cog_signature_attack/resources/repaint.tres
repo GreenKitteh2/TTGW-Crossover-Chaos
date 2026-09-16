@@ -1,0 +1,9 @@
+[gd_resource type="Resource" format=3 uid="uid://cw4dx1ounums6"]
+
+[ext_resource type="Script" uid="uid://cmhpgdse4h0yu" path="res://objects/battle/battle_resources/cog_signature_attack/repaint.gd" id="1_2saym"]
+
+[resource]
+script = ExtResource("1_2saym")
+damage = 0
+attack_lines = Array[String]([])
+action_name = "Repaint"

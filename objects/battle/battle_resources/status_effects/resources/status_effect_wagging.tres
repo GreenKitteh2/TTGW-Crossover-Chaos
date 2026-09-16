@@ -1,0 +1,13 @@
+[gd_resource type="Resource" format=3 uid="uid://by4beh15ccwde"]
+
+[ext_resource type="Texture2D" uid="uid://qpjy3484666a" path="res://ui_assets/battle/statuses/wagging.png" id="1_3w4fa"]
+[ext_resource type="Script" uid="uid://c7ye8iy63h0t4" path="res://objects/battle/battle_resources/status_effects/status_effect_wagging.gd" id="2_u1ds3"]
+
+[resource]
+script = ExtResource("2_u1ds3")
+quality = 0
+icon = ExtResource("1_3w4fa")
+description = "Gains +1 move for every time they are targeted in the round"
+status_name = "Wagging"
+id = 78
+metadata/_custom_type_script = "uid://df7irk63ikx4k"

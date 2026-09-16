@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://fp5ns26ji4uo"]
+
+[ext_resource type="Script" uid="uid://wjpi04rf2iew" path="res://objects/battle/battle_resources/cog_signature_attack/heal_all.gd" id="1_m4jdc"]
+
+[resource]
+script = ExtResource("1_m4jdc")
+accuracy = 100
+damage = 2
+attack_lines = Array[String]([])
+target_type = 3
+action_name = ""
+crit_chance_mod = 0.0

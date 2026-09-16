@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://cab0hx1d23hj4"]
+
+[ext_resource type="Script" uid="uid://bhkuilfno8cc6" path="res://objects/battle/battle_resources/cog_attacks/rolodex_(super).gd" id="1_hp3xc"]
+
+[resource]
+script = ExtResource("1_hp3xc")
+damage = 2
+summary = "The Cog's power increases!"
+attack_lines = Array[String](["I'll let my fingers do the knockin'.", "Oh, you'll right flip over this.", "I will give you my card.", "I want to make sure we stay in touch, love.", "Take this for a spin, mate.", "Is this how I can contact you, mate?", "It appears you've got a proper weak link.", "Watch out for any cheeky paper cuts!", "Here's the number for a pest exterminator."])
+action_name = "Rolodex"

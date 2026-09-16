@@ -1,0 +1,9 @@
+[gd_resource type="Resource" format=3 uid="uid://rs2tb3c1rabo"]
+
+[ext_resource type="Script" uid="uid://bgcu7nv3wv8ew" path="res://objects/battle/battle_resources/cog_signature_attack/mob_mentality.gd" id="1_21yr0"]
+
+[resource]
+script = ExtResource("1_21yr0")
+attack_lines = Array[String]([])
+target_type = 3
+action_name = ""

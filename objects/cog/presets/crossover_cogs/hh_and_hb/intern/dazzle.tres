@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dfs6xjfs2t380"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_hquip"]
+[ext_resource type="Resource" uid="uid://cltphjfp4x2rk" path="res://objects/battle/battle_resources/cog_attacks/resources/half_windsor.tres" id="3_hquip"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="4_33omj"]
+[ext_resource type="Resource" uid="uid://erbbarg5bxm8" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex.tres" id="5_0rb6c"]
+[ext_resource type="Resource" uid="uid://c27ek2anjbx88" path="res://objects/battle/battle_resources/cog_attacks/resources/pound_key.tres" id="5_krr12"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_fuobg"]
+
+[resource]
+script = ExtResource("7_fuobg")
+department = 2
+suit = 1
+cog_name = "Dazzle"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/Dazzle.glb"
+scale = 4.3
+hand_color = Color(0.13333334, 0.13333334, 0.13333334, 1)
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_hquip")]([ExtResource("5_0rb6c"), ExtResource("3_hquip"), ExtResource("4_33omj"), ExtResource("5_krr12")])
+level_low = 3
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["At least this isn't the time Lute stabbed me.", "Apparently someone here is also named Dazzle.", "You're not a Exorcist are you?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

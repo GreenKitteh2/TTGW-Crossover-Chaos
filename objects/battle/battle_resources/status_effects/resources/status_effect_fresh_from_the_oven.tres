@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3 uid="uid://b601jwnxriswr"]
+
+[ext_resource type="Texture2D" uid="uid://c4dawgpd0xpaa" path="res://ui_assets/battle/statuses/fresh_from_the_oven.png" id="1_8dsty"]
+[ext_resource type="Script" uid="uid://bekxx6158frp3" path="res://objects/battle/battle_resources/status_effects/status_effect_fresh_from_the_oven.gd" id="2_8dsty"]
+
+[resource]
+script = ExtResource("2_8dsty")
+quality = 0
+rounds = -1
+icon = ExtResource("1_8dsty")
+description = "All other Cogs gain a random effect while this Cog is active"
+status_name = "Fresh from the Oven"
+id = 88
+metadata/_custom_type_script = "uid://df7irk63ikx4k"

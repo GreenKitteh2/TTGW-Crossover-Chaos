@@ -1,0 +1,37 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://lhvmtwjwsm8y"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_k8uct"]
+[ext_resource type="Resource" uid="uid://bmp6wgk24lvba" path="res://objects/battle/battle_resources/cog_attacks/resources/pop_quiz_math.tres" id="2_k8uct"]
+[ext_resource type="Resource" uid="uid://chw4w2odwx3mc" path="res://objects/battle/battle_resources/cog_attacks/resources/clip_on_tie_(super).tres" id="3_fejpg"]
+[ext_resource type="Resource" uid="uid://d164evvd4rxxi" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm_(super).tres" id="4_iaawu"]
+[ext_resource type="Resource" uid="uid://dlwpx5lx83vsb" path="res://objects/battle/battle_resources/cog_attacks/resources/power_tie_(super).tres" id="5_qmpg7"]
+[ext_resource type="Resource" uid="uid://ds65kbrqrekdn" path="res://objects/battle/battle_resources/cog_signature_attack/resources/encourage.tres" id="6_47mmq"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_kmkpu"]
+[ext_resource type="Resource" uid="uid://bxlgjda1mpx2a" path="res://objects/battle/battle_resources/cog_signature_attack/resources/protect.tres" id="7_pue1w"]
+[ext_resource type="Resource" uid="uid://c82q6b10di5a1" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time.tres" id="8_fejpg"]
+
+[resource]
+script = ExtResource("7_kmkpu")
+department = 6
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/ut_and_dr/tenna_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/ut_and_dr/tenna_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/ut_and_dr/tenna_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/undertale.png"
+cog_name = "Tenna"
+name_plural = "Tennas"
+head = "res://models/crossover_cogs/undertale_and_deltarune/tenna.glb"
+scale = 6.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_k8uct")]([ExtResource("2_k8uct"), ExtResource("3_fejpg"), ExtResource("4_iaawu"), ExtResource("5_qmpg7"), ExtResource("6_47mmq"), ExtResource("7_pue1w"), ExtResource("8_fejpg")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["IT'S TV TIME!", "It's time for a battle minigame!", "Just say \"I LOVE TV.\""])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

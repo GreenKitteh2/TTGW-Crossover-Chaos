@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dddpxt0vxo7un"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_c8pxr"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="2_c8pxr"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="3_5xo0o"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="4_45yq8"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_os7og"]
+
+[resource]
+script = ExtResource("5_os7og")
+cog_name = "Forecaster"
+name_plural = "Forecasters"
+name_prefix = "Fore"
+name_suffix = "caster"
+head = "res://models/cogs/heads/forecaster.glb"
+scale = 4.35
+head_textures = PackedStringArray("res://models/cogs/heads/forecaster_forecaster.png")
+hand_color = Color(0.3764706, 0.28627452, 0.44705883, 1)
+attacks = Array[ExtResource("1_c8pxr")]([ExtResource("2_c8pxr"), ExtResource("3_5xo0o"), ExtResource("4_45yq8")])
+level_low = 3
+level_high = 10
+battle_phrases = Array[String](["In a matter of minutes, I think you'll be sent back to the playground.", "Things are going to look rather stormy for you.", "You better be prepared, because I am the storm.", "I think you're not going to disrupt the sales.", "Oh, it isn't looking so sunny for you today.", "You're going to end in a drizzling defeat.", "Today's forecast isn't looking so kind for you.", "BIG PURPLE WAVE!!!", "This snowstorm won't be quite the playful one.", "Rising sales? Check! Rising Toons? Nope."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

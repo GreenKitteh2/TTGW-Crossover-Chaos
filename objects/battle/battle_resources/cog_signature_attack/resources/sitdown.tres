@@ -1,0 +1,8 @@
+[gd_resource type="Resource" format=3 uid="uid://dfengxfksvxw5"]
+
+[ext_resource type="Script" uid="uid://b3l4al6gpfy74" path="res://objects/battle/battle_resources/cog_signature_attack/sitdown.gd" id="1_sj0up"]
+
+[resource]
+script = ExtResource("1_sj0up")
+attack_lines = Array[String](["Waiter, please.", "Let me introduce ya to my little friend.", "I think ya gonna like this one, they's a good fella."])
+action_name = "Sitdown"

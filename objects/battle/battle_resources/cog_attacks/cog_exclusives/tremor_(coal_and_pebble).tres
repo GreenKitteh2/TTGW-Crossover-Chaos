@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://dny86yaimne2t"]
+
+[ext_resource type="Script" uid="uid://chapsu358g1bt" path="res://objects/battle/battle_resources/cog_attacks/quake.gd" id="1_d4l3j"]
+
+[resource]
+script = ExtResource("1_d4l3j")
+anim_type = 1
+damage = 4
+attack_lines = Array[String](["Bark!"])
+action_name = "Tremor"

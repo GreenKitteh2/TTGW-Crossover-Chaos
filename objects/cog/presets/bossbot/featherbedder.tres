@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cfki6b76ddy5e"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_llhcv"]
+[ext_resource type="Resource" uid="uid://ce6gvu41561pi" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/guilt_trip_(featherbedder).tres" id="2_affco"]
+[ext_resource type="Resource" uid="uid://dgo40tvv72td5" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/liquidate_(featherbedder).tres" id="3_svsyn"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_7knmw"]
+
+[resource]
+script = ExtResource("6_7knmw")
+department = 3
+suit = 2
+custom_blazer_tex = "res://models/cogs/textures/managers/featherbedder_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/managers/featherbedder_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/managers/featherbedder_leg.png"
+cog_name = "Featherbedder"
+name_prefix = "Feather"
+name_suffix = "bedder"
+head = "res://models/cogs/heads/featherbedder_head.glb"
+scale = 5.75
+hand_color = Color(0.20392157, 0.14901961, 0.15294118, 1)
+attacks = Array[ExtResource("1_llhcv")]([ExtResource("2_affco"), ExtResource("3_svsyn")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres", "res://objects/battle/battle_resources/status_effects/resources/status_effect_overhire.tres")
+is_manager = true
+health_mod = 3.0
+battle_phrases = Array[String](["Can't you Toons ever give it a rest?", "Isn't it past your bedtime?", "This battle will be your worst nightmare.", "I'm an undercover agent."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

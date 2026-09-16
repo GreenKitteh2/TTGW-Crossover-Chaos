@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cwub2h3mbmdp1"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_51cff"]
+[ext_resource type="Resource" uid="uid://c3gg5tsci6aye" path="res://objects/battle/battle_resources/cog_attacks/resources/hang_up.tres" id="2_51cff"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="3_epr30"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="4_assj3"]
+[ext_resource type="Resource" uid="uid://duq7fidd28rw5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack.tres" id="5_avvwb"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_3epvg"]
+[ext_resource type="Resource" uid="uid://c82q6b10di5a1" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time.tres" id="6_k5dqn"]
+
+[resource]
+script = ExtResource("6_3epvg")
+department = 1
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/slender/blazer.png"
+custom_arm_tex = "res://models/cogs/textures/slender/sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/slender/leg.png"
+cog_name = "Poppy"
+head = "res://models/crossover_cogs/dandys_world/Poppy.glb"
+scale = 3.5
+hand_color = Color(0.5686275, 1, 1, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Omnipotent"
+attacks = Array[ExtResource("1_51cff")]([ExtResource("2_51cff"), ExtResource("3_epr30"), ExtResource("4_assj3"), ExtResource("5_avvwb"), ExtResource("6_k5dqn")])
+level_low = 5
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_omnipotent_tier.tres")
+is_crossover_cog = true
+is_female_cog = true
+health_mod = 3.0
+battle_phrases = Array[String](["You can do this Poppy!", "I'm ready!", "A battle?!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

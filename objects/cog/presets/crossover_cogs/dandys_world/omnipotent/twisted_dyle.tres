@@ -1,0 +1,37 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bhr0sqtjbqi6m"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_hhd7l"]
+[ext_resource type="Resource" uid="uid://c3gg5tsci6aye" path="res://objects/battle/battle_resources/cog_attacks/resources/hang_up.tres" id="2_hhd7l"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="3_e7mlf"]
+[ext_resource type="Resource" uid="uid://erbbarg5bxm8" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex.tres" id="4_xefpw"]
+[ext_resource type="Resource" uid="uid://305avsq3iu30" path="res://objects/battle/battle_resources/cog_attacks/resources/power_tie.tres" id="5_e7mlf"]
+[ext_resource type="Resource" uid="uid://duq7fidd28rw5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack.tres" id="6_5rjc8"]
+[ext_resource type="Resource" uid="uid://bnomwykacv64m" path="res://objects/battle/battle_resources/cog_signature_attack/resources/on_the_clock.tres" id="7_ds8ww"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_m4pkd"]
+
+[resource]
+script = ExtResource("7_m4pkd")
+department = 4
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/slender/blazer.png"
+custom_arm_tex = "res://models/cogs/textures/slender/sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/slender/leg.png"
+cog_name = "Twisted Dyle"
+name_prefix = "Twisted "
+name_suffix = " Dyle"
+head = "res://models/crossover_cogs/dandys_world/Twisted Dyle.glb"
+scale = 6.0
+hand_color = Color(0, 0, 0, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Omnipotent"
+attacks = Array[ExtResource("1_hhd7l")]([ExtResource("2_hhd7l"), ExtResource("3_e7mlf"), ExtResource("4_xefpw"), ExtResource("5_e7mlf"), ExtResource("6_5rjc8"), ExtResource("7_ds8ww")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_omnipotent_tier.tres")
+is_crossover_cog = true
+health_mod = 3.0
+battle_phrases = Array[String](["Times up.", "It's only a matter of time for you to fall.", "Clock is ticking."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

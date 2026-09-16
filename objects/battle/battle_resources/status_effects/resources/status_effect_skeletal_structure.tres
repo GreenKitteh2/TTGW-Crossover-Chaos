@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://c4c8ddiuralhq"]
+
+[ext_resource type="Texture2D" uid="uid://dmw0j5aq72l87" path="res://ui_assets/battle/statuses/skeletal_structure.png" id="1_folwa"]
+[ext_resource type="Script" uid="uid://dvg0l080txd6a" path="res://objects/battle/battle_resources/status_effects/mod_cog_effects/cog_skeletal_structure.gd" id="2_folwa"]
+
+[resource]
+script = ExtResource("2_folwa")
+rounds = -1
+icon = ExtResource("1_folwa")
+status_name = "Skeletal Structure"
+id = 53

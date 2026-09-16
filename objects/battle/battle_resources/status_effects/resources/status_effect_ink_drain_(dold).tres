@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3 uid="uid://hyh38kmirm0c"]
+
+[ext_resource type="Texture2D" uid="uid://bp10swfgt0xdc" path="res://ui_assets/battle/statuses/ink_drain.png" id="1_07rxv"]
+[ext_resource type="Script" uid="uid://byrbtoi2ut2bl" path="res://objects/battle/battle_resources/status_effects/status_effect_ink_drain_(dold).gd" id="2_07rxv"]
+
+[resource]
+script = ExtResource("2_07rxv")
+quality = 1
+rounds = 2
+icon = ExtResource("1_07rxv")
+description = "All Gags are -40% less effective."
+status_name = "Ink Drain"
+id = 83
+metadata/_custom_type_script = "uid://df7irk63ikx4k"

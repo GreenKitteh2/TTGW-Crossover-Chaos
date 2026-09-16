@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://c1yn58hytelnd"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_eo8p7"]
+[ext_resource type="Resource" uid="uid://erbbarg5bxm8" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex.tres" id="2_5a1hu"]
+[ext_resource type="Resource" uid="uid://l385j58744f6" path="res://objects/battle/battle_resources/cog_attacks/resources/restraining_order.tres" id="3_i4p6o"]
+[ext_resource type="Resource" uid="uid://qk4f4h40o5u1" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip.tres" id="4_l6ltf"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_1xtwb"]
+
+[resource]
+script = ExtResource("5_1xtwb")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/law/ttr_t_ene_lawbotClerk_blazer.jpg"
+custom_arm_tex = "res://models/cogs/textures/law/sleeve_original.png"
+custom_leg_tex = "res://models/cogs/textures/law/leg_original.png"
+cog_name = "The Office Clerk"
+name_prefix = "Office"
+name_suffix = "Clerk"
+head = "res://models/cogs/heads/ttr-clerk_head.glb"
+scale = 7.0
+head_textures = PackedStringArray("res://models/cogs/heads/ttr-clerk_head_ttr_t_ene_lawbotClerk.jpg")
+hand_color = Color(0.772549, 0.866667, 0.890196, 1)
+custom_nametag_suffix = "Supervisor"
+attacks = Array[ExtResource("1_eo8p7")]([ExtResource("2_5a1hu"), ExtResource("3_i4p6o"), ExtResource("4_l6ltf")])
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/boss_logic_office_clerk.tres", "res://objects/battle/battle_resources/status_effects/resources/attentive.tres", "res://objects/battle/battle_resources/status_effects/resources/tenure_status.tres")
+is_female_cog = true
+health_mod = 2.0
+battle_phrases = Array[String](["How did your incessant silliness bypass our security?", "Your insolence ends here, Toon.", "I'm the law of the land.", "Even the law trembles at my sight.", "I make the rules here, and you lose.", "I think it's time for a trial by fire.", "The jury has already decided your fate.", "You're outside your jurisdiction.", "I'll throw the book at you, legally speaking.", "You won't manipulate this case!", "An intellectual mind can best any Toon."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

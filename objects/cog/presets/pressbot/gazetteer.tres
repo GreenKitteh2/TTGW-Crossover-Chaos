@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=5 format=3 uid="uid://bgq7ijotwm8me"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_xudfr"]
+[ext_resource type="Resource" uid="uid://qk4f4h40o5u1" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip.tres" id="2_psb1o"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="3_xudfr"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_cgn52"]
+
+[resource]
+script = ExtResource("5_cgn52")
+department = 6
+cog_name = "Gazetteer"
+name_plural = "Gazetteers"
+name_prefix = "Gaze"
+name_suffix = " tteer"
+head = "res://models/cogs/heads/gazetteer.glb"
+scale = 5.5
+head_textures = PackedStringArray("res://models/cogs/heads/gazetteer_gazetteer.png")
+hand_color = Color(0.5137255, 0.5137255, 0.5137255, 1)
+attacks = Array[ExtResource("1_xudfr")]([ExtResource("2_psb1o"), ExtResource("3_xudfr")])
+level_low = 6
+level_high = 13
+battle_phrases = Array[String](["Oh deer. I hope you're not another Toon looking for a story.", "Defeating Toons like you make for an easy headline.", "Mess with my writings and you'll get the horns.", "I'll let you gaze upon the headline of your defeat.", "Let me recite you a story. Would you prefer the antlers or the hooves?", "I shouldn't waste my time on such an uninteresting source of news.", "My sources say you'll be no match for me.", "The reports are in, and they're not favorable for you.", "Thinking you'll defeat me is fake news, Toon.", "I'll be your source of sadness today."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

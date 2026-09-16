@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=6 format=3 uid="uid://btl4jp41mmke5"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_7l126"]
+[ext_resource type="Resource" uid="uid://c27ek2anjbx88" path="res://objects/battle/battle_resources/cog_attacks/resources/pound_key.tres" id="2_q4ihr"]
+[ext_resource type="Resource" uid="uid://c3gg5tsci6aye" path="res://objects/battle/battle_resources/cog_attacks/resources/hang_up.tres" id="3_erwws"]
+[ext_resource type="Resource" uid="uid://doowiij7lpxy1" path="res://objects/battle/battle_resources/cog_attacks/resources/rubber_stamp.tres" id="4_muote"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="4_tyuwb"]
+
+[resource]
+script = ExtResource("4_tyuwb")
+department = 5
+suit = 2
+cog_name = "Script Kiddie"
+name_plural = "Script Kiddies"
+name_prefix = "Script "
+name_suffix = " Kiddie"
+head = "res://models/cogs/heads/script-kiddie_head.glb"
+scale = 4.0
+head_textures = PackedStringArray("res://models/cogs/heads/script-kiddie_head_techbot_heads_palette.png")
+hand_color = Color(0.88235295, 0.7882353, 0.85490197, 1)
+attacks = Array[ExtResource("1_7l126")]([ExtResource("2_q4ihr"), ExtResource("3_erwws"), ExtResource("4_muote")])
+level_high = 8
+battle_phrases = Array[String](["I’m going to steal your script!", "I’m capable of distributing a Denial-Of-Service.", "When I’m done with you, you will need a new set of code.", "Are you secure?", "It would be a shame if a Trojan Horse snuck in.", "I’m about to replace all occurrences of Toons with COGs.", "They say I am the next Industry Titan!", "My attack will be multithreaded.", "My software is one of a kind.", "As we speak, I’m spoofing your scripts."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

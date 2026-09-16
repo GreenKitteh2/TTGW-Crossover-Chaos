@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cti11sat0flg7"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_j5c4k"]
+[ext_resource type="Resource" uid="uid://qk4f4h40o5u1" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip.tres" id="3_bnrx4"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="4_6ckih"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="4_83al7"]
+[ext_resource type="Resource" uid="uid://slywi7r3q78s" path="res://objects/battle/battle_resources/cog_signature_attack/resources/bulk_up.tres" id="5_j5c4k"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_2cek3"]
+
+[resource]
+script = ExtResource("7_2cek3")
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/misc/blazer_1.png"
+custom_arm_tex = "res://models/cogs/textures/misc/sleeve_2.png"
+custom_leg_tex = "res://models/cogs/textures/misc/leg_4.png"
+custom_wrist_tex = "res://models/cogs/textures/misc/arm_1.png"
+cog_name = "Twisted Cosmo"
+name_prefix = "Twisted "
+name_suffix = " Cosmo"
+head = "res://models/crossover_cogs/dandys_world/Twisted Cosmo.glb"
+scale = 3.5
+hand_color = Color(0.4392157, 0.31764707, 0.29803923, 1)
+custom_nametag_height = 11.0
+attacks = Array[ExtResource("1_j5c4k")]([ExtResource("3_bnrx4"), ExtResource("4_83al7"), ExtResource("4_6ckih"), ExtResource("5_j5c4k")])
+level_low = 5
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["I'm not a good cook.", "Nobody wants my cookies.", "Sprout doesn't like what I do."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

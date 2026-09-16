@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://b05vrc30xqyh1"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_s338g"]
+[ext_resource type="Resource" uid="uid://6hjcsu17tt4g" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm.tres" id="2_0f4qh"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="3_jxh3k"]
+[ext_resource type="Resource" uid="uid://c3gg5tsci6aye" path="res://objects/battle/battle_resources/cog_attacks/resources/hang_up.tres" id="4_agmm7"]
+[ext_resource type="Resource" uid="uid://b8koccoxj7hrd" path="res://objects/battle/battle_resources/cog_signature_attack/resources/repair.tres" id="5_jxh3k"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_rd1qo"]
+
+[resource]
+script = ExtResource("5_rd1qo")
+department = 5
+suit = 2
+custom_blazer_tex = "res://models/cogs/textures/misc/blazer_1.png"
+custom_arm_tex = "res://models/cogs/textures/misc/sleeve_2.png"
+custom_leg_tex = "res://models/cogs/textures/misc/leg_4.png"
+custom_wrist_tex = "res://models/cogs/textures/misc/arm_1.png"
+cog_name = "Alphys"
+name_plural = "Alphyses"
+head = "res://models/crossover_cogs/undertale_and_deltarune/alphys.glb"
+scale = 4.9
+hand_color = Color(0.8, 0.70980394, 0.27058825, 1)
+attacks = Array[ExtResource("1_s338g")]([ExtResource("2_0f4qh"), ExtResource("3_jxh3k"), ExtResource("4_agmm7"), ExtResource("5_jxh3k")])
+level_low = 5
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["Oh! I..It's you", "Ack! A Toon! I never fight before...I think?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

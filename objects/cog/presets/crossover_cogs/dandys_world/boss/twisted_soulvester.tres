@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cj2r3u7rtw23b"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_l5hqx"]
+[ext_resource type="Resource" uid="uid://3dxin5galt7i" path="res://objects/battle/battle_resources/cog_attacks/resources/tee_off_(super).tres" id="2_7sjs7"]
+[ext_resource type="Resource" uid="uid://dcth1mrm7s8bo" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip_(super).tres" id="3_feo4g"]
+[ext_resource type="Resource" uid="uid://ctic2hlkgddom" path="res://objects/battle/battle_resources/cog_attacks/resources/evil_eye_(super).tres" id="4_ljjts"]
+[ext_resource type="Resource" uid="uid://c0d4roktabhfm" path="res://objects/battle/battle_resources/cog_attacks/resources/freeze_assets_(super).tres" id="5_j3f6n"]
+[ext_resource type="Resource" uid="uid://b72hb7uavcclo" path="res://objects/battle/battle_resources/cog_signature_attack/resources/strengthen.tres" id="6_87tpm"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_luinr"]
+[ext_resource type="Resource" uid="uid://cfeq7j1q6bl50" path="res://objects/battle/battle_resources/cog_signature_attack/resources/gag_protection.tres" id="7_o6bi2"]
+[ext_resource type="Resource" uid="uid://c82q6b10di5a1" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time.tres" id="8_7sjs7"]
+
+[resource]
+script = ExtResource("7_luinr")
+department = 4
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_soulvester_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_soulvester_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_soulvester_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Twisted Soulvester"
+name_prefix = "Twisted "
+name_suffix = " Soulvester"
+head = "res://models/crossover_cogs/dandys_world/Twisted Soulvester.glb"
+scale = 3.5
+hand_color = Color(0.28627452, 0.28627452, 0.28627452, 1)
+custom_nametag_height = 12.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_l5hqx")]([ExtResource("2_7sjs7"), ExtResource("3_feo4g"), ExtResource("4_ljjts"), ExtResource("5_j3f6n"), ExtResource("6_87tpm"), ExtResource("7_o6bi2"), ExtResource("8_7sjs7")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["You...are my enemy!", "You are in my way...", "My quest is never over."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

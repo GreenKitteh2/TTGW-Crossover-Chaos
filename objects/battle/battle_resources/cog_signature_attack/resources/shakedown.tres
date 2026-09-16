@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://d3s8b7efxvu7s"]
+
+[ext_resource type="Script" uid="uid://dk5ji5eiyjcpn" path="res://objects/battle/battle_resources/cog_signature_attack/shakedown.gd" id="1_bs0sm"]
+
+[resource]
+script = ExtResource("1_bs0sm")
+damage = 0
+summary = "Defense Down"
+attack_lines = Array[String](["Let's shake things up.", "Maybe this'll shake some sense into ya.", "Ya look a little shaken up, Toon.", "No one ever gave ya the rundown on how this place works, ey?"])
+action_name = "Shakedown"

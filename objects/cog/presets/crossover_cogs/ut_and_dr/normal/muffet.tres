@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dm06f35a8h1id"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_tlfpi"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="2_vj34f"]
+[ext_resource type="Resource" uid="uid://erbbarg5bxm8" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex.tres" id="3_n5r3y"]
+[ext_resource type="Resource" uid="uid://b6smgrhefhpdk" path="res://objects/battle/battle_resources/cog_attacks/resources/sink_hole.tres" id="4_wp0um"]
+[ext_resource type="Resource" uid="uid://b4kaq7rjifwfc" path="res://objects/battle/battle_resources/cog_attacks/resources/liquidate.tres" id="5_vpl2m"]
+[ext_resource type="Resource" uid="uid://fp5ns26ji4uo" path="res://objects/battle/battle_resources/cog_signature_attack/resources/heal_all.tres" id="6_b8yjx"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_uxqj8"]
+
+[resource]
+script = ExtResource("7_uxqj8")
+department = 1
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/misc/blazer_1.png"
+custom_arm_tex = "res://models/cogs/textures/misc/sleeve_2.png"
+custom_leg_tex = "res://models/cogs/textures/misc/leg_4.png"
+custom_wrist_tex = "res://models/cogs/textures/misc/arm_1.png"
+cog_name = "Muffet"
+name_plural = "Muffets"
+head = "res://models/crossover_cogs/undertale_and_deltarune/muffet.glb"
+scale = 6.25
+hand_color = Color(0.73333335, 0.70980394, 0.8901961, 1)
+attacks = Array[ExtResource("1_tlfpi")]([ExtResource("2_vj34f"), ExtResource("3_n5r3y"), ExtResource("4_wp0um"), ExtResource("5_vpl2m"), ExtResource("6_b8yjx")])
+level_low = 5
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["I heard Toons are stingy with their jellybeans.", "You'll be great for my Car\"toon\"y pastries."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

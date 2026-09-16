@@ -1,0 +1,37 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://mpp5w6jkaaib"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_afujj"]
+[ext_resource type="Resource" uid="uid://d15mam6m8bjh1" path="res://objects/battle/battle_resources/cog_attacks/resources/hang_up_(super).tres" id="3_d2fe1"]
+[ext_resource type="Resource" uid="uid://bhmmdrdha46gv" path="res://objects/battle/battle_resources/cog_attacks/resources/pink_slip_(super).tres" id="4_kic4j"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="4_t5c4a"]
+[ext_resource type="Resource" uid="uid://upir6hjcnwa5" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex_(super).tres" id="5_cogl1"]
+[ext_resource type="Resource" uid="uid://bxlgjda1mpx2a" path="res://objects/battle/battle_resources/cog_signature_attack/resources/protect.tres" id="6_t5c4a"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_23du0"]
+[ext_resource type="Resource" uid="uid://ds65kbrqrekdn" path="res://objects/battle/battle_resources/cog_signature_attack/resources/encourage.tres" id="7_x57ux"]
+[ext_resource type="Resource" uid="uid://cncrrqbyd1o0y" path="res://objects/battle/battle_resources/cog_signature_attack/resources/enlighten.tres" id="8_d2fe1"]
+
+[resource]
+script = ExtResource("7_23du0")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/hh_and_hb/charlie_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/hh_and_hb/charlie_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/hh_and_hb/charlie_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/hazbin_hotel.png"
+cog_name = "Charlie"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/charlie.glb"
+scale = 5.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_afujj")]([ExtResource("4_t5c4a"), ExtResource("3_d2fe1"), ExtResource("4_kic4j"), ExtResource("5_cogl1"), ExtResource("6_t5c4a"), ExtResource("7_x57ux"), ExtResource("8_d2fe1")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_female_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["This place is great for sinners!", "This hotel is...strange.", "I heard my dad works here."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

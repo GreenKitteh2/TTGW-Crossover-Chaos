@@ -1,0 +1,34 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cduxb2swi5ri1"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_tq4px"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_1xkbg"]
+[ext_resource type="Resource" uid="uid://cae3lr6y4rrb8" path="res://objects/battle/battle_resources/cog_attacks/resources/quake.tres" id="2_jhj06"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="3_tptvb"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="5_rtv8p"]
+[ext_resource type="Resource" uid="uid://b72hb7uavcclo" path="res://objects/battle/battle_resources/cog_signature_attack/resources/strengthen.tres" id="6_evo0t"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_xvks1"]
+[ext_resource type="Resource" uid="uid://b35m7xym3lkwl" path="res://objects/battle/battle_resources/cog_signature_attack/resources/snipe.tres" id="7_sy3ic"]
+
+[resource]
+script = ExtResource("6_xvks1")
+department = 3
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/slender/blazer.png"
+custom_arm_tex = "res://models/cogs/textures/slender/sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/slender/leg.png"
+cog_name = "Pico"
+head = "res://models/crossover_cogs/fnf/pico.glb"
+scale = 4.3
+hand_color = Color(0.972549, 0.8039216, 0.67058825, 1)
+custom_nametag_suffix = "Omnipotent"
+attacks = Array[ExtResource("1_tq4px")]([ExtResource("2_jhj06"), ExtResource("3_tptvb"), ExtResource("2_1xkbg"), ExtResource("5_rtv8p"), ExtResource("6_evo0t"), ExtResource("7_sy3ic")])
+level_low = 6
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_omnipotent_tier.tres")
+is_crossover_cog = true
+health_mod = 3.0
+battle_phrases = Array[String](["I'm a sucker for dangerous situations like you.", "Be careful, I'm dangerous to be around."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

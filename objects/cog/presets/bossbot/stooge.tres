@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://d2hgjbxo3a5ts"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_3i43s"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="2_3i43s"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="4_jei2p"]
+[ext_resource type="Resource" uid="uid://bruosr4c0bash" path="res://objects/battle/battle_resources/cog_attacks/resources/clip_on_tie.tres" id="4_u2m5f"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_l00ii"]
+
+[resource]
+script = ExtResource("5_l00ii")
+department = 3
+suit = 2
+cog_name = "Stooge"
+name_plural = "Stooges"
+name_prefix = "Sto"
+name_suffix = "oge"
+head = "res://models/cogs/heads/stooge.glb"
+scale = 4.0
+head_textures = PackedStringArray("res://models/cogs/heads/stooge_stooge.png")
+hand_color = Color(0.6745098, 0.53333336, 0.52156866, 1)
+attacks = Array[ExtResource("1_3i43s")]([ExtResource("2_3i43s"), ExtResource("4_u2m5f"), ExtResource("4_jei2p")])
+level_high = 8
+battle_phrases = Array[String](["They call me Stooge - but I'm real huge.", "I might use you to climb up the corporate ladder.", "The boss sent me after you!", "Between you and me, you are the bigger joke.", "It is my duty to eliminate you.", "Soup or Salad?", "I always complete the hard work."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=6 format=3 uid="uid://dwhmdyke5ssxg"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_ll2nn"]
+[ext_resource type="Resource" uid="uid://qk4f4h40o5u1" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip.tres" id="2_vfurb"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="3_068f1"]
+[ext_resource type="Resource" uid="uid://l385j58744f6" path="res://objects/battle/battle_resources/cog_attacks/resources/restraining_order.tres" id="4_v05vf"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_s51q7"]
+
+[resource]
+script = ExtResource("5_s51q7")
+department = 6
+cog_name = "Shadow Journalist"
+name_plural = "Shadow Journalists"
+name_prefix = "Shadow "
+name_suffix = " Journalist"
+head = "res://models/cogs/heads/ghostwriter.glb"
+scale = 5.25
+head_textures = PackedStringArray("res://models/cogs/heads/ghostwriter_ghostwriter.png")
+hand_color = Color(0.15686275, 0.15686275, 0.15686275, 1)
+attacks = Array[ExtResource("1_ll2nn")]([ExtResource("2_vfurb"), ExtResource("3_068f1"), ExtResource("4_v05vf")])
+level_low = 5
+battle_phrases = Array[String](["'I will lose.' Your words, not mine.", "It's no secret that you'll be on the losing end today.", "You're not aware of what I'm capable of.", "Anchor Man sends his regards - through me.", "Afraid of ghosts, Toon?", "Coming face to face with a ghost is no laughing matter.", "I'll be the one writing your final words, toon.", "The writing of your defeat is on the wall.", "I may be just a writer, but my words are way stronger than you may think.", "I have a few words in mind for you, Toon."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

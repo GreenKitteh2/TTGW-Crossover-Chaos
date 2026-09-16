@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://0b37rvtublbb"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_ecxnk"]
+[ext_resource type="Resource" uid="uid://dimhdaxn1tyey" path="res://objects/battle/battle_resources/cog_attacks/resources/tee_off.tres" id="2_lhwvy"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="3_crx1u"]
+[ext_resource type="Resource" uid="uid://c24yy1wqmg24o" path="res://objects/battle/battle_resources/cog_attacks/resources/razzle_dazzle.tres" id="4_yar7c"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="5_6yy7q"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_c5o4u"]
+
+[resource]
+script = ExtResource("6_c5o4u")
+department = 4
+cog_name = "Henchman"
+name_prefix = "Hench"
+name_suffix = "man"
+head = "res://models/crossover_cogs/fnf/henchman.glb"
+scale = 6.2
+hand_color = Color(0.9607843, 0.45882353, 0.59607846, 1)
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_ecxnk")]([ExtResource("2_lhwvy"), ExtResource("3_crx1u"), ExtResource("4_yar7c"), ExtResource("5_6yy7q")])
+level_low = 5
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["Daddy Dearest will be pleased after I deal with you.", "I've been told i'm a hench for stiuations like these."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

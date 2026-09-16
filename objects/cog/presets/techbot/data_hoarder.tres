@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=6 format=3 uid="uid://xwkm6r7trso0"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_ypcl3"]
+[ext_resource type="Resource" uid="uid://doowiij7lpxy1" path="res://objects/battle/battle_resources/cog_attacks/resources/rubber_stamp.tres" id="3_5jn64"]
+[ext_resource type="Resource" uid="uid://c3gg5tsci6aye" path="res://objects/battle/battle_resources/cog_attacks/resources/hang_up.tres" id="4_5jn64"]
+[ext_resource type="Resource" uid="uid://bpupdhbap1rq" path="res://objects/battle/battle_resources/cog_attacks/resources/freeze_assets.tres" id="5_1gaoo"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_5j77d"]
+
+[resource]
+script = ExtResource("5_5j77d")
+department = 5
+suit = 2
+cog_name = "Data Hoarder"
+name_plural = "Data Hoarders"
+name_prefix = "Data "
+name_suffix = " Hoarder"
+head = "res://models/cogs/heads/data-hoarder_head.glb"
+scale = 4.65
+head_textures = PackedStringArray("res://models/cogs/heads/data-hoarder_head_techbot_heads_palette.png")
+hand_color = Color(0.8352941, 0.7019608, 0.8745098, 1)
+attacks = Array[ExtResource("1_ypcl3")]([ExtResource("3_5jn64"), ExtResource("4_5jn64"), ExtResource("5_1gaoo")])
+level_low = 4
+level_high = 11
+is_female_cog = true
+battle_phrases = Array[String](["According to my data, this will be easy.", "Another Toon to add to my collection!", "Step aside, you are blocking my data.", "Careful, I know all of your tendencies.", "My approach to this battle is data driven.", "I am going to take a byte out of you.", "Your data is worth far more than you, Toon.", "You think you can keep your information from me?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

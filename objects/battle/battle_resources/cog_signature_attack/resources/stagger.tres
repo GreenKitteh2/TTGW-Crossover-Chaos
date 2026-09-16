@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://kmogjr4fp015"]
+
+[ext_resource type="Script" uid="uid://dkc60yahure4r" path="res://objects/battle/battle_resources/cog_signature_attack/stagger.gd" id="1_1e5nt"]
+
+[resource]
+script = ExtResource("1_1e5nt")
+damage = 0
+summary = "Evasiveness Down"
+attack_lines = Array[String](["Shaky legs Toon?", "Trembled Toon?", "Don't got a leg to stand still on."])
+action_name = "Stagger"

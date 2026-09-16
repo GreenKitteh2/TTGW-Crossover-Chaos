@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://8fifun2sculm"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_clrb4"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="2_5dhpr"]
+[ext_resource type="Resource" uid="uid://erbbarg5bxm8" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex.tres" id="3_aalip"]
+[ext_resource type="Resource" uid="uid://bruosr4c0bash" path="res://objects/battle/battle_resources/cog_attacks/resources/clip_on_tie.tres" id="4_bnnkc"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="5_sh3dp"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_1y6ay"]
+[ext_resource type="Resource" uid="uid://slywi7r3q78s" path="res://objects/battle/battle_resources/cog_signature_attack/resources/bulk_up.tres" id="6_igygh"]
+
+[resource]
+script = ExtResource("6_1y6ay")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/misc/blazer_1.png"
+custom_arm_tex = "res://models/cogs/textures/misc/sleeve_2.png"
+custom_leg_tex = "res://models/cogs/textures/misc/leg_4.png"
+custom_wrist_tex = "res://models/cogs/textures/misc/arm_1.png"
+cog_name = "Lucifer"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/lucifer.glb"
+scale = 5.65
+attacks = Array[ExtResource("1_clrb4")]([ExtResource("2_5dhpr"), ExtResource("3_aalip"), ExtResource("4_bnnkc"), ExtResource("5_sh3dp"), ExtResource("6_igygh")])
+level_low = 6
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["You don't look like a rubber duck. I should just throw you away.", "Lilith didn't leave me just for this.", "Are you mocking me?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

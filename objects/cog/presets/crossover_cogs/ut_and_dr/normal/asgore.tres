@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cc0a65227rgtk"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_bio8f"]
+[ext_resource type="Resource" uid="uid://dwkmwkdn3ws4k" path="res://objects/battle/battle_resources/cog_attacks/resources/evil_eye.tres" id="2_bio8f"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="3_irvhc"]
+[ext_resource type="Resource" uid="uid://qk4f4h40o5u1" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip.tres" id="4_whwko"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_7300h"]
+[ext_resource type="Resource" uid="uid://b72hb7uavcclo" path="res://objects/battle/battle_resources/cog_signature_attack/resources/strengthen.tres" id="5_irvhc"]
+
+[resource]
+script = ExtResource("5_7300h")
+department = 4
+custom_blazer_tex = "res://models/cogs/textures/misc/blazer_1.png"
+custom_arm_tex = "res://models/cogs/textures/misc/sleeve_2.png"
+custom_leg_tex = "res://models/cogs/textures/misc/leg_4.png"
+custom_wrist_tex = "res://models/cogs/textures/misc/arm_1.png"
+cog_name = "Asgore"
+name_plural = "Asgores"
+head = "res://models/crossover_cogs/undertale_and_deltarune/asgore.glb"
+scale = 7.35
+hand_color = Color(0.972549, 0.9882353, 0.972549, 1)
+attacks = Array[ExtResource("1_bio8f")]([ExtResource("2_bio8f"), ExtResource("3_irvhc"), ExtResource("4_whwko"), ExtResource("5_irvhc")])
+level_low = 8
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["Nice meeting you Toon, Goodbye.", "I've destroy humans who come here, I will do the same for Toons like you."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

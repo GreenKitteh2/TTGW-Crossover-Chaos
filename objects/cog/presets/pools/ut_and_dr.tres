@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="CogPool" format=3 uid="uid://dyscve365nhu3"]
+
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="1_2uo8m"]
+[ext_resource type="Resource" uid="uid://b05vrc30xqyh1" path="res://objects/cog/presets/crossover_cogs/ut_and_dr/normal/alphys.tres" id="2_q4lur"]
+[ext_resource type="Resource" uid="uid://cc0a65227rgtk" path="res://objects/cog/presets/crossover_cogs/ut_and_dr/normal/asgore.tres" id="3_6ailn"]
+[ext_resource type="Resource" uid="uid://cmf3rwyepgxww" path="res://objects/cog/presets/crossover_cogs/ut_and_dr/normal/asriel.tres" id="4_u60e8"]
+[ext_resource type="Resource" uid="uid://dk1551028ts5q" path="res://objects/cog/presets/crossover_cogs/ut_and_dr/normal/berdly.tres" id="5_u66cx"]
+[ext_resource type="Resource" uid="uid://drwyvu825rk8u" path="res://objects/cog/presets/crossover_cogs/ut_and_dr/normal/chaos_king.tres" id="6_flj7x"]
+[ext_resource type="Resource" uid="uid://blhhvy7ktd1cx" path="res://objects/cog/presets/crossover_cogs/ut_and_dr/normal/chara.tres" id="7_8k6no"]
+[ext_resource type="Resource" uid="uid://bp1swryd2gb7" path="res://objects/cog/presets/crossover_cogs/ut_and_dr/normal/elnina.tres" id="8_fma1k"]
+[ext_resource type="Resource" uid="uid://ddoygrvgs2oep" path="res://objects/cog/presets/crossover_cogs/ut_and_dr/normal/flowey.tres" id="9_uls1f"]
+[ext_resource type="Script" uid="uid://buc4y0vtgydo" path="res://objects/cog/cog_pool.gd" id="10_6ailn"]
+[ext_resource type="Resource" uid="uid://d0qrkx5clr3yc" path="res://objects/cog/presets/crossover_cogs/ut_and_dr/normal/frisk.tres" id="10_bx6eb"]
+[ext_resource type="Resource" uid="uid://7pru0wp03v5u" path="res://objects/cog/presets/crossover_cogs/ut_and_dr/normal/gaster.tres" id="11_vlc6r"]
+[ext_resource type="Resource" uid="uid://dhh0qfnfhe5xi" path="res://objects/cog/presets/crossover_cogs/ut_and_dr/normal/gerson.tres" id="12_p73aw"]
+[ext_resource type="Resource" uid="uid://bjsbkn0acnd5m" path="res://objects/cog/presets/crossover_cogs/ut_and_dr/normal/jevil.tres" id="13_4hlux"]
+[ext_resource type="Resource" uid="uid://b7mpy7twgg4m3" path="res://objects/cog/presets/crossover_cogs/ut_and_dr/normal/kris.tres" id="14_wqpqs"]
+[ext_resource type="Resource" uid="uid://qyjahtftf57m" path="res://objects/cog/presets/crossover_cogs/ut_and_dr/normal/lancer.tres" id="15_ccmjw"]
+[ext_resource type="Resource" uid="uid://o3ololgjsi28" path="res://objects/cog/presets/crossover_cogs/ut_and_dr/normal/lanino.tres" id="16_t61vv"]
+[ext_resource type="Resource" uid="uid://b2l3syoqneg5f" path="res://objects/cog/presets/crossover_cogs/ut_and_dr/normal/mettaton.tres" id="17_2n38l"]
+
+[resource]
+script = ExtResource("10_6ailn")
+cogs = Array[ExtResource("1_2uo8m")]([ExtResource("2_q4lur"), ExtResource("3_6ailn"), ExtResource("4_u60e8"), ExtResource("5_u66cx"), ExtResource("6_flj7x"), ExtResource("7_8k6no"), ExtResource("8_fma1k"), ExtResource("9_uls1f"), ExtResource("10_bx6eb"), ExtResource("11_vlc6r"), ExtResource("12_p73aw"), ExtResource("13_4hlux"), ExtResource("14_wqpqs"), ExtResource("15_ccmjw"), ExtResource("16_t61vv"), ExtResource("17_2n38l")])

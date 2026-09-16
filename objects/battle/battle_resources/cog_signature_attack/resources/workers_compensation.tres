@@ -1,0 +1,13 @@
+[gd_resource type="Resource" format=3 uid="uid://1larc8cv424c"]
+
+[ext_resource type="Script" uid="uid://dwagn1q3a1ylf" path="res://objects/battle/battle_resources/cog_signature_attack/workers_compensation.gd" id="1_g3j07"]
+
+[resource]
+script = ExtResource("1_g3j07")
+accuracy = 100
+damage = 2
+summary = "Regain health and gain strength!"
+attack_lines = Array[String](["Do you have any idea how much paperwork I will have to file after this?"])
+target_type = 4
+action_name = "Worker's Compensation"
+crit_chance_mod = 0.0

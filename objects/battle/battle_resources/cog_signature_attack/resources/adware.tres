@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://o0p5me005edx"]
+
+[ext_resource type="Script" uid="uid://bp85f63qorejr" path="res://objects/battle/battle_resources/cog_signature_attack/adware.gd" id="1_o4qtr"]
+
+[resource]
+script = ExtResource("1_o4qtr")
+damage = 0
+summary = "Overwhelms the Toon with countless Ads!"
+attack_lines = Array[String](["Have you been up to date on the latest?", "Here is something to interest you.", "Here are some convincing topics."])
+action_name = "Adware"

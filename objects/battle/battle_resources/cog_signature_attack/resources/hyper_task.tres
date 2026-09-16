@@ -1,0 +1,12 @@
+[gd_resource type="Resource" format=3 uid="uid://ck860ibd0joys"]
+
+[ext_resource type="Script" uid="uid://bptxtpjwqcdyp" path="res://objects/battle/battle_resources/cog_signature_attack/hyper_task.gd" id="1_d5wb8"]
+
+[resource]
+script = ExtResource("1_d5wb8")
+accuracy = 100
+damage = 0
+summary = "Attack twice in the next round."
+attack_lines = Array[String](["You probably should've attacked someone else that time.", "My dad would describe this as \"aggressive sales tactics.\"", "There's more ties where that came from!"])
+target_type = 4
+action_name = "Hyper Task"

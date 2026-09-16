@@ -1,0 +1,13 @@
+[gd_resource type="Resource" format=3 uid="uid://bhw354a566nax"]
+
+[ext_resource type="PackedScene" uid="uid://7374wvctrryy" path="res://objects/battle/effects/cloud_attacks/snow.tscn" id="1_jt27a"]
+[ext_resource type="Script" uid="uid://btk6m8u84c8hx" path="res://objects/battle/battle_resources/cog_signature_attack/deep_freeze.gd" id="2_w5s35"]
+
+[resource]
+script = ExtResource("2_w5s35")
+particles = ExtResource("1_jt27a")
+animation = 2
+damage = 3
+summary = "Freezes the Toon!"
+attack_lines = Array[String](["Time to cool down Toon.", "Freeze!", "I'm going to give you a really cold shoulder.", "Ah oh, looks like someone got a cold."])
+action_name = "Deep Freeze"

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" format=3 uid="uid://xvujjxywp18d"]
+
+[ext_resource type="PackedScene" uid="uid://dd8hmy8x3naei" path="res://objects/battle/effects/cloud_attacks/rain_drops.tscn" id="1_882s0"]
+[ext_resource type="Script" uid="uid://c6e1gsbsx8t5m" path="res://objects/battle/battle_resources/cog_attacks/liquidate_(super).gd" id="2_vm2v8"]
+[ext_resource type="AudioStream" uid="uid://d2jwqefxwkium" path="res://audio/sfx/battle/cogs/attacks/SA_liquidate.ogg" id="3_f1nn6"]
+
+[resource]
+script = ExtResource("2_vm2v8")
+particles = ExtResource("1_882s0")
+sfx = ExtResource("3_f1nn6")
+animation = 2
+melt_toon = true
+damage = 4
+summary = "The Toon will be soaked in the next turn."
+attack_lines = Array[String](["Just leave! It'll make things so much easier.", "Faltering? No, I'm not faltering! I'm solid! I swear!", "The rain's getting in my face! Or is that just my eyes?", "Do you really think I came here to rain on your parade?", "You're diluted if you think I'll let you step on me!"])
+action_name = "Liquidate"

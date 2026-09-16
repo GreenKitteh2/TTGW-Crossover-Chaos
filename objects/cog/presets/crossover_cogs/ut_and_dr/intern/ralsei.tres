@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cvij7ckitknb4"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_3gbmy"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="2_3gbmy"]
+[ext_resource type="Resource" uid="uid://6hjcsu17tt4g" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm.tres" id="3_8pxdi"]
+[ext_resource type="Resource" uid="uid://bddy50xh8sfc8" path="res://objects/battle/battle_resources/cog_attacks/resources/tremor.tres" id="4_7aefm"]
+[ext_resource type="Resource" uid="uid://b4kaq7rjifwfc" path="res://objects/battle/battle_resources/cog_attacks/resources/liquidate.tres" id="5_d7eqp"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_e5sg1"]
+
+[resource]
+script = ExtResource("7_e5sg1")
+department = 3
+suit = 1
+cog_name = "Ralsei"
+name_plural = "Ralseis"
+head = "res://models/crossover_cogs/undertale_and_deltarune/ralsei.glb"
+scale = 4.45
+hand_color = Color(0.019607844, 0.043137256, 0.03137255, 1)
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_3gbmy")]([ExtResource("2_3gbmy"), ExtResource("3_8pxdi"), ExtResource("4_7aefm"), ExtResource("5_d7eqp")])
+level_low = 3
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["Hey now let's not fight here.", "But...Cakes aren't ment for throwing."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

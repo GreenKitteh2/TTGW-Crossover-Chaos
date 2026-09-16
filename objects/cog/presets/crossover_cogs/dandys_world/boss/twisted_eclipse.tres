@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://ckiwta4qr0880"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_xnhme"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_xnhme"]
+[ext_resource type="Resource" uid="uid://dcth1mrm7s8bo" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip_(super).tres" id="3_3ba2s"]
+[ext_resource type="Resource" uid="uid://dunqnjlafu5n0" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag_(super).tres" id="4_feluc"]
+[ext_resource type="Resource" uid="uid://b3mqc80kln1or" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket_(super).tres" id="5_nb4ps"]
+[ext_resource type="Resource" uid="uid://b72hb7uavcclo" path="res://objects/battle/battle_resources/cog_signature_attack/resources/strengthen.tres" id="6_enddk"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_nb83k"]
+[ext_resource type="Resource" uid="uid://niav3ffljpoa" path="res://objects/battle/battle_resources/cog_signature_attack/resources/howl.tres" id="7_yc83u"]
+[ext_resource type="Resource" uid="uid://kmogjr4fp015" path="res://objects/battle/battle_resources/cog_signature_attack/resources/stagger.tres" id="8_3ba2s"]
+
+[resource]
+script = ExtResource("7_nb83k")
+department = 3
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_eclipse_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_eclipse_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_eclipse_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Twisted Eclipse"
+name_prefix = "Twisted "
+name_suffix = " Eclipse"
+head = "res://models/crossover_cogs/dandys_world/Twisted Eclipse.glb"
+scale = 4.25
+hand_color = Color(0, 0, 0, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_xnhme")]([ExtResource("2_xnhme"), ExtResource("3_3ba2s"), ExtResource("4_feluc"), ExtResource("5_nb4ps"), ExtResource("6_enddk"), ExtResource("7_yc83u"), ExtResource("8_3ba2s")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_female_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["AWOOOOOOOOOOO!", "I hunger for pray!", "You picked the wrong pack."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

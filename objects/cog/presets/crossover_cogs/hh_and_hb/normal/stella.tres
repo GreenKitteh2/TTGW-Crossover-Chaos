@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://c1yenxohyl7fy"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_cnkci"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_1fr3u"]
+[ext_resource type="Resource" uid="uid://qk4f4h40o5u1" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip.tres" id="3_mfsjd"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="3_paxgj"]
+[ext_resource type="Resource" uid="uid://55lp6noha8te" path="res://objects/battle/battle_resources/cog_attacks/resources/shake.tres" id="4_lgxqm"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_d845g"]
+[ext_resource type="Resource" uid="uid://b3tkvlsedrm2l" path="res://objects/battle/battle_resources/cog_signature_attack/resources/back_talk.tres" id="6_inbem"]
+
+[resource]
+script = ExtResource("6_d845g")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/misc/blazer_1.png"
+custom_arm_tex = "res://models/cogs/textures/misc/sleeve_2.png"
+custom_leg_tex = "res://models/cogs/textures/misc/leg_4.png"
+custom_wrist_tex = "res://models/cogs/textures/misc/arm_1.png"
+cog_name = "Stella"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/stella.glb"
+scale = 6.9
+hand_color = Color(0.972549, 0.9411765, 0.9411765, 1)
+custom_nametag_height = 9.4
+attacks = Array[ExtResource("1_cnkci")]([ExtResource("2_1fr3u"), ExtResource("3_mfsjd"), ExtResource("4_lgxqm"), ExtResource("3_paxgj"), ExtResource("6_inbem")])
+level_low = 7
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["I was about to send Striker to take care of you.", "You've made a bad decision picking with royalty!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

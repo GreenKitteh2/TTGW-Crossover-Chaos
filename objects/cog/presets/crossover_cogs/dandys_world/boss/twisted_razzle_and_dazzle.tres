@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://rytyn3202f03"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_exuuj"]
+[ext_resource type="Resource" uid="uid://ri0sbduh61x1" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/heckle_(razzle_and_dazzle).tres" id="2_iuli3"]
+[ext_resource type="Resource" uid="uid://bnl1pwimkt58j" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/finger_wag_(razzle_and_dazzle)_(super).tres" id="3_obibq"]
+[ext_resource type="Resource" uid="uid://g03t0h0i68et" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/clip_on_tie_(razzle_and_dazzle)_(super).tres" id="4_poy1h"]
+[ext_resource type="Resource" uid="uid://bljpjngbla51n" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/workout_(razzle_and_dazzle).tres" id="5_s55lf"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_oqfk7"]
+[ext_resource type="Resource" uid="uid://b3wkah45n6qb" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time_(razzle_and_dazzle).tres" id="6_owops"]
+[ext_resource type="Resource" uid="uid://dy8lcvke541kq" path="res://objects/battle/battle_resources/cog_signature_attack/resources/red_tape_(razzle_and_dazzle).tres" id="7_vwd3d"]
+[ext_resource type="Resource" uid="uid://cy7pw4cv07och" path="res://objects/battle/battle_resources/cog_signature_attack/resources/gag_protection_(razzle_and_dazzle).tres" id="8_obibq"]
+
+[resource]
+script = ExtResource("6_oqfk7")
+department = 1
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_rnd_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_rnd_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_rnd_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Twisted Razzle & Dazzle"
+name_prefix = "Twisted "
+name_suffix = " Razzle & Dazzle"
+head = "res://models/crossover_cogs/dandys_world/Twisted Razzle and Dazzle.glb"
+scale = 3.5
+hand_color = Color(0, 0, 0, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_exuuj")]([ExtResource("2_iuli3"), ExtResource("3_obibq"), ExtResource("4_poy1h"), ExtResource("5_s55lf"), ExtResource("6_owops"), ExtResource("7_vwd3d"), ExtResource("8_obibq")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["We may be two. (But we're one...)", "I got my half (Why need another?)", "We got the energy (But we're tired.)"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

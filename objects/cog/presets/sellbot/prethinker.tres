@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://oeikcgn6f0v6"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_2tlxv"]
+[ext_resource type="Resource" uid="uid://dk4g2r7ff3uek" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/brain_storm_(prethinker).tres" id="2_6fp82"]
+[ext_resource type="Resource" uid="uid://1uf0e67se3dd" path="res://objects/battle/battle_resources/cog_signature_attack/resources/forward_thinking.tres" id="3_rk76w"]
+[ext_resource type="Resource" uid="uid://b4arinlv2qx68" path="res://objects/battle/battle_resources/cog_signature_attack/resources/desk_jockey_call.tres" id="4_6fp82"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_kwklh"]
+
+[resource]
+script = ExtResource("7_kwklh")
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/managers/prethinker_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/managers/prethinker_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/managers/prethinker_leg.png"
+cog_name = "Prethinker"
+name_prefix = "Pre"
+name_suffix = "thinker"
+head = "res://models/cogs/heads/prethinker_head.glb"
+scale = 3.5
+hand_color = Color(0.5176471, 0.45882353, 0.57254905, 1)
+attacks = Array[ExtResource("1_2tlxv")]([ExtResource("2_6fp82"), ExtResource("3_rk76w"), ExtResource("4_6fp82")])
+level_low = 12
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_manager = true
+health_mod = 2.0
+battle_phrases = Array[String](["It's only natural I thought to prepare for this scenario!", "I'm always one step ahead!", "Such a simple-minded strategy won't work on me!", "I'll show you what intelligence is truly capable of!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

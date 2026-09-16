@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://br13s5o131o68"]
+
+[ext_resource type="PackedScene" uid="uid://thl8v03qs1nt" path="res://models/props/gags/magnet/magnet-red.glb" id="1_fqb7q"]
+
+[node name="magnet-red" instance=ExtResource("1_fqb7q")]

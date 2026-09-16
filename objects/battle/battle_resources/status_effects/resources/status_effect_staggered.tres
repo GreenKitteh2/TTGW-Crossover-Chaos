@@ -1,0 +1,15 @@
+[gd_resource type="Resource" format=3 uid="uid://gumt0ehi6ekm"]
+
+[ext_resource type="Texture2D" uid="uid://cres1i5ocv6u" path="res://ui_assets/battle/statuses/Staggered.png" id="1_fteeu"]
+[ext_resource type="Script" uid="uid://cwv55xkc1arh7" path="res://objects/battle/battle_resources/status_effects/status_effect_staggered.gd" id="2_fteeu"]
+
+[resource]
+script = ExtResource("2_fteeu")
+turn_skip_chance = null
+quality = 1
+rounds = 3
+icon = ExtResource("1_fteeu")
+description = "Chance to not attack."
+status_name = "Staggered"
+id = 102
+metadata/_custom_type_script = "uid://df7irk63ikx4k"

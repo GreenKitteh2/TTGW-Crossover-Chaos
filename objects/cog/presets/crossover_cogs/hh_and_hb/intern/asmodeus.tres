@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cm0oyxcsdl8cd"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_ujerv"]
+[ext_resource type="Resource" uid="uid://c24yy1wqmg24o" path="res://objects/battle/battle_resources/cog_attacks/resources/razzle_dazzle.tres" id="3_0clmi"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="3_ujerv"]
+[ext_resource type="Resource" uid="uid://dimhdaxn1tyey" path="res://objects/battle/battle_resources/cog_attacks/resources/tee_off.tres" id="4_0varl"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="5_a3cmr"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_yl7i2"]
+
+[resource]
+script = ExtResource("7_yl7i2")
+department = 2
+cog_name = "Asmodeus"
+name_plural = "Asmodeuses"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/ozzie.glb"
+scale = 7.9
+hand_color = Color(0.13725491, 0.12941177, 0.3882353, 1)
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_ujerv")]([ExtResource("4_0varl"), ExtResource("3_ujerv"), ExtResource("5_a3cmr"), ExtResource("3_0clmi")])
+level_low = 8
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["Try to face me, I'm one handsome devil.", "I was going to have Blitz take care of you but fine."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

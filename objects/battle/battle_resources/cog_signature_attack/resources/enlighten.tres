@@ -1,0 +1,9 @@
+[gd_resource type="Resource" format=3 uid="uid://cncrrqbyd1o0y"]
+
+[ext_resource type="Script" uid="uid://ks0b2n0hd8hh" path="res://objects/battle/battle_resources/cog_signature_attack/enlighten.gd" id="1_rkqjj"]
+
+[resource]
+script = ExtResource("1_rkqjj")
+attack_lines = Array[String]([])
+target_type = 3
+action_name = ""

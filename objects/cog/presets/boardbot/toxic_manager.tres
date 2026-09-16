@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=8 format=3 uid="uid://ceh4ktid455jd"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_7o8i1"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_fbfgb"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="3_fbfgb"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="4_uo51f"]
+[ext_resource type="Resource" uid="uid://qk4f4h40o5u1" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip.tres" id="5_d8q2p"]
+[ext_resource type="Resource" uid="uid://dwkmwkdn3ws4k" path="res://objects/battle/battle_resources/cog_attacks/resources/evil_eye.tres" id="6_73031"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_7t4i0"]
+
+[resource]
+script = ExtResource("7_7t4i0")
+department = 4
+suit = 2
+cog_name = "Toxic Manager"
+name_plural = "Toxic Managers"
+name_prefix = "Toxic "
+name_suffix = " Manager"
+head = "res://models/cogs/heads/toxicmanager.glb"
+scale = 5.25
+head_textures = PackedStringArray("res://models/cogs/heads/toxicmanager_ttcc_ene_toxicmanager.png")
+hand_color = Color(0.662745, 0.596078, 0.180392, 1)
+attacks = Array[ExtResource("1_7o8i1")]([ExtResource("2_fbfgb"), ExtResource("3_fbfgb"), ExtResource("4_uo51f"), ExtResource("5_d8q2p"), ExtResource("6_73031")])
+level_low = 5
+battle_phrases = Array[String](["Prepare for a Nuclear meltdown.", "My attacks are toxic to Toons.", "Some say my personality is quite 'explosive.'", "My leadership skills are rather 'toxic.'", "I've got my \"ion\" you, toon.", "Careful, I am poisonous to Toons.", "Toons and toxic waste have one thing in common. They both are disposable.", "The only poison needed to take you down is from me.", "Steer Nu-clear!", "I don't even need half of my life to defeat you."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

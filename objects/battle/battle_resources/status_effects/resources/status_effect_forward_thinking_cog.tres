@@ -1,0 +1,9 @@
+[gd_resource type="Resource" format=3 uid="uid://qaqytt4b1sgr"]
+
+[ext_resource type="Script" uid="uid://dh0gyiojjqx02" path="res://objects/battle/battle_resources/status_effects/status_effect_forward_thinking_cog.gd" id="1_qf4xi"]
+
+[resource]
+script = ExtResource("1_qf4xi")
+stat = "damage"
+quality = 0
+metadata/_custom_type_script = "uid://df7irk63ikx4k"

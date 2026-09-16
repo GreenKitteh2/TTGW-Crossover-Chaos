@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://br1alxm86wrj8"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_80v55"]
+[ext_resource type="Resource" uid="uid://u8ja4vfq2adm" path="res://objects/battle/battle_resources/cog_attacks/resources/quake_(super).tres" id="3_t6ldr"]
+[ext_resource type="Resource" uid="uid://dcth1mrm7s8bo" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip_(super).tres" id="4_myi0x"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="5_4rc7g"]
+[ext_resource type="Resource" uid="uid://b3tlged7kqx0t" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip_(super).tres" id="5_jf00t"]
+[ext_resource type="Resource" uid="uid://b3tkvlsedrm2l" path="res://objects/battle/battle_resources/cog_signature_attack/resources/back_talk.tres" id="6_5mawb"]
+[ext_resource type="Resource" uid="uid://b5helauv7f4y5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/pinpoint.tres" id="7_2umhq"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_dwig4"]
+[ext_resource type="Resource" uid="uid://duq7fidd28rw5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack.tres" id="8_t6ldr"]
+
+[resource]
+script = ExtResource("7_dwig4")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/hh_and_hb/verosika_mayday_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/hh_and_hb/verosika_mayday_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/hh_and_hb/verosika_mayday_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/helluva_boss.png"
+cog_name = "Verosika Mayday"
+name_prefix = "Verosika "
+name_suffix = " Mayday"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/verosika mayday.glb"
+scale = 7.45
+hand_color = Color(0.972549, 0.23529412, 0.5137255, 1)
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_80v55")]([ExtResource("5_4rc7g"), ExtResource("3_t6ldr"), ExtResource("4_myi0x"), ExtResource("5_jf00t"), ExtResource("6_5mawb"), ExtResource("7_2umhq"), ExtResource("8_t6ldr")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_female_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["So you're supposed to be a Toon? What a sad wash up.", "I won't be surprised if Blitzo couldn't deal with you."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

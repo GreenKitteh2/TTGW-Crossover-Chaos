@@ -1,0 +1,12 @@
+[gd_resource type="Resource" format=3 uid="uid://k563jvw537l5"]
+
+[ext_resource type="Script" uid="uid://bk3i5622kdena" path="res://objects/battle/battle_resources/cog_signature_attack/back_talk.gd" id="1_xssh5"]
+
+[resource]
+script = ExtResource("1_xssh5")
+accuracy = 100
+damage = 0
+summary = "Retaliate every time they get attacked"
+attack_lines = Array[String](["Beep."])
+target_type = 4
+action_name = "Back Talk"

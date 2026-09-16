@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dsbrxkbq8nhyg"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_tviym"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="2_tviym"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="3_6tm7i"]
+[ext_resource type="Resource" uid="uid://dwkmwkdn3ws4k" path="res://objects/battle/battle_resources/cog_attacks/resources/evil_eye.tres" id="3_521db"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_xjijm"]
+
+[resource]
+script = ExtResource("6_xjijm")
+department = 2
+suit = 2
+cog_name = "Jevil"
+name_plural = "Jevils"
+head = "res://models/crossover_cogs/undertale_and_deltarune/jevil.glb"
+scale = 4.0
+hand_color = Color(0.7764706, 0.88235295, 0.96862745, 1)
+custom_nametag_height = 9.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_tviym")]([ExtResource("2_tviym"), ExtResource("3_521db"), ExtResource("3_6tm7i")])
+level_low = 3
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["I can do anything!", "Chaos Chaos!", "Let's play a game, if you hit 0, you lose."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

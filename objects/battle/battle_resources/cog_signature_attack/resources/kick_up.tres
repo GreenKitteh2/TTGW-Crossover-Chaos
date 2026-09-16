@@ -1,0 +1,12 @@
+[gd_resource type="Resource" format=3 uid="uid://qbvtk3xhtbu0"]
+
+[ext_resource type="Script" uid="uid://blewpjjbbckmf" path="res://objects/battle/battle_resources/cog_signature_attack/kick_up.gd" id="1_o0i6n"]
+
+[resource]
+script = ExtResource("1_o0i6n")
+accuracy = 100
+damage = 2
+attack_lines = Array[String]([])
+target_type = 1
+action_name = ""
+crit_chance_mod = 0.0

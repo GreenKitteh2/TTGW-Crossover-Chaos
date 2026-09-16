@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=6 format=3 uid="uid://dqk2cj23r8xli"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_pvkgr"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="2_pvkgr"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="3_4mq7n"]
+[ext_resource type="Resource" uid="uid://c3gg5tsci6aye" path="res://objects/battle/battle_resources/cog_attacks/resources/hang_up.tres" id="4_vox5b"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_h6kqf"]
+
+[resource]
+script = ExtResource("5_h6kqf")
+department = 4
+suit = 1
+cog_name = "Insider"
+name_plural = "Insiders"
+name_prefix = "Inside"
+name_suffix = "er"
+head = "res://models/cogs/heads/insider.glb"
+scale = 4.3
+head_textures = PackedStringArray("res://models/cogs/heads/insider_cc_t_ene_insider_exe.png")
+hand_color = Color(0.0235294, 0.027451, 0.0431373, 1)
+attacks = Array[ExtResource("1_pvkgr")]([ExtResource("2_pvkgr"), ExtResource("3_4mq7n"), ExtResource("4_vox5b")])
+level_low = 3
+level_high = 10
+battle_phrases = Array[String](["Can't you see there's important intel I have to collect?!", "I have a sneaking suspicion this won't go well for you...", "I know too much, and you'll never find out what it is!", "I'll have to take the intel from you by force.", "It's what's on the inside that matters most!", "The world isn't ready for my secrets - neither are you!", "This stays between you and me. You got it, Toon?", "You better stay on the outside! You're not stepping foot in our business.", "You'd gain nothing from instigating ME!", "You'll never catch me and my secrets!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

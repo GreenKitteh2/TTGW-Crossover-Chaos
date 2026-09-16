@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://6be1gsakufw0"]
+
+[ext_resource type="Script" uid="uid://cqjao7ra7sudp" path="res://objects/battle/battle_resources/cog_attacks/guilt_trip_(super).gd" id="1_255rh"]
+
+[resource]
+script = ExtResource("1_255rh")
+damage = 5
+summary = "The Cog is about to get their revenge"
+attack_lines = Array[String](["You had better say- say you're- you're sorry.", "Call me- call me when you get back from your- your trip.", "I always blame- blame everything on yo-o-ou.", "I-I-I wouldn't forgive- forgive you in a million years!", "Are you ready fo-o-o-or your trip- trip?", "Wallow i-i-in your own- own guilt!", "I'll lay- I'll lay a real guilt trip o-o-on you!", "It's a-a-a-all your fault- your fault!", "Feeling guilty- feeling guilty, feeling guilty?"])
+action_name = "Guilt Trip"
+metadata/_custom_type_script = "uid://bb27him60xtnk"

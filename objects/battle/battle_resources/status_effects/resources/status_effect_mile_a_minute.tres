@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3 uid="uid://qxi45ahqbksg"]
+
+[ext_resource type="Texture2D" uid="uid://dbs7rhwtngytr" path="res://ui_assets/battle/statuses/mile_a_minute.png" id="1_6cdrp"]
+[ext_resource type="Script" uid="uid://cn0ek7rag82qn" path="res://objects/battle/battle_resources/status_effects/status_effect_mile_a_minute.gd" id="2_pa6bm"]
+
+[resource]
+script = ExtResource("2_pa6bm")
+quality = 0
+rounds = -1
+icon = ExtResource("1_6cdrp")
+description = "You're being timed bro."
+status_name = "Mile a Minute"
+id = 95
+metadata/_custom_type_script = "uid://df7irk63ikx4k"

@@ -1,0 +1,72 @@
+[gd_resource type="Resource" script_class="PlayerCharacter" format=3 uid="uid://cinqgnmnbtxde"]
+
+[ext_resource type="Script" uid="uid://o2fe7ud1faj6" path="res://objects/battle/battle_resources/stats.gd" id="1_r7c1f"]
+[ext_resource type="Script" uid="uid://c8kas2j4io1jh" path="res://objects/toon/clothing/toon_bottoms.gd" id="2_1dqrr"]
+[ext_resource type="Script" uid="uid://yg7gxug4rab" path="res://objects/toon/toon_dna.gd" id="4_n6q4k"]
+[ext_resource type="Texture2D" uid="uid://bwbe11pfn3to0" path="res://models/toon/textures/clothes/skirts/desat_skirt_1_4.png" id="4_r7c1f"]
+[ext_resource type="Script" uid="uid://dfqwh4jmdy0iw" path="res://objects/toon/clothing/toon_shirt.gd" id="5_y0jph"]
+[ext_resource type="Texture2D" uid="uid://bedf4mamcfi6e" path="res://models/toon/textures/clothes/shirts/desat_sleeve_5.png" id="6_r7c1f"]
+[ext_resource type="Texture2D" uid="uid://dh7dyokcfyw43" path="res://models/toon/textures/clothes/shirts/desat_sleeve_1.png" id="7_edvy4"]
+[ext_resource type="Resource" uid="uid://tyi7ukxtvcgc" path="res://objects/battle/battle_resources/gag_loadouts/loadouts/standard_loadout.tres" id="8_slrox"]
+[ext_resource type="Script" uid="uid://ts8xpgftpmty" path="res://objects/player/character.gd" id="9_50mkm"]
+[ext_resource type="Script" uid="uid://combwqypom1ru" path="res://objects/items/classes/item.gd" id="10_hlyje"]
+[ext_resource type="Resource" uid="uid://ykui4hqdqlbi" path="res://objects/items/resources/passive/chara_setup.tres" id="11_r7c1f"]
+[ext_resource type="Resource" uid="uid://c8wjy8fdkxarx" path="res://objects/items/resources/active/gag_button.tres" id="12_1dqrr"]
+[ext_resource type="Resource" uid="uid://bslw3igyvaud1" path="res://objects/items/resources/accessories/glasses/aviator_glasses.tres" id="13_4otib"]
+[ext_resource type="Resource" uid="uid://cywkkvnh4fkeg" path="res://objects/items/resources/accessories/hats/viking_helmet.tres" id="14_1ayhs"]
+
+[sub_resource type="Resource" id="Resource_4mp7f"]
+script = ExtResource("1_r7c1f")
+damage = 2.0
+defense = 0.5
+evasiveness = 1.5
+max_hp = 30
+hp = 30
+
+[sub_resource type="Resource" id="Resource_2bsmm"]
+script = ExtResource("2_1dqrr")
+texture = ExtResource("4_r7c1f")
+base_color = Color(0.392157, 0.87451, 0.784314, 1)
+
+[sub_resource type="Resource" id="Resource_17x8t"]
+script = ExtResource("5_y0jph")
+shirt_texture = ExtResource("6_r7c1f")
+sleeve_texture = ExtResource("7_edvy4")
+sleeve_color = Color(0.392157, 0.87451, 0.784314, 1)
+
+[sub_resource type="Resource" id="Resource_ppw05"]
+script = ExtResource("4_n6q4k")
+body_type = 1
+species = 1
+head_index = 2
+skirt = true
+head_color = Color(1, 0.84771, 0.694627, 1)
+torso_color = Color(1, 0.847059, 0.694118, 1)
+leg_color = Color(0.359349, 0.166318, 0, 1)
+shirt = SubResource("Resource_17x8t")
+bottoms = SubResource("Resource_2bsmm")
+
+[resource]
+script = ExtResource("9_50mkm")
+character_name = "Tabby Terrorizor"
+character_summary = "- has 200% Damage but 50% Defense
+- inflicts extra damage to Proxy Cogs
+- inflicts first strike every start in battle"
+character_blurb = "They've gain expierence and have LOVE for combat, however, due to having a bad rep for cogs, they'll get hurt more than intended."
+dna = SubResource("Resource_ppw05")
+gag_loadout = ExtResource("8_slrox")
+starting_laff = 30
+starting_items = Array[ExtResource("10_hlyje")]([ExtResource("11_r7c1f"), ExtResource("12_1dqrr"), ExtResource("13_4otib"), ExtResource("14_1ayhs")])
+base_stats = SubResource("Resource_4mp7f")
+starting_gags = Dictionary[String, int]({
+"Drop": 1,
+"Lure": 0,
+"Sound": 0,
+"Squirt": 0,
+"Throw": 1,
+"Trap": 0
+})
+additional_stats = Dictionary[String, Variant]({
+"luck": 1.0
+})
+achievement_index = 9

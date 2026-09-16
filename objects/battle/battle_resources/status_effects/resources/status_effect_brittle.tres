@@ -1,0 +1,13 @@
+[gd_resource type="Resource" format=3 uid="uid://c3rat4yexc5de"]
+
+[ext_resource type="Texture2D" uid="uid://d2mf2sshejor8" path="res://ui_assets/battle/statuses/brittle.png" id="1_hmewl"]
+[ext_resource type="Script" uid="uid://jowtplm8v74w" path="res://objects/battle/battle_resources/status_effects/status_effect_brittle.gd" id="2_y5hgi"]
+
+[resource]
+script = ExtResource("2_y5hgi")
+quality = 1
+rounds = 3
+icon = ExtResource("1_hmewl")
+description = "-25% Defense"
+status_name = "Brittle"
+id = 77

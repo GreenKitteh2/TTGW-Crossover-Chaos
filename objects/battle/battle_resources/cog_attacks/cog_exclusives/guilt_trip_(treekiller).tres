@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://cxt2tf8syto86"]
+
+[ext_resource type="Script" uid="uid://cqjao7ra7sudp" path="res://objects/battle/battle_resources/cog_attacks/guilt_trip_(super).gd" id="1_302vs"]
+
+[resource]
+script = ExtResource("1_302vs")
+damage = 5
+summary = "The Cog is about to get their revenge"
+attack_lines = Array[String](["Are yah ready for yah trip? Wahahahaha!", "It's all yourgh fault!", "Ah always blame everehthin' on yeh.", "Call meh when yah get back from yourgh trip.", "Feelin' guilty?", "Aye wouldn't for-give yah in a million years!", "When do yah get back from yah trip?", "Yah had better say yeh sorry."])
+action_name = "Guilt Trip"
+metadata/_custom_type_script = "uid://bb27him60xtnk"

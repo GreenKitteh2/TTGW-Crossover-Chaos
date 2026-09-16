@@ -1,0 +1,181 @@
+[gd_scene format=3 uid="uid://g50de2joqp6k"]
+
+[ext_resource type="Script" uid="uid://twsu6btug060" path="res://objects/battle/battle_ui/cog_panel.gd" id="2_luwxf"]
+[ext_resource type="Texture2D" uid="uid://c82dcxavel4yu" path="res://ui_assets/battle/target_select/Panel.png" id="2_rqo48"]
+[ext_resource type="PackedScene" uid="uid://bwnrw7jcf01kq" path="res://objects/general_ui/node_viewer/node_viewer.tscn" id="3_t5175"]
+[ext_resource type="FontFile" uid="uid://815gwlftl5ik" path="res://fonts/impress-bt.ttf" id="4_rqo48"]
+[ext_resource type="Texture2D" uid="uid://7k2itbapafhp" path="res://ui_assets/battle/target_select/Health Bar.png" id="5_x3boc"]
+[ext_resource type="Texture2D" uid="uid://dpydvep3gx63l" path="res://ui_assets/battle/target_select/Background.png" id="6_05y4n"]
+[ext_resource type="Texture2D" uid="uid://o04ng45rabq0" path="res://ui_assets/battle/target_select/Text Background.png" id="7_x3boc"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_x3boc"]
+viewport_path = NodePath("SubViewport")
+
+[sub_resource type="LabelSettings" id="LabelSettings_q00sf"]
+font = ExtResource("4_rqo48")
+
+[sub_resource type="LabelSettings" id="LabelSettings_2vko0"]
+font = ExtResource("4_rqo48")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lsfax"]
+bg_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 24
+corner_radius_top_right = 24
+corner_radius_bottom_right = 24
+corner_radius_bottom_left = 24
+
+[node name="CogPanel" type="Control" unique_id=621671988]
+custom_minimum_size = Vector2(160, 140)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 160.0
+offset_bottom = 199.0
+script = ExtResource("2_luwxf")
+
+[node name="Profile" type="TextureRect" parent="." unique_id=729503695]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(160, 160)
+layout_mode = 0
+offset_left = 8.0
+offset_right = 168.0
+offset_bottom = 160.0
+scale = Vector2(0.85, 0.85)
+texture = ExtResource("2_rqo48")
+expand_mode = 1
+
+[node name="CogFace" parent="Profile" unique_id=531683469 instance=ExtResource("3_t5175")]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(36, 36)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -53.0
+offset_top = -61.0
+offset_right = 54.0
+offset_bottom = 46.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("ViewportTexture_x3boc")
+expand_mode = 1
+
+[node name="HealthLight" type="TextureRect" parent="Profile" unique_id=770545449]
+unique_name_in_owner = true
+self_modulate = Color(0, 1, 0, 1)
+layout_mode = 0
+offset_left = -1.0
+offset_top = -1.0
+offset_right = 160.0
+offset_bottom = 160.0
+texture = ExtResource("5_x3boc")
+expand_mode = 1
+
+[node name="HealthGlow" type="TextureRect" parent="Profile/HealthLight" unique_id=448638150]
+unique_name_in_owner = true
+self_modulate = Color(0, 1, 0, 1)
+z_index = -1
+layout_mode = 0
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 162.0
+offset_bottom = 162.0
+texture = ExtResource("6_05y4n")
+expand_mode = 1
+
+[node name="CogHP" type="Label" parent="Profile/HealthLight" unique_id=1908870443]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -31.5
+offset_top = 135.0
+offset_right = 34.5
+offset_bottom = 156.0
+grow_horizontal = 2
+text = "6/6"
+label_settings = SubResource("LabelSettings_q00sf")
+horizontal_alignment = 1
+
+[node name="NinePatchRect" type="NinePatchRect" parent="Profile" unique_id=517686690]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 3.0
+offset_right = 144.5
+offset_bottom = 25.0
+texture = ExtResource("7_x3boc")
+region_rect = Rect2(2, 2, 65, 18)
+
+[node name="Name" type="Label" parent="Profile/NinePatchRect" unique_id=181702255]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 22.0
+grow_horizontal = 2
+text = "Cog"
+label_settings = SubResource("LabelSettings_2vko0")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="NinePatchRect2" type="NinePatchRect" parent="Profile" unique_id=474486167]
+layout_mode = 0
+offset_left = 17.0
+offset_top = 109.0
+offset_right = 145.5
+offset_bottom = 131.0
+texture = ExtResource("7_x3boc")
+region_rect = Rect2(2, 2, 65, 18)
+
+[node name="Level" type="Label" parent="Profile/NinePatchRect2" unique_id=110200623]
+unique_name_in_owner = true
+clip_contents = true
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 21.0
+grow_horizontal = 2
+pivot_offset = Vector2(51.5, 0)
+text = "Level 1.exe v1.1"
+label_settings = SubResource("LabelSettings_2vko0")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="StatusEffectMask" type="Control" parent="." unique_id=1345091312]
+unique_name_in_owner = true
+clip_contents = true
+anchors_preset = 0
+offset_left = 1.9999999
+offset_top = 137.0
+offset_right = 374.0
+offset_bottom = 321.0
+scale = Vector2(0.4, 0.4)
+
+[node name="EffectPanel" type="Panel" parent="StatusEffectMask" unique_id=604455590]
+unique_name_in_owner = true
+self_modulate = Color(1, 1, 1, 0.25)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_lsfax")
+
+[node name="StatusEffects" type="GridContainer" parent="StatusEffectMask" unique_id=1682994890]
+unique_name_in_owner = true
+clip_contents = true
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -186.0
+offset_right = 186.0
+grow_horizontal = 2
+columns = 4
+
+[connection signal="mouse_entered" from="StatusEffectMask" to="." method="statuses_hovered"]
+[connection signal="mouse_exited" from="StatusEffectMask" to="." method="statuses_unhovered"]

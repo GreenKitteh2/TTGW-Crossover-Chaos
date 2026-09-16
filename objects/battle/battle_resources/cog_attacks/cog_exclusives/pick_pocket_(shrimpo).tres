@@ -1,0 +1,9 @@
+[gd_resource type="Resource" format=3 uid="uid://wqy3px0232ml"]
+
+[ext_resource type="Script" uid="uid://cjunlfb0wvfkq" path="res://objects/battle/battle_resources/cog_attacks/pickpocket.gd" id="1_6exl4"]
+
+[resource]
+script = ExtResource("1_6exl4")
+damage = 2
+attack_lines = Array[String](["GIVE ME!", "I HATE YOUR STUFF!", "IT'S MINE!", "GIVE ME YOUR STUFF!"])
+action_name = "Pick Pocket"

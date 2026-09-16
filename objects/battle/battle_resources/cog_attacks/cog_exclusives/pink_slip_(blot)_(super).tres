@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3 uid="uid://cn7tygxogani3"]
+
+[ext_resource type="PackedScene" uid="uid://cxj4gdkxgwknm" path="res://models/props/cog_props/pink_slip/pink_slip.glb" id="1_epjhh"]
+[ext_resource type="Script" uid="uid://bdl2spxb63fxd" path="res://objects/battle/battle_resources/cog_attacks/pink_slip_(super).gd" id="2_epjhh"]
+
+[resource]
+script = ExtResource("2_epjhh")
+prop = ExtResource("1_epjhh")
+custom_method = "pink_slip"
+damage = 3
+summary = "The Toon will have difficulty 
+defending and attacking!"
+attack_lines = Array[String]([" .pu pils ot ton yrT", " !knip denrut ev'uoY ?denethgirf uoy erA", " .pu uoy pils ylerus lliw eno sihT", " ?huh ,ereht deppils uoy sseug I ,spoO", " !pils ot tnaw t'ndluow ,flesruoy hctaW", " .tew nehw yreppils s'eno sihT", " .ni eno siht pils tsuj ll'I", " ?uoy od ,yb pils uoy fi dnim t'noD", " .roloc ruoy yllaer t'nsi kniP", " !ereh attuo er'uoy ,pils knip ruoy s'ereH"])
+action_name = "pilS kniP"

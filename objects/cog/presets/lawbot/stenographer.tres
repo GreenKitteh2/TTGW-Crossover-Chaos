@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://b7y56sc8ac3wb"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_uwtve"]
+[ext_resource type="Resource" uid="uid://deq858gxkw0ne" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/pound_key_(stenographer).tres" id="2_uwtve"]
+[ext_resource type="Resource" uid="uid://djgnjmgjtb63q" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/tabulate_(stenographer).tres" id="3_0jsce"]
+[ext_resource type="Resource" uid="uid://bx5dgsimlftp6" path="res://objects/battle/battle_resources/cog_signature_attack/resources/court_sanction.tres" id="4_52xmh"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_0ed75"]
+
+[resource]
+script = ExtResource("7_0ed75")
+department = 2
+custom_blazer_tex = "res://models/cogs/textures/law/blazer_exe.png"
+custom_arm_tex = "res://models/cogs/textures/law/sleeve_exe.png"
+custom_leg_tex = "res://models/cogs/textures/law/leg_exe.png"
+cog_name = "Stenographer"
+name_prefix = "Steno"
+name_suffix = "grapher"
+head = "res://models/cogs/heads/stenographer_head.glb"
+scale = 7.0
+hand_color = Color(0.2784314, 0.32156864, 0.48235294, 1)
+attacks = Array[ExtResource("1_uwtve")]([ExtResource("2_uwtve"), ExtResource("3_0jsce"), ExtResource("4_52xmh")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_female_cog = true
+is_manager = true
+health_mod = 2.0
+battle_phrases = Array[String](["Not a single word goes amiss.", "Want me to run that by you again?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

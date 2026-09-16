@@ -1,0 +1,15 @@
+[gd_resource type="Resource" format=3 uid="uid://bjnr671qnvwft"]
+
+[ext_resource type="PackedScene" uid="uid://d03k2e6a74tko" path="res://objects/battle/effects/cloud_attacks/brain_storm.tscn" id="1_7vk3c"]
+[ext_resource type="Script" uid="uid://d58510p3fqlj" path="res://objects/battle/battle_resources/cog_attacks/brain_storm_(super).gd" id="2_vc4qo"]
+[ext_resource type="AudioStream" uid="uid://dbmpl58jist24" path="res://audio/sfx/battle/cogs/attacks/SA_brainstorm.ogg" id="3_5v6fc"]
+
+[resource]
+script = ExtResource("2_vc4qo")
+particles = ExtResource("1_7vk3c")
+sfx = ExtResource("3_5v6fc")
+animation = 1
+damage = 4
+summary = "The Toon's Gags loses points!"
+attack_lines = Array[String](["Back home, we'd call this one a lightning attack.", "Hope you packed ya umbrella.", "How 'bout just a few rain DROPS?", "Mah knees a-shakin, must mean rain."])
+action_name = "Brain Storm"

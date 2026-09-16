@@ -1,0 +1,12 @@
+[gd_resource type="Resource" format=3 uid="uid://dr6hc2x3dp41r"]
+
+[ext_resource type="Script" uid="uid://brd6mho26rnpr" path="res://objects/battle/battle_resources/cog_signature_attack/song_and_dance.gd" id="1_m1e33"]
+
+[resource]
+script = ExtResource("1_m1e33")
+accuracy = 100
+damage = 0
+summary = "All cogs attack twice in the next round."
+attack_lines = Array[String](["A-one! A-two! A skiddly-diddly-doo-doo dibba de-do-do!", "Bop ba bodda bope-Be bop ba bodda bope.", "Don't trip up, babe!", "It don't mean a thing if it don't got that swing, babe!", "How's this for a jitterbug jolt!", "Don't waltz limp, babe.", "You ain't ready for my Boogie Woogie.", "Don't start snoozin on me babe!", "Tap to the tune, babe, let the music touch your soul."])
+target_type = 3
+action_name = "Song and Dance"

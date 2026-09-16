@@ -1,0 +1,42 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://ctb3mkcfinlsb"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_ramie"]
+[ext_resource type="Resource" uid="uid://df2ueh21w75ct" path="res://objects/battle/battle_resources/cog_attacks/resources/shake_(super).tres" id="2_wlqk8"]
+[ext_resource type="Resource" uid="uid://u8ja4vfq2adm" path="res://objects/battle/battle_resources/cog_attacks/resources/quake_(super).tres" id="3_qwhti"]
+[ext_resource type="Resource" uid="uid://bt1h3skm0otjo" path="res://objects/battle/battle_resources/cog_attacks/resources/tremor_(super).tres" id="4_31in5"]
+[ext_resource type="Resource" uid="uid://dcth1mrm7s8bo" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip_(super).tres" id="5_epalv"]
+[ext_resource type="Resource" uid="uid://c82q6b10di5a1" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time.tres" id="6_n2h3o"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_4w72e"]
+[ext_resource type="Resource" uid="uid://cyemuefon10qt" path="res://objects/battle/battle_resources/cog_signature_attack/resources/roaring.tres" id="7_f4528"]
+[ext_resource type="Resource" uid="uid://b35m7xym3lkwl" path="res://objects/battle/battle_resources/cog_signature_attack/resources/snipe.tres" id="8_wlqk8"]
+
+[resource]
+script = ExtResource("7_4w72e")
+department = 4
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/ut_and_dr/knight_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/ut_and_dr/knight_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/ut_and_dr/knight_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/undertale.png"
+cog_name = "The Roaring Knight"
+name_plural = "The Roaring Knights"
+name_prefix = "The Roaring "
+name_suffix = " Knight"
+head = "res://models/crossover_cogs/undertale_and_deltarune/roaring knight.glb"
+scale = 5.7
+hand_color = Color(0, 0, 0, 1)
+custom_nametag_suffix = "Boss Cog"
+can_speak = false
+attacks = Array[ExtResource("1_ramie")]([ExtResource("2_wlqk8"), ExtResource("3_qwhti"), ExtResource("4_31in5"), ExtResource("5_epalv"), ExtResource("6_n2h3o"), ExtResource("7_f4528"), ExtResource("8_wlqk8")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_female_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["..."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

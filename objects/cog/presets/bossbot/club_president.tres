@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cjmgg3ewiom23"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_q6kbo"]
+[ext_resource type="Resource" uid="uid://dimhdaxn1tyey" path="res://objects/battle/battle_resources/cog_attacks/resources/tee_off.tres" id="2_xircq"]
+[ext_resource type="Resource" uid="uid://dwkmwkdn3ws4k" path="res://objects/battle/battle_resources/cog_attacks/resources/evil_eye.tres" id="3_sj6vo"]
+[ext_resource type="Resource" uid="uid://b6smgrhefhpdk" path="res://objects/battle/battle_resources/cog_attacks/resources/sink_hole.tres" id="4_tm2t0"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_kyyf3"]
+
+[resource]
+script = ExtResource("5_kyyf3")
+department = 3
+custom_blazer_tex = "res://models/cogs/textures/boss/ttr_t_ene_bossbotClubPresident_blazer.jpg"
+custom_arm_tex = "res://models/cogs/textures/boss/sleeve_original.png"
+custom_leg_tex = "res://models/cogs/textures/boss/leg_original.png"
+cog_name = "Club President"
+name_prefix = "Club"
+name_suffix = "President"
+head = "res://models/cogs/heads/ttr-club-president_head.glb"
+scale = 4.0
+head_textures = PackedStringArray("res://models/cogs/heads/ttr-club-president_head_ttr_t_ene_bossbotClubPresident.jpg")
+hand_color = Color(0.941176, 0.745098, 0.741176, 1)
+custom_nametag_suffix = "Supervisor"
+attacks = Array[ExtResource("1_q6kbo")]([ExtResource("2_xircq"), ExtResource("3_sj6vo"), ExtResource("4_tm2t0")])
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/boss_logic_club_president.tres", "res://objects/battle/battle_resources/status_effects/resources/attentive.tres", "res://objects/battle/battle_resources/status_effects/resources/tenure_status.tres", "res://objects/battle/battle_resources/status_effects/resources/status_effect_bunker.tres")
+is_female_cog = true
+health_mod = 2.0
+battle_phrases = Array[String](["You'll regret entering this facility...", "I'll counter your tricks with a trap of my own.", "Let me drive home this point clearly: you lose.", "What's wrong, Toon? You look puttered out.", "No iron will help you now.", "Don't sink too deep.", "Good luck taking this shot.", "You're just giving me another ball on the tee, Toon.", "You're in for a long game now.", "It's time for my shot.", "I won't whiff this opportunity.", "Let's see if your skills are up to par."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

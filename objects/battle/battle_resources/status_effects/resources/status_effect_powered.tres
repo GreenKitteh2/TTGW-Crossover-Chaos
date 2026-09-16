@@ -1,0 +1,13 @@
+[gd_resource type="Resource" format=3 uid="uid://by141j8woqmhe"]
+
+[ext_resource type="Texture2D" uid="uid://2pjonfmgboln" path="res://ui_assets/battle/statuses/power.png" id="1_bodxw"]
+[ext_resource type="Script" uid="uid://djktbbrxyi4cl" path="res://objects/battle/battle_resources/status_effects/status_effect_powered.gd" id="2_bodxw"]
+
+[resource]
+script = ExtResource("2_bodxw")
+quality = 0
+rounds = -1
+icon = ExtResource("1_bodxw")
+description = "With a Boss Cog fallen, you gained strength!"
+status_name = "Boss Power"
+id = 72

@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=6 format=3 uid="uid://cv3yw0vf6c56d"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_nouih"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_nouih"]
+[ext_resource type="Resource" uid="uid://erbbarg5bxm8" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex.tres" id="3_xnen8"]
+[ext_resource type="Resource" uid="uid://55lp6noha8te" path="res://objects/battle/battle_resources/cog_attacks/resources/shake.tres" id="4_7n3hp"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_v7luf"]
+
+[resource]
+script = ExtResource("5_v7luf")
+department = 5
+suit = 1
+cog_name = "Black Hat"
+name_plural = "Black Hats"
+name_prefix = "Black "
+name_suffix = " Hat"
+head = "res://models/cogs/heads/black-hat_head.glb"
+scale = 5.65
+head_textures = PackedStringArray("res://models/cogs/heads/black-hat_head_techbot_heads_palette.png")
+hand_color = Color(0.2901961, 0.2901961, 0.2901961, 1)
+custom_nametag_height = 10.0
+attacks = Array[ExtResource("1_nouih")]([ExtResource("2_nouih"), ExtResource("3_xnen8"), ExtResource("4_7n3hp")])
+level_low = 6
+level_high = 13
+battle_phrases = Array[String](["Toons like you have no chance against my security precautions.", "Your defenses look easily exploitable.", "It seems like I’ve identified a vulnerability for removal - YOU!", "Your code has some flaws in it.", "As we speak, I am cracking into your system.", "Looks like you have some cracks in your firewall.", "Hats off Toon, this is serious business.", "I can be a real mad hatter."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

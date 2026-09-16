@@ -1,0 +1,34 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://b0ro127nixqo4"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_h1phe"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="2_14hhu"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="3_h1phe"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="4_7icac"]
+[ext_resource type="Resource" uid="uid://qk4f4h40o5u1" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip.tres" id="4_14hhu"]
+[ext_resource type="Resource" uid="uid://c82q6b10di5a1" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time.tres" id="6_hk0pw"]
+[ext_resource type="Resource" uid="uid://slywi7r3q78s" path="res://objects/battle/battle_resources/cog_signature_attack/resources/bulk_up.tres" id="7_db7fs"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_np4jo"]
+
+[resource]
+script = ExtResource("7_np4jo")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/slender/blazer.png"
+custom_arm_tex = "res://models/cogs/textures/slender/sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/slender/leg.png"
+cog_name = "Valentino"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/valentino.glb"
+scale = 5.75
+hand_color = Color(0, 0, 0, 1)
+custom_nametag_suffix = "Omnipotent"
+attacks = Array[ExtResource("1_h1phe")]([ExtResource("4_7icac"), ExtResource("3_h1phe"), ExtResource("4_14hhu"), ExtResource("2_14hhu"), ExtResource("6_hk0pw"), ExtResource("7_db7fs")])
+level_low = 5
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_omnipotent_tier.tres")
+is_crossover_cog = true
+health_mod = 3.0
+battle_phrases = Array[String](["Why are people snippy with me.", "Someone slapped me...I told somebody, AND THAT SAID SOMEONE SAID I WAS SEEING THINGS!", "People are looking at me like I did something."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://68hs3tlncjwx"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_0leik"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_mowge"]
+[ext_resource type="Resource" uid="uid://c3gg5tsci6aye" path="res://objects/battle/battle_resources/cog_attacks/resources/hang_up.tres" id="3_0leik"]
+[ext_resource type="Resource" uid="uid://c27ek2anjbx88" path="res://objects/battle/battle_resources/cog_attacks/resources/pound_key.tres" id="4_mowge"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_2pxuh"]
+
+[resource]
+script = ExtResource("6_2pxuh")
+department = 2
+suit = 1
+cog_name = "Rodger"
+head = "res://models/crossover_cogs/dandys_world/Rodger.glb"
+scale = 3
+hand_color = Color(0.49411765, 0.41568628, 0.3529412, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_0leik")]([ExtResource("2_mowge"), ExtResource("3_0leik"), ExtResource("4_mowge")])
+level_low = 2
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["How did you get here?", "I've been getting some clues that you're doing this.", "We're just here to investigate."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="Track" format=3 uid="uid://5dld88ul3rb5"]
+
+[ext_resource type="Script" uid="uid://cwnjrxjvy5kc3" path="res://objects/battle/battle_resources/toon_attacks/toon_attack.gd" id="1_jr3yh"]
+[ext_resource type="Resource" uid="uid://bki40c6rfy1v7" path="res://objects/battle/battle_resources/gag_loadouts/gags/trap/banana_peel.tres" id="2_w7o6v"]
+[ext_resource type="Resource" uid="uid://ctuvtylm8x51g" path="res://objects/battle/battle_resources/gag_loadouts/gags/trap/rake.tres" id="3_glw60"]
+[ext_resource type="Resource" uid="uid://cn0duh0rw6c1y" path="res://objects/battle/battle_resources/gag_loadouts/gags/trap/marbles.tres" id="4_vfp6u"]
+[ext_resource type="Resource" uid="uid://bqbc0s71tpdgx" path="res://objects/battle/battle_resources/gag_loadouts/gags/trap/quicksand.tres" id="5_o7aoq"]
+[ext_resource type="Resource" uid="uid://cktfkn8wvmlqv" path="res://objects/battle/battle_resources/gag_loadouts/gags/trap/trap_door.tres" id="6_lyw1y"]
+[ext_resource type="Resource" uid="uid://c86syhj0hylkc" path="res://objects/battle/battle_resources/gag_loadouts/gags/trap/portable_hole.tres" id="7_6d8lu"]
+[ext_resource type="Resource" uid="uid://bo731q0esb6yy" path="res://objects/battle/battle_resources/gag_loadouts/gags/trap/tnt.tres" id="8_qpnl0"]
+[ext_resource type="Script" uid="uid://b6b6pfoqyolr" path="res://objects/battle/battle_resources/gag_loadouts/track.gd" id="22_lrt3n"]
+
+[resource]
+script = ExtResource("22_lrt3n")
+track_type = 1
+track_name = "Trap"
+track_color = Color(0.988235, 0.992157, 0.333333, 1)
+gags = Array[ExtResource("1_jr3yh")]([ExtResource("2_w7o6v"), ExtResource("3_glw60"), ExtResource("4_vfp6u"), ExtResource("5_o7aoq"), ExtResource("6_lyw1y"), ExtResource("7_6d8lu"), ExtResource("8_qpnl0")])
+mod_gags = Dictionary[ExtResource("1_jr3yh"), int]({
+ExtResource("2_w7o6v"): 0,
+ExtResource("3_glw60"): 1,
+ExtResource("4_vfp6u"): 2,
+ExtResource("5_o7aoq"): 3,
+ExtResource("6_lyw1y"): 4,
+ExtResource("7_6d8lu"): 5,
+ExtResource("8_qpnl0"): 6
+})

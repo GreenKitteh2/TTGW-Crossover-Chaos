@@ -1,0 +1,34 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://c7px342ty0xem"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_o0n8b"]
+[ext_resource type="Resource" uid="uid://cn30emocsuk56" path="res://objects/battle/battle_resources/cog_attacks/resources/liquidate_(super).tres" id="2_o0n8b"]
+[ext_resource type="Resource" uid="uid://gknc2gsxvfel" path="res://objects/battle/battle_resources/cog_attacks/resources/audit_(super).tres" id="3_o0n8b"]
+[ext_resource type="Resource" uid="uid://bb6y10rc4jl4p" path="res://objects/battle/battle_resources/cog_attacks/resources/tabulate_(super).tres" id="4_1gr5p"]
+[ext_resource type="Resource" uid="uid://ce6u0oh1apvej" path="res://objects/battle/battle_resources/cog_signature_attack/resources/life_insurance.tres" id="5_o0n8b"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_mdguj"]
+
+[resource]
+script = ExtResource("6_mdguj")
+department = 1
+suit = 2
+custom_blazer_tex = "res://models/cogs/textures/cash/blazer_exe.png"
+custom_arm_tex = "res://models/cogs/textures/cash/sleeve_exe.png"
+custom_leg_tex = "res://models/cogs/textures/cash/leg_exe.png"
+cog_name = "Mint Supervisor"
+name_prefix = "Mint "
+name_suffix = " Supervisor"
+head = "res://models/cogs/heads/skelecog_c.glb"
+scale = 7.35
+hand_color = Color(0.7607784, 0.90443414, 0.6108515, 1)
+head_color = Color(0.7607843, 0.90588236, 0.6117647, 1)
+attacks = Array[ExtResource("1_o0n8b")]([ExtResource("2_o0n8b"), ExtResource("3_o0n8b"), ExtResource("4_1gr5p"), ExtResource("5_o0n8b")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_manager = true
+health_mod = 2.0
+battle_phrases = Array[String](["I'm the Supervisor."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://d14cgc5pdqm8l"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_vvlwb"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="2_stahy"]
+[ext_resource type="Resource" uid="uid://dimhdaxn1tyey" path="res://objects/battle/battle_resources/cog_attacks/resources/tee_off.tres" id="3_mvahk"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="4_b0um1"]
+
+[resource]
+script = ExtResource("4_b0um1")
+department = 3
+custom_blazer_tex = "res://models/cogs/textures/boss/blazer_exe.png"
+custom_arm_tex = "res://models/cogs/textures/boss/sleeve_exe.png"
+custom_leg_tex = "res://models/cogs/textures/boss/leg_exe.png"
+cog_name = "Autocaddie"
+name_prefix = "Auto"
+name_suffix = "caddie"
+head = "res://models/cogs/heads/golf_skelecog.glb"
+scale = 4.34
+hand_color = Color(0.6872724, 0.57444423, 0.40156436, 1)
+head_color = Color(0.6862745, 0.57254905, 0.4, 1)
+attacks = Array[ExtResource("1_vvlwb")]([ExtResource("2_stahy"), ExtResource("3_mvahk")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+battle_phrases = Array[String](["I'm quite the careless driver.", "My talents are 'on par' with the boss.", "You should fore-sake all hope now.", "You sure you want to follow through?", "Don't tee me off, Toon."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://baqxsurrd5hp1"]
+
+[ext_resource type="Script" uid="uid://bulmva33hirjm" path="res://objects/battle/battle_resources/cog_signature_attack/ignite.gd" id="1_gbk1q"]
+
+[resource]
+script = ExtResource("1_gbk1q")
+damage = 4
+summary = "Burns the Toon!"
+attack_lines = Array[String](["Smell something burning?", "My coworkers always tell me I'm on fire. Heh.", "Ooh, you're on fire. Literally.", "What are you sweating for? Can't take the heat?"])
+action_name = "Ignite"

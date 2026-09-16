@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bpwqhmhlgj0hn"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_b4xl6"]
+[ext_resource type="Resource" uid="uid://dbyeiu73x1b8o" path="res://objects/battle/battle_resources/cog_signature_attack/resources/red_tape.tres" id="2_b4xl6"]
+[ext_resource type="Resource" uid="uid://dcth1mrm7s8bo" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip_(super).tres" id="3_xv0l8"]
+[ext_resource type="Resource" uid="uid://30grlrrpycv0" path="res://objects/battle/battle_resources/cog_signature_attack/resources/slush_fund.tres" id="4_3hsv5"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_f5ref"]
+[ext_resource type="Resource" uid="uid://dfkiplm26yl6a" path="res://objects/battle/battle_resources/cog_signature_attack/resources/stand_up_guy.tres" id="5_xv0l8"]
+
+[resource]
+script = ExtResource("5_f5ref")
+department = 1
+custom_blazer_tex = "res://models/cogs/textures/cash/blazer_exe.png"
+custom_arm_tex = "res://models/cogs/textures/cash/sleeve_exe.png"
+custom_leg_tex = "res://models/cogs/textures/cash/leg_exe.png"
+cog_name = "Charon"
+head = "res://models/cogs/heads/skelecog_a.glb"
+scale = 5.7
+hand_color = Color(0.5294118, 0.5058824, 0.4745098, 1)
+head_color = Color(0.5294118, 0.5058824, 0.4745098, 1)
+attacks = Array[ExtResource("1_b4xl6")]([ExtResource("2_b4xl6"), ExtResource("3_xv0l8"), ExtResource("4_3hsv5"), ExtResource("5_xv0l8")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_manager = true
+health_mod = 2.0
+battle_phrases = Array[String](["We'll launch ya out of town.", "Stick around and we'll put ya on ice, Toon."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

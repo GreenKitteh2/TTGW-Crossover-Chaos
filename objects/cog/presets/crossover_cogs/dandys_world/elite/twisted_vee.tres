@@ -1,0 +1,37 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://ca324dmcwwaln"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_yi4oc"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="2_d64wj"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="4_4gub5"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="4_yi4oc"]
+[ext_resource type="Resource" uid="uid://bmp6wgk24lvba" path="res://objects/battle/battle_resources/cog_attacks/resources/pop_quiz_math.tres" id="5_d64wj"]
+[ext_resource type="Resource" uid="uid://dwcurvq1jwvxu" path="res://objects/battle/battle_resources/cog_signature_attack/resources/disrupt.tres" id="6_vudbq"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_ebjg5"]
+
+[resource]
+script = ExtResource("7_ebjg5")
+department = 5
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/waiter/waiter_m_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/waiter/waiter_m_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/waiter/waiter_m_leg.png"
+cog_name = "Twisted Vee"
+name_prefix = "Twisted "
+name_suffix = " Vee"
+head = "res://models/crossover_cogs/dandys_world/Twisted Vee.glb"
+scale = 5.0
+hand_color = Color(0.54901963, 0.5529412, 0.54901963, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Elite"
+attacks = Array[ExtResource("1_yi4oc")]([ExtResource("4_4gub5"), ExtResource("2_d64wj"), ExtResource("4_yi4oc"), ExtResource("5_d64wj"), ExtResource("6_vudbq")])
+level_low = 8
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_elite_tier.tres")
+is_crossover_cog = true
+is_female_cog = true
+health_mod = 2.0
+battle_phrases = Array[String](["LOOK AT ME!", "Will you survive? WRONG!", "I can only slow your progress."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

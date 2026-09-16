@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://rqkb2yvybfmk"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_fdg4y"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="2_fdg4y"]
+[ext_resource type="Resource" uid="uid://cae3lr6y4rrb8" path="res://objects/battle/battle_resources/cog_attacks/resources/quake.tres" id="4_k38wp"]
+[ext_resource type="Resource" uid="uid://55lp6noha8te" path="res://objects/battle/battle_resources/cog_attacks/resources/shake.tres" id="5_lwry5"]
+[ext_resource type="Resource" uid="uid://bddy50xh8sfc8" path="res://objects/battle/battle_resources/cog_attacks/resources/tremor.tres" id="5_lx6xf"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_me7d5"]
+
+[resource]
+script = ExtResource("7_me7d5")
+department = 2
+suit = 1
+cog_name = "Twisted Waxwell"
+name_prefix = "Twisted "
+name_suffix = " Waxwell"
+head = "res://models/crossover_cogs/dandys_world/Twisted Waxwell.glb"
+scale = 4.45
+hand_color = Color(0.3882353, 0.34117648, 0.5058824, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_fdg4y")]([ExtResource("2_fdg4y"), ExtResource("5_lwry5"), ExtResource("4_k38wp"), ExtResource("5_lx6xf")])
+level_low = 7
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["I'm never a good villain...", "Please leave me alone.", "I'm burnt out from all this..."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

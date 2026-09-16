@@ -1,0 +1,19 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://bhrxdjb3o46ec"]
+
+[ext_resource type="Texture2D" uid="uid://dss3d5dy7l747" path="res://ui_assets/battle/statuses/bull_market.png" id="1_v5bxq"]
+[ext_resource type="Script" uid="uid://nvvgpruulfel" path="res://objects/battle/battle_resources/status_effects/boss_effects/auditor_bull_market.gd" id="2_gm530"]
+
+[resource]
+script = ExtResource("2_gm530")
+quality = 0
+rounds = 2
+rounds_offset = 0
+icon = ExtResource("1_v5bxq")
+icon_color = Color(1, 1, 1, 1)
+icon_scale = 1.0
+mini_icon_color = Color(1, 1, 1, 1)
+mini_icon_scale = 1.0
+visible = true
+description = "All Cogs gain 50% damage"
+status_name = "Bull Market"
+id = 49

@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=6 format=3 uid="uid://dsvapfvdwynan"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_djicc"]
+[ext_resource type="Resource" uid="uid://6hjcsu17tt4g" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm.tres" id="2_qh46m"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="3_djicc"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="4_brxy6"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_pdbrc"]
+
+[resource]
+script = ExtResource("6_pdbrc")
+department = 5
+suit = 2
+cog_name = "Shotgun Debugger"
+name_plural = "Shotgun Debuggers"
+name_prefix = "Shotgun "
+name_suffix = " Debugger"
+head = "res://models/cogs/heads/shotgun-debugger_head.glb"
+scale = 4.9
+head_textures = PackedStringArray("res://models/cogs/heads/shotgun-debugger_head_Image_0.png")
+hand_color = Color(0.23921569, 0.23137255, 0.21960784, 1)
+custom_nametag_height = 9.5
+attacks = Array[ExtResource("1_djicc")]([ExtResource("2_qh46m"), ExtResource("3_djicc"), ExtResource("4_brxy6")])
+level_low = 4
+level_high = 11
+battle_phrases = Array[String](["I know something will work for you.", "Let me remove your bugs.", "Are you buggy? Let me help.", "I'm being paid to fix your ways.", "I'll have to take you apart.", "Good, I was bored anyways.", "You need some urgent care.", "You're not going to like my debug procedure."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

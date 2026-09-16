@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://3dxin5galt7i"]
+
+[ext_resource type="Script" uid="uid://sw52mcwv4gv5" path="res://objects/battle/battle_resources/cog_attacks/tee_off_(super).gd" id="1_nek5i"]
+
+[resource]
+script = ExtResource("1_nek5i")
+damage = 4
+summary = "The Toon becomes dizzy on the next turn!"
+attack_lines = Array[String](["You're not up to par.", "Fore!", "I'm getting teed off.", "Caddie, I'll need my driver!", "Just try and avoid this hazard.", "Swing!", "This is a sure hole in one.", "You're in my fairway.", "Notice my grip.", "Watch the birdie!", "Keep your eye on the ball!", "Mind if I play through?"])
+action_name = "Tee Off"

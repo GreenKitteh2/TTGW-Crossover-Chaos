@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://dg4rhhrhafadi"]
+
+[ext_resource type="Script" uid="uid://dptfr3lc68nyh" path="res://objects/battle/battle_resources/cog_attacks/shake_(super).gd" id="1_xrwvp"]
+
+[resource]
+script = ExtResource("1_xrwvp")
+anim_type = 1
+damage = 4
+summary = "The Cog gain power for every successful hits."
+attack_lines = Array[String](["Bark Bark!"])
+action_name = "Shake"

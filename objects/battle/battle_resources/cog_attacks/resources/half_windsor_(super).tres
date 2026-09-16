@@ -1,0 +1,19 @@
+[gd_resource type="Resource" format=3 uid="uid://c4wlxoewkna7s"]
+
+[ext_resource type="PackedScene" uid="uid://de04llsyrr8r0" path="res://models/props/cog_props/half_windsor/half_windsor.fbx" id="1_746cw"]
+[ext_resource type="Script" uid="uid://bhslrjf7yis4s" path="res://objects/battle/battle_resources/cog_attacks/clip_on_tie_(super).gd" id="2_a3scs"]
+[ext_resource type="AudioStream" uid="uid://c13tykgnbuaqv" path="res://audio/sfx/battle/cogs/attacks/SA_powertie_throw.ogg" id="3_wq40b"]
+
+[resource]
+script = ExtResource("2_a3scs")
+model = ExtResource("1_746cw")
+model_rotation = Vector3(-0.0191986, 0.258309, -2.98975)
+model_scale = Vector3(6, 6, 6)
+model_position = Vector3(0.21, 0.718, -0.471)
+sfx_throw = ExtResource("3_wq40b")
+damage = 2
+summary = "The Toon becomes embarrassed that
+they forgot their tie!"
+attack_lines = Array[String](["This is the fanciest tie you'll ever see!", "Try not to get too winded.", "This isn't even half the trouble you're in.", "You're lucky I don't have a whole windsor.", "You can't afford this tie.", "I bet you've never even SEEN a half windsor!", "This tie is out of your league.", "I shouldn't even waste this tie on you.", "You're not even worth half of this tie!"])
+action_name = "Half Windsor"
+metadata/_custom_type_script = "uid://bb27him60xtnk"

@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dsr3fow4384i5"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_r6ase"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="2_r6ase"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="2_rvbpc"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="4_rvbpc"]
+[ext_resource type="Resource" uid="uid://bmp6wgk24lvba" path="res://objects/battle/battle_resources/cog_attacks/resources/pop_quiz_math.tres" id="5_rl3qd"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_6o6fq"]
+
+[resource]
+script = ExtResource("7_6o6fq")
+department = 2
+suit = 1
+cog_name = "Rouxls Kaard"
+name_plural = "Rouxls Kaards"
+name_prefix = "Rouxls "
+name_suffix = " Kaard"
+head = "res://models/crossover_cogs/undertale_and_deltarune/rouxls.glb"
+scale = 5.6
+hand_color = Color(0.0627451, 0, 0.3764706, 1)
+custom_nametag_height = 10.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_r6ase")]([ExtResource("2_r6ase"), ExtResource("2_rvbpc"), ExtResource("4_rvbpc"), ExtResource("5_rl3qd")])
+level_low = 7
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["So the worm decided to crawl out and play.", "I am Rouxls Kaard, Cogs' greatest adversary!", "Art thou has passed my puzzles?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

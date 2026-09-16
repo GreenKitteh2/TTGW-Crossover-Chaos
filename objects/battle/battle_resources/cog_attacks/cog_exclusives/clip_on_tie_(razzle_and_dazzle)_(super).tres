@@ -1,0 +1,17 @@
+[gd_resource type="Resource" format=3 uid="uid://g03t0h0i68et"]
+
+[ext_resource type="PackedScene" uid="uid://g8y8nk27j6d2" path="res://models/props/cog_props/clip_on_tie/clip_on_tie.fbx" id="1_du8cd"]
+[ext_resource type="Script" uid="uid://bhslrjf7yis4s" path="res://objects/battle/battle_resources/cog_attacks/clip_on_tie_(super).gd" id="2_du8cd"]
+[ext_resource type="AudioStream" uid="uid://c13tykgnbuaqv" path="res://audio/sfx/battle/cogs/attacks/SA_powertie_throw.ogg" id="3_8qlee"]
+
+[resource]
+script = ExtResource("2_du8cd")
+model = ExtResource("1_du8cd")
+model_rotation = Vector3(-0.228851, -1.87019, 2.443)
+model_position = Vector3(-0.320663, 0.61715, -0.615531)
+sfx_throw = ExtResource("3_8qlee")
+damage = 2
+summary = "The Toon is embarrassed by the mundane attire!"
+attack_lines = Array[String](["Better dress for our meeting. (I forgot to...)", "You can't go OUT without your tie. (I don't even like ties...)", "The best dressed Cogs wear them. (I don't count...)", "Try this on for size. (It's too small for me...)", "You should dress for success. (I'm a failiure...)", "No tie, no service. (Just wear the tie for once...)", "Do you need help putting this on? (I don't...)", "Nothing says powerful like a good tie. (I don't like wearing it...)", "Let's see if this fits. (It's too big for me...)", "This is going to choke you up. (It's too small...)", "You'll want to dress up before you go OUT. (You don't want to make the same mistake...)", "I think I'll tie you up. (I can't wear it...)"])
+action_name = "Clip On Tie"
+metadata/_custom_type_script = "uid://bb27him60xtnk"

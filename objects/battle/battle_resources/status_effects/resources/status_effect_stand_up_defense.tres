@@ -1,0 +1,12 @@
+[gd_resource type="Resource" format=3 uid="uid://clpncuf5dbhbp"]
+
+[ext_resource type="Texture2D" uid="uid://crcfjh485pt4s" path="res://ui_assets/battle/statuses/stand_up_defense.png" id="1_yqiye"]
+[ext_resource type="Script" uid="uid://c5lsa2r22lx2v" path="res://objects/battle/battle_resources/status_effects/status_effect_stand_up_defense.gd" id="2_yqiye"]
+
+[resource]
+script = ExtResource("2_yqiye")
+boost = 2.0
+quality = 0
+icon = ExtResource("1_yqiye")
+status_name = "Stand up Defense"
+id = 89

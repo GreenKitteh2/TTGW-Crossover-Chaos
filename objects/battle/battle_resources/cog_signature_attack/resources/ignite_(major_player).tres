@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://pdmpp4qlb2f5"]
+
+[ext_resource type="Script" uid="uid://bulmva33hirjm" path="res://objects/battle/battle_resources/cog_signature_attack/ignite.gd" id="1_oucie"]
+
+[resource]
+script = ExtResource("1_oucie")
+damage = 4
+summary = "Burns the Toon!"
+attack_lines = Array[String](["Clearly you don’t own an air fryer, babe.", "Tune so hot, hot hot tune, tune so hot you fry a Toon.", "Come on babe, here's a real hot tune!", "This tune's got some more flare than you can handle!", "Better not dance cold on my floor.", "It ain't a Summer Tune without some sun, baby!", "How're these for some fire notes, babe?", "Don't care for the blues? Let's heat it up!", "I play this one a little con fuoco!", "Burnin up babe?"])
+action_name = "Ignite"

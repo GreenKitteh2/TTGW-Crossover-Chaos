@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://b0wsmu8ma6umm"]
+
+[ext_resource type="Script" uid="uid://bulmva33hirjm" path="res://objects/battle/battle_resources/cog_signature_attack/ignite.gd" id="1_0t2o0"]
+
+[resource]
+script = ExtResource("1_0t2o0")
+damage = 4
+summary = "Burns the Toon!"
+attack_lines = Array[String](["You’ll make for satisfactory kindling.", "Those that play with fire will inevitably be burned.", "Whatever stake you have in this fight will be charred at my hand!", "Ashes to ashes, dust to dust."])
+action_name = "Ignite"

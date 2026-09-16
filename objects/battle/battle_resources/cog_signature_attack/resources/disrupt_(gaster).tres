@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://5wu4vwp4saab"]
+
+[ext_resource type="Script" uid="uid://bvsdy08yuqry8" path="res://objects/battle/battle_resources/cog_signature_attack/disrupt.gd" id="1_gvrkc"]
+
+[resource]
+script = ExtResource("1_gvrkc")
+damage = 0
+summary = "Cause gags to miss."
+attack_lines = Array[String](["☟︎♋︎❖︎♓︎■︎♑︎ ♋︎ ♒︎♋︎❒︎♎︎ ⧫︎♓︎❍︎♏︎ ♐︎□︎♍︎◆︎⬧︎♓︎■︎♑︎ ❄︎□︎□︎■︎✍︎", "✡︎□︎◆︎ ♎︎□︎■︎🕯︎⧫︎ ⬧︎⧫︎♋︎■︎♎︎ ♋︎ ♍︎♒︎♋︎■︎♍︎♏︎ ♒︎♓︎⧫︎⧫︎♓︎■︎♑︎ ⧫︎♒︎♓︎⬧︎ □︎■︎♏︎📬︎", "☟︎□︎⬥︎ ♋︎♌︎□︎◆︎⧫︎ ✋︎ ♑︎♏︎⧫︎ ⧫︎♒︎♓︎⬧︎ ♓︎■︎ ⍓︎□︎◆︎❒︎ ♒︎♏︎♋︎♎︎📬︎"])
+action_name = "Disrupt"

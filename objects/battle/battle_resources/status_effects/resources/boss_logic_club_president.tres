@@ -1,0 +1,17 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://2rckjhc7nbo1"]
+
+[ext_resource type="Script" uid="uid://d1bybswe4kx0x" path="res://objects/battle/battle_resources/status_effects/boss_effects/boss_logic_club_president.gd" id="1_x203v"]
+
+[resource]
+script = ExtResource("1_x203v")
+quality = 2
+rounds = -1
+rounds_offset = 0
+icon_color = Color(1, 1, 1, 1)
+icon_scale = 1.0
+mini_icon_color = Color(1, 1, 1, 1)
+mini_icon_scale = 1.0
+visible = false
+description = "Club President logic"
+status_name = "Club President logic"
+id = 48

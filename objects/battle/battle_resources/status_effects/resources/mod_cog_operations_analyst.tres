@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://copejcgrpiyg4"]
+
+[ext_resource type="Texture2D" uid="uid://6nj3dyqfuxwn" path="res://ui_assets/battle/statuses/track_immunity.png" id="1_i6uoc"]
+[ext_resource type="Script" uid="uid://ky27n61ksyc1" path="res://objects/battle/battle_resources/status_effects/mod_cog_effects/cog_mod_operations_analyst.gd" id="2_i6uoc"]
+
+[resource]
+script = ExtResource("2_i6uoc")
+rounds = -1
+icon = ExtResource("1_i6uoc")
+description = "This Cog has more defense but less damage"
+status_name = "Operations Analyst"
+id = 54

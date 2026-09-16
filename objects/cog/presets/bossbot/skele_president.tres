@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://c1iokaow4gm5x"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_gwvww"]
+[ext_resource type="Resource" uid="uid://dcth1mrm7s8bo" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip_(super).tres" id="2_5dh6l"]
+[ext_resource type="Resource" uid="uid://3dxin5galt7i" path="res://objects/battle/battle_resources/cog_attacks/resources/tee_off_(super).tres" id="3_gwvww"]
+[ext_resource type="Resource" uid="uid://bm1jfedumypco" path="res://objects/battle/battle_resources/cog_signature_attack/resources/extra_tip.tres" id="4_5dh6l"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_tkrvb"]
+
+[resource]
+script = ExtResource("6_tkrvb")
+department = 3
+custom_blazer_tex = "res://models/cogs/textures/boss/blazer_exe.png"
+custom_arm_tex = "res://models/cogs/textures/boss/sleeve_exe.png"
+custom_leg_tex = "res://models/cogs/textures/boss/leg_exe.png"
+cog_name = "Skele-President"
+name_prefix = "Skele-"
+name_suffix = "-President"
+head = "res://models/cogs/heads/golf_skelecog.glb"
+scale = 7.35
+hand_color = Color(0.6872724, 0.57444423, 0.40156436, 1)
+head_color = Color(0.6862745, 0.57254905, 0.4, 1)
+attacks = Array[ExtResource("1_gwvww")]([ExtResource("2_5dh6l"), ExtResource("3_gwvww"), ExtResource("4_5dh6l")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_manager = true
+health_mod = 2.0
+battle_phrases = Array[String](["I'm the Club President."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

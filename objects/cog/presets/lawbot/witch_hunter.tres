@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dwntg2kf5t78d"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_7n0cf"]
+[ext_resource type="Resource" uid="uid://bvgeevkm6gbgv" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/guilt_trip_(witch_hunter).tres" id="2_7n0cf"]
+[ext_resource type="Resource" uid="uid://b0wsmu8ma6umm" path="res://objects/battle/battle_resources/cog_signature_attack/resources/ignite_(witch_hunter).tres" id="3_7n0cf"]
+[ext_resource type="Resource" uid="uid://rs2tb3c1rabo" path="res://objects/battle/battle_resources/cog_signature_attack/resources/mob_mentality.tres" id="4_7n0cf"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_moc7e"]
+
+[resource]
+script = ExtResource("5_moc7e")
+department = 2
+custom_blazer_tex = "res://models/cogs/textures/law/blazer_exe.png"
+custom_arm_tex = "res://models/cogs/textures/law/sleeve_exe.png"
+custom_leg_tex = "res://models/cogs/textures/law/leg_exe.png"
+cog_name = "Witch Hunter"
+name_prefix = "Witch "
+name_suffix = " Hunter"
+head = "res://models/cogs/heads/witch-hunter_head.glb"
+scale = 6.5
+hand_color = Color(0.5254902, 0.5294118, 0.72156864, 1)
+attacks = Array[ExtResource("1_7n0cf")]([ExtResource("2_7n0cf"), ExtResource("3_7n0cf"), ExtResource("4_7n0cf")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_manager = true
+health_mod = 2.0
+battle_phrases = Array[String](["Feel the inferno of my indignation!", "I've no warmth in my heart for you.", "Your stultiloquence has been a great source of consternation to this organization.", "I've had enough of this mullock!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

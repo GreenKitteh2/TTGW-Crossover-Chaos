@@ -1,0 +1,13 @@
+[gd_resource type="Resource" format=3 uid="uid://dctl45w0e4cam"]
+
+[ext_resource type="Script" uid="uid://dmmosa71432p2" path="res://objects/battle/battle_resources/cog_signature_attack/gag_protection.gd" id="1_4n06d"]
+
+[resource]
+script = ExtResource("1_4n06d")
+accuracy = 100
+damage = 2
+summary = "Become immune to a random Gag"
+attack_lines = Array[String]([" .erofeb skcirt ruoy nees ev'I", " .em ta eno worht ot yrt uoy ees annaw I", " .ygetarts ruoy knihter ot emiT"])
+target_type = 1
+action_name = "noitcetorP gaG"
+crit_chance_mod = 0.0

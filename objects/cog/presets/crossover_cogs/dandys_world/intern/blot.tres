@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://d23moa43ybjs3"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_26rv6"]
+[ext_resource type="Resource" uid="uid://n5sep0bh4vsc" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/finger_wag_(blot).tres" id="2_rr1rh"]
+[ext_resource type="Resource" uid="uid://bqdviud5jc3mw" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/heckle_(blot).tres" id="3_26rv6"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_7rrwp"]
+
+[resource]
+script = ExtResource("6_7rrwp")
+department = 2
+suit = 1
+cog_name = "Blot"
+head = "res://models/crossover_cogs/dandys_world/Blot.glb"
+scale = 3
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_26rv6")]([ExtResource("2_rr1rh"), ExtResource("3_26rv6")])
+level_low = 3
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String]([" .yllanosrep ti ekat t'noD", " .elttil a truh thgim sihT", " .attaY dna yeooL rof siht gniod ylno m'I"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://d0pqvm07nb5f5"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_iclxq"]
+[ext_resource type="Resource" uid="uid://b022rudn3vkpt" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/brain_storm_(gaster).tres" id="2_e16f2"]
+[ext_resource type="Resource" uid="uid://b385yh2lk7pqn" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/quake_(gaster).tres" id="3_yeqmu"]
+[ext_resource type="Resource" uid="uid://dpxqb4sscudyg" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/power_trip_(gaster).tres" id="4_e7823"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_e2uob"]
+
+[resource]
+script = ExtResource("5_e2uob")
+department = 4
+suit = 1
+cog_name = "Gaster"
+name_plural = "Gasters"
+head = "res://models/crossover_cogs/undertale_and_deltarune/gaster.glb"
+scale = 6.4
+hand_color = Color(0.972549, 0.9882353, 0.972549, 1)
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_iclxq")]([ExtResource("2_e16f2"), ExtResource("3_yeqmu"), ExtResource("4_e7823")])
+level_low = 8
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["☟︎♏︎●︎●︎□︎ ❄︎□︎□︎■︎📪︎ 🏱︎❒︎♏︎◻︎♋︎❒︎♏︎ ⧫︎□︎ ●︎□︎⬧︎♏︎", "✋︎ ♋︎❍︎ ⧫︎♒︎♏︎ ❍︎♋︎■︎ ⬥︎♒︎□︎ ⬧︎◻︎♏︎♋︎🙵⬧︎ ♓︎■︎ ♒︎♋︎■︎♎︎⬧", "✋︎🕯︎❖︎♏︎ ♒︎♏︎♋︎❒︎♎︎ □︎♐︎ ⍓︎□︎◆︎ ⧫︎□︎□︎■︎"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

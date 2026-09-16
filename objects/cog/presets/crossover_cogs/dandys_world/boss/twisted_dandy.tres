@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://p2yukhpkav8h"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_olhib"]
+[ext_resource type="Resource" uid="uid://ctic2hlkgddom" path="res://objects/battle/battle_resources/cog_attacks/resources/evil_eye_(super).tres" id="2_64rky"]
+[ext_resource type="Resource" uid="uid://dcth1mrm7s8bo" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip_(super).tres" id="3_uqdab"]
+[ext_resource type="Resource" uid="uid://b8d005ps7d223" path="res://objects/battle/battle_resources/cog_attacks/resources/razzle_dazzle_(super).tres" id="4_pjuxe"]
+[ext_resource type="Resource" uid="uid://3dxin5galt7i" path="res://objects/battle/battle_resources/cog_attacks/resources/tee_off_(super).tres" id="5_ok7yi"]
+[ext_resource type="Resource" uid="uid://bad6gsuhm8ppm" path="res://objects/battle/battle_resources/cog_signature_attack/resources/point_steal.tres" id="6_64rky"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_d6fa3"]
+[ext_resource type="Resource" uid="uid://kmogjr4fp015" path="res://objects/battle/battle_resources/cog_signature_attack/resources/stagger.tres" id="7_5t6cm"]
+[ext_resource type="Resource" uid="uid://b35m7xym3lkwl" path="res://objects/battle/battle_resources/cog_signature_attack/resources/snipe.tres" id="8_uqdab"]
+
+[resource]
+script = ExtResource("6_d6fa3")
+department = 4
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_dandy_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_dandy_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_dandy_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Twisted Dandy"
+name_prefix = "Twisted "
+name_suffix = " Dandy"
+head = "res://models/crossover_cogs/dandys_world/Twisted Dandy.glb"
+scale = 5.9
+hand_color = Color(0.95686275, 0.94509804, 0.80784315, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_olhib")]([ExtResource("2_64rky"), ExtResource("3_uqdab"), ExtResource("4_pjuxe"), ExtResource("5_ok7yi"), ExtResource("6_64rky"), ExtResource("7_5t6cm"), ExtResource("8_uqdab")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["Those tapes are mine!", "Don't ignore me.", "You'll regret it now."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

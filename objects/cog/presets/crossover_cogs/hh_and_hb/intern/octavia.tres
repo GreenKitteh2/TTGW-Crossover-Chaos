@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bdt7xdtlg3vw7"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_xkw6x"]
+[ext_resource type="Resource" uid="uid://cae3lr6y4rrb8" path="res://objects/battle/battle_resources/cog_attacks/resources/quake.tres" id="2_e8u7b"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_xkw6x"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="3_e8u7b"]
+[ext_resource type="Resource" uid="uid://c3gg5tsci6aye" path="res://objects/battle/battle_resources/cog_attacks/resources/hang_up.tres" id="5_ntusu"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_gfj0h"]
+
+[resource]
+script = ExtResource("7_gfj0h")
+department = 2
+suit = 1
+cog_name = "Octavia"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/octavia.glb"
+scale = 6.45
+hand_color = Color(0.972549, 0.9882353, 0.972549, 1)
+custom_nametag_height = 9.2
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_xkw6x")]([ExtResource("2_xkw6x"), ExtResource("3_e8u7b"), ExtResource("2_e8u7b"), ExtResource("5_ntusu")])
+level_low = 5
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["Bad timing Toon...I'm just going through...something...", "Just fly away, I don't want to get into a fight..."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

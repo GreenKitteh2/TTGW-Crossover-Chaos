@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=6 format=3 uid="uid://d3wrfcbiq1f1o"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_owwcx"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="2_owwcx"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="3_6o5mx"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="4_0c0kb"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_75t4j"]
+
+[resource]
+script = ExtResource("5_75t4j")
+department = 6
+cog_name = "Anchor Man"
+name_plural = "Anchor Men"
+name_prefix = "Anchor "
+name_suffix = " Men"
+head = "res://models/cogs/heads/anchorman.glb"
+scale = 7.0
+head_textures = PackedStringArray("res://models/cogs/heads/anchorman_anchorman.png")
+hand_color = Color(0.8, 0.7764706, 0.7647059, 1)
+attacks = Array[ExtResource("1_owwcx")]([ExtResource("2_owwcx"), ExtResource("3_6o5mx"), ExtResource("4_0c0kb")])
+level_low = 8
+level_high = 15
+battle_phrases = Array[String](["Good news: I'll be defeating you. Bad news: You'll be defeated.", "Breaking news! You're going to be defeated.", "This just in - Toon goes WAY over their head trying to battle me.", "I'm Anchor Man, and welcome to your daily Toon beatdown.", "Why look at that, it's time for me to give you a Toon-o'clock news report!", "It is with a heavy heart that I report on the news of your defeat.", "We interrupt your program to bring a wave of sadness.", "The tragic story of your defeat is the top story of the night.", "Ghost Writer sends his regards.", "My teleprompter is only showing me images of your defeat."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

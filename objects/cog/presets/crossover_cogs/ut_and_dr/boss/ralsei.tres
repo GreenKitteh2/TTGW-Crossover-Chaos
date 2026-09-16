@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://ccxsuy6hyr6yl"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_3gbmy"]
+[ext_resource type="Resource" uid="uid://dunqnjlafu5n0" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag_(super).tres" id="2_mc8gn"]
+[ext_resource type="Resource" uid="uid://d164evvd4rxxi" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm_(super).tres" id="3_xe7oe"]
+[ext_resource type="Resource" uid="uid://bt1h3skm0otjo" path="res://objects/battle/battle_resources/cog_attacks/resources/tremor_(super).tres" id="4_2udbl"]
+[ext_resource type="Resource" uid="uid://cn30emocsuk56" path="res://objects/battle/battle_resources/cog_attacks/resources/liquidate_(super).tres" id="5_thq23"]
+[ext_resource type="Resource" uid="uid://cwo1w818pihtu" path="res://objects/battle/battle_resources/cog_signature_attack/resources/heal.tres" id="6_5uhon"]
+[ext_resource type="Resource" uid="uid://fp5ns26ji4uo" path="res://objects/battle/battle_resources/cog_signature_attack/resources/heal_all.tres" id="7_5dsmb"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_e5sg1"]
+[ext_resource type="Resource" uid="uid://du05l8r6sxyrq" path="res://objects/battle/battle_resources/cog_signature_attack/resources/ignite.tres" id="8_mc8gn"]
+
+[resource]
+script = ExtResource("7_e5sg1")
+department = 3
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/ut_and_dr/ralsei_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/ut_and_dr/ralsei_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/ut_and_dr/ralsei_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/undertale.png"
+cog_name = "Ralsei"
+name_plural = "Ralseis"
+head = "res://models/crossover_cogs/undertale_and_deltarune/ralsei.glb"
+scale = 4.45
+hand_color = Color(0.019607844, 0.043137256, 0.03137255, 1)
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_3gbmy")]([ExtResource("2_mc8gn"), ExtResource("3_xe7oe"), ExtResource("4_2udbl"), ExtResource("5_thq23"), ExtResource("6_5uhon"), ExtResource("7_5dsmb"), ExtResource("8_mc8gn")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["Hey now let's not fight here.", "But...Cakes aren't ment for throwing."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

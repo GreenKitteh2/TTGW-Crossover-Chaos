@@ -1,0 +1,15 @@
+[gd_resource type="Resource" format=3 uid="uid://c3ed4nf6rvgyp"]
+
+[ext_resource type="PackedScene" uid="uid://d03k2e6a74tko" path="res://objects/battle/effects/cloud_attacks/brain_storm.tscn" id="1_u1ub3"]
+[ext_resource type="Script" uid="uid://d58510p3fqlj" path="res://objects/battle/battle_resources/cog_attacks/brain_storm_(super).gd" id="2_esscd"]
+[ext_resource type="AudioStream" uid="uid://dbmpl58jist24" path="res://audio/sfx/battle/cogs/attacks/SA_brainstorm.ogg" id="3_tg15a"]
+
+[resource]
+script = ExtResource("2_esscd")
+particles = ExtResource("1_u1ub3")
+sfx = ExtResource("3_tg15a")
+animation = 1
+damage = 4
+summary = "The Toon's Gags loses points!"
+attack_lines = Array[String](["I love to be- to be a wet bla-a-a-anket.", "I want to- want to-o-o enlighten you.", "Hope yo-o-o-ou packed your umbrella- umbrella.", "I'm going- going to take you by- by storm.", "Not so-o-o-o sunny now, are you- are you Toon?"])
+action_name = "Brain Storm"

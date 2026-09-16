@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://b1wjn6g7o15yv"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_m3emr"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_vnj5x"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="3_m3emr"]
+[ext_resource type="Resource" uid="uid://doowiij7lpxy1" path="res://objects/battle/battle_resources/cog_attacks/resources/rubber_stamp.tres" id="4_vnj5x"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_qsqj7"]
+
+[resource]
+script = ExtResource("5_qsqj7")
+department = 4
+suit = 2
+cog_name = "Bagholder"
+name_plural = "Bagholders"
+name_prefix = "Bag"
+name_suffix = "holder"
+head = "res://models/cogs/heads/bagholder.glb"
+scale = 3.8
+head_textures = PackedStringArray("res://models/cogs/heads/bagholder_cc_t_ene_bagholder_exe.png")
+hand_color = Color(0.615686, 0.752941, 0.768627, 1)
+attacks = Array[ExtResource("1_m3emr")]([ExtResource("2_vnj5x"), ExtResource("3_m3emr"), ExtResource("4_vnj5x")])
+level_high = 8
+battle_phrases = Array[String](["You won't be worth much once we're done here.", "Cat's outta the bag, I'm winnin' this one.", "This'll be tied up quickly.", "Hold on Toon, lemme wrap this right up.", "Looks like your laff's value is gonna depreciate.", "I've got this battle in the bag!", "I'm not lettin' go till you've gone sad.", "I'll be holdin' on to this victory.", "Don't hold on to the idea of you beatin' me now.", "How's about we bag this one up real quick?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

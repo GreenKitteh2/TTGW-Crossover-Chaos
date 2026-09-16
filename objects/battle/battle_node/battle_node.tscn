@@ -1,0 +1,67 @@
+[gd_scene format=3 uid="uid://direah3lbjuu5"]
+
+[ext_resource type="Script" uid="uid://b0it87ebfs4qt" path="res://objects/battle/battle_node/battle_node.gd" id="1_8sgxc"]
+[ext_resource type="Resource" uid="uid://v7w5xrdb3eh4" path="res://objects/items/pools/battle_clears.tres" id="2_5be2w"]
+[ext_resource type="PackedScene" uid="uid://b0d1er4oqiqcn" path="res://objects/general_ui/general_button/general_button.tscn" id="3_ck76g"]
+[ext_resource type="FontFile" uid="uid://815gwlftl5ik" path="res://fonts/impress-bt.ttf" id="4_2sbpv"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_hs6yv"]
+radius = 2.5
+
+[sub_resource type="TextMesh" id="TextMesh_6r1av"]
+text = "--->"
+font_size = 127
+
+[sub_resource type="LabelSettings" id="LabelSettings_g2407"]
+font = ExtResource("4_2sbpv")
+font_size = 36
+shadow_color = Color(0, 0, 0, 1)
+
+[node name="BattleNode" type="Area3D" unique_id=941045456]
+collision_mask = 2
+script = ExtResource("1_8sgxc")
+item_pool = ExtResource("2_5be2w")
+
+[node name="BirdsEye" type="Node3D" parent="." unique_id=762922074]
+transform = Transform3D(1, 2.6057746e-08, 2.0790448e-08, -3.0816768e-08, 0.96044004, 0.2784882, -1.2711196e-08, -0.2784882, 0.96044004, 0, 2.8359518, 7.0527034)
+
+[node name="BattleCamera" type="Camera3D" parent="BirdsEye" unique_id=2138205551]
+physics_interpolation_mode = 2
+fov = 48.8
+
+[node name="Area3D" type="Area3D" parent="BirdsEye/BattleCamera" unique_id=1419315205]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="BirdsEye/BattleCamera/Area3D" unique_id=2092692447]
+shape = SubResource("SphereShape3D_hs6yv")
+
+[node name="ArrowReference" type="MeshInstance3D" parent="." unique_id=699319217]
+transform = Transform3D(-4.37114e-08, 1, 4.37114e-08, 0, -4.37114e-08, 1, 1, 4.37114e-08, 1.91069e-15, 0, 0.565281, 0)
+mesh = SubResource("TextMesh_6r1av")
+
+[node name="SkipButton" parent="." unique_id=800325670 instance=ExtResource("3_ck76g")]
+unique_name_in_owner = true
+visible = false
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -176.0
+offset_top = -101.0
+offset_right = -7.0
+offset_bottom = -35.0
+grow_horizontal = 0
+grow_vertical = 0
+text = "Skip"
+font_size = 36.0
+
+[node name="Label" parent="SkipButton" index="0"]
+text = "Skip"
+label_settings = SubResource("LabelSettings_g2407")
+
+[connection signal="body_entered" from="." to="." method="body_entered"]
+[connection signal="s_player_entered" from="." to="." method="player_entered"]
+[connection signal="body_entered" from="BirdsEye/BattleCamera/Area3D" to="." method="_on_camera_area_body_entered"]
+[connection signal="body_exited" from="BirdsEye/BattleCamera/Area3D" to="." method="_on_camera_area_body_exited"]
+
+[editable path="SkipButton"]

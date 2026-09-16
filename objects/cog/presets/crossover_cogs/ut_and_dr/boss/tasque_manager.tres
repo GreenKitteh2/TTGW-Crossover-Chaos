@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://1lnk145vg3rc"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_u2ldn"]
+[ext_resource type="Resource" uid="uid://df2ueh21w75ct" path="res://objects/battle/battle_resources/cog_attacks/resources/shake_(super).tres" id="2_f0xqj"]
+[ext_resource type="Resource" uid="uid://upir6hjcnwa5" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex_(super).tres" id="3_bjfkm"]
+[ext_resource type="Resource" uid="uid://dcth1mrm7s8bo" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip_(super).tres" id="4_6lw78"]
+[ext_resource type="Resource" uid="uid://bxlgjda1mpx2a" path="res://objects/battle/battle_resources/cog_signature_attack/resources/protect.tres" id="5_ykw5w"]
+[ext_resource type="Resource" uid="uid://cwo1w818pihtu" path="res://objects/battle/battle_resources/cog_signature_attack/resources/heal.tres" id="6_f0xqj"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_mx73c"]
+[ext_resource type="Resource" uid="uid://dbyeiu73x1b8o" path="res://objects/battle/battle_resources/cog_signature_attack/resources/red_tape.tres" id="7_f0xqj"]
+
+[resource]
+script = ExtResource("6_mx73c")
+department = 5
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/ut_and_dr/tasque_manager_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/ut_and_dr/tasque_manager_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/ut_and_dr/tasque_manager_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/undertale.png"
+cog_name = "Tasque Manager"
+name_plural = "Tasque Managers"
+name_prefix = "Tasque "
+name_suffix = " Manager"
+head = "res://models/crossover_cogs/undertale_and_deltarune/tasque manager.glb"
+scale = 6.15
+hand_color = Color(0.972549, 0.9764706, 0.9607843, 1)
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_u2ldn")]([ExtResource("2_f0xqj"), ExtResource("3_bjfkm"), ExtResource("4_6lw78"), ExtResource("5_ykw5w"), ExtResource("6_f0xqj"), ExtResource("7_f0xqj")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_female_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["I want order in this faclitiy.", "I'll deal with this situation like ABC."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://bad6gsuhm8ppm"]
+
+[ext_resource type="Script" uid="uid://cwfqhppgkioon" path="res://objects/battle/battle_resources/cog_signature_attack/point_steal.gd" id="1_kqf1d"]
+
+[resource]
+script = ExtResource("1_kqf1d")
+damage = 0
+summary = "steals gags points"
+attack_lines = Array[String](["Yoink!", "What's that in your pocket?", "Mine!", "I'm going to be taking that"])
+action_name = "Point Steal"

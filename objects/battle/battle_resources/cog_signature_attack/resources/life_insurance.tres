@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3 uid="uid://ce6u0oh1apvej"]
+
+[ext_resource type="Script" uid="uid://b4c6odd3n53k3" path="res://objects/battle/battle_resources/cog_signature_attack/life_insurance.gd" id="1_vxiyf"]
+
+[resource]
+script = ExtResource("1_vxiyf")
+accuracy = 100
+damage = 2
+summary = "Regain health and gain strength 
+based on number of cogs!"
+attack_lines = Array[String](["While I still have assets, I am insured."])
+target_type = 4
+action_name = "Life Insurance"
+crit_chance_mod = 0.0

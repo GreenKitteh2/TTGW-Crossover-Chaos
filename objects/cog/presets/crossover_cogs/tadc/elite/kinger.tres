@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://ctqisu1vayg50"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_xayl8"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_74huu"]
+[ext_resource type="Resource" uid="uid://6hjcsu17tt4g" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm.tres" id="3_g7v2v"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="4_jl7jg"]
+[ext_resource type="Resource" uid="uid://55lp6noha8te" path="res://objects/battle/battle_resources/cog_attacks/resources/shake.tres" id="5_xayl8"]
+[ext_resource type="Resource" uid="uid://bxlgjda1mpx2a" path="res://objects/battle/battle_resources/cog_signature_attack/resources/protect.tres" id="6_74huu"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_isman"]
+
+[resource]
+script = ExtResource("7_isman")
+department = 4
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/waiter/waiter_m_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/waiter/waiter_m_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/waiter/waiter_m_leg.png"
+cog_name = "Kinger"
+name_prefix = "King"
+name_suffix = "er"
+head = "res://models/crossover_cogs/tadc/kinger.glb"
+scale = 6.6
+hand_color = Color(0.9372549, 0.627451, 0.3764706, 1)
+custom_nametag_suffix = "Elite"
+attacks = Array[ExtResource("1_xayl8")]([ExtResource("2_74huu"), ExtResource("3_g7v2v"), ExtResource("4_jl7jg"), ExtResource("5_xayl8"), ExtResource("6_74huu")])
+level_low = 6
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_elite_tier.tres")
+is_crossover_cog = true
+health_mod = 2.0
+battle_phrases = Array[String](["T...Toon?! TOON!", "Oh a Toon, at least I have a buddy with...me."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

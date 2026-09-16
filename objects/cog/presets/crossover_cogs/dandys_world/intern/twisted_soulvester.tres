@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bdkvm6u6r6a1j"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_l5hqx"]
+[ext_resource type="Resource" uid="uid://dimhdaxn1tyey" path="res://objects/battle/battle_resources/cog_attacks/resources/tee_off.tres" id="2_l5hqx"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="3_4eoo1"]
+[ext_resource type="Resource" uid="uid://dwkmwkdn3ws4k" path="res://objects/battle/battle_resources/cog_attacks/resources/evil_eye.tres" id="4_vv8on"]
+[ext_resource type="Resource" uid="uid://bpupdhbap1rq" path="res://objects/battle/battle_resources/cog_attacks/resources/freeze_assets.tres" id="5_p5ko5"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_luinr"]
+
+[resource]
+script = ExtResource("7_luinr")
+department = 4
+cog_name = "Twisted Soulvester"
+name_prefix = "Twisted "
+name_suffix = " Soulvester"
+head = "res://models/crossover_cogs/dandys_world/Twisted Soulvester.glb"
+scale = 3.5
+hand_color = Color(0.28627452, 0.28627452, 0.28627452, 1)
+custom_nametag_height = 12.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_l5hqx")]([ExtResource("2_l5hqx"), ExtResource("3_4eoo1"), ExtResource("4_vv8on"), ExtResource("5_p5ko5")])
+level_low = 6
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["You...are my enemy!", "You are in my way...", "My quest is never over."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

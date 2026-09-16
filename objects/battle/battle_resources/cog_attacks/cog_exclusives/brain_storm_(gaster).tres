@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3 uid="uid://b022rudn3vkpt"]
+
+[ext_resource type="PackedScene" uid="uid://d03k2e6a74tko" path="res://objects/battle/effects/cloud_attacks/brain_storm.tscn" id="1_fy2ti"]
+[ext_resource type="Script" uid="uid://cvbmppwfs711e" path="res://objects/battle/battle_resources/cog_attacks/liquidate.gd" id="2_hf4i0"]
+[ext_resource type="AudioStream" uid="uid://dbmpl58jist24" path="res://audio/sfx/battle/cogs/attacks/SA_brainstorm.ogg" id="3_hsy78"]
+
+[resource]
+script = ExtResource("2_hf4i0")
+particles = ExtResource("1_fy2ti")
+sfx = ExtResource("3_hsy78")
+animation = 1
+damage = 4
+attack_lines = Array[String](["✋︎ ♐︎□︎❒︎♏︎♍︎♋︎⬧︎⧫︎ ❒︎♋︎♓︎■︎📬︎", "☟︎□︎◻︎♏︎ ⍓︎□︎◆︎ ◻︎♋︎♍︎🙵♏︎♎︎ ⍓︎□︎◆︎❒︎ ◆︎❍︎♌︎❒︎♏︎●︎●︎♋︎📬︎", "✋︎ ⬥︎♋︎■︎⧫︎ ⧫︎□︎ ♏︎■︎●︎♓︎♑︎♒︎⧫︎♏︎■︎ ⍓︎□︎◆︎📬︎", "☟︎□︎⬥︎ ♋︎♌︎□︎◆︎⧫︎ ♋︎ ♐︎♏︎⬥︎ ❒︎♋︎♓︎■︎ 👎︎☼︎⚐︎🏱︎💧︎✍︎", "☠︎□︎⧫︎ ⬧︎□︎ ⬧︎◆︎■︎■︎⍓︎ ■︎□︎⬥︎📪︎ ♋︎❒︎♏︎ ⍓︎□︎◆︎ ❄︎□︎□︎■︎✍︎", "☼︎♏︎♋︎♎︎⍓︎ ♐︎□︎❒︎ ♋︎ ♎︎□︎⬥︎■︎ ◻︎□︎◆︎❒︎✍︎", "✋︎🕯︎❍︎ ♑︎□︎♓︎■︎♑︎ ⧫︎□︎ ⧫︎♋︎🙵♏︎ ⍓︎□︎◆︎ ♌︎⍓︎ ⬧︎⧫︎□︎❒︎❍︎📬︎", "✋︎ ♍︎♋︎●︎●︎ ⧫︎♒︎♓︎⬧︎ ♋︎ ●︎♓︎♑︎♒︎⧫︎■︎♓︎■︎♑︎ ♋︎⧫︎⧫︎♋︎♍︎🙵📬︎", "✋︎ ●︎□︎❖︎♏︎ ⧫︎□︎ ♌︎♏︎ ♋︎ ⬥︎♏︎⧫︎ ♌︎●︎♋︎■︎🙵♏︎⧫︎📬︎"])
+action_name = "Brain Storm"

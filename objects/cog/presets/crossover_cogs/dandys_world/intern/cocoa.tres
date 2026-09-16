@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://d2wik3xamqtk5"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_wccu6"]
+[ext_resource type="Resource" uid="uid://cae3lr6y4rrb8" path="res://objects/battle/battle_resources/cog_attacks/resources/quake.tres" id="2_wccu6"]
+[ext_resource type="Resource" uid="uid://55lp6noha8te" path="res://objects/battle/battle_resources/cog_attacks/resources/shake.tres" id="3_4q1me"]
+[ext_resource type="Resource" uid="uid://bddy50xh8sfc8" path="res://objects/battle/battle_resources/cog_attacks/resources/tremor.tres" id="4_ahu8r"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_k0h3l"]
+
+[resource]
+script = ExtResource("6_k0h3l")
+suit = 1
+cog_name = "Cocoa"
+head = "res://models/crossover_cogs/dandys_world/Cocoa.glb"
+scale = 3
+hand_color = Color(0.6117647, 0.38431373, 0.26666668, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_wccu6")]([ExtResource("2_wccu6"), ExtResource("3_4q1me"), ExtResource("4_ahu8r")])
+level_low = 3
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["Let's hop into battle!", "I got bonbons.", "Allow me to help in this battle."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

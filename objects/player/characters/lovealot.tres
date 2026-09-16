@@ -1,0 +1,67 @@
+[gd_resource type="Resource" script_class="PlayerCharacter" format=3 uid="uid://wev3muf7v53g"]
+
+[ext_resource type="Script" uid="uid://combwqypom1ru" path="res://objects/items/classes/item.gd" id="1_kh7h3"]
+[ext_resource type="Script" uid="uid://o2fe7ud1faj6" path="res://objects/battle/battle_resources/stats.gd" id="2_26tpm"]
+[ext_resource type="Script" uid="uid://c8kas2j4io1jh" path="res://objects/toon/clothing/toon_bottoms.gd" id="3_ivgxb"]
+[ext_resource type="Texture2D" uid="uid://bwbe11pfn3to0" path="res://models/toon/textures/clothes/skirts/desat_skirt_1_4.png" id="4_75c76"]
+[ext_resource type="Script" uid="uid://yg7gxug4rab" path="res://objects/toon/toon_dna.gd" id="5_qypqp"]
+[ext_resource type="Script" uid="uid://dfqwh4jmdy0iw" path="res://objects/toon/clothing/toon_shirt.gd" id="6_uonpx"]
+[ext_resource type="Texture2D" uid="uid://dsikqlc2iiid4" path="res://models/toon/textures/clothes/shirts/desat_shirt_1_4.png" id="7_u1f8m"]
+[ext_resource type="Texture2D" uid="uid://dh7dyokcfyw43" path="res://models/toon/textures/clothes/shirts/desat_sleeve_1.png" id="8_uoxrq"]
+[ext_resource type="Resource" uid="uid://tyi7ukxtvcgc" path="res://objects/battle/battle_resources/gag_loadouts/loadouts/standard_loadout.tres" id="9_j7kxp"]
+[ext_resource type="Script" uid="uid://ts8xpgftpmty" path="res://objects/player/character.gd" id="10_tvwhk"]
+[ext_resource type="Resource" uid="uid://b6hm206k24bvi" path="res://objects/items/resources/passive/lovealot_power.tres" id="11_rrqii"]
+[ext_resource type="Resource" uid="uid://c06bx8jjekiea" path="res://objects/items/resources/passive/lovealot_anomaly.tres" id="12_26tpm"]
+[ext_resource type="Resource" uid="uid://bfkuxhwhi17r4" path="res://objects/items/resources/accessories/backpacks/angel_wings.tres" id="12_d5g80"]
+
+[sub_resource type="Resource" id="Resource_4mp7f"]
+script = ExtResource("2_26tpm")
+defense = 2.0
+speed = 1.5
+max_hp = 62
+hp = 62
+
+[sub_resource type="Resource" id="Resource_2bsmm"]
+script = ExtResource("3_ivgxb")
+texture = ExtResource("4_75c76")
+
+[sub_resource type="Resource" id="Resource_17x8t"]
+script = ExtResource("6_uonpx")
+shirt_texture = ExtResource("7_u1f8m")
+sleeve_texture = ExtResource("8_uoxrq")
+
+[sub_resource type="Resource" id="Resource_ppw05"]
+script = ExtResource("5_qypqp")
+body_type = 1
+leg_type = 2
+species = 1
+head_index = 2
+skirt = true
+shirt = SubResource("Resource_17x8t")
+bottoms = SubResource("Resource_2bsmm")
+
+[resource]
+script = ExtResource("10_tvwhk")
+character_name = "Lovealot"
+character_summary = "- Gain an extra laff for every crossover cog
+destroyed
+- Defense boosted based on negative anomolies"
+character_blurb = "Rumors says that she was formed within the Horizon.
+An angel to protect all Toons."
+dna = SubResource("Resource_ppw05")
+gag_loadout = ExtResource("9_j7kxp")
+starting_laff = 62
+starting_items = Array[ExtResource("1_kh7h3")]([ExtResource("11_rrqii"), ExtResource("12_26tpm"), ExtResource("12_d5g80")])
+base_stats = SubResource("Resource_4mp7f")
+starting_gags = Dictionary[String, int]({
+"Drop": 1,
+"Lure": 0,
+"Sound": 0,
+"Squirt": 1,
+"Throw": 0,
+"Trap": 0
+})
+additional_stats = Dictionary[String, Variant]({
+"luck": 1.0
+})
+achievement_index = 18

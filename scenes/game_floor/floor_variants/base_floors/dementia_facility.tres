@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="FloorVariant" format=3 uid="uid://c3mxxcfbroxxh"]
+
+[ext_resource type="Resource" uid="uid://bnubj377geur5" path="res://objects/cog/presets/pools/grunt_cogs.tres" id="1_ff5no"]
+[ext_resource type="Texture2D" uid="uid://dk8blvnojtypm" path="res://models/cogs/misc/hp_light/dementia.png" id="2_5w04t"]
+[ext_resource type="Resource" uid="uid://dpikfhra45gf7" path="res://scenes/game_floor/department_floors/rooms_dementia.tres" id="5_cs0wh"]
+[ext_resource type="Script" uid="uid://bto4vf3x4gmme" path="res://scenes/game_floor/floor_modifiers/scripts/misc/floor_mod_sbhq_sky.gd" id="6_e820f"]
+[ext_resource type="Script" uid="uid://crrxkfacwb8oa" path="res://scenes/game_floor/floor_modifiers/scripts/misc/floor_mod_dementia.gd" id="7_t5fog"]
+[ext_resource type="Script" uid="uid://cxvrtrods5hgg" path="res://scenes/game_floor/floor_variants/floor_variant.gd" id="8_yqxnl"]
+
+[resource]
+script = ExtResource("8_yqxnl")
+floor_type = ExtResource("5_cs0wh")
+floor_name = "Demented Facility"
+cog_pool = ExtResource("1_ff5no")
+modifiers = Array[Script]([ExtResource("6_e820f"), ExtResource("7_t5fog")])
+floor_icons = Array[Texture2D]([ExtResource("2_5w04t")])

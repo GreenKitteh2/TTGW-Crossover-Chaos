@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://curhvbukp43ic"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_iqw3o"]
+[ext_resource type="Resource" uid="uid://cfwymrymjx7s5" path="res://objects/battle/battle_resources/cog_attacks/resources/write_off.tres" id="2_iqw3o"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="3_h7dt7"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="4_tjnan"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_xaq20"]
+
+[resource]
+script = ExtResource("5_xaq20")
+department = 2
+suit = 1
+cog_name = "Pettifogger"
+name_plural = "Pettifoggers"
+name_prefix = "Petti"
+name_suffix = "fogger"
+head = "res://models/cogs/heads/pettifogger.glb"
+scale = 4.3
+head_textures = PackedStringArray("res://models/cogs/heads/pettifogger_ttcc_ene_pettifogger.png")
+hand_color = Color(0.52156866, 0.54901963, 0.70980394, 1)
+attacks = Array[ExtResource("1_iqw3o")]([ExtResource("2_iqw3o"), ExtResource("3_h7dt7"), ExtResource("4_tjnan")])
+level_low = 2
+level_high = 9
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/mod_cog_operations_analyst.tres")
+health_mod = 1.5
+battle_phrases = Array[String](["Clearly, you've been outmatched.", "I’ll gladly fight over petty differences.", "You need glasses if you think you can beat me.", "Fog-get about winning this one, Toon.", "Don't worry toon, I'm not walking into this one blind.", "Your vision must be foggy.", "I can't see you winning this one.", "A petty you ran into me.", "This battle should be quite a spectacle.", "I haven't mist a Toon yet.", "You can't beat my specs, Toon.", "I can see your defeat quite clearly."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

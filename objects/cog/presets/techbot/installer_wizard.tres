@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=7 format=3 uid="uid://cgtnvj7480ea3"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_8qv44"]
+[ext_resource type="Resource" uid="uid://c3gg5tsci6aye" path="res://objects/battle/battle_resources/cog_attacks/resources/hang_up.tres" id="2_8qv44"]
+[ext_resource type="Resource" uid="uid://bddy50xh8sfc8" path="res://objects/battle/battle_resources/cog_attacks/resources/tremor.tres" id="3_6h20p"]
+[ext_resource type="Resource" uid="uid://6hjcsu17tt4g" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm.tres" id="4_f3jgo"]
+[ext_resource type="Resource" uid="uid://b4kaq7rjifwfc" path="res://objects/battle/battle_resources/cog_attacks/resources/liquidate.tres" id="5_m0u4r"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_lnqdv"]
+
+[resource]
+script = ExtResource("6_lnqdv")
+department = 5
+suit = 1
+cog_name = "Installer Wizard"
+name_plural = "Installer Wizards"
+name_prefix = "Installer "
+name_suffix = " Wizard"
+head = "res://models/cogs/heads/installer-wizard_head.glb"
+scale = 5.8
+head_textures = PackedStringArray("res://models/cogs/heads/installer-wizard_head_installer-wizard_head_iw_head.png", "res://models/cogs/heads/installer-wizard_head_installer-wizard_head_iw_glasses.png", "res://models/cogs/heads/installer-wizard_head_installer-wizard_head_iw_hair_curl.png", "res://models/cogs/heads/installer-wizard_head_installer-wizard_head_Untitled.png")
+hand_color = Color(0.6313726, 0.50980395, 0.65882355, 1)
+custom_nametag_height = 9.0
+attacks = Array[ExtResource("1_8qv44")]([ExtResource("2_8qv44"), ExtResource("3_6h20p"), ExtResource("4_f3jgo"), ExtResource("5_m0u4r")])
+level_low = 7
+level_high = 14
+battle_phrases = Array[String](["It is recommended that you do not continue.", "This process may take a few minutes.", "Welcome to the Installation Wizard!", "To continue, click Next.", "This installation's gonna end prematurely.", "Your system has not been modified. Yet.", "This wizard will now install your software.", "Please wait while the wizard completes the following steps."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

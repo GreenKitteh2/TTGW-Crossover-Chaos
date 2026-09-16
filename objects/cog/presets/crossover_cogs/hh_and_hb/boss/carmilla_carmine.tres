@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://6fjam57a6fsr"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_4aqsc"]
+[ext_resource type="Resource" uid="uid://dunqnjlafu5n0" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag_(super).tres" id="2_p0o4d"]
+[ext_resource type="Resource" uid="uid://dcth1mrm7s8bo" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip_(super).tres" id="3_jlhh7"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="4_mn4l5"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="5_4biwl"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_gch40"]
+[ext_resource type="Resource" uid="uid://duq7fidd28rw5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack.tres" id="6_xwwc7"]
+[ext_resource type="Resource" uid="uid://c82q6b10di5a1" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time.tres" id="7_5l28e"]
+[ext_resource type="Resource" uid="uid://b35m7xym3lkwl" path="res://objects/battle/battle_resources/cog_signature_attack/resources/snipe.tres" id="8_p0o4d"]
+
+[resource]
+script = ExtResource("6_gch40")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/hh_and_hb/carmilla_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/hh_and_hb/carmilla_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/hh_and_hb/carmilla_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/hazbin_hotel.png"
+cog_name = "Carmilla Carmaine"
+name_prefix = "Carmilla "
+name_suffix = " Carmaine"
+head = "res://models/crossover_cogs/hazbin_hotel_and_helluva_boss/carmilla carmaine.glb"
+scale = 5.7
+hand_color = Color(0.89411765, 0.85882354, 0.8352941, 1)
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_4aqsc")]([ExtResource("2_p0o4d"), ExtResource("3_jlhh7"), ExtResource("4_mn4l5"), ExtResource("5_4biwl"), ExtResource("6_xwwc7"), ExtResource("7_5l28e"), ExtResource("8_p0o4d")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_female_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["I heard about toon extermination, you should be made an example.", "I'll might just imagine you as a Exorcist.", "Your fighting style is strange."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

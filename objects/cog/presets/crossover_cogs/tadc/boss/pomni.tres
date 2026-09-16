@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://oo3xke61km62"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_6yqp0"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_drmku"]
+[ext_resource type="Resource" uid="uid://d164evvd4rxxi" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm_(super).tres" id="3_7e3uf"]
+[ext_resource type="Resource" uid="uid://dunqnjlafu5n0" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag_(super).tres" id="4_c2jon"]
+[ext_resource type="Resource" uid="uid://chw4w2odwx3mc" path="res://objects/battle/battle_resources/cog_attacks/resources/clip_on_tie_(super).tres" id="5_6t702"]
+[ext_resource type="Resource" uid="uid://dbyeiu73x1b8o" path="res://objects/battle/battle_resources/cog_signature_attack/resources/red_tape.tres" id="6_drmku"]
+[ext_resource type="Resource" uid="uid://3ymw0o36tlbg" path="res://objects/battle/battle_resources/cog_signature_attack/resources/spin.tres" id="7_3ycng"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_4lkff"]
+[ext_resource type="Resource" uid="uid://cfeq7j1q6bl50" path="res://objects/battle/battle_resources/cog_signature_attack/resources/gag_protection.tres" id="8_7e3uf"]
+
+[resource]
+script = ExtResource("7_4lkff")
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/tadc/pomni_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/tadc/pomni_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/tadc/pomni_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/tadc.png"
+cog_name = "Pomni"
+head = "res://models/crossover_cogs/tadc/Pomni.glb"
+scale = 5.1
+hand_color = Color(1, 0.16470589, 0.16470589, 1)
+custom_nametag_height = 9.6
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_6yqp0")]([ExtResource("2_drmku"), ExtResource("3_7e3uf"), ExtResource("4_c2jon"), ExtResource("5_6t702"), ExtResource("6_drmku"), ExtResource("7_3ycng"), ExtResource("8_7e3uf")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_female_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["I'm in a strange world!", "Am I supposed to fight you?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

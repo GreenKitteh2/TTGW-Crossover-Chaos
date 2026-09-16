@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cgmcahq5kocjk"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_hlcl2"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="2_yv7ep"]
+[ext_resource type="Resource" uid="uid://qk4f4h40o5u1" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip.tres" id="3_xe00v"]
+[ext_resource type="Resource" uid="uid://l385j58744f6" path="res://objects/battle/battle_resources/cog_attacks/resources/restraining_order.tres" id="4_tobwf"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_y6sw2"]
+
+[resource]
+script = ExtResource("5_y6sw2")
+department = 2
+suit = 1
+cog_name = "Clash Back Stabber"
+name_plural = "Clash Back Stabbers"
+name_prefix = "Clash "
+name_suffix = " Back Stabber"
+head = "res://models/cogs/heads/clash_backstabber.glb"
+scale = 4.5
+head_textures = PackedStringArray("res://models/cogs/heads/clash_backstabber_ttcc_ene_backstabber.png")
+hand_color = Color(0.54901963, 0.49803922, 0.7294118, 1)
+custom_nametag_height = 11.1
+attacks = Array[ExtResource("1_hlcl2")]([ExtResource("2_yv7ep"), ExtResource("3_xe00v"), ExtResource("4_tobwf")])
+level_low = 5
+battle_phrases = Array[String](["You won't be coming back.", "Take that back or else!", "I'm good at cutting costs.", "You're going to have a stabbing headache soon.", "There's no backing down now.", "Whoa, back up there Toon.", "I have perfect puncture.", "Let me get your back.", "Never turn your back on me.", "I have lots of back up.", "I'm the best and I can back that up.", "Looking back at me?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

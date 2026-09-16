@@ -1,0 +1,13 @@
+[gd_resource type="Resource" format=3 uid="uid://djidh4y7yj8kp"]
+
+[ext_resource type="Texture2D" uid="uid://b3icysbb468hl" path="res://ui_assets/battle/statuses/peeled.png" id="1_sv1qm"]
+[ext_resource type="Script" uid="uid://1nljb0yj6ndk" path="res://objects/battle/battle_resources/status_effects/status_effect_peeled.gd" id="2_sv1qm"]
+
+[resource]
+script = ExtResource("2_sv1qm")
+quality = 1
+rounds = 3
+icon = ExtResource("1_sv1qm")
+description = "Defense reduced by half"
+status_name = "Peeled"
+id = 91

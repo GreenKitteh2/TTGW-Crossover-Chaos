@@ -1,0 +1,172 @@
+[gd_scene format=3 uid="uid://c6mpmdpovodf3"]
+
+[ext_resource type="PackedScene" uid="uid://dpqpwpljhfswb" path="res://objects/modules/cgc/base_rooms/golf_course_l_shape_room.tscn" id="1_htdo4"]
+[ext_resource type="PackedScene" uid="uid://c1rus4vu8jrlg" path="res://objects/battle/battle_node/dynamic/battle_node_dynamic.tscn" id="2_7ouav"]
+[ext_resource type="PackedScene" uid="uid://b3p8q3fhmuo35" path="res://objects/props/cgc/resizeable_hedge_cube.tscn" id="6_d0n7v"]
+[ext_resource type="PackedScene" uid="uid://pn7r3ut085aw" path="res://objects/props/cgc/hedge_pillar.tscn" id="7_5t0u3"]
+[ext_resource type="PackedScene" uid="uid://bqvkntyk0ljsq" path="res://objects/goon/goon.tscn" id="7_b334g"]
+[ext_resource type="PackedScene" uid="uid://bln8k5hdfnymx" path="res://objects/props/cgc/resizeable_wall.tscn" id="10_yg8gc"]
+[ext_resource type="PackedScene" uid="uid://dashkj2a6dgb0" path="res://objects/props/cgc/cgc_flat_tree_a.tscn" id="11_kiopf"]
+[ext_resource type="PackedScene" uid="uid://ksciix5yj6x1" path="res://objects/props/cgc/cgc_flat_tree_b.tscn" id="12_qxxre"]
+[ext_resource type="PackedScene" uid="uid://c1g5f6yxujvef" path="res://addons/toonlike_tools/injectors/player/debug_player_position_marker.tscn" id="14_5apip"]
+
+[sub_resource type="Curve3D" id="Curve3D_5ket8"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -1.1028795, 0, 5.18415, 0, 0, 0, 0, 0, 0, -0.9096918, 0, 14.7395, 0, 0, 0, 0, 0, 0, 5.9355106, 0, 15.2592, 0, 0, 0, 0, 0, 0, 5.9351425, 0, 5.040787, 0, 0, 0, 0, 0, 0, -1.1003876, 0, 5.182267),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0)
+}
+point_count = 5
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_noh7o"]
+size = Vector3(23, 7.7998, 9)
+
+[node name="CGCLBattle" unique_id=1628183073 instance=ExtResource("1_htdo4")]
+
+[node name="ENTRANCE" parent="." index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.66685, 0.07217991, 15.14615)
+
+[node name="EXIT" parent="." index="1"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 48.192772, 0, -26.5432)
+
+[node name="ResizeableHedgeCube" parent="." index="4" unique_id=1415838457 instance=ExtResource("6_d0n7v")]
+transform = Transform3D(1, 0, 0, 0, 1.5, 0, 0, 0, 1, 27.6101, 2.00955, -13.8696)
+size = Vector2(17.765, 4.52)
+
+[node name="ResizeableHedgeCube2" parent="." index="5" unique_id=338626432 instance=ExtResource("6_d0n7v")]
+transform = Transform3D(1, 0, 0, 0, 1.5, 0, 0, 0, 1, 27.6101, 2.00955, -39.6635)
+size = Vector2(17.765, 4.52)
+
+[node name="HedgePillar" parent="." index="6" unique_id=1348318004 instance=ExtResource("7_5t0u3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.574316, 0, -34.5754)
+
+[node name="TheCasualties" type="Node3D" parent="." index="7" unique_id=1318597247]
+
+[node name="Geometrry#ResizeableWall6" parent="TheCasualties" index="0" unique_id=178460058 instance=ExtResource("10_yg8gc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.0956, 0, -35.9949)
+volume = Vector3(18.84, 6.095, 4.795)
+
+[node name="Props_Flats#CGCFlatTreeA5" parent="TheCasualties" index="1" unique_id=1404293327 instance=ExtResource("11_kiopf")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 32.7312, 0, -19.7325)
+
+[node name="Props_Flats#CGCFlatTreeB5" parent="TheCasualties" index="2" unique_id=167390931 instance=ExtResource("12_qxxre")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 35.6308, 0, -19.7687)
+
+[node name="Props_Flats#CGCFlatTreeA6" parent="TheCasualties" index="3" unique_id=514809543 instance=ExtResource("11_kiopf")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 27.4464, 0, -19.7325)
+
+[node name="Props_Flats#CGCFlatTreeB6" parent="TheCasualties" index="4" unique_id=1165196516 instance=ExtResource("12_qxxre")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 30.346, 0, -19.7687)
+
+[node name="Props_Flats#CGCFlatTreeA7" parent="TheCasualties" index="5" unique_id=373886916 instance=ExtResource("11_kiopf")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 22.3643, 0, -19.7325)
+
+[node name="Props_Flats#CGCFlatTreeA11" parent="TheCasualties" index="6" unique_id=884627621 instance=ExtResource("11_kiopf")]
+transform = Transform3D(-0.489246, 0, -0.872146, 0, 1, 0, 0.872146, 0, -0.489246, 12.7585, 0, -14.7303)
+
+[node name="Props_Flats#CGCFlatTreeA12" parent="TheCasualties" index="7" unique_id=260074039 instance=ExtResource("11_kiopf")]
+transform = Transform3D(-0.489246, 0, -0.872146, 0, 1, 0, 0.872146, 0, -0.489246, 8.92775, 0, -7.96718)
+
+[node name="Props_Flats#CGCFlatTreeA13" parent="TheCasualties" index="8" unique_id=487350431 instance=ExtResource("11_kiopf")]
+transform = Transform3D(-0.012374, 0, 0.999924, 0, 1, 0, -0.999924, 0, -0.012374, -2.93083, 0, -17.5654)
+
+[node name="Props_Flats#CGCFlatTreeA14" parent="TheCasualties" index="9" unique_id=763010275 instance=ExtResource("11_kiopf")]
+transform = Transform3D(0.999924, 0, 0.012374, 0, 1, 0, -0.012374, 0, 0.999924, 3.45611, 0, -35.5582)
+
+[node name="Props_Flats#CGCFlatTreeB7" parent="TheCasualties" index="10" unique_id=9907890 instance=ExtResource("12_qxxre")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 25.2639, 0, -19.7687)
+
+[node name="Props_Flats#CGCFlatTreeA8" parent="TheCasualties" index="11" unique_id=1741590832 instance=ExtResource("11_kiopf")]
+transform = Transform3D(1, 0, -1.74846e-07, 0, 1, 0, 1.74846e-07, 0, 1, 25.1963, 0, -33.5556)
+
+[node name="Props_Flats#CGCFlatTreeB8" parent="TheCasualties" index="12" unique_id=236238555 instance=ExtResource("12_qxxre")]
+transform = Transform3D(1, 0, -1.74846e-07, 0, 1, 0, 1.74846e-07, 0, 1, 22.2967, 0, -33.5194)
+
+[node name="Props_Flats#CGCFlatTreeA9" parent="TheCasualties" index="13" unique_id=940232621 instance=ExtResource("11_kiopf")]
+transform = Transform3D(1, 0, -1.74846e-07, 0, 1, 0, 1.74846e-07, 0, 1, 30.4811, 0, -33.5556)
+
+[node name="Props_Flats#CGCFlatTreeB9" parent="TheCasualties" index="14" unique_id=1458812295 instance=ExtResource("12_qxxre")]
+transform = Transform3D(1, 0, -1.74846e-07, 0, 1, 0, 1.74846e-07, 0, 1, 27.5815, 0, -33.5194)
+
+[node name="Props_Flats#CGCFlatTreeB11" parent="TheCasualties" index="15" unique_id=1836725315 instance=ExtResource("12_qxxre")]
+transform = Transform3D(1, 0, -1.74846e-07, 0, 1, 0, 1.74846e-07, 0, 1, 9.40247, 0, -35.5004)
+
+[node name="Props_Flats#CGCFlatTreeB12" parent="TheCasualties" index="16" unique_id=180162840 instance=ExtResource("12_qxxre")]
+transform = Transform3D(1.31134e-07, 0, 1, 0, 1, 0, -1, 0, 1.31134e-07, -2.89627, 0, -24.4753)
+
+[node name="Props_Flats#CGCFlatTreeB13" parent="TheCasualties" index="17" unique_id=934863090 instance=ExtResource("12_qxxre")]
+transform = Transform3D(1.31134e-07, 0, 1, 0, 1, 0, -1, 0, 1.31134e-07, -10.9228, 0, 1.49029)
+
+[node name="Props_Flats#CGCFlatTreeA10" parent="TheCasualties" index="18" unique_id=1655501870 instance=ExtResource("11_kiopf")]
+transform = Transform3D(1, 0, -1.74846e-07, 0, 1, 0, 1.74846e-07, 0, 1, 35.5633, 0, -33.5556)
+
+[node name="Props_Flats#CGCFlatTreeB10" parent="TheCasualties" index="19" unique_id=2057157617 instance=ExtResource("12_qxxre")]
+transform = Transform3D(1, 0, -1.74846e-07, 0, 1, 0, 1.74846e-07, 0, 1, 33.1014, 0, -33.5194)
+
+[node name="Geometrry#ResizeableWall" parent="TheCasualties" index="20" unique_id=1676054896 instance=ExtResource("10_yg8gc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.4213, 0, -17.3215)
+volume = Vector3(18.84, 6.095, 4.795)
+
+[node name="GoonNode" type="Node3D" parent="." index="8" unique_id=253199234]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.2701893, 9.536743e-07, -5.2267513)
+
+[node name="goon" parent="GoonNode" index="0" unique_id=529278056 node_paths=PackedStringArray("path") instance=ExtResource("7_b334g")]
+transform = Transform3D(2.4, 0, 0, 0, 2.4, 0, 0, 0, 2.4, -0.7377262, 0, 4.8199368)
+helmet_color = Color(0.114873, 0.4219, 0.375075, 1)
+recovery_time = 4.0
+path = NodePath("../Path3D")
+speed = 2.5
+
+[node name="Path3D" type="Path3D" parent="GoonNode" index="1" unique_id=1913498768]
+curve = SubResource("Curve3D_5ket8")
+
+[node name="GoonNode2" type="Node3D" parent="." index="9" unique_id=22837443]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.3744855, 9.536743e-07, 14.903179)
+
+[node name="goon" parent="GoonNode2" index="0" unique_id=1670146736 node_paths=PackedStringArray("path") instance=ExtResource("7_b334g")]
+transform = Transform3D(2.4, 0, 0, 0, 2.4, 0, 0, 0, 2.4, -1.0205755, 0, 4.8199368)
+helmet_color = Color(0.114873, 0.4219, 0.375075, 1)
+recovery_time = 4.0
+path = NodePath("../Path3D")
+speed = 2.5
+
+[node name="Path3D" type="Path3D" parent="GoonNode2" index="1" unique_id=740879149]
+curve = SubResource("Curve3D_5ket8")
+
+[node name="GoonNode3" type="Node3D" parent="." index="10" unique_id=1902665172]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 18.910435, 0, -24.350567)
+
+[node name="goon" parent="GoonNode3" index="0" unique_id=2042665091 node_paths=PackedStringArray("path") instance=ExtResource("7_b334g")]
+transform = Transform3D(2.4, 0, 0, 0, 2.4, 0, 0, 0, 2.4, -1.0464268, 0, 4.8199368)
+helmet_color = Color(0.114873, 0.4219, 0.375075, 1)
+recovery_time = 4.0
+path = NodePath("../Path3D")
+speed = 2.5
+
+[node name="Path3D" type="Path3D" parent="GoonNode3" index="1" unique_id=732258805]
+curve = SubResource("Curve3D_5ket8")
+
+[node name="GoonNode4" type="Node3D" parent="." index="11" unique_id=1002092944]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 1, 0, 1, 0, 1.3113416e-07, 39.040367, 0, -29.24627)
+
+[node name="goon" parent="GoonNode4" index="0" unique_id=456098467 node_paths=PackedStringArray("path") instance=ExtResource("7_b334g")]
+transform = Transform3D(2.4, 0, 0, 0, 2.4, 0, 0, 0, 2.4, -0.9898033, 0, 4.8199387)
+helmet_color = Color(0.114873, 0.4219, 0.375075, 1)
+recovery_time = 4.0
+path = NodePath("../Path3D")
+speed = 2.5
+
+[node name="Path3D" type="Path3D" parent="GoonNode4" index="1" unique_id=909657221]
+curve = SubResource("Curve3D_5ket8")
+
+[node name="DebugPlayerPositionMarker" parent="." index="12" unique_id=90574365 instance=ExtResource("14_5apip")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.653408, 0, -16.310974)
+
+[node name="BattleNodeDynamic" parent="." index="13" unique_id=1663761779 node_paths=PackedStringArray("cogs") instance=ExtResource("2_7ouav")]
+transform = Transform3D(0.7071067, 0, -0.7071068, 0, 1, 0, 0.7071068, 0, 0.7071067, 8.527016, 0, -21.8924)
+cog_range = Vector2i(7, 7)
+tags = Array[int]([1])
+cogs = [NodePath("Cogs/Cog14"), NodePath("Cogs/Cog15"), NodePath("Cogs/Cog16"), NodePath("Cogs/Cog17"), NodePath("Cogs/Cog18"), NodePath("Cogs/Cog19"), NodePath("Cogs/Cog20")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="BattleNodeDynamic" index="4" unique_id=646314998]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.7273474, 3.3999, -4.189207)
+shape = SubResource("BoxShape3D_noh7o")

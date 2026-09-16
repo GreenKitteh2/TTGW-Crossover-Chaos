@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://71utwwdin0fv"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_k3vnm"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="2_fhnbg"]
+[ext_resource type="Resource" uid="uid://cfwymrymjx7s5" path="res://objects/battle/battle_resources/cog_attacks/resources/write_off.tres" id="3_v7vur"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="4_bm752"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_6x7tq"]
+
+[resource]
+script = ExtResource("5_6x7tq")
+department = 3
+suit = 1
+cog_name = "Pushover"
+name_plural = "Pushovers"
+name_prefix = "Push"
+name_suffix = "over"
+head = "res://models/cogs/heads/pushover.glb"
+scale = 4.25
+head_textures = PackedStringArray("res://models/cogs/heads/pushover_pushover.png")
+hand_color = Color(0.7411765, 0.6666667, 0.6313726, 1)
+attacks = Array[ExtResource("1_k3vnm")]([ExtResource("2_fhnbg"), ExtResource("3_v7vur"), ExtResource("4_bm752")])
+level_low = 3
+level_high = 10
+battle_phrases = Array[String](["I make things quite dull.", "I'm very easy to push.", "I don't go over the top.", "I will do anything for the boss.", "This will be an easy task.", "Would you like the eggs over-easy?", "Careful, I do things quite easily.", "Welcome, what can I do for you?", "I always get things done.", "Oh, I can't resist the urge."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://gknc2gsxvfel"]
+
+[ext_resource type="Script" uid="uid://dvhcv4rdst4rj" path="res://objects/battle/battle_resources/cog_attacks/audit_(super).gd" id="1_6xkpe"]
+
+[resource]
+script = ExtResource("1_6xkpe")
+play_sound = true
+damage = 4
+summary = "The Cog will protect itself from attacks!"
+attack_lines = Array[String](["I believe your books don't balance.", "Looks like you're in the red.", "Let me help you with your books.", "Your debit column is much too high.", "Let's check your assets.", "This will put you in debt.", "Let's take a close look at what you owe.", "This should drain your account.", "Time for you to account for your expenses.", "I've found an error in your books."])
+action_name = "Audit"

@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://ddsor61sdvhgy"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_a3ofu"]
+[ext_resource type="Resource" uid="uid://b3mqc80kln1or" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket_(super).tres" id="2_adihm"]
+[ext_resource type="Resource" uid="uid://b8evcct5837aq" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket_money.tres" id="3_etbbk"]
+[ext_resource type="Resource" uid="uid://dcth1mrm7s8bo" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip_(super).tres" id="4_7bjv2"]
+[ext_resource type="Resource" uid="uid://b3tlged7kqx0t" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip_(super).tres" id="5_cvjwo"]
+[ext_resource type="Resource" uid="uid://slywi7r3q78s" path="res://objects/battle/battle_resources/cog_signature_attack/resources/bulk_up.tres" id="6_7ymij"]
+[ext_resource type="Resource" uid="uid://bad6gsuhm8ppm" path="res://objects/battle/battle_resources/cog_signature_attack/resources/point_steal.tres" id="7_nmbul"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_to5gy"]
+[ext_resource type="Resource" uid="uid://d3bfxng6kkj74" path="res://objects/battle/battle_resources/cog_signature_attack/resources/venomous_bite.tres" id="8_adihm"]
+
+[resource]
+script = ExtResource("7_to5gy")
+department = 2
+suit = 2
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_squirm_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_squirm_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/dandys_world/twisted_squirm_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/dandys_world.png"
+cog_name = "Twisted Squirm"
+name_prefix = "Twisted "
+name_suffix = " Squirm"
+head = "res://models/crossover_cogs/dandys_world/Twisted Squirm.glb"
+scale = 4.1
+hand_color = Color(0, 0, 0, 1)
+custom_nametag_height = 10.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_a3ofu")]([ExtResource("2_adihm"), ExtResource("3_etbbk"), ExtResource("4_7bjv2"), ExtResource("5_cvjwo"), ExtResource("6_7ymij"), ExtResource("7_nmbul"), ExtResource("8_adihm")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["I can't help myself...", "I'M STARVING!", "I'm too distressed..."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

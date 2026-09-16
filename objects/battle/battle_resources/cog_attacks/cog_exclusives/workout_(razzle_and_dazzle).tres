@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://bljpjngbla51n"]
+
+[ext_resource type="Script" uid="uid://cek2ied0n1mfo" path="res://objects/battle/battle_resources/cog_attacks/workout.gd" id="1_m3nwm"]
+
+[resource]
+script = ExtResource("1_m3nwm")
+accuracy = 100
+damage = 0
+attack_lines = Array[String](["Let's even the playing field. (It's just an unfair fight...)", "This isn't going to work out well for you. (It never will...)", "Scared? You should be. (I'm scared...)", "Don't get too comfortable. (But I'm uncomfortable...)", "No pain, no gain. (It hurts...)"])
+target_type = 4
+action_name = "Corporate Gains"

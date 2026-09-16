@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://bjxmtstosw0pt"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_jvbb8"]
+[ext_resource type="Resource" uid="uid://3dxin5galt7i" path="res://objects/battle/battle_resources/cog_attacks/resources/tee_off_(super).tres" id="2_gakpm"]
+[ext_resource type="Resource" uid="uid://cinyfw5clb8cg" path="res://objects/battle/battle_resources/cog_attacks/resources/rubber_stamp_(super).tres" id="3_upmkp"]
+[ext_resource type="Resource" uid="uid://d164evvd4rxxi" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm_(super).tres" id="4_xgnjj"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="5_8y3pt"]
+[ext_resource type="Resource" uid="uid://dcth1mrm7s8bo" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip_(super).tres" id="6_gakpm"]
+[ext_resource type="Resource" uid="uid://dunqnjlafu5n0" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag_(super).tres" id="7_op01d"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="8_y7x50"]
+
+[resource]
+script = ExtResource("8_y7x50")
+department = 5
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/misc/deluxestarman_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/misc/deluxestarman_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/misc/deluxestarman_leg.png"
+custom_wrist_tex = "res://models/cogs/textures/crossover_cogs/misc/deluxestarman_sleeve.png"
+custom_shoe_tex = "res://models/cogs/textures/crossover_cogs/misc/deluxestarman_sleeve.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/earthbound.png"
+cog_name = "Starman Deluxe"
+name_prefix = "Starman "
+name_suffix = " Deluxe"
+head = "res://models/crossover_cogs/misc/spiked_starman.glb"
+scale = 6.0
+head_textures = PackedStringArray("res://models/crossover_cogs/misc/starman face.png", "res://models/crossover_cogs/misc/starman face.png", "res://models/crossover_cogs/misc/starman face.png")
+hand_color = Color(0.6745098, 0.6745098, 0.6745098, 1)
+head_color = Color(0.6745098, 0.6745098, 0.6745098, 1)
+custom_nametag_height = 9.4
+custom_nametag_suffix = "Elite Minion"
+attacks = Array[ExtResource("1_jvbb8")]([ExtResource("2_gakpm"), ExtResource("3_upmkp"), ExtResource("4_xgnjj"), ExtResource("5_8y3pt"), ExtResource("6_gakpm"), ExtResource("7_op01d")])
+level_low = 6
+level_high = 20
+is_crossover_cog = true
+health_mod = 1.5
+battle_phrases = Array[String](["I work for Giygas's army.", "I have affiliations with a certain skeleton.", "We're here to help OUR future."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

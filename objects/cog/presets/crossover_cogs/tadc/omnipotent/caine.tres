@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://62yw3axjeqja"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_hq4aj"]
+[ext_resource type="Resource" uid="uid://c24yy1wqmg24o" path="res://objects/battle/battle_resources/cog_attacks/resources/razzle_dazzle.tres" id="2_7kdto"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="3_14ydq"]
+[ext_resource type="Resource" uid="uid://dl3b1615f64bq" path="res://objects/battle/battle_resources/cog_attacks/resources/pop_quiz_joke.tres" id="4_hq4aj"]
+[ext_resource type="Resource" uid="uid://bruosr4c0bash" path="res://objects/battle/battle_resources/cog_attacks/resources/clip_on_tie.tres" id="5_ort16"]
+[ext_resource type="Resource" uid="uid://cncrrqbyd1o0y" path="res://objects/battle/battle_resources/cog_signature_attack/resources/enlighten.tres" id="6_wx0jo"]
+[ext_resource type="Resource" uid="uid://dwcurvq1jwvxu" path="res://objects/battle/battle_resources/cog_signature_attack/resources/disrupt.tres" id="7_ma218"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_vcpv0"]
+
+[resource]
+script = ExtResource("7_vcpv0")
+department = 6
+custom_blazer_tex = "res://models/cogs/textures/slender/blazer.png"
+custom_arm_tex = "res://models/cogs/textures/slender/sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/slender/leg.png"
+cog_name = "Caine"
+head = "res://models/crossover_cogs/tadc/caine.glb"
+scale = 5.55
+custom_nametag_suffix = "Omnipotent"
+attacks = Array[ExtResource("1_hq4aj")]([ExtResource("2_7kdto"), ExtResource("3_14ydq"), ExtResource("4_hq4aj"), ExtResource("5_ort16"), ExtResource("6_wx0jo"), ExtResource("7_ma218")])
+level_low = 10
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_omnipotent_tier.tres")
+is_crossover_cog = true
+health_mod = 3.0
+battle_phrases = Array[String](["Lookie here! We got ourselves a new NPC for our adventure!", "Oh hi! we're on a new adventure!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

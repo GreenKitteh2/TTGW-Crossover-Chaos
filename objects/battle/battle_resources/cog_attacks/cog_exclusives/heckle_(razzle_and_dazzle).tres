@@ -1,0 +1,20 @@
+[gd_resource type="Resource" format=3 uid="uid://ri0sbduh61x1"]
+
+[ext_resource type="Script" uid="uid://2rt6lrj4fpim" path="res://objects/battle/battle_resources/cog_attacks/heckle.gd" id="1_ajm2d"]
+[ext_resource type="Script" uid="uid://csl6saufv84ri" path="res://objects/battle/battle_resources/status_effects/stat_boost.gd" id="2_xh1hw"]
+
+[sub_resource type="Resource" id="Resource_g5qp3"]
+script = ExtResource("2_xh1hw")
+boost = 0.8
+quality = 1
+rounds = -1
+id = 2
+
+[resource]
+script = ExtResource("1_ajm2d")
+status_effect = SubResource("Resource_g5qp3")
+accuracy = 60
+damage = 0
+summary = "Defense Down!"
+attack_lines = Array[String](["Your low-brow humor isn't true comedy. (It's not even comedy...)", "Your material lacks structure. (If you actually care about it...)", "Don't you ever get tired of that pie-in-the-face bit? (Why waste food...)", "No one laughs with you, only at you. (I don't laugh...)", "I'd give your show a one-star review. (Even I can do better...)"])
+action_name = "Heckle"

@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://b8mdvqx62qnaa"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_olhib"]
+[ext_resource type="Resource" uid="uid://dwkmwkdn3ws4k" path="res://objects/battle/battle_resources/cog_attacks/resources/evil_eye.tres" id="2_id5i6"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="3_wu3w1"]
+[ext_resource type="Resource" uid="uid://c24yy1wqmg24o" path="res://objects/battle/battle_resources/cog_attacks/resources/razzle_dazzle.tres" id="4_6dj44"]
+[ext_resource type="Resource" uid="uid://dimhdaxn1tyey" path="res://objects/battle/battle_resources/cog_attacks/resources/tee_off.tres" id="5_rm2ky"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_d6fa3"]
+[ext_resource type="Resource" uid="uid://dh3pqqflmofma" path="res://objects/battle/battle_resources/cog_signature_attack/resources/call_back_up.tres" id="6_u8glk"]
+
+[resource]
+script = ExtResource("6_d6fa3")
+department = 4
+custom_blazer_tex = "res://models/cogs/textures/misc/blazer_1.png"
+custom_arm_tex = "res://models/cogs/textures/misc/sleeve_2.png"
+custom_leg_tex = "res://models/cogs/textures/misc/leg_4.png"
+custom_wrist_tex = "res://models/cogs/textures/misc/arm_1.png"
+cog_name = "Twisted Dandy"
+name_prefix = "Twisted "
+name_suffix = " Dandy"
+head = "res://models/crossover_cogs/dandys_world/Twisted Dandy.glb"
+scale = 5.9
+hand_color = Color(0.95686275, 0.94509804, 0.80784315, 1)
+custom_nametag_height = 11.0
+attacks = Array[ExtResource("1_olhib")]([ExtResource("2_id5i6"), ExtResource("3_wu3w1"), ExtResource("4_6dj44"), ExtResource("5_rm2ky"), ExtResource("6_u8glk")])
+level_low = 8
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["Those tapes are mine!", "Don't ignore me.", "You'll regret it now."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

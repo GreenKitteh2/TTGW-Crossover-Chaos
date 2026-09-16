@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3 uid="uid://b1xs0axseyfca"]
+
+[ext_resource type="PackedScene" uid="uid://bq7dx4q64lgn0" path="res://models/props/cog_props/log/log.fbx" id="1_brp6c"]
+[ext_resource type="Script" uid="uid://bqyaahht6nhc4" path="res://objects/battle/battle_resources/cog_signature_attack/peeling_the_bark.gd" id="2_m5tgt"]
+
+[resource]
+script = ExtResource("2_m5tgt")
+prop = ExtResource("1_brp6c")
+custom_method = "red_tape"
+accuracy = 100
+damage = 0
+summary = "Peels defense by half!"
+attack_lines = Array[String](["Peeling sad, Toon? Nyahahah!", "Whahahey! You're barking up the wrong tree!", "Oh yergh all bark and no bite, Toon!", "Bark all yeh want, Toon, You can't step meh!"])
+action_name = "Peeling the bark"

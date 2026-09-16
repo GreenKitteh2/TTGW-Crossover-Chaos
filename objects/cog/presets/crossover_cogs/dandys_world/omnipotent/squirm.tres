@@ -1,0 +1,34 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://csji78ertv7s4"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_26i58"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="2_26i58"]
+[ext_resource type="Resource" uid="uid://b8evcct5837aq" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket_money.tres" id="3_8npuj"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="4_nkjnl"]
+[ext_resource type="Resource" uid="uid://cdhgcruc4sdn2" path="res://objects/battle/battle_resources/cog_signature_attack/resources/self_heal.tres" id="5_26i58"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_nw57r"]
+[ext_resource type="Resource" uid="uid://slywi7r3q78s" path="res://objects/battle/battle_resources/cog_signature_attack/resources/bulk_up.tres" id="6_wghfi"]
+
+[resource]
+script = ExtResource("6_nw57r")
+department = 2
+suit = 2
+custom_blazer_tex = "res://models/cogs/textures/slender/blazer.png"
+custom_arm_tex = "res://models/cogs/textures/slender/sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/slender/leg.png"
+cog_name = "Squirm"
+head = "res://models/crossover_cogs/dandys_world/Squirm.glb"
+scale = 3.5
+hand_color = Color(0.63529414, 0.8509804, 0.5058824, 1)
+custom_nametag_height = 10.0
+custom_nametag_suffix = "Omnipotent"
+attacks = Array[ExtResource("1_26i58")]([ExtResource("2_26i58"), ExtResource("3_8npuj"), ExtResource("4_nkjnl"), ExtResource("5_26i58"), ExtResource("6_wghfi")])
+level_low = 7
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_omnipotent_tier.tres")
+is_crossover_cog = true
+health_mod = 3.0
+battle_phrases = Array[String](["A-am I on the right team?", "I-I hope I don't mess up snf- sniffle...", "I got scolded for eating books, I can't help it."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

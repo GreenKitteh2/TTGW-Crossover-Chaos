@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://7po1pvtamhc3"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_qncns"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="2_7tcvm"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="3_qncns"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="4_7tcvm"]
+[ext_resource type="Resource" uid="uid://qk4f4h40o5u1" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip.tres" id="5_gttl2"]
+[ext_resource type="Resource" uid="uid://duq7fidd28rw5" path="res://objects/battle/battle_resources/cog_signature_attack/resources/quick_attack.tres" id="6_ybsaw"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_bib0a"]
+[ext_resource type="Resource" uid="uid://c82q6b10di5a1" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time.tres" id="7_tavhc"]
+
+[resource]
+script = ExtResource("7_bib0a")
+department = 4
+suit = 2
+custom_blazer_tex = "res://models/cogs/textures/slender/blazer.png"
+custom_arm_tex = "res://models/cogs/textures/slender/sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/slender/leg.png"
+cog_name = "Sans"
+name_plural = "Sanses"
+head = "res://models/crossover_cogs/undertale_and_deltarune/sans.glb"
+scale = 4.3
+hand_color = Color(0.8980392, 0.92156863, 0.8980392, 1)
+custom_nametag_height = 8.1
+custom_nametag_suffix = "Omnipotent"
+attacks = Array[ExtResource("1_qncns")]([ExtResource("2_7tcvm"), ExtResource("3_qncns"), ExtResource("4_7tcvm"), ExtResource("5_gttl2"), ExtResource("6_ybsaw"), ExtResource("7_tavhc")])
+level_low = 6
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_omnipotent_tier.tres")
+is_crossover_cog = true
+health_mod = 3.0
+battle_phrases = Array[String](["Hey kiddo.", "Kill me all you want, I'll be back anytime soon.", "I heard you're a dirty cog killer.", "Having a bad time?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

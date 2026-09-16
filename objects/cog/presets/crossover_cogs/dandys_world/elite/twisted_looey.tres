@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://ljrmlwr0vpih"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_fdesr"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="2_fdesr"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="3_alldw"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="4_jg25l"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="5_jvebj"]
+[ext_resource type="Resource" uid="uid://b3tkvlsedrm2l" path="res://objects/battle/battle_resources/cog_signature_attack/resources/back_talk.tres" id="6_o7ua1"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_cvfno"]
+
+[resource]
+script = ExtResource("7_cvfno")
+department = 6
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/waiter/waiter_m_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/waiter/waiter_m_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/waiter/waiter_m_leg.png"
+cog_name = "Twisted Looey"
+name_prefix = "Twisted "
+name_suffix = " Looey"
+head = "res://models/crossover_cogs/dandys_world/Twisted Looey.glb"
+scale = 3
+hand_color = Color(0, 0, 0, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Elite"
+attacks = Array[ExtResource("1_fdesr")]([ExtResource("2_fdesr"), ExtResource("3_alldw"), ExtResource("4_jg25l"), ExtResource("5_jvebj"), ExtResource("6_o7ua1")])
+level_low = 5
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_elite_tier.tres")
+is_crossover_cog = true
+health_mod = 2.0
+battle_phrases = Array[String](["Nobody would notice.", "All I do is old tricks.", "I never get the best."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

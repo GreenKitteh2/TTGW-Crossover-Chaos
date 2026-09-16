@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://bh16n53702ciy"]
+
+[ext_resource type="Script" uid="uid://bklft512gju4n" path="res://objects/battle/battle_resources/cog_signature_attack/shields_up.gd" id="1_884k8"]
+
+[resource]
+script = ExtResource("1_884k8")
+summary = "Scapegoat absorbing damage dealt to 
+all cogs this round!"
+attack_lines = Array[String]([])
+target_type = 3
+action_name = "Shields up"

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://dku8ng2ilfrid"]
+
+[ext_resource type="Script" uid="uid://b4oncnkg4dgx4" path="res://objects/items/seed_zenith.gd" id="1_1obcx"]
+[ext_resource type="Script" uid="uid://combwqypom1ru" path="res://objects/items/classes/item.gd" id="2_slh2b"]
+
+[resource]
+script = ExtResource("2_slh2b")
+stats_add = {
+"anomaly_boost": 3
+}
+item_script = ExtResource("1_1obcx")
+metadata/_custom_type_script = "uid://combwqypom1ru"

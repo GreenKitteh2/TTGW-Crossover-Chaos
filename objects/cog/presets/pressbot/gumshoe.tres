@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=6 format=3 uid="uid://b3hfc45osc77e"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_srdmu"]
+[ext_resource type="Resource" uid="uid://doowiij7lpxy1" path="res://objects/battle/battle_resources/cog_attacks/resources/rubber_stamp.tres" id="2_srdmu"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="3_elois"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="4_2lvc7"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_iobob"]
+
+[resource]
+script = ExtResource("5_iobob")
+department = 6
+suit = 2
+cog_name = "Gumshoe"
+name_plural = "Gumshoes"
+name_prefix = "Gum"
+name_suffix = "shoe"
+head = "res://models/cogs/heads/gumshoe.glb"
+scale = 4.5
+head_textures = PackedStringArray("res://models/cogs/heads/gumshoe_gumshoe.png")
+hand_color = Color(0.69803923, 0.60784316, 0.25490198, 1)
+attacks = Array[ExtResource("1_srdmu")]([ExtResource("2_srdmu"), ExtResource("3_elois"), ExtResource("4_2lvc7")])
+level_low = 3
+level_high = 10
+battle_phrases = Array[String](["Time to investigate your weaknesses, Toon.", "The only real fact is that you'll be defeated.", "You'll have to do some deep digging to defeat me.", "It's no secret that you're going to lose, Toon.", "I'll be bringing your secrets into the public eye.", "Your weaknesses will be a great write-up.", "Spare a moment to answer a few questions?", "Reports indicate this won't be a favourable result.", "Glad you bumped into me. I needed something to investigate.", "My discovery of your sadness will be breaking news!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

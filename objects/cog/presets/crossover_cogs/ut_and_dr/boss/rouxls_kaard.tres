@@ -1,0 +1,41 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://cepsh1bfwk2yd"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_r6ase"]
+[ext_resource type="Resource" uid="uid://b3mqc80kln1or" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket_(super).tres" id="2_y7n88"]
+[ext_resource type="Resource" uid="uid://dunqnjlafu5n0" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag_(super).tres" id="3_1mcow"]
+[ext_resource type="Resource" uid="uid://dcth1mrm7s8bo" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip_(super).tres" id="4_ygg4a"]
+[ext_resource type="Resource" uid="uid://bmp6wgk24lvba" path="res://objects/battle/battle_resources/cog_attacks/resources/pop_quiz_math.tres" id="5_rl3qd"]
+[ext_resource type="Resource" uid="uid://cncrrqbyd1o0y" path="res://objects/battle/battle_resources/cog_signature_attack/resources/enlighten.tres" id="6_ltadm"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_6o6fq"]
+[ext_resource type="Resource" uid="uid://c82q6b10di5a1" path="res://objects/battle/battle_resources/cog_signature_attack/resources/double_time.tres" id="7_adtom"]
+[ext_resource type="Resource" uid="uid://cfeq7j1q6bl50" path="res://objects/battle/battle_resources/cog_signature_attack/resources/gag_protection.tres" id="8_y7n88"]
+
+[resource]
+script = ExtResource("7_6o6fq")
+department = 2
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/crossover_cogs/ut_and_dr/rouxls_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/crossover_cogs/ut_and_dr/rouxls_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/crossover_cogs/ut_and_dr/rouxls_leg.png"
+custom_emblem_tex = "res://models/cogs/misc/hp_light/crossover_emblems/undertale.png"
+cog_name = "Rouxls Kaard"
+name_plural = "Rouxls Kaards"
+name_prefix = "Rouxls "
+name_suffix = " Kaard"
+head = "res://models/crossover_cogs/undertale_and_deltarune/rouxls.glb"
+scale = 5.6
+hand_color = Color(0.0627451, 0, 0.3764706, 1)
+custom_nametag_height = 10.0
+custom_nametag_suffix = "Boss Cog"
+attacks = Array[ExtResource("1_r6ase")]([ExtResource("2_y7n88"), ExtResource("3_1mcow"), ExtResource("4_ygg4a"), ExtResource("5_rl3qd"), ExtResource("6_ltadm"), ExtResource("7_adtom"), ExtResource("8_y7n88")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_boss_cog.tres")
+is_crossover_cog = true
+is_manager = true
+health_mod = 5.0
+battle_phrases = Array[String](["So the worm decided to crawl out and play.", "I am Rouxls Kaard, Cogs' greatest adversary!", "Art thou has passed my puzzles?"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

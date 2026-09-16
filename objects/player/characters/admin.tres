@@ -1,0 +1,72 @@
+[gd_resource type="Resource" script_class="PlayerCharacter" format=3 uid="uid://cooyqxg2jffca"]
+
+[ext_resource type="Script" uid="uid://o2fe7ud1faj6" path="res://objects/battle/battle_resources/stats.gd" id="1_757vi"]
+[ext_resource type="Script" uid="uid://c8kas2j4io1jh" path="res://objects/toon/clothing/toon_bottoms.gd" id="2_lvpua"]
+[ext_resource type="Texture2D" uid="uid://dcvoe886vi37s" path="res://models/toon/textures/clothes/skirts/desat_skirt_2_1.png" id="3_q5iiw"]
+[ext_resource type="Script" uid="uid://yg7gxug4rab" path="res://objects/toon/toon_dna.gd" id="4_ixb5j"]
+[ext_resource type="Script" uid="uid://dfqwh4jmdy0iw" path="res://objects/toon/clothing/toon_shirt.gd" id="5_01frr"]
+[ext_resource type="Texture2D" uid="uid://l5nmqw1hw5ti" path="res://models/toon/textures/clothes/shirts/desat_shirt_2_2.png" id="6_a130t"]
+[ext_resource type="Texture2D" uid="uid://dp1mwoshkp6pb" path="res://models/toon/textures/clothes/shirts/desat_sleeve_2_1.png" id="7_d7fvn"]
+[ext_resource type="Resource" uid="uid://tyi7ukxtvcgc" path="res://objects/battle/battle_resources/gag_loadouts/loadouts/standard_loadout.tres" id="8_3ytld"]
+[ext_resource type="Script" uid="uid://ts8xpgftpmty" path="res://objects/player/character.gd" id="9_b1swl"]
+[ext_resource type="Script" uid="uid://combwqypom1ru" path="res://objects/items/classes/item.gd" id="10_m1k03"]
+[ext_resource type="Resource" uid="uid://bsyyf21q3bwlv" path="res://objects/items/resources/passive/admin_setup.tres" id="11_3ytld"]
+
+[sub_resource type="Resource" id="Resource_4mp7f"]
+script = ExtResource("1_757vi")
+damage = 2.0
+defense = 2.0
+evasiveness = 2.0
+accuracy = 2.0
+speed = 2.0
+max_hp = 999
+hp = 999
+turns = 3
+
+[sub_resource type="Resource" id="Resource_2bsmm"]
+script = ExtResource("2_lvpua")
+texture = ExtResource("3_q5iiw")
+base_color = Color(0.545098, 0.282353, 0.74902, 1)
+
+[sub_resource type="Resource" id="Resource_17x8t"]
+script = ExtResource("5_01frr")
+shirt_texture = ExtResource("6_a130t")
+sleeve_texture = ExtResource("7_d7fvn")
+base_color = Color(0.545098, 0.282353, 0.74902, 1)
+sleeve_color = Color(0.545098, 0.282353, 0.74902, 1)
+
+[sub_resource type="Resource" id="Resource_ppw05"]
+script = ExtResource("4_ixb5j")
+body_type = 2
+species = 1
+head_index = 2
+skirt = true
+head_color = Color(0, 1, 0, 1)
+torso_color = Color(0, 1, 0, 1)
+leg_color = Color(0, 1, 0, 1)
+shirt = SubResource("Resource_17x8t")
+bottoms = SubResource("Resource_2bsmm")
+
+[resource]
+script = ExtResource("9_b1swl")
+character_name = "ADMIN"
+character_summary = "- Those who are worthy for this toon are 
+free to utilize them"
+character_blurb = "You've unlocked every achivement in the game, you may now play as an unstoppable toon, nothing will stand in your way (hopefully)"
+dna = SubResource("Resource_ppw05")
+gag_loadout = ExtResource("8_3ytld")
+starting_laff = 999
+starting_items = Array[ExtResource("10_m1k03")]([ExtResource("11_3ytld")])
+base_stats = SubResource("Resource_4mp7f")
+starting_gags = Dictionary[String, int]({
+"Drop": 7,
+"Lure": 7,
+"Sound": 7,
+"Squirt": 7,
+"Throw": 7,
+"Trap": 7
+})
+additional_stats = Dictionary[String, Variant]({
+"luck": 2.0
+})
+achievement_index = 24

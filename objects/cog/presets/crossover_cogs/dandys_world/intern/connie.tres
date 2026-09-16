@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://b4fwle2xtw3fj"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_qshw6"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="2_qshw6"]
+[ext_resource type="Resource" uid="uid://dxpqtt8gh5brv" path="res://objects/battle/battle_resources/cog_attacks/resources/finger_wag.tres" id="3_trbjl"]
+[ext_resource type="Resource" uid="uid://b8evcct5837aq" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket_money.tres" id="4_53dwi"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_xyuur"]
+
+[resource]
+script = ExtResource("6_xyuur")
+department = 2
+suit = 1
+cog_name = "Connie"
+head = "res://models/crossover_cogs/dandys_world/Connie.glb"
+scale = 3
+hand_color = Color(0.7764706, 0.9843137, 1, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_qshw6")]([ExtResource("2_qshw6"), ExtResource("3_trbjl"), ExtResource("4_53dwi")])
+level_low = 2
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["Boo!", "I will haunt you after this.", "You wouldn't see me."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

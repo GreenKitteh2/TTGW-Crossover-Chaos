@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://cy2mb4acq1l4j"]
+
+[ext_resource type="Script" uid="uid://cek2ied0n1mfo" path="res://objects/battle/battle_resources/cog_attacks/workout.gd" id="1_qlosu"]
+
+[resource]
+script = ExtResource("1_qlosu")
+accuracy = 100
+damage = 0
+attack_lines = Array[String](["You cannot grasp the true form of Giygas..."])
+target_type = 4
+action_name = "Corporate Gains"

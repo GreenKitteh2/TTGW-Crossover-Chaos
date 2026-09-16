@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3 uid="uid://b04rcodv5xdli"]
+
+[ext_resource type="PackedScene" uid="uid://ceg2xgfw3sggn" path="res://models/props/cog_props/shredder_paper/shredder_paper.fbx" id="1_1qa0q"]
+[ext_resource type="Script" uid="uid://c8fqmorap6nbv" path="res://objects/battle/battle_resources/cog_attacks/eviction_notice_(super).gd" id="2_lxrpp"]
+
+[resource]
+script = ExtResource("2_lxrpp")
+prop = ExtResource("1_1qa0q")
+custom_method = "eviction_notice"
+damage = 3
+summary = "The Toon's track gag points will be reduced to 0!"
+attack_lines = Array[String](["Best start beatin' the road.", "Cut a path, pardner.", "Off my land, pardner.", "Outta my dice house, pardner.", "Dontcha start coolin' ya heels.", "Find the linerider, pardner.", "It looks ta be movin' time.", "Yer a long way from home pardner.", "Back to the trail, pardner.", "Ya best hits the flat, pardner."])
+action_name = "Eviction Notice"
+metadata/_custom_type_script = "uid://itkxki65d0v7"

@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://2w4upthr8xio"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_h3dye"]
+[ext_resource type="Resource" uid="uid://6hjcsu17tt4g" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm.tres" id="2_3glx7"]
+[ext_resource type="Resource" uid="uid://b4kaq7rjifwfc" path="res://objects/battle/battle_resources/cog_attacks/resources/liquidate.tres" id="4_oucyh"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_5h8hp"]
+
+[resource]
+script = ExtResource("6_5h8hp")
+department = 1
+suit = 1
+cog_name = "Astro"
+head = "res://models/crossover_cogs/dandys_world/Astro.glb"
+scale = 3
+hand_color = Color(0.6666667, 1, 0.9882353, 1)
+custom_nametag_height = 13.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_h3dye")]([ExtResource("2_3glx7"), ExtResource("4_oucyh")])
+level_low = 4
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["Isn't it late for you?", "It's time to put you to sleep.", "It's just a dream."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

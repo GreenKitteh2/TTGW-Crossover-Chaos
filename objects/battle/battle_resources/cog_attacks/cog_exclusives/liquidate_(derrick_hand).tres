@@ -1,0 +1,16 @@
+[gd_resource type="Resource" format=3 uid="uid://b31co40ubygs2"]
+
+[ext_resource type="PackedScene" uid="uid://dd8hmy8x3naei" path="res://objects/battle/effects/cloud_attacks/rain_drops.tscn" id="1_w7x0x"]
+[ext_resource type="Script" uid="uid://c6e1gsbsx8t5m" path="res://objects/battle/battle_resources/cog_attacks/liquidate_(super).gd" id="2_ucxb5"]
+[ext_resource type="AudioStream" uid="uid://d2jwqefxwkium" path="res://audio/sfx/battle/cogs/attacks/SA_liquidate.ogg" id="3_1k15t"]
+
+[resource]
+script = ExtResource("2_ucxb5")
+particles = ExtResource("1_w7x0x")
+sfx = ExtResource("3_1k15t")
+animation = 2
+melt_toon = true
+damage = 4
+summary = "The Toon will be soaked in the next turn."
+attack_lines = Array[String](["Get out of my way! You're standing on our newest borehole.", "I really am a smooth operator, unlike some other Suits.", "My central estimate is that you're not long for this battle.", "When our plans reach completion, your kind will threaten us no more."])
+action_name = "Liquidate"

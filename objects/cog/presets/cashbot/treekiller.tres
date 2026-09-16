@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://df7dfjkepacvj"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_fb2uc"]
+[ext_resource type="Resource" uid="uid://cxt2tf8syto86" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/guilt_trip_(treekiller).tres" id="2_fb2uc"]
+[ext_resource type="Resource" uid="uid://btqptamak4bvy" path="res://objects/battle/battle_resources/cog_signature_attack/resources/ignite_(treekiller).tres" id="3_0m3us"]
+[ext_resource type="Resource" uid="uid://b1xs0axseyfca" path="res://objects/battle/battle_resources/cog_signature_attack/resources/peeling_the_bark.tres" id="5_fb2uc"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_0gsbo"]
+
+[resource]
+script = ExtResource("6_0gsbo")
+department = 1
+suit = 2
+custom_blazer_tex = "res://models/cogs/textures/managers/treekiller_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/managers/treekiller_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/managers/treekiller_leg.png"
+cog_name = "Treekiller"
+name_prefix = "Tree"
+name_suffix = "killer"
+head = "res://models/cogs/heads/treekiller_head.glb"
+scale = 5.5
+hand_color = Color(0.68235296, 0.83137256, 0.65882355, 1)
+attacks = Array[ExtResource("1_fb2uc")]([ExtResource("2_fb2uc"), ExtResource("3_0m3us"), ExtResource("5_fb2uc")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_manager = true
+health_mod = 3.0
+battle_phrases = Array[String](["CHOP, CHOP, CHOP! Let's Hurreh this up!", "AH-HAH-HEH! I'll chop you down!", "Yah oveh-grown, Toon!", "Gegh! Let's cut to the chase!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" format=3 uid="uid://jjeml1s854vb"]
+
+[ext_resource type="Texture2D" uid="uid://di4gmm1qhlylh" path="res://ui_assets/battle/statuses/auto_repair.png" id="1_8sd81"]
+[ext_resource type="Script" uid="uid://b1pst7rxx0wvj" path="res://objects/battle/battle_resources/status_effects/status_effect_auto_repair.gd" id="2_8sd81"]
+
+[resource]
+script = ExtResource("2_8sd81")
+quality = 0
+rounds = 3
+icon = ExtResource("1_8sd81")
+description = "Regnerates HP overtime"
+status_name = "Auto Repair"
+id = 61

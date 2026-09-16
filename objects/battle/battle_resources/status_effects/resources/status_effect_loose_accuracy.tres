@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://6d76d0mnlrxm"]
+
+[ext_resource type="Texture2D" uid="uid://dcuj6irekmdck" path="res://ui_assets/battle/statuses/loose_accuracy.png" id="1_4d03l"]
+[ext_resource type="Script" uid="uid://c8l51ss4asgfs" path="res://objects/battle/battle_resources/status_effects/status_effect_loose_accuracy.gd" id="2_4d03l"]
+
+[resource]
+script = ExtResource("2_4d03l")
+quality = 1
+rounds = 3
+icon = ExtResource("1_4d03l")
+description = "Your gags have a chance to miss"
+status_name = "Loose Accuracy"
+id = 66

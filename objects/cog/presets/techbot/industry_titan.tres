@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CogDNA" load_steps=7 format=3 uid="uid://ber3afyq03ofl"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_c10a0"]
+[ext_resource type="Resource" uid="uid://dimhdaxn1tyey" path="res://objects/battle/battle_resources/cog_attacks/resources/tee_off.tres" id="2_8k4jm"]
+[ext_resource type="Resource" uid="uid://dwkmwkdn3ws4k" path="res://objects/battle/battle_resources/cog_attacks/resources/evil_eye.tres" id="3_6h63x"]
+[ext_resource type="Resource" uid="uid://bpupdhbap1rq" path="res://objects/battle/battle_resources/cog_attacks/resources/freeze_assets.tres" id="4_jj0hn"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_co3k1"]
+[ext_resource type="Resource" uid="uid://bhl72hd7pn8s2" path="res://objects/battle/battle_resources/cog_attacks/resources/workout.tres" id="5_tadfx"]
+
+[resource]
+script = ExtResource("5_co3k1")
+department = 5
+cog_name = "Industry Titan"
+name_plural = "Industry Titans"
+name_prefix = "Industry "
+name_suffix = " Titan"
+head = "res://models/cogs/heads/industry-titan_head.glb"
+scale = 7.0
+head_textures = PackedStringArray("res://models/cogs/heads/industry-titan_head_techbot_heads_palette.png")
+hand_color = Color(0.8039216, 0.76862746, 0.84705883, 1)
+attacks = Array[ExtResource("1_c10a0")]([ExtResource("2_8k4jm"), ExtResource("3_6h63x"), ExtResource("4_jj0hn"), ExtResource("5_tadfx")])
+level_low = 8
+level_high = 15
+battle_phrases = Array[String](["I am a Titan in this department.", "This industry isn’t for you, Toon.", "You’re up against Big Tech.", "Your code is not up to industry standards.", "This will be the last time you halt development.", "There's been a change in Tech.", "This world is only big enough for me.", "Marble in my glory.", "I’m as sturdy as stone."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

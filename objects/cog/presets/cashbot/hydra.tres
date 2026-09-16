@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://hdpheu73wpgc"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_7sgq2"]
+[ext_resource type="Resource" uid="uid://dlwpx5lx83vsb" path="res://objects/battle/battle_resources/cog_attacks/resources/power_tie_(super).tres" id="2_7sgq2"]
+[ext_resource type="Resource" uid="uid://30grlrrpycv0" path="res://objects/battle/battle_resources/cog_signature_attack/resources/slush_fund.tres" id="3_vbfdp"]
+[ext_resource type="Resource" uid="uid://qbvtk3xhtbu0" path="res://objects/battle/battle_resources/cog_signature_attack/resources/kick_up.tres" id="4_7sgq2"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="5_tixap"]
+
+[resource]
+script = ExtResource("5_tixap")
+department = 1
+suit = 2
+custom_blazer_tex = "res://models/cogs/textures/cash/blazer_exe.png"
+custom_arm_tex = "res://models/cogs/textures/cash/sleeve_exe.png"
+custom_leg_tex = "res://models/cogs/textures/cash/leg_exe.png"
+cog_name = "Hydra"
+head = "res://models/cogs/heads/skelecog_c.glb"
+scale = 6.3
+hand_color = Color(0.6117647, 0.70980394, 0.7294118, 1)
+head_color = Color(0.6117647, 0.70980394, 0.7294118, 1)
+attacks = Array[ExtResource("1_7sgq2")]([ExtResource("2_7sgq2"), ExtResource("3_vbfdp"), ExtResource("4_7sgq2")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_manager = true
+health_mod = 2.0
+battle_phrases = Array[String](["We'll launch ya out of town.", "Stick around and we'll put ya on ice, Toon."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

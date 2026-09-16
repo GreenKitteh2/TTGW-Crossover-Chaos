@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://dk7cgq136x4sa"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_k0dh5"]
+[ext_resource type="Resource" uid="uid://et2enoo0ndgr" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/freeze_assets_(plutocrat).tres" id="2_k0dh5"]
+[ext_resource type="Resource" uid="uid://cgqg87vkyeog1" path="res://objects/battle/battle_resources/cog_attacks/cog_exclusives/pick_pocket_(plutocrat).tres" id="3_qmjde"]
+[ext_resource type="Resource" uid="uid://dvvt0fmjvgvte" path="res://objects/battle/battle_resources/cog_signature_attack/resources/deep_freeze_(plutocrat).tres" id="4_jgtqx"]
+[ext_resource type="Resource" uid="uid://30grlrrpycv0" path="res://objects/battle/battle_resources/cog_signature_attack/resources/slush_fund.tres" id="5_p10vr"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_ch02u"]
+
+[resource]
+script = ExtResource("6_ch02u")
+department = 1
+suit = 2
+custom_blazer_tex = "res://models/cogs/textures/managers/plutocrat_blazer.png"
+custom_arm_tex = "res://models/cogs/textures/managers/plutocrat_sleeve.png"
+custom_leg_tex = "res://models/cogs/textures/managers/plutocrat_leg.png"
+cog_name = "Plutocrat"
+name_prefix = "Pluto"
+name_suffix = "crat"
+head = "res://models/cogs/heads/plutocrat_head.glb"
+scale = 3.35
+hand_color = Color(0.7882353, 0.8392157, 0.81960785, 1)
+attacks = Array[ExtResource("1_k0dh5")]([ExtResource("2_k0dh5"), ExtResource("3_qmjde"), ExtResource("4_jgtqx"), ExtResource("5_p10vr")])
+level_low = 12
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_manager = true
+health_mod = 3.0
+battle_phrases = Array[String](["I'M the one who's gonna put ya away for good!", "Perhaps that's \"persuasion\" enough for ya!", "Consider this ya share for the operation.", "Get outta my orbit, Toon!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

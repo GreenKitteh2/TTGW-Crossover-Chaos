@@ -1,0 +1,17 @@
+[gd_resource type="Resource" format=3 uid="uid://bwperje3h06au"]
+
+[ext_resource type="Script" uid="uid://bda2ku13d3c7e" path="res://objects/battle/battle_resources/status_effects/boss_effects/boss_logic_office_clerk.gd" id="1_ur4qi"]
+
+[resource]
+script = ExtResource("1_ur4qi")
+quality = 2
+rounds = -1
+rounds_offset = 0
+icon_color = Color(1, 1, 1, 1)
+icon_scale = 1.0
+mini_icon_color = Color(1, 1, 1, 1)
+mini_icon_scale = 1.0
+visible = false
+description = "Office Clerk logic"
+status_name = "Office Clerk logic"
+id = 47

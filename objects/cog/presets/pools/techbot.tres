@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="CogPool" format=3 uid="uid://cn2nu1dqauua8"]
+
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="1_o5fuu"]
+[ext_resource type="Resource" uid="uid://btl4jp41mmke5" path="res://objects/cog/presets/techbot/script_kiddie.tres" id="2_y0flt"]
+[ext_resource type="Resource" uid="uid://t8otoij7cs7m" path="res://objects/cog/presets/techbot/poindexter.tres" id="3_eu3yo"]
+[ext_resource type="Resource" uid="uid://bahlbdvarognr" path="res://objects/cog/presets/techbot/code_monkey.tres" id="4_ffpgm"]
+[ext_resource type="Resource" uid="uid://45pfq5q6k5ia" path="res://objects/cog/presets/techbot/voodoo_programmer.tres" id="5_h81al"]
+[ext_resource type="Resource" uid="uid://xwkm6r7trso0" path="res://objects/cog/presets/techbot/data_hoarder.tres" id="6_aj4u0"]
+[ext_resource type="Resource" uid="uid://dsvapfvdwynan" path="res://objects/cog/presets/techbot/shotgun_debugger.tres" id="7_vub0v"]
+[ext_resource type="Resource" uid="uid://ce7p3mfy472pe" path="res://objects/cog/presets/techbot/brainiac.tres" id="8_qdr63"]
+[ext_resource type="Resource" uid="uid://cowd2upnopndm" path="res://objects/cog/presets/techbot/keyboard_warrior.tres" id="9_n2hji"]
+[ext_resource type="Resource" uid="uid://cv3yw0vf6c56d" path="res://objects/cog/presets/techbot/black_hat.tres" id="10_pd1mp"]
+[ext_resource type="Resource" uid="uid://b6uqr7vycffqk" path="res://objects/cog/presets/techbot/python_charmer.tres" id="11_nbnlu"]
+[ext_resource type="Resource" uid="uid://c7gd7u0igds6n" path="res://objects/cog/presets/techbot/computer_wizard.tres" id="12_cjmta"]
+[ext_resource type="Resource" uid="uid://cgtnvj7480ea3" path="res://objects/cog/presets/techbot/installer_wizard.tres" id="13_0uynw"]
+[ext_resource type="Script" uid="uid://buc4y0vtgydo" path="res://objects/cog/cog_pool.gd" id="14_0uynw"]
+[ext_resource type="Resource" uid="uid://ber3afyq03ofl" path="res://objects/cog/presets/techbot/industry_titan.tres" id="14_7ikyl"]
+[ext_resource type="Resource" uid="uid://eh263ys0kla3" path="res://objects/cog/presets/techbot/root_user.tres" id="15_utv7f"]
+
+[resource]
+script = ExtResource("14_0uynw")
+cogs = Array[ExtResource("1_o5fuu")]([ExtResource("2_y0flt"), ExtResource("3_eu3yo"), ExtResource("4_ffpgm"), ExtResource("5_h81al"), ExtResource("6_aj4u0"), ExtResource("7_vub0v"), ExtResource("8_qdr63"), ExtResource("9_n2hji"), ExtResource("10_pd1mp"), ExtResource("11_nbnlu"), ExtResource("12_cjmta"), ExtResource("13_0uynw"), ExtResource("14_7ikyl"), ExtResource("15_utv7f")])

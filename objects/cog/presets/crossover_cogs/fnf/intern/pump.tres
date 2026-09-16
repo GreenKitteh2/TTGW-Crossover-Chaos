@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://vjl718xxhr6v"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_5gymw"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="2_6kpvf"]
+[ext_resource type="Resource" uid="uid://55lp6noha8te" path="res://objects/battle/battle_resources/cog_attacks/resources/shake.tres" id="3_5gymw"]
+[ext_resource type="Resource" uid="uid://6hjcsu17tt4g" path="res://objects/battle/battle_resources/cog_attacks/resources/brain_storm.tres" id="4_lnmf8"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="7_nr18o"]
+
+[resource]
+script = ExtResource("7_nr18o")
+department = 6
+suit = 1
+cog_name = "Pump"
+head = "res://models/crossover_cogs/fnf/pump.glb"
+scale = 3.75
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_5gymw")]([ExtResource("2_6kpvf"), ExtResource("3_5gymw"), ExtResource("4_lnmf8")])
+level_low = 3
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["It's spooky month!", "My attacks are a Jack o all trades."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="FloorVariant" format=3 uid="uid://ddr0idttgmu5t"]
+
+[ext_resource type="Texture2D" uid="uid://duc5t8hhtg6wl" path="res://models/cogs/misc/hp_light/sellhard.png" id="2_bwxfx"]
+[ext_resource type="Resource" uid="uid://dd5vhnprun5mw" path="res://objects/cog/presets/pools/sellbot.tres" id="2_qis05"]
+[ext_resource type="Resource" uid="uid://1wfy803mrw1v" path="res://scenes/game_floor/department_floors/rooms_hard_sell.tres" id="3_ids8r"]
+[ext_resource type="Script" uid="uid://3x5wy1apocwc" path="res://scenes/game_floor/floor_modifiers/scripts/misc/floor_mod_factory_hard.gd" id="5_ids8r"]
+[ext_resource type="Script" uid="uid://bto4vf3x4gmme" path="res://scenes/game_floor/floor_modifiers/scripts/misc/floor_mod_sbhq_sky.gd" id="5_tthk6"]
+[ext_resource type="Script" uid="uid://cxvrtrods5hgg" path="res://scenes/game_floor/floor_variants/floor_variant.gd" id="6_dd0gn"]
+
+[resource]
+script = ExtResource("6_dd0gn")
+floor_type = ExtResource("3_ids8r")
+floor_name = "Steel Factory"
+cog_pool = ExtResource("2_qis05")
+modifiers = Array[Script]([ExtResource("5_tthk6"), ExtResource("5_ids8r")])
+floor_icons = Array[Texture2D]([ExtResource("2_bwxfx")])
+room_count = 17

@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://gy4r5v5txbwi"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_7omtq"]
+[ext_resource type="Resource" uid="uid://du05l8r6sxyrq" path="res://objects/battle/battle_resources/cog_signature_attack/resources/ignite.tres" id="2_fhvox"]
+[ext_resource type="Resource" uid="uid://chw4w2odwx3mc" path="res://objects/battle/battle_resources/cog_attacks/resources/clip_on_tie_(super).tres" id="3_7ch7w"]
+[ext_resource type="Resource" uid="uid://dcth1mrm7s8bo" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip_(super).tres" id="4_67q61"]
+[ext_resource type="Resource" uid="uid://1larc8cv424c" path="res://objects/battle/battle_resources/cog_signature_attack/resources/workers_compensation.tres" id="5_8c602"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_4komb"]
+
+[resource]
+script = ExtResource("6_4komb")
+custom_blazer_tex = "res://models/cogs/textures/sell/blazer_exe.png"
+custom_arm_tex = "res://models/cogs/textures/sell/sleeve_exe.png"
+custom_leg_tex = "res://models/cogs/textures/sell/leg_exe.png"
+cog_name = "Skele-Foreman"
+name_plural = "Skele-Foremen"
+name_prefix = "Skele-"
+name_suffix = "-Foreman"
+head = "res://models/cogs/heads/skelecog_a.glb"
+scale = 7.35
+hand_color = Color(0.79392844, 0.57018566, 0.8203847, 1)
+head_color = Color(0.7921569, 0.5686275, 0.81960785, 1)
+attacks = Array[ExtResource("1_7omtq")]([ExtResource("2_fhvox"), ExtResource("3_7ch7w"), ExtResource("4_67q61"), ExtResource("5_8c602")])
+level_low = 11
+level_high = 20
+baked_status_effects = PackedStringArray("res://objects/battle/battle_resources/status_effects/resources/status_effect_manager.tres")
+is_manager = true
+health_mod = 2.0
+battle_phrases = Array[String](["I'm the Foreman."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://de2jd4ovjoneq"]
+
+[ext_resource type="Script" uid="uid://cv50oc43xvual" path="res://objects/battle/battle_resources/status_effects/boss_effects/auditor_bear_market.gd" id="1_bxl2m"]
+[ext_resource type="Texture2D" uid="uid://5nog137hu6rl" path="res://ui_assets/battle/statuses/bear_market.png" id="1_c5gjf"]
+
+[resource]
+script = ExtResource("1_bxl2m")
+quality = 0
+rounds = 2
+rounds_offset = 0
+icon = ExtResource("1_c5gjf")
+icon_color = Color(1, 1, 1, 1)
+icon_scale = 1.0
+mini_icon_color = Color(1, 1, 1, 1)
+mini_icon_scale = 1.0
+visible = true
+description = "All Cogs gain 50% defense"
+status_name = "Bear Market"
+id = 50

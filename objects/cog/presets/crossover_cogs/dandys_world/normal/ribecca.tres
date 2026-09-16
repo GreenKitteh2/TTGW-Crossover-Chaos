@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://h04n4qbon2bj"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_477g7"]
+[ext_resource type="Resource" uid="uid://by0leo7nlf311" path="res://objects/battle/battle_resources/cog_attacks/resources/heckle.tres" id="2_477g7"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="3_ykpj8"]
+[ext_resource type="Resource" uid="uid://erbbarg5bxm8" path="res://objects/battle/battle_resources/cog_attacks/resources/rolodex.tres" id="4_36fhb"]
+[ext_resource type="Resource" uid="uid://slywi7r3q78s" path="res://objects/battle/battle_resources/cog_signature_attack/resources/bulk_up.tres" id="5_bl8wr"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_bbo4l"]
+
+[resource]
+script = ExtResource("6_bbo4l")
+department = 3
+suit = 1
+custom_blazer_tex = "res://models/cogs/textures/misc/blazer_1.png"
+custom_arm_tex = "res://models/cogs/textures/misc/sleeve_2.png"
+custom_leg_tex = "res://models/cogs/textures/misc/leg_4.png"
+custom_wrist_tex = "res://models/cogs/textures/misc/arm_1.png"
+cog_name = "Ribecca"
+head = "res://models/crossover_cogs/dandys_world/Ribecca.glb"
+scale = 3.5
+hand_color = Color(0.90588236, 0.9098039, 0.90588236, 1)
+custom_nametag_height = 13.0
+attacks = Array[ExtResource("1_477g7")]([ExtResource("2_477g7"), ExtResource("3_ykpj8"), ExtResource("4_36fhb"), ExtResource("5_bl8wr")])
+level_high = 20
+is_crossover_cog = true
+is_female_cog = true
+battle_phrases = Array[String](["Why are you looking at me for?", "I got a few bones to pick with you.", "I only take it with the boss man...whoever it is here."])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

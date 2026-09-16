@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://ctthtl4oi1h1w"]
+
+[ext_resource type="Script" uid="uid://dkc60yahure4r" path="res://objects/battle/battle_resources/cog_signature_attack/stagger.gd" id="1_36wsp"]
+
+[resource]
+script = ExtResource("1_36wsp")
+damage = 0
+summary = "Evasiveness Down"
+attack_lines = Array[String](["Stay...stay...stay...", "Please just...stop.", "Stay...still...Grrrr...."])
+action_name = "Stagger"

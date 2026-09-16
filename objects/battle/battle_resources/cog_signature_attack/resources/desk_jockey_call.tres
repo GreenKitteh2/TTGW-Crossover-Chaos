@@ -1,0 +1,8 @@
+[gd_resource type="Resource" format=3 uid="uid://b4arinlv2qx68"]
+
+[ext_resource type="Script" uid="uid://qr3cmxfoycnm" path="res://objects/battle/battle_resources/cog_signature_attack/desk_jockey_call.gd" id="1_0f4bk"]
+
+[resource]
+script = ExtResource("1_0f4bk")
+attack_lines = Array[String](["I got the brains to call in help.", "Let me introduce you to my students.", "Let me teach you about reinforcements."])
+action_name = "Desk Jockey Call"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://8qc4o1hfq7by"]
+
+[ext_resource type="Texture2D" uid="uid://by0ie6rjxkonj" path="res://ui_assets/battle/statuses/elite.png" id="1_nrd5j"]
+[ext_resource type="Script" uid="uid://bnlkjgknu1o6d" path="res://objects/battle/battle_resources/status_effects/status_effect_elite_tier.gd" id="2_nrd5j"]
+
+[resource]
+script = ExtResource("2_nrd5j")
+laff_count = 3
+rounds = -1
+icon = ExtResource("1_nrd5j")
+status_name = "Elite Class"
+id = 67
+metadata/_custom_type_script = "uid://df7irk63ikx4k"

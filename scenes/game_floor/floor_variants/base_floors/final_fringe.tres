@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="FloorVariant" format=3 uid="uid://2lgsvabwfvcj"]
+
+[ext_resource type="Resource" uid="uid://05unenh4dgjs" path="res://objects/cog/presets/pools/bossbot.tres" id="2_8f0dg"]
+[ext_resource type="Texture2D" uid="uid://cbh6iuome6qtk" path="res://models/cogs/misc/hp_light/bosshard.png" id="2_tu4nv"]
+[ext_resource type="Resource" uid="uid://cbhn5sv5dpps0" path="res://scenes/game_floor/department_floors/rooms_hard_boss.tres" id="3_tu4nv"]
+[ext_resource type="Script" uid="uid://djtukykgcusft" path="res://scenes/game_floor/floor_modifiers/scripts/misc/floor_mod_club_hard.gd" id="5_8f0dg"]
+[ext_resource type="Script" uid="uid://cek1eptxkgnu1" path="res://scenes/game_floor/floor_modifiers/scripts/misc/floor_mod_bbhq_sky.gd" id="5_kc7um"]
+[ext_resource type="Script" uid="uid://cxvrtrods5hgg" path="res://scenes/game_floor/floor_variants/floor_variant.gd" id="6_dps12"]
+
+[resource]
+script = ExtResource("6_dps12")
+floor_type = ExtResource("3_tu4nv")
+floor_name = "Final Fringe"
+cog_pool = ExtResource("2_8f0dg")
+modifiers = Array[Script]([ExtResource("5_kc7um"), ExtResource("5_8f0dg")])
+floor_icons = Array[Texture2D]([ExtResource("2_tu4nv")])
+room_count = 17

@@ -1,0 +1,77 @@
+[gd_scene format=3 uid="uid://bi2ueoo4hayk3"]
+
+[ext_resource type="PackedScene" uid="uid://cu152iitwfet2" path="res://objects/modules/cgc/base_rooms/cgc_finale_room.tscn" id="1_gmbhi"]
+[ext_resource type="Script" uid="uid://cu5shmndqe4u5" path="res://objects/modules/cgc/variants/club_boss_directory.gd" id="2_mtlpp"]
+[ext_resource type="PackedScene" uid="uid://direah3lbjuu5" path="res://objects/battle/battle_node/battle_node.tscn" id="3_gv8cr"]
+[ext_resource type="AudioStream" uid="uid://co7gtlk34jsek" path="res://audio/music/ttr_s_ara_bhq_facilityBoss.ogg" id="4_mtlpp"]
+[ext_resource type="Script" uid="uid://cyfkqk8watgoq" path="res://objects/battle/battle_resources/misc_movies/club_boss/club_intro.gd" id="5_mtlpp"]
+[ext_resource type="PackedScene" uid="uid://dflwjcy6fj0av" path="res://objects/cog/cog.tscn" id="6_nuk8u"]
+[ext_resource type="Resource" uid="uid://cjmgg3ewiom23" path="res://objects/cog/presets/bossbot/club_president.tres" id="7_mtlpp"]
+
+[sub_resource type="Resource" id="Resource_gmbhi"]
+script = ExtResource("5_mtlpp")
+skippable = true
+override_music = ExtResource("4_mtlpp")
+metadata/_custom_type_script = "uid://cyfkqk8watgoq"
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6ws4t"]
+size = Vector3(16.0215, 3.93054, 7)
+
+[node name="cgc_kart_boarding_room" unique_id=1915123365 instance=ExtResource("1_gmbhi")]
+
+[node name="BossDirectory" type="Node3D" parent="." index="22" unique_id=1399067697]
+script = ExtResource("2_mtlpp")
+
+[node name="BattleNode" parent="BossDirectory" index="0" unique_id=600335361 node_paths=PackedStringArray("cogs", "focus_cog") instance=ExtResource("3_gv8cr")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0.540187, 0, 0)
+tags = Array[int]([0])
+cogs = [NodePath("Cog1"), NodePath("ClubPresidentCog"), NodePath("Cog2"), NodePath("Cog3")]
+focus_cog = NodePath("ClubPresidentCog")
+override_intro = SubResource("Resource_gmbhi")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="BossDirectory/BattleNode" index="3" unique_id=424887679]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.273437, 2.00091, 2.1874)
+shape = SubResource("BoxShape3D_6ws4t")
+
+[node name="ClubPresidentCog" parent="BossDirectory/BattleNode" index="4" unique_id=2128821293 instance=ExtResource("6_nuk8u")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 0.00999987, 0, 0.354)
+level_range_offset = 2
+dna = ExtResource("7_mtlpp")
+skelecog_chance = 0
+exe_chance = 0
+overcog_chance = 0
+health_mod = 2.0
+
+[node name="Cog1" parent="BossDirectory/BattleNode" index="5" unique_id=964975794 instance=ExtResource("6_nuk8u")]
+transform = Transform3D(1, 0, 3.55271e-15, 0, 1, 0, -3.55271e-15, 0, 1, 0.00999975, 0, -2.646)
+skelecog_chance = 0
+
+[node name="Cog2" parent="BossDirectory/BattleNode" index="6" unique_id=1230698101 instance=ExtResource("6_nuk8u")]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, -2.99, 0, -1.646)
+skelecog_chance = 0
+
+[node name="Cog3" parent="BossDirectory/BattleNode" index="7" unique_id=1624581049 instance=ExtResource("6_nuk8u")]
+transform = Transform3D(0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 3.01, 0, -1.646)
+skelecog_chance = 0
+
+[node name="CameraAngles" type="Node3D" parent="BossDirectory" index="1" unique_id=996238781]
+transform = Transform3D(0.780234, 0, -0.625488, 0, 1, 0, 0.625488, 0, 0.780234, -8.91218, 3.02496, 6.54666)
+
+[node name="FirstCam" type="Camera3D" parent="BossDirectory/CameraAngles" index="0" unique_id=1735290886]
+unique_name_in_owner = true
+transform = Transform3D(0.618689, 0.205913, -0.758171, -0.0139746, 0.967773, 0.251435, 0.785511, -0.144965, 0.601628, -2.38802, 2.28235, -6.38598)
+
+[node name="SecondCam" type="Camera3D" parent="BossDirectory/CameraAngles" index="1" unique_id=799374541]
+unique_name_in_owner = true
+transform = Transform3D(0.642787, 0, -0.766045, 0, 1, 0, 0.766045, 0, 0.642787, -0.310802, -1.36403, -8.08783)
+fov = 60.0
+
+[node name="ThirdCam" type="Camera3D" parent="BossDirectory/CameraAngles" index="2" unique_id=395661793]
+unique_name_in_owner = true
+transform = Transform3D(-0.0877405, -0.170989, -0.981358, 0.0124521, 0.984893, -0.172718, 0.996065, -0.0273743, -0.0842857, -0.699096, -1.39045, -12.8804)
+fov = 60.0
+
+[node name="FourthCam" type="Camera3D" parent="BossDirectory/CameraAngles" index="3" unique_id=1603554544]
+unique_name_in_owner = true
+transform = Transform3D(-0.236024, 0, -0.971747, 0, 1, 0, 0.971747, 0, -0.236024, -6.56627, -1.39045, -10.9416)
+fov = 60.0

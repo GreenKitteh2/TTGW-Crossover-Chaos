@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://xvjxdsno1usk"]
+
+[ext_resource type="Script" uid="uid://cio7o71baw3q" path="res://objects/battle/battle_resources/cog_attacks/power_trip.gd" id="1_oda76"]
+
+[resource]
+script = ExtResource("1_oda76")
+damage = 6
+attack_lines = Array[String](["The...p...o...w...e...r...", "Ughhh.....Grahh.....", "...power..."])
+action_name = "Power Trip"
+metadata/_custom_type_script = "uid://bb27him60xtnk"

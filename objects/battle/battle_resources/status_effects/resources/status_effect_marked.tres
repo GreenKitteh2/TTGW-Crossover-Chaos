@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://dfpy056pu4jfc"]
+
+[ext_resource type="Texture2D" uid="uid://dwr7d3vxwm76p" path="res://ui_assets/battle/statuses/scoped.png" id="1_7o4jx"]
+[ext_resource type="Script" uid="uid://dlvrnbp6jh08v" path="res://objects/battle/battle_resources/status_effects/status_effect_marked.gd" id="2_7o4jx"]
+
+[resource]
+script = ExtResource("2_7o4jx")
+quality = 1
+rounds = 3
+icon = ExtResource("1_7o4jx")
+description = "-50% Evasiveness"
+status_name = "Marked"
+id = 64

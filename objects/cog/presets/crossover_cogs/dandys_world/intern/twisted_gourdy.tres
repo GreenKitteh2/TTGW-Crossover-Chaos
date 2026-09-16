@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="CogDNA" format=3 uid="uid://70yy8tviwun5"]
+
+[ext_resource type="Script" uid="uid://bb27him60xtnk" path="res://objects/battle/battle_resources/cog_attacks/cog_attack.gd" id="1_78fh0"]
+[ext_resource type="Resource" uid="uid://cae3lr6y4rrb8" path="res://objects/battle/battle_resources/cog_attacks/resources/quake.tres" id="2_xl5ge"]
+[ext_resource type="Resource" uid="uid://sey860nn14jg" path="res://objects/battle/battle_resources/cog_attacks/resources/pick_pocket.tres" id="3_mwru1"]
+[ext_resource type="Resource" uid="uid://qk4f4h40o5u1" path="res://objects/battle/battle_resources/cog_attacks/resources/guilt_trip.tres" id="4_mwru1"]
+[ext_resource type="Resource" uid="uid://wwf1notai2f8" path="res://objects/battle/battle_resources/cog_attacks/resources/power_trip.tres" id="5_xgtth"]
+[ext_resource type="Script" uid="uid://yc46vrmyfql1" path="res://objects/cog/cog_dna.gd" id="6_4wl5l"]
+
+[resource]
+script = ExtResource("6_4wl5l")
+department = 2
+suit = 1
+cog_name = "Twisted Gourdy"
+name_prefix = "Twisted "
+name_suffix = " Gourdy"
+head = "res://models/crossover_cogs/dandys_world/Twisted Gourdy.glb"
+scale = 5.0
+hand_color = Color(0, 0, 0, 1)
+custom_nametag_height = 11.0
+custom_nametag_suffix = "Intern"
+attacks = Array[ExtResource("1_78fh0")]([ExtResource("2_xl5ge"), ExtResource("3_mwru1"), ExtResource("4_mwru1"), ExtResource("5_xgtth")])
+level_low = 8
+level_high = 20
+is_crossover_cog = true
+battle_phrases = Array[String](["Where are my parents!", "Mommy! Daddy!", "I miss my parents!"])
+external_assets = {
+&"head_model": "",
+&"head_textures": []
+}

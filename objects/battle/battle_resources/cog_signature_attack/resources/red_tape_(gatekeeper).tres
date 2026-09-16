@@ -1,0 +1,14 @@
+[gd_resource type="Resource" format=3 uid="uid://c0imu5876dcug"]
+
+[ext_resource type="PackedScene" uid="uid://u0b2uevrxq0v" path="res://models/props/cog_props/lbfo_red_tape/red_tape.fbx" id="1_7r6mx"]
+[ext_resource type="Script" uid="uid://bpfkv6uv0drgr" path="res://objects/battle/battle_resources/cog_signature_attack/red_tape.gd" id="2_xc3ql"]
+
+[resource]
+script = ExtResource("2_xc3ql")
+prop = ExtResource("1_7r6mx")
+custom_method = "red_tape"
+damage = 0
+summary = "Damage Down!"
+attack_lines = Array[String](["Looks liketh thou art in a sticky situation.", "Seeeth if you can cuteth through this.", "Thou art oneth a roll.", "I wanteth this meeting to sticketh with thee.", "I hopeth thee art claustrophobic.", "This should wrapeth things up.", "Let me keepeth thee busy.", "Just tryeth to unraveleth this.", "I shall tieeth thee up for awhile.", "I shall makeeth sure you sticketh around."])
+action_name = "Red Tape"
+metadata/_custom_type_script = "uid://itkxki65d0v7"
