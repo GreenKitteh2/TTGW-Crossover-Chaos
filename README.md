@@ -2,6 +2,8 @@
 
 A Mod that makes the game harsher if it becomes too easy.
 
+Contains CrazyMew37 Endless Mode, the codes had to be tweaked for the cog spawning to function like the game intended.
+
 ## Requirements
 
 - Godot v4.5.1
